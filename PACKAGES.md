@@ -126,6 +126,7 @@ This repository provides specialized security and penetration testing tools for 
 | vulnx         | Intelligent Vulnerability Scanner for CMS |
 | wafw00f       | Web Application Firewall detection tool |
 | waybackurls   | Fetch known URLs from Wayback Machine archives |
+| waymap        | Fast Web Vulnerability Scanner and Security Testing Toolkit |
 | xsstrike      | Advanced XSS Detection and Exploitation Suite |
 
 ### 📱 Reverse Engineering 

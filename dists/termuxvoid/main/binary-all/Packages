@@ -2509,6 +2509,26 @@ SHA1: fcb231b80c28f1603077dba25ebe76988c2c9c82
 SHA256: 1915860b9ddc58e91d3a844a25356beecf237ea2fc550b88ab906c88dc54e9f6
 SHA512: 2c36bf4664c5b2115baea9475cd4e56c7542bd419221c835adea497a5b9856fc31079833f58619bcb84d44bca03981e8b2f6aaeaf89ee08de02447dc89d6430c
 
+Package: waymap
+Version: 7.2.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python
+Section: web
+Priority: optional
+Homepage: https://waymapscanner.github.io
+Description: Fast Web Vulnerability Scanner and Security Testing Toolkit
+ Waymap is a comprehensive web application security scanner for
+ SQL Injection, XSS, Command Injection, LFI, CRLF, CORS, Open Redirect,
+ API security testing (REST/GraphQL), and WordPress vulnerability scanning.
+ Provides automation-friendly scanning with session management.
+Filename: dists/termuxvoid/main/binary-all/waymap.deb
+Size: 1460
+MD5Sum: 94914f66089f1ab120f5bb2374059e30
+SHA1: 9fa51e16998ab3e159cfe4a348e20c5998597cc1
+SHA256: b9705c6bf74cb804db1f1de79078434902639a9f0ed5616d0767208168de55ee
+SHA512: 1ad28c797106d7ac2eed2e11d058233012c2053054f84e5d79b55f6e64c6a80d62bd9c8f9527ed7f6246e1e14101e38c834c1e60d286a8ee931dc2c9d2815db7
+
 Package: webinfo
 Version: 3.0
 Architecture: all
