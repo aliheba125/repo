@@ -199,7 +199,7 @@ SHA256: 65c7be8a550c51f795e03cf5f9289a5811d586f12f4ff409d7f5fbfca0f5bf3e
 SHA512: bbf3809cbe203db22ed487d6bbeae4b6465bf83ec64622cafb5a3f71f6754b3fff7ad1b38917313424c5a07bfbfcc0f9e74016e31d111e9757cf1021fba983c8
 
 Package: apktool
-Version: 2.12.1
+Version: 3.0.1
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: openjdk-21, wget, aapt2
@@ -210,11 +210,11 @@ Description: Reverse engineering Android APKs
  Decompile and rebuild APK files with resource preservation.
  Supports Smali debugging and manifest analysis.
 Filename: dists/termuxvoid/main/binary-all/apktool.deb
-Size: 1408
-MD5Sum: d57e23dd8fee51c174fc2809811a3c4c
-SHA1: 76dec2dbc761df82bdea9ac3f1958a30169d8681
-SHA256: f7c4304a189f879cc60d5cb88c9d5879e2f1b1f58f22de5a69059b1472d8a632
-SHA512: 49c5b1293fac9f050d386071ca6c70e13dff460c5272d6f015c803af389dd3a6a32853f2845a42685420295bfb9eeb20d15b45d5c701b83a5e99bb85ede6325c
+Size: 1396
+MD5Sum: 77cc18230aa5622acf97acffd6e2940d
+SHA1: 7b8daf40a7218d5add7a8dc968180416501e3e34
+SHA256: 84c324af549e60ccedd654f53e6ac72b89b5aa70d4cf4bf5bec2c93e8aa5a416
+SHA512: 38e1b0acc32968f02b59ad0f5e6affe7d25439f9539fae3a4ffc629298d64abc7db580189862608576bb3d9e4767d56c755a769b8c4b40e2386a7045d890d008
 
 Package: asciibanner
 Version: 2.1.0 
