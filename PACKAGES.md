@@ -3,6 +3,9 @@
 ## 📋 Overview
 This repository provides specialized security and penetration testing tools for Termux users. Below is the complete catalog of available packages with detailed descriptions.
 
+> [!NOTE]
+> All tools are regularly updated and tested for compatibility with the latest Termux environment.
+
 ## 📋 Tool List
 
 ### 🚨 Attack Tools
@@ -67,6 +70,7 @@ This repository provides specialized security and penetration testing tools for 
 |----------------|--------------------------------------|
 | cronitor-cli   | CLI tools for managing and monitoring cron jobs and scheduled tasks |
 | ffmpegp        | Python utility for simplified ffprobe and ffmpeg media operations |
+| ia-get         | Internet Archive Downloader Tool - Command-line utility for downloading files from the Internet Archive |
 | mkwebapp       | Tool to create Termux .deb packages for websites |
 | nethunter-cli  | Kali NetHunter command-line interface |
 | nvchad         | Neovim configuration framework |
@@ -174,7 +178,7 @@ This repository provides specialized security and penetration testing tools for 
 | antisplit      | APK Split Package Combiner |
 | enctool        | Script obfuscation utility |
 | ip-changer     | Automated IP rotation tool |
-| morfshell      | Sleek Termux Shell Environment with Dynamic Themes |
+| morphshell      | Sleek Termux Shell Environment with Dynamic Themes |
 | ruby-nokogiri  | Powerful HTML/XML parser for Ruby     |
 | shellcrypt     | Professional code obfuscation tool for Bash and Python |
 | termux-desktop | Termux desktop environment |
@@ -219,9 +223,17 @@ This repository provides specialized security and penetration testing tools for 
 | wpscan      | WordPress vulnerability scanner |
 | zaproxy     | OWASP ZAP web security scanner |
 
+---
+
+> [!TIP]
+> Stay updated with new tools and announcements via our official channels.
+
 ## 🔄 Updates & Support
 - Telegram: [@nullxvoid](https://t.me/nullxvoid)
 - YouTube: [@alienkrishnorg](https://youtube.com/@alienkrishnorg)
+
+> [!WARNING]
+> These tools are provided for educational and security research purposes only. Unauthorized use against systems you do not own or have explicit permission to test is illegal. The repository maintainers are not responsible for any misuse.
 
 ## ⚠️ Disclaimer
 For educational and security research purposes only.
