@@ -68,6 +68,26 @@ SHA1: e97fd01e820dacbd3810a53268f6312bfe16169f
 SHA256: 6abb51af52b3033efc8df4949804e2b44b7b9fcdf4dd796be86a9f9c77a1116a
 SHA512: 216e9b9ee1e649470cd7486d217045c1495b031849ac4a18278dfd5e78200b1a5eaa8c252f1094aba2adeb563bcf497d0d9d277216f13657ce011a03c7d9dd38
 
+Package: andrax
+Version: 5-2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: proot, tar, axel
+Installed-Size: 12060343
+Section: utils
+Priority: optional
+Homepage: https://gitlab.com/crk-mythical/andrax-hackers-platform-v5-2
+Description: Android Penetration Testing OS (rootless)
+ Andrax is a complete penetration testing environment for Android,
+ packaged as a proot-based rootless OS. Includes hundreds of tools
+ for security auditing, reverse engineering, and network analysis.
+Filename: dists/termuxvoid/main/binary-all/andrax.deb
+Size: 1844
+MD5Sum: b72c6f7f8ccbcab3f1ad6be9039729a5
+SHA1: 78c730478e7b99971f5376cd261391bc7e5264ca
+SHA256: dc6c966208a776a597c833b0d1d4efbf025bd2d909022cbcd836f18fd689a463
+SHA512: 67596b0754c2da1c9bd4acb153da2ad1f588b7ad83dee103a07b921393956852bd7b595fc6649377101a484b584951b36879fbc86b6221e3dee9b9672c877ec3
+
 Package: androdos
 Version: 1.0.0
 Architecture: all

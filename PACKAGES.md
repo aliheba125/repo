@@ -61,6 +61,7 @@ This repository provides specialized security and penetration testing tools for 
 | Tool          | Description                          |
 |---------------|--------------------------------------|
 | android-sdk   | Complete Android development toolkit (ADB, Fastboot, etc) |
+| andrax        | Android Penetration Testing OS (rootless) |
 | flutter | Google's UI toolkit for building native apps |
 | vedic | World's first Sanskrit programming language |
 | zen-c         | High-level Systems Programming Language compiling to C |
