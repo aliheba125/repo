@@ -1174,6 +1174,25 @@ SHA1: dd88328b62a09d29f4260845fc1f53c70f056047
 SHA256: 7e29f6329210464c759f44e3a451c75c69d10a1b3e2443b0b81901b63e813204
 SHA512: 062f6ac612ce49ff50bda8b18ac78f3678168c820da37f56e8acaf040840b268a765d2462cb6397d65c0faa8e8de36a68821f44c66d3a157fa59ac227bda61cb
 
+Package: jsql
+Version: 0.144
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: curl, openjdk-21
+Section: web
+Priority: optional
+Homepage: https://github.com/ron190/jsql-injection
+Description: Lightweight database information finder from a server
+ jSQL Injection is a lightweight application used to detect and
+ exploit SQL injection vulnerabilities. It automates the process of
+ finding database information from a target server.
+Filename: dists/termuxvoid/main/binary-all/jsql.deb
+Size: 3728
+MD5Sum: 91e4491ca061b263530722eb006d3d22
+SHA1: a7661b3706ae562a3e421203225dfed76d1fedc8
+SHA256: 61e59ed650f2a610207c46578418ef0ed781a465e8b94799650af475d9844cb7
+SHA512: 74ded90af770c3a7a8ce6c1448966592638c637c0f851677dbc5f118921bbc8aab0383290d7df02e601f51c66f1596337e72165612827489a3f2bc0b63d48029
+
 Package: katana
 Version: 1.2.2
 Architecture: all
@@ -1886,7 +1905,7 @@ SHA256: 7ceab76c89a0655fd5537b1a003460d6d4eaab0a8f7e17ccaed6dbe4d200994f
 SHA512: a20999c0df5c59b2f5447b5c95b0a2dd4ce4627638b6a4d1b26a5d8349a387485391eccaee2a4d30ea7860c9ec52d86a554328d8236a3882d73712d88b10c642
 
 Package: rkpairip
-Version: 4.7
+Version: 4.9
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: git, python, openjdk-17, apksigner
@@ -1898,11 +1917,11 @@ Description: Remove Pairip Protection and Rebuild APKs
  recover strings, and rebuild APKs. Designed for Android security
  research and reverse engineering.
 Filename: dists/termuxvoid/main/binary-all/rkpairip.deb
-Size: 1180
-MD5Sum: dca886e3cb9ab5a9c3d3b3322a8925ad
-SHA1: eee3718706dba2d2ad7973ce6a0cab201d2c9fb9
-SHA256: 3079a1bf2b745f84c46ed56c721a0c9be2e45098bcafebe106cbea3a2a5eb9a2
-SHA512: 27bfd12f0be3bfecad1867a849498c0dabe13b692926a9297ad36cd6f2165fba1728a5a3864e2a8e3e1a92175b2a97e7074cb4e794cea65ba21eb0377ce02821
+Size: 1184
+MD5Sum: 3db9b45ec53e87dc5e9599e13ff55bae
+SHA1: f9311c8ce06ad614bfacd3601d6070fc3fc46e2d
+SHA256: 1ae988bda3f8558faccd90b0b786da42ebe543c1e702943b0c200a129c337e76
+SHA512: 6c325a84f2172a9243801ac2b5dab088e900b59d9296ca43f616f27b0cc303cff336ac08b21dd17ee87afda7d187534413562dc3af470d07dad185888f7bda04
 
 Package: ruby-nokogiri
 Version: 1.19.0
@@ -2092,7 +2111,7 @@ SHA256: 6209b63fd9b2f07ddb115f0f5d322105e1521898ce282c5780890eefa9c4022a
 SHA512: a1f8727921c2d2856ebaf7694ec83d738144eec14ffe7573e5705a0c7a9bea70972128ecf02c1d677ed3cfdf60ca3b3c93fd5603fb1c7c50e6812d193f97d14f
 
 Package: sqlmap
-Version: 1.9.12
+Version: 1.10.3
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: python, python-pip
@@ -2114,10 +2133,10 @@ Description: Automatic SQL Injection and Database Takeover Tool
  - Command execution and out-of-band connections
 Filename: dists/termuxvoid/main/binary-all/sqlmap.deb
 Size: 1592
-MD5Sum: 76e33ccc8e00394805b104aa20ea03c4
-SHA1: b4cb89cccb8cdef61e80b8e92a45bd2691b4fa06
-SHA256: 3d895d26f5c429f484a343d045929083445886e7cc81e98501897a5e8fef8c7b
-SHA512: 15223e05ae5ac319dadb360a327130728a27639dc970768c5c8599c6290abfa4ecbc1b44ce03e5cc6129b2679b5209b201c4efba08e464f72976cd84c2f855e8
+MD5Sum: 9b7df2add1906ce098d06859b7a6d91e
+SHA1: 4b239231939ef4608058f2dfd3f49665686780d1
+SHA256: e1c214742b41ce17800d9f7bcbb607212ff5f06478b8f032a84cb012f32c327d
+SHA512: 2837657215b7877993a0e62992dd4abb6b0339691df25fa64b73dc69824961d0d669376df63ff552afef338df7cb63c87f1124eb14d6b9b42d8c35e2e86938eb
 
 Package: sqlscan
 Version: 1

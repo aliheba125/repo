@@ -216,6 +216,7 @@ This repository provides specialized security and penetration testing tools for 
 | ghauri      | Advanced SQL injection scanner |
 | gophish     | Open-source phishing toolkit |
 | hatcloud    | Bypass CloudFlare security with IP/domain reconnaissance |
+| jsql        | Lightweight application to detect and exploit SQL injection vulnerabilities |
 | ngrok       | Secure tunneling to expose localhost (HTTPS/TCP) |
 | nikto       | Comprehensive web server scanner (6000+ tests) |
 | sqlmap      | Automated SQL injection tool |
