@@ -1522,6 +1522,25 @@ SHA1: 034306d73aaf7a746664a5d660b1feb2430e4c69
 SHA256: e6a3c0fd025bbe9a9b51123d0c4616495b404b64194dfda603e887eb2ad04aba
 SHA512: 8bec29a4b9444f44e12d1d3a4e2280b745829662ef1a11c8853296ec52e6d2696edccf22ca9a1f8dcf9153a4c7e6e31eeaeeb445009d23e431e47c55e4869158
 
+Package: numinfo
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python
+Section: utils
+Priority: optional
+Homepage: https://github.com/Anon4You/NumInfo
+Description: Phone number intelligence and lookup tool
+ Numinfo is a Python tool that provides detailed information about
+ phone numbers using various APIs. It supports multiple data sources
+ for comprehensive number validation and enrichment.
+Filename: dists/termuxvoid/main/binary-all/numinfo.deb
+Size: 1584
+MD5Sum: 801a17f16e993e40f7b7b79524212f86
+SHA1: c0e1d1237e7154ce0b9c4321dd07f9933ed51cba
+SHA256: 798e58b68f421c05348c87284ad4b706375d85fcb4254382a444ec60e2486795
+SHA512: 738cbe9eac3aa937b93d19817bbf6f6512a6cf40220fd4dfd9caf1c6c84e3695259f7ea76549491c17ecb84ba057a240ec56b70ae28528fd637fcf7fc49b147a
+
 Package: nvchad
 Version: 2.0
 Architecture: all

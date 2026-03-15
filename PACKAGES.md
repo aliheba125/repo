@@ -44,6 +44,7 @@ This repository provides specialized security and penetration testing tools for 
 | ipinfo     | Comprehensive IP address intelligence |
 | iplookup   | IP geolocation lookup utility |
 | locateme   | Device location tracking tool |
+| numinfo    | Phone number intelligence and lookup tool |
 | phoneinfo  | Phone number intelligence tool |
 | publiceye  | Comprehensive OSINT tool for multiple data lookups |
 | redhawk    | OSINT gathering framework |
