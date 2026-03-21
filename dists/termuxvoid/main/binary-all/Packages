@@ -149,7 +149,7 @@ Package: antisplit
 Version: 1.2
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Depends: git, apkeditor, apksigner, figlet
+Depends: git, apkeditor, apksigner, figlet, gum
 Section: utils
 Priority: optional
 Homepage: https://github.com/termuxvoid/AntiSplit
@@ -159,10 +159,10 @@ Description: APK Split Package Combiner and Modifier
  Useful for repackaging and modifying Android applications.
 Filename: dists/termuxvoid/main/binary-all/antisplit.deb
 Size: 1376
-MD5Sum: f60d6bbb7e2d7758b18a410f7791ff94
-SHA1: 0b5b7dc754dfc8efa869eff3dd2af70aa13e8f57
-SHA256: c39e84cc12d5a30273f5fcbeedcda62e5bf722c68c0437a8c6b618d48b95cb4b
-SHA512: 15f6d64aa8ef26357af76435bbc61f9420a093077df5e9c2bd8c3eb9bf134990ad84cd21c2b7125606f20a68ec4ecd265a85a3fcf05344f62f05f25c8c4fef47
+MD5Sum: feda784e98597faa14337f1176cb8cb5
+SHA1: af4c411624722cf448c774e14857250a01c44795
+SHA256: 9f4bf29fd41082a1b2ed49b4e21a13f186742702854532a7037b8bf4adc3ab50
+SHA512: 1eb9a30bd49d247942366220982d09826073b76940e799ad77e0801538d2e01eb4c3cc161ecd5712be088f80b5fc783a38ee99f5775c6112930a061b6a6f6c57
 
 Package: apkeditor
 Version: 1.4.7
