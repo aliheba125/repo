@@ -2082,6 +2082,25 @@ SHA1: feb397a33d00957c60efcd9e7301e5146ae6708d
 SHA256: 374d7ee3e67621eb7ed5e93bfa57ed22b8fa3911b3b0d2b5ca3e833057f15ab3
 SHA512: c2253ba926b20eb0ab769152d4aaf64a62b6db08f56bb7f071abcfc0d3069064b728103be9e505453d7ed1a32690798f6885f136965c16d14efca7cb0e6614cf
 
+Package: snoop
+Version: 1.4.3
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, python-psutil
+Section: utils
+Priority: optional
+Homepage: https://github.com/snooppr/snoop
+Description: Information gathering tool using online resources
+ Snoop is a comprehensive OSINT tool that collects information about
+ a target from various public sources. It helps security researchers
+ and penetration testers with reconnaissance tasks.
+Filename: dists/termuxvoid/main/binary-all/snoop.deb
+Size: 1472
+MD5Sum: 7d0ab6047e016188f84a8c5b7b2a525c
+SHA1: 1b069204df62a90b6906f3f3dd4e91e250c4c1e7
+SHA256: 012e6c55fd7a419167ca350338d835a1f917004d2adac4fef1663892b5f4e7f0
+SHA512: 2621413e80459235fffc8cbf3ecee0e13995abc103ed41d080cbc98826967f174789326b8ba8a3b646c4ce882452b00689dc68c967300071f4da0bd418495570
+
 Package: spider
 Version: 2.0
 Architecture: all

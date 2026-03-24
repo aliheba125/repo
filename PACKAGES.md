@@ -50,6 +50,7 @@ This repository provides specialized security and penetration testing tools for 
 | redhawk    | OSINT gathering framework |
 | sherlock   | Find social media accounts by username |
 | silverinstaeye   | Instagram information gathering tool |
+| snoop      | Information gathering tool using online resources |
 | theharvester | OSINT email and subdomain gathering tool |
 | webinfo    | Website metadata collector |
 
