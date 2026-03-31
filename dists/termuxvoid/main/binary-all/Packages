@@ -369,18 +369,18 @@ SHA256: 4acd7d17290edf64d844263de7ca88f89394399deb7c13cad9362c32856f3b50
 SHA512: b13fdfbf9470238d5b355b6d41d91e6403ba864805bc97d6659f85603d83841eef4b92069c30b4711babc6df006c3daa555d9848064d41ae99d1af448d3b60e6
 
 Package: burpsuite
-Version: 2026.3
+Version: 2026.2.1
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: curl, openjdk-21, openjdk-21-x
 Homepage: https://portswigger.net/burp/
 Description: An integrated platform for performing security testing of web applications (community edition)
 Filename: dists/termuxvoid/main/binary-all/burpsuite.deb
-Size: 36376
-MD5Sum: 374d8539d861850dad6d060cfb136d7a
-SHA1: 7740297f24db7683d9b631c028910ca07434fb84
-SHA256: 263f3f15ad738e4712bac187bb7188107432b8d4b8d0cdc47846a594b3afa1e6
-SHA512: acc5eec9398dbc8f471420c6efb4d855ebafd19d13747ddd4c9d041d4e151835ac7208f0b42eeca1ae54566c7e4f0b9985ea1689679eee1db817eab786002df9
+Size: 36384
+MD5Sum: c937cede9bd19a72e2874937bb4982f4
+SHA1: d653fcccc3e7b06c6d5460b0d0d9def770aebe6e
+SHA256: 6741f98d5ae62cb38ce362066e03be91f5f25b2a1f3fe5a097e45391d1f488bb
+SHA512: 7f5c9ccaf735fe248f9d83cecd5edc81c88bb2cfd4522b5bf5875ffbb29dda64b184233690b7bb2a0c09984fbd4bbe3f1d05723751a8c8d834fc240bc21f4855
 
 Package: byakugan
 Version: 1.0.5
@@ -2462,18 +2462,18 @@ SHA256: 680cb70c0f2ab817049121755b349a930ef06315da14fdb29669869d17e3cee6
 SHA512: a7d7a72fb38169e7b6b89975f8d0354befd8dfa1253f987ffb0b341b2767e663b14fb922c60195953510d6697c7fc0d11c2abc230d87d5114e26e749533c346f
 
 Package: the-theif
-Version: 1.2
+Version: 2.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: apksigner,apkeditor,python
 Installed-Size: 1
 Description: A tool that can hijack cookies and transmit them to Telegram using the API.
 Filename: dists/termuxvoid/main/binary-all/the-theif.deb
-Size: 1414756
-MD5Sum: b01c8523fcfbe22f7add535e6d86760c
-SHA1: 1f97336f2d243c4fb0fe32ad71258efee7d146bb
-SHA256: 18cabc39eaa34e21d6faa0dc7db5368b1f514fafe8ed426f16a7a7fdd57c0369
-SHA512: 6bc94af33a755f15d690f1712fbf713237a5fd589e4e778aca4af54ea21133b1607f6dd8ef50fa6c6fe008289f4461b159fb523b573442680233304be9d5ef7f
+Size: 1416064
+MD5Sum: 8e59dc5f760d7d28c61483b407355583
+SHA1: 1657caa5b38872501b17c58bf63d6d01962320b5
+SHA256: e3a00a0d0c5314e937db37698f28de9a8e588c068253a785f395037f7a7e7a33
+SHA512: 11f5b66166dd120324e67dadcab44a170a101b36c655d036d5539a6273980dc08f995700f48545da99f8074af14926ee5a0f31f702e782cc427832a60b7cba73
 
 Package: theharvester
 Version: 4.8.2
