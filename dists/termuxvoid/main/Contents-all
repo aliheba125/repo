@@ -29602,6 +29602,7 @@ data/data/com.termux/files/usr/share/termux-penv/termux64remove.sh              
 data/data/com.termux/files/usr/bin/the-theif                                     the-theif
 data/data/com.termux/files/usr/share/the-theif/apks/fb.apk                       the-theif
 data/data/com.termux/files/usr/share/the-theif/apks/ig.apk                       the-theif
+data/data/com.termux/files/usr/share/the-theif/apks/tw.apk                       the-theif
 data/data/com.termux/files/usr/share/the-theif/key/the-theif.jks                 the-theif
 data/data/com.termux/files/usr/bin/venom                                         venom
 data/data/com.termux/files/usr/bin/webinfo                                       webinfo

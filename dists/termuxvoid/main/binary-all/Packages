@@ -2462,18 +2462,18 @@ SHA256: 680cb70c0f2ab817049121755b349a930ef06315da14fdb29669869d17e3cee6
 SHA512: a7d7a72fb38169e7b6b89975f8d0354befd8dfa1253f987ffb0b341b2767e663b14fb922c60195953510d6697c7fc0d11c2abc230d87d5114e26e749533c346f
 
 Package: the-theif
-Version: 2.0
+Version: 2.1
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: apksigner,apkeditor,python
-Installed-Size: 1
+Installed-Size: 4842
 Description: A tool that can hijack cookies and transmit them to Telegram using the API.
 Filename: dists/termuxvoid/main/binary-all/the-theif.deb
-Size: 1416064
-MD5Sum: 8e59dc5f760d7d28c61483b407355583
-SHA1: 1657caa5b38872501b17c58bf63d6d01962320b5
-SHA256: e3a00a0d0c5314e937db37698f28de9a8e588c068253a785f395037f7a7e7a33
-SHA512: 11f5b66166dd120324e67dadcab44a170a101b36c655d036d5539a6273980dc08f995700f48545da99f8074af14926ee5a0f31f702e782cc427832a60b7cba73
+Size: 2421116
+MD5Sum: b2200c3a9673f2b9031b869594de7cf4
+SHA1: 6cc098b13c797cc4339d316ce0692d2b7235fae1
+SHA256: e770582c37dc3dc3b4cbd198b16cf417afa61aa467d03a95520fe02e868b704f
+SHA512: 7533c8bdf4b187c5c91f7cabe587f0b7dbd25084d35d8bc23fdf5549d98fe78bbb8c9df22f05d91269feb3a94b399150f7e46313d297a715dc1a6f1c7ea65133
 
 Package: theharvester
 Version: 4.8.2
