@@ -355,18 +355,18 @@ SHA256: 48cd1223fd8b5e397e16b930cddd9f0e615404ca248823802eefba632e7d725c
 SHA512: b858b7e950921df11e700ab2c4e85a5b84a6a463750d15c41831b040a0e70d6477155becf93eadb0dcf0446fe676cdea707f4feb805106e61c47d911bacb249a
 
 Package: burpsuite-pro
-Version: 2026.3
+Version: 2026.1.5
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: curl, openjdk-21, openjdk-21-x
 Homepage: https://portswigger.net/burp/
 Description: An integrated platform for performing security testing of web applications (professional edition)
 Filename: dists/termuxvoid/main/binary-all/burpsuite-pro.deb
-Size: 3792
-MD5Sum: 5b6b4c98081b9e470047ed57459b4aa5
-SHA1: 47d7891cddf4f6d7b0a8b759449afc2e054cc32d
-SHA256: 4acd7d17290edf64d844263de7ca88f89394399deb7c13cad9362c32856f3b50
-SHA512: b13fdfbf9470238d5b355b6d41d91e6403ba864805bc97d6659f85603d83841eef4b92069c30b4711babc6df006c3daa555d9848064d41ae99d1af448d3b60e6
+Size: 3836
+MD5Sum: 5797800d91c25379a8e41720b9f52fe1
+SHA1: 69697cc43e3bdb877afb4b3098be007111757b7c
+SHA256: 8375c42be2002b2efa7cb02bb83321892c2207f4cd090f8aba8dd26396aa9f84
+SHA512: a6f111670c5f535fb7ff7518f0076e31015f0ad02158417066c86fe012fdd744c1331b2d2e686a56af2f44109ddd631a77220a1b0496d4f502caa941d4b8b9e9
 
 Package: burpsuite
 Version: 2026.2.1
