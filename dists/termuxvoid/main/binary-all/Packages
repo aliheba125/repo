@@ -362,11 +362,11 @@ Depends: curl, openjdk-21, openjdk-21-x
 Homepage: https://portswigger.net/burp/
 Description: An integrated platform for performing security testing of web applications (professional edition)
 Filename: dists/termuxvoid/main/binary-all/burpsuite-pro.deb
-Size: 3836
-MD5Sum: 5797800d91c25379a8e41720b9f52fe1
-SHA1: 69697cc43e3bdb877afb4b3098be007111757b7c
-SHA256: 8375c42be2002b2efa7cb02bb83321892c2207f4cd090f8aba8dd26396aa9f84
-SHA512: a6f111670c5f535fb7ff7518f0076e31015f0ad02158417066c86fe012fdd744c1331b2d2e686a56af2f44109ddd631a77220a1b0496d4f502caa941d4b8b9e9
+Size: 3824
+MD5Sum: bfd317b85bf84fe3497f2d461d4b072e
+SHA1: d70f92c34253050e3f558a2c35b069fd6f1503a0
+SHA256: dbf7b61c5933335e851a82ea0e850a37df96ae689358ee1072507fe661c17ea6
+SHA512: 1fe252bca582d7119d1d3658220fca887ba8bcc17ef9ef409dc364f517317c62d1a9037a98320235fcb8548030d68e9bec7c5feb06c1a9f683abecb47fe884b0
 
 Package: burpsuite
 Version: 2026.2.1
@@ -376,11 +376,11 @@ Depends: curl, openjdk-21, openjdk-21-x
 Homepage: https://portswigger.net/burp/
 Description: An integrated platform for performing security testing of web applications (community edition)
 Filename: dists/termuxvoid/main/binary-all/burpsuite.deb
-Size: 36384
-MD5Sum: c937cede9bd19a72e2874937bb4982f4
-SHA1: d653fcccc3e7b06c6d5460b0d0d9def770aebe6e
-SHA256: 6741f98d5ae62cb38ce362066e03be91f5f25b2a1f3fe5a097e45391d1f488bb
-SHA512: 7f5c9ccaf735fe248f9d83cecd5edc81c88bb2cfd4522b5bf5875ffbb29dda64b184233690b7bb2a0c09984fbd4bbe3f1d05723751a8c8d834fc240bc21f4855
+Size: 36360
+MD5Sum: 787db43758101eabd4e7f9f87e0ff612
+SHA1: 8fe968a407c8b0132876841559d26ec5d7e95a1f
+SHA256: ae1f1ff37d257781e19458b30b78351a4725fcc59bc5549f7b92eeb579395ac2
+SHA512: 183c9ffe5d7771d504d44c29f7b065ca9022860c1b4fdb291697c3352598be967241437016431f2aeb57dba2e89017156c1da4c4b5b527165ea0a6eda3dcb9a3
 
 Package: byakugan
 Version: 1.0.5
