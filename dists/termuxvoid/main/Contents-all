@@ -568,6 +568,10 @@ data/data/com.termux/files/usr/share/backgrounds/termux-desktop-wallpapers/skull
 data/data/com.termux/files/usr/share/backgrounds/termux-desktop-wallpapers/skull_green.png termux-desktop-wallpapers
 data/data/com.termux/files/usr/share/backgrounds/termux-desktop-wallpapers/skull_neon_ring.jpg termux-desktop-wallpapers
 data/data/com.termux/files/usr/share/backgrounds/termux-desktop-wallpapers/spiderman.jpeg termux-desktop-wallpapers
+data/data/com.termux/files/home/.config/xfce4/desktop/accels.scm                 termux-desktop
+data/data/com.termux/files/home/.config/xfce4/desktop/icons.screen0.yaml         termux-desktop
+data/data/com.termux/files/home/.config/xfce4/panel/launcher-11/17751215301.desktop termux-desktop
+data/data/com.termux/files/home/.config/xfce4/panel/launcher-13/17751230403.desktop termux-desktop
 data/data/com.termux/files/home/.config/xfce4/xfconf/xfce-perchannel-xml/displays.xml termux-desktop
 data/data/com.termux/files/home/.config/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml termux-desktop
 data/data/com.termux/files/home/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml termux-desktop
