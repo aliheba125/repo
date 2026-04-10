@@ -626,7 +626,7 @@ SHA256: 36b09da047c2e3fb868e3e5c756c26de04efb112843aa32b31b355e2f824085a
 SHA512: 49c9dbbbfd7f8ca51b606cdfa5d6e2d80b975675a37cb41486682f3ca6907177dd780555d23f14b744a872ed78dc23116fd677666250b77184ee1428de255570
 
 Package: dpt-shell
-Version: 2.8.0
+Version: 2.9.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: curl, openjdk-21
@@ -635,11 +635,11 @@ Priority: optional
 Homepage: https://github.com/luoyesiqiu/dpt-shell
 Description: DPT Shell - Dex Protection Tool Shell dpt-shell is an Android Dex protection shell that hollows out Dex method implementations and reconstructs them at runtime.
 Filename: dists/termuxvoid/main/binary-all/dpt-shell.deb
-Size: 1424
-MD5Sum: d5ecf3442b5b7d75ded11f7fdbe6de31
-SHA1: ed33407e9c192023e2668da937d19335b5fc6cb5
-SHA256: 53ce14503cdf1dfc7fdccc8359c3c24bab553a629f7b2351bb62c5ab05b2da62
-SHA512: 2c3e28c111ab1f5549c1e2c6b43ae8f2d0d15ad5e215d27eda27eefd99b1bbcebf00bd5a699df98db441e5d3d0e188b56aeb0bd7840db71fa3a9d7c04b2f481c
+Size: 1420
+MD5Sum: 2ec30742a6f0659f62f190005f7b5746
+SHA1: 9ff3328a8277328febcdd25e301d58a1417386c6
+SHA256: 675774e4fd8c69db7759f3c47d47b80e48b32f79fac681ea4e226226c3c7ed57
+SHA512: a04d18b1c11c3b2cd97356368c65c8e30e8798486e168ffa5c856d47056597edd2226ca0afa1cbe72a71167bc13b7660cd8bdffbada7118feb40ec5529670f02
 
 Package: drshell
 Version: 1.0.1
