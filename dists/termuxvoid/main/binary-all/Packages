@@ -1423,7 +1423,7 @@ SHA256: 568077409134d6c29ff9d8631bd6a2066583ecfb04e09545d2298600b28d1e9a
 SHA512: fbd299c057f1d344b98602f8465ecdc66bd5a47b6fe0980a22eae43e68d6eb29817129828059b430a0bb0992cf3975252cb18604ee0c9c047e747e933b209707
 
 Package: morphshell
-Version: 2.0
+Version: 2.0.1
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: git, python, tte, eza, starship, fish, bat
@@ -1436,11 +1436,11 @@ Description: Sleek Termux Shell Environment with Dynamic Themes
  banners that change each session. Features enhanced terminal
  aesthetics and productivity tools for shell customization.
 Filename: dists/termuxvoid/main/binary-all/morphshell.deb
-Size: 1692
-MD5Sum: 0aae5c81fdf73a0a605b74b431ae3b57
-SHA1: 6e693b6dac238170affde95b275975189c338e65
-SHA256: 1971ca35ea96174d93c70d105ef4e6f94269dafbbe2efbda8fcadd8eb14f9e1e
-SHA512: 6d3eb45641c1f229f3d0afb0c86785edf5cd62833ad8d64395259040dcc6af0277a7b6a54e05f8c1fa5cb7d78f0d93bc8f702d9cc7259beb9a72d649989bf34b
+Size: 1696
+MD5Sum: fbeca49b973737f77e4d078ef0a4b729
+SHA1: 00479feee5a6dbcd88c8c0d9bb5351f94a392280
+SHA256: eba90c0db9837d621a3e23e6f6f71f0c90cec6bc92e406fbfa25555ecbad046b
+SHA512: 0fb01e364b8ba381f5e8a1075fa543a5360b4d0a5153fe96cb0f701fbd12f03079d849cfdfa0fcdd11e80c365b2dbabd49dd6e5c17f294248bc237c0cf724232
 
 Package: mtcr-apply
 Version: 1.1.0
