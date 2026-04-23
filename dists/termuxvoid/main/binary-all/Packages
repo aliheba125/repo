@@ -1354,6 +1354,25 @@ SHA1: a2af2da12a30e470518dd0441f16e79600a6ef4b
 SHA256: 228187e408a3720aa77cb61aa542bbae24eed86b5917b308ff208d6aeec92363
 SHA512: e4dbd584668efabd501bedbbb4bf6f98de990877d625c366058fa095e06b8fa550448089fe39c809990f396ceda66663b2de96626e89a8ade7e1e0faac29fb6c
 
+Package: lunarvim
+Version: 1.4.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, make, python, npm, rust, fzf, fd, ripgrep, neovim
+Section: editors
+Priority: optional
+Homepage: https://www.lunarvim.org/
+Description: IDE layer for Neovim with sane defaults
+ LunarVim provides a modern, feature-rich Neovim configuration
+ with sensible defaults, LSP support, and extensive plugin
+ ecosystem – completely free and community driven.
+Filename: dists/termuxvoid/main/binary-all/lunarvim.deb
+Size: 1360
+MD5Sum: 54a606665f236e57990ea76ac80d9398
+SHA1: 81c26672f66ba7cea6ebc08dc0c8dc2dd2f460ee
+SHA256: d3d001b75c23d22c77ca38b275c3789638b292f45e6620603bcc0a07e645514d
+SHA512: f8f0affe5f35fcd4ea97137c02bd9f43775d4dcb890c12d7cf647030c20f8d98eae7a2e5ba848002883f967da4b4f3fa7cec4e9a308895253b35da0fa7580a1f
+
 Package: mantra
 Version: 3.1
 Architecture: all

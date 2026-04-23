@@ -78,6 +78,7 @@ This repository provides specialized security and penetration testing tools for 
 | [ffmpegp](https://github.com/ankushbhagats/ffmpegp) | Python utility for simplified ffprobe and ffmpeg media operations |
 | [ia-get](https://github.com/wimpysworld/ia-get) | Internet Archive Downloader Tool |
 | [lazyvim](https://www.lazyvim.org/) | Modern Neovim configuration framework |
+| [lunarvim](https://www.lunarvim.org/) | An IDE layer for Neovim with sane defaults |
 | [mkwebapp](https://github.com/Anon4You/mkwebapp) | Tool to create Termux .deb packages for websites |
 | [nethunter-cli](https://www.kali.org/) | Kali NetHunter Rootless Edition CLI |
 | [nvchad](https://github.com/NvChad/NvChad) | Neovim configuration framework |
