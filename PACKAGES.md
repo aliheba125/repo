@@ -168,6 +168,7 @@ This repository provides specialized security and penetration testing tools for 
 | [pairip](https://t.me/NullRE_Channel) | PairIP Protection Removal Tool for Android |
 | [phonesploit-pro](https://github.com/AzeemIdrisi/PhoneSploit-Pro) | Android hacking tool with ADB |
 | [pkiller](https://github.com/Anon4You/PKiller) | Automated PairIP License Removal Tool for Android APKs |
+| [pptool](https://github.com/Kirlif/PPTool) | Python tool to find loading addresses of Dart objects in libapp.so via pool pointer offset |
 | [ransomux](https://github.com/Anon4You/RansoMux) | Ransomware making tool |
 | [rkpairip](https://github.com/TechnoIndian/RKPairip) | Remove Pairip protection and rebuild APKs |
 

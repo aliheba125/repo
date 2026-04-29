@@ -1913,6 +1913,22 @@ SHA1: ff9af20d74e670e3f6d475559a53521af17cf927
 SHA256: 99f73fce98d721ce4103060bc0cf3e830fd2d6fa46249aab30ef8ec2f7d94491
 SHA512: 9a88f29dbdc78b2c830f22fe463821c399ed5b1cf2a75f594858b7cd54dc533083d047c44c520bdf707b53379abea7e427c41e5442cf111aa5b6ec0e612633ea
 
+Package: pptool
+Version: 2.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: curl, python, python-pip
+Section: utils
+Priority: optional
+Homepage: https://github.com/Kirlif/PPTool
+Description: Python tool to find the loading addresses of Dart objects in libapp.so through their pool pointer offset.
+Filename: dists/termuxvoid/main/binary-all/pptool.deb
+Size: 1112
+MD5Sum: 968c4b2eda334b88300de3848fa6704f
+SHA1: f04502ed654ee444ca9c51db7e8747224579099c
+SHA256: eb07fa89a3ff281b7ba6a3917b727c974dafc32c67bddc2182d8657dbcb3dc0d
+SHA512: 369baacf1a13b278e1f9e97e584e4c25e2d18625dc685b4ce6045c5d574efc8bd030743ce060f95b855b3acc3b450f620c56d2222050cd02426969abff10371e
+
 Package: publiceye
 Version: 1.0
 Architecture: all
