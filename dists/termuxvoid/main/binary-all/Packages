@@ -333,6 +333,25 @@ SHA1: 2dead9ba1f162930691ec2a7fb8c1331b5352f6b
 SHA256: 790d442d729993826e23788af1cf98fcc613886e1ba6fab65218fa89bafc3eb3
 SHA512: cf96da090787007541f4ce68fd45cbabdbdb0bcb7c328cb595ab7ab55ef2fc0ca089978bb3b77a7a665e6531fbfd7bea3486193638f6f38a037cd42c4ef751f8
 
+Package: blesh
+Version: 0.4.0-devel4
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, make, termux-tools
+Section: shells
+Priority: optional
+Homepage: https://github.com/akinomyoga/ble.sh
+Description: Bash Line Editor (ble.sh) – interactive command line editing
+ ble.sh is a command-line editor for Bash that provides syntax highlighting,
+ command completion, and improved editing capabilities. It replaces the
+ default GNU Readline with a more feature-rich interface written in pure Bash.
+Filename: dists/termuxvoid/main/binary-all/blesh.deb
+Size: 1236
+MD5Sum: 5e4177d6a97a483dde15e8d6ce1988d8
+SHA1: 834c7ee3e38477edc8e160b01ea5a0935e566cd8
+SHA256: 6c1e6f83fbe6cd82802cb715306a302def3be48314ee0230541f604bf19dd8f8
+SHA512: ff51428ab21d883a8e69316b588933342c72d4014bbc0e1701485444eb23a744f0e32c897964237fe2d898778d07a0393d0cc33f1c5f752aed4a8a9e8ed8b96c
+
 Package: blutter
 Version: 1.0
 Architecture: all

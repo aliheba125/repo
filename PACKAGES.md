@@ -191,6 +191,7 @@ This repository provides specialized security and penetration testing tools for 
 ### ⚡ System Tools
 | Tool | Description |
 |------|-------------|
+| [blesh](https://github.com/akinomyoga/ble.sh) | Bash Line Editor (ble.sh) – interactive command line editing |
 | [enctool](https://t.me/nullxvoid) | Encrypt or decrypt bash files and marshal Python scripts |
 | [exiftool](https://exiftool.org/) | Read, write and edit meta information in files |
 | [ip-changer](https://github.com/Anon4You/Ip-Changer) | Change your IP address automatically |
