@@ -437,6 +437,25 @@ SHA1: 65c0e8c5040d16e9c033e12633e86aa317d588e5
 SHA256: 58bfa4dc275bed84f0df4147682204041c99137e41d102c5addc349dd9c90ae5
 SHA512: ef466a09f07f2b8c64c78a040cb99c10d205b2b102af43aab0630be1c3b951a94e1f9c12c8f23b69db767373ddf5e2ec78aad2979f53fb39afc06f0e403f5e2d
 
+Package: catsay
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python
+Section: games
+Priority: optional
+Homepage: https://github.com/Anon4You/catsay
+Description: terminal-based feline messenger inspired by cowsay
+ A Python-based program that displays messages inside dynamic speech
+ bubbles with various cat ASCII art designs. Supports custom cat
+ assets and piping from other CLI tools.
+Filename: dists/termuxvoid/main/binary-all/catsay.deb
+Size: 1220
+MD5Sum: 0dbc394638277de113b24a56b0c4b5a1
+SHA1: 62e395537e83ca3ad1374ce13c1ce14668b6815e
+SHA256: 502ebba931291de4615473be05093e615ac9a6fe4d28dac1831faea84300f2a0
+SHA512: 8f9ca6568fb95ae941743be3f0631a67734c4353b0d2ba668d8a775c89ad6985eec5160b292edd966afdde3e2eb4e69b5b1c89d3cdf35210f0df2b8586ea4fcf
+
 Package: cctvip
 Version: 1.0.0
 Architecture: all

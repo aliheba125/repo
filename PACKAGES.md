@@ -206,6 +206,7 @@ This repository provides specialized security and penetration testing tools for 
 | Tool | Description |
 |------|-------------|
 | [asciibanner](https://github.com/Anon4You/asciibanner) | Feature‑rich FIGlet‑compatible ASCII art generator with color support |
+| [catsay](https://github.com/Anon4You/catsay) | Terminal‑based feline messenger inspired by cowsay |
 | [random-banner](https://github.com/Alienkrishn/random_banners) | Random banner and quote generator |
 
 ### ✨ Customization
