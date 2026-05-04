@@ -626,6 +626,26 @@ SHA1: 061d72af499977817ac1830cae6ca5c4bc8d3988
 SHA256: b4c25c61418bdca3178650670118d01cc4df4ea544d3e001ecb501f770b3acd9
 SHA512: 994ac8712257ff7e872b975d285aa7aa3313b269113015cd2a04cd722b9613a6441a2d2ce75173f9d8e5b973001862d39c5c179880f7908dedc80a8cbca85bea
 
+Package: dark-phish
+Version: 2.3.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, php, python, python-tkinter, openssh, npm
+Section: web
+Priority: optional
+Homepage: https://github.com/Cyber-Anonymous/Dark-Phish
+Description: Powerful Phishing Tool with 50+ templates
+ Dark-Phish is a comprehensive phishing framework offering over 50
+ ready‑to‑use templates (e.g., Facebook, Instagram, Netflix). It
+ includes an interactive setup menu, automated ngrok tunnel creation,
+ and real‑time credential logging via local web server.
+Filename: dists/termuxvoid/main/binary-all/dark-phish.deb
+Size: 1280
+MD5Sum: 1b4ba1eb67c73cc1e362fbcb28c95c42
+SHA1: 7e8bc9faf5567701c5136bfc201f8b03bec673c1
+SHA256: 97855996143bf5c085970cfe6ca4cb469fb826561c237bb2a5ec7926d05cd210
+SHA512: 05f7e44008a492b3a7a08623db63208548524a7327d873c7e08dff5ee9d5d38e86a411061d82a3d4f222f2e7f44df557f63ba8e5c2b2c50e025be0546f5c25a1
+
 Package: darksploit-framework
 Version: 2
 Architecture: all

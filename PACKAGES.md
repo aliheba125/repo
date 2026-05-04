@@ -177,6 +177,7 @@ This repository provides specialized security and penetration testing tools for 
 | Tool | Description |
 |------|-------------|
 | [beef](https://beefproject.com/) | Browser Exploitation Framework |
+| [dark-phish](https://github.com/Cyber-Anonymous/Dark-Phish) | Powerful phishing tool with 50+ templates |
 | [evilurl](https://github.com/UndeadSec/EvilURL) | Generate unicode evil domains for IDN homograph attacks |
 | [evilginx](https://github.com/kgretzky/evilginx2) | Advanced phishing framework with 2FA bypass |
 | [infect](https://t.me/nullxvoid) | Android APK backdoor injector with Meterpreter support |
