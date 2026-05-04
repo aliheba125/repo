@@ -27,8 +27,8 @@
 Whether you are a professional penetration tester or an ethical hacking enthusiast, TermuxVoid turns your Android device into a portable powerhouse.
 
 > [!NOTE]
-> This repository contains tools that are often excluded from official sources due to complexity or licensing. All packages are compiled natively for Termux.
-> > We now also host **root packages**. See [root-repo.md](root-repo.md) for details.
+> This repository contains tools that are often excluded from official sources due to complexity or licensing. All packages are compiled natively for Termux.<br>
+> We now also host **root packages**. See [root-repo.md](root-repo.md) for details.
 
 
 ## 🚀 Quick Installation
