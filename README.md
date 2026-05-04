@@ -28,6 +28,8 @@ Whether you are a professional penetration tester or an ethical hacking enthusia
 
 > [!NOTE]
 > This repository contains tools that are often excluded from official sources due to complexity or licensing. All packages are compiled natively for Termux.
+> > We now also host **root packages**. See [root-repo.md](root-repo.md) for details.
+
 
 ## 🚀 Quick Installation
 
@@ -107,9 +109,6 @@ We are constantly expanding. You can request new tools via:
 1. Opening a **[GitHub Issue](https://github.com/TermuxVoid/repo/issues)**
 2. Contacting us on Telegram: **[TermuxVoid](https://t.me/termuxvoid)**
 </details>
-
-> [!NOTE]
-> We now also host **root packages**. See [root-repo.md](root-repo.md) for details.
 
 ## 🌐 Support & Community
 
