@@ -2792,7 +2792,7 @@ SHA256: f3efbf18a3c6b6bbd5abdd185346a5d5beb4f6b22fcc7d1dc707dc3549fb20b0
 SHA512: dc2bf146603a83c2acb61738d47061c181876fc1d525474c0bdc258b9823ce7ba1617e9e6072753a9e9748fc76f4a18c76f2a9135483fe46592aaf42d1a9cdcb
 
 Package: wacli
-Version: 0.5.0
+Version: 0.7.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: git, golang
@@ -2803,11 +2803,11 @@ Description: Command-line tool for WhatsApp chat management
  wacli is a CLI utility for interacting with WhatsApp chats,
  including exporting, searching, and analyzing chat histories.
 Filename: dists/termuxvoid/main/binary-all/wacli.deb
-Size: 1316
-MD5Sum: 58a701e4dec8b7c683e99670128ee9a7
-SHA1: 11f8db5b06da7a121fe288fe7d80a83495db9816
-SHA256: 56d8113e2b216dd35d54b04325f637a1ca09cc0655e737360f7ff4d709ee9ca7
-SHA512: ac62a75cb3668e5f42de2d11cfe3333d4e329fa3922220711fe1c5e525e8d16175544e9a47a0ffe8a7f8ef162d704316f1cf54c96cf5fb1c6eb781af4a07e24d
+Size: 1320
+MD5Sum: f6a037f8821e7e5d564f15090966a588
+SHA1: 6e7950674ad07386dcb38bd0eafe1490e75a7341
+SHA256: a09ece22b9ec5d8f701ef4da92bf13bbedf5691e4f08eda7cf56fd52b3634911
+SHA512: df0f46524139061b847ab1f4db0ec57d9bd21fa7b1620dcf4938061a24f73c64cd806d43325b473f7d15856d16f49c9c67b6b776ad338242a32d05bfe2f55e3c
 
 Package: wafw00f
 Version: 2.3.1
