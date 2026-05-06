@@ -93,6 +93,7 @@ This repository provides specialized security and penetration testing tools for 
 | [termux-desktop-wallpapers](https://alienkrishn.infy.uk) | Wallpapers for termux-desktop |
 | [termux-penv](https://github.com/Anon4You/termux-penv.git) | Simplify chroot environments in Termux |
 | [wacli](https://wacli.sh/) | Command‑line tool for WhatsApp chat management |
+| [webhost](https://github.com/Anon4You/WebHost) | Easily serve any local web project to the internet — instantly |
 | [webserver](https://t.me/nullxvoid) | Simple web server for Termux |
 | [whatsapp-cli](https://github.com/vicentereig/whatsapp-cli) | Standalone CLI for WhatsApp using multidevice protocol |
 

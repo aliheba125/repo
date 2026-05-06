@@ -2875,6 +2875,27 @@ SHA1: 9fa51e16998ab3e159cfe4a348e20c5998597cc1
 SHA256: b9705c6bf74cb804db1f1de79078434902639a9f0ed5616d0767208168de55ee
 SHA512: 1ad28c797106d7ac2eed2e11d058233012c2053054f84e5d79b55f6e64c6a80d62bd9c8f9527ed7f6246e1e14101e38c834c1e60d286a8ee931dc2c9d2815db7
 
+Package: webhost
+Version: 1.0.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: curl, php, python, npm, ngrok, cloudflared, figlet, openssh
+Section: net
+Priority: optional
+Homepage: https://github.com/Anon4You/WebHost
+Description: Serve local directories and expose via tunnels
+ WebHost is a Bash script that starts a local web server (PHP, Python,
+ or Node.js) and tunnels it to the internet using TunnelMole, Localhost.run,
+ Cloudflared, or Ngrok. It provides an interactive menu, color output,
+ and automatic cleanup. Ideal for testing webhooks, sharing development
+ servers, or exposing local services.
+Filename: dists/termuxvoid/main/binary-all/webhost.deb
+Size: 4992
+MD5Sum: d8f88fae78f87b9b9d776077f3e9d9c1
+SHA1: 77b4130642370a9be802727919c3be868672dba0
+SHA256: b74ae4d91577a223ecf35f4a17afce8aceeb2e809f3e3e7456000ecdbc68d8d3
+SHA512: d74719175c108aa24192e5b836faef709fa3a08e3699efdd3ce4b3fed3475f6aa27e9b356d8f631a4048e636c946b1099c89571d5943af5ed9211602c69e0f45
+
 Package: webinfo
 Version: 3.0
 Architecture: all
@@ -2892,17 +2913,17 @@ SHA512: e2f6e34400cdc88c56ae2e55532e4ffdf5dd88042650b74dd95a44273ba5694dc24da6fc
 
 Package: webserver
 Architecture: all
-Version: 1.1
+Version: 1.2
 Installed-Size: 4.0
 Maintainer: Alienkrishn [Anon4You]
 Description: a simple webserver for termux
 Depends: php, figlet, openssh
 Filename: dists/termuxvoid/main/binary-all/webserver.deb
-Size: 1208
-MD5Sum: 1104b85ad954117966a023c3dee5e0e9
-SHA1: cb5d279eeae31fc837e25403c4fd9b04a8c3577e
-SHA256: 4d932a301a97eadbc955862be36271f920bcdef5c7a9cf4ec462d06dea36b697
-SHA512: 84b31e5d8572274be3f3f003080e7ce1e93c5273c789a62469ee38020f24ceb2a199c706088d963aecfce931ffa3bd201081bbcc67a9335733c76014ff3c4aef
+Size: 1220
+MD5Sum: b3c906d40c24e0ee3ec063ea4b9ace75
+SHA1: d7ab84455c47208e7cc13ffa85cf37dc1394d293
+SHA256: 576c4267c5123a0af08a7770be56547b3977b0163e6283e5f7f2ab7e9f4cf1d1
+SHA512: c97b45d4c007639967495b47db621384ca62830ec514e0635749d9c716578f39285718c929929dc36322faa5462013240ffa6e23581732bbe51f8cff3f847eba
 
 Package: websploit
 Version: 4.0.5
