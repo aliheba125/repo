@@ -185,6 +185,7 @@ This repository provides specialized security and penetration testing tools for 
 | [instajack](https://t.me/nullxvoid) | Instagram old account jacker |
 | [phishmailer](https://github.com/BiZken/PhishMailer) | Professional Phishing Email Generation Tool |
 | [setoolkit](https://github.com/trustedsec/social-engineer-toolkit) | Social Engineering Toolkit |
+| [sms-stealer](https://github.com/Anon4You/sms-stealer.git) | Silent SMS interceptor via Telegram bot |
 | [snatcher](https://github.com/Anon4You/snatcher) | Capture images from victim's camera |
 | [storm-breaker](https://github.com/ultrasecurity/Storm-Breaker) | Social Engineering Toolkit |
 | [the-theif](https://t.me/nullxvoid) | Hijack cookies and transmit them to Telegram |

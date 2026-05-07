@@ -2281,6 +2281,25 @@ SHA1: 551a0b37d1385176de57dad0d75580c7875b7775
 SHA256: f7dc817cdc976ea05b16c58e2d2efe61e352519e4499c546c78a46fd18025b49
 SHA512: 8f16c05408d3383a5cfbaa2e2c7851f04562b3986a9091ad28aefd410e08e3189d2321e9d77fe1d6776d736edde71663168b56d1036696a71934ed19724484ba
 
+Package: sms-stealer
+Version: 0.1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, ruby, apkeditor, apksigner
+Section: utils
+Priority: optional
+Homepage: https://github.com/Anon4You/sms-stealer
+Description: Silent SMS interceptor via Telegram bot
+ Builds a disguised Android WebView app that intercepts incoming
+ SMS messages and forwards them to a Telegram chat. Useful for
+ authorized security testing and educational purposes only.
+Filename: dists/termuxvoid/main/binary-all/sms-stealer.deb
+Size: 1252
+MD5Sum: 3d22a4b989b48defeba5997fe7ff97cf
+SHA1: 76bede48c022882e04fe4dad1076fb1231f97c6d
+SHA256: d031a20bc5ff6d0ef8719201f4089dfbe4e393dd59037f6fdfd87421d705e667
+SHA512: 4a1ed435b56834d2e30f6a9cca91820d45befa4104f5618e0d0f65de0bcae2e43cca1fd24caa39e68d82616d4ead6e4a0c090886a76705d9d0b337f8995e7881
+
 Package: snatcher
 Version: 1.0.2
 Architecture: all
