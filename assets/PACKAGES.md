@@ -75,6 +75,7 @@ This repository provides specialized security and penetration testing tools for 
 | Tool | Description |
 |------|-------------|
 | [alienkrishn](https://termuxvoid.github.io/) | TermuxVoid package manager and system helper |
+| [bun](https://bun.com/) | Incredibly fast JavaScript runtime, bundler, test runner and package manager |
 | [cronitor-cli](https://github.com/cronitorio/cronitor-cli) | CLI for managing and monitoring cron jobs |
 | [ffmpegp](https://github.com/ankushbhagats/ffmpegp) | Python utility for simplified ffprobe and ffmpeg media operations |
 | [ia-get](https://github.com/wimpysworld/ia-get) | Internet Archive Downloader Tool |
