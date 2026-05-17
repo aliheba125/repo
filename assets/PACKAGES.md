@@ -202,6 +202,7 @@ This repository provides specialized security and penetration testing tools for 
 | [morphshell](https://github.com/termuxvoid/MorphShell) | Sleek Termux shell environment with dynamic themes |
 | [ruby-nokogiri](https://nokogiri.org/) | Ruby gem for HTML/XML parsing (system libraries) |
 | [shellcrypt](https://github.com/Anon4You/ShellCrypt) | Professional code obfuscation for Bash and Python |
+| [termuxfetch](https://t.me/nullxvoid) | Neofetch‑like system information tool for Termux |
 | [tte](https://pypi.org/project/terminaltexteffects/) | Terminal Text Effects and Animation Library |
 
 ### 🎨 Text & Utilities

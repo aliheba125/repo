@@ -29603,6 +29603,7 @@ data/data/com.termux/files/usr/share/termux-penv/termux32remove.sh              
 data/data/com.termux/files/usr/share/termux-penv/termux64.sh                     termux-penv
 data/data/com.termux/files/usr/share/termux-penv/termux64login.sh                termux-penv
 data/data/com.termux/files/usr/share/termux-penv/termux64remove.sh               termux-penv
+data/data/com.termux/files/usr/bin/termuxfetch                                   termuxfetch
 data/data/com.termux/files/usr/bin/the-theif                                     the-theif
 data/data/com.termux/files/usr/share/the-theif/apks/fb.apk                       the-theif
 data/data/com.termux/files/usr/share/the-theif/apks/ig.apk                       the-theif

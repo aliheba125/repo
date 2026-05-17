@@ -13,7 +13,7 @@ SHA256: 48765e8c9a30ce7e06ac9621af4d4a5a73d37552a13fe1d12876cdacf8689f07
 SHA512: 6de514c680bd5bf0fe831e685be0a7da7d429cb3190ae29949c2efcade7440420a88d4ad89a18f915b96d1f3eb3f728cffb530aabdc9259a7b197f83f79125da
 
 Package: 9router
-Version: 0.4.33
+Version: 0.4.50
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: npm
@@ -26,11 +26,11 @@ Description: Smart gateway between your tools and 60+ AI providers
  Cline, Copilot…). Includes built‑in RTK and Caveman that save
  20–65% of tokens, keeping you coding even when limits are hit.
 Filename: dists/termuxvoid/main/binary-all/9router.deb
-Size: 1112
-MD5Sum: d2e79611c842997f8289cadd79f2465a
-SHA1: 042894fdec50efca8772f85dba36609df665f7bd
-SHA256: 5cce8d8da1e1d8a4e9bfc1d77db70dd7d87b5d4c2aa1e1f4fd9985bcd698939a
-SHA512: c042a1e272de567a1ef3502a84017f6aef28eed6d874927baf2f3e22911e5efcdb45dc6918edd8c5424e2a3be58a05345339fff07ea70c23aba9e98a3c96d271
+Size: 1120
+MD5Sum: 11c5175128659fdcbf03cc0dbc70c041
+SHA1: c86b67249383e1f9ec3268d92e716ef03aa8553d
+SHA256: 3e49b7cf5750c37e5750ee4debefba241862ab5f83599b7b4d50a0e54a854c01
+SHA512: 4d0dddd628fff55d92838a9456d9b71e9c5cb3d067c89020bc04e3f94bfceb61098930cb463c06c6f7d13f8ab7a5bfb606bde6c4fe6b6c2dae9f10deb9f5aa81
 
 Package: afrog
 Version: 3.5.2
@@ -742,7 +742,7 @@ SHA256: 36b09da047c2e3fb868e3e5c756c26de04efb112843aa32b31b355e2f824085a
 SHA512: 49c9dbbbfd7f8ca51b606cdfa5d6e2d80b975675a37cb41486682f3ca6907177dd780555d23f14b744a872ed78dc23116fd677666250b77184ee1428de255570
 
 Package: dpt-shell
-Version: 2.9.0
+Version: 2.11.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: curl, openjdk-21
@@ -752,10 +752,10 @@ Homepage: https://github.com/luoyesiqiu/dpt-shell
 Description: DPT Shell - Dex Protection Tool Shell dpt-shell is an Android Dex protection shell that hollows out Dex method implementations and reconstructs them at runtime.
 Filename: dists/termuxvoid/main/binary-all/dpt-shell.deb
 Size: 1420
-MD5Sum: 2ec30742a6f0659f62f190005f7b5746
-SHA1: 9ff3328a8277328febcdd25e301d58a1417386c6
-SHA256: 675774e4fd8c69db7759f3c47d47b80e48b32f79fac681ea4e226226c3c7ed57
-SHA512: a04d18b1c11c3b2cd97356368c65c8e30e8798486e168ffa5c856d47056597edd2226ca0afa1cbe72a71167bc13b7660cd8bdffbada7118feb40ec5529670f02
+MD5Sum: e21e90d9581231cd0383bdc9fff7dff3
+SHA1: c1f62215f7a9f28244fffa169c21cb92794844a2
+SHA256: 78ac2c1eef1b696962348aa768c4360bab421023c94cf49f1cd5bf88310def5e
+SHA512: c5f575a8cd3154a255106ca081425073b1d066f9d32e9be23d00492cf6a40e7696281c3ff43ed20904a69dcbe35c05d3027ff7eb9e0067eab2b6025408a6235b
 
 Package: drshell
 Version: 1.0.1
@@ -1856,7 +1856,7 @@ SHA256: 7a7807581afbd9286f617d158431f211263fcebe293f154337503c437070b8cd
 SHA512: bdd5d6a3735d31dabc85c0888de4ad8d38fa4a74faf628aa2fecd843a7fd5bca99f50fd95782b362b8d41cf212d55bd89cfade8ff4271721b830a67c86f58bf5
 
 Package: openclaude
-Version: 0.12.0
+Version: 0.13.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: npm, ripgrep
@@ -1868,11 +1868,11 @@ Description: Open‑source coding‑agent CLI for cloud and local LLMs
  large language models from multiple providers (cloud or local),
  with features tailored for coding assistance and automation.
 Filename: dists/termuxvoid/main/binary-all/openclaude.deb
-Size: 1088
-MD5Sum: 050348b30b3e0613158e71bb5099451a
-SHA1: c5b41972131c221872ce73be235c6a8af2dab375
-SHA256: fa9d9c6b247f5507683c6974cd336ee5c0158669e15bb822f0e6e3f4f953e2da
-SHA512: b04b835346861203f2411b9dbd6c8cd181c1d0aa6e0df86e48c2cf3019e9c6f049f6b9066e02230e482669f8da3c582ff7aa8a12d04b78f445c37e66eedbe188
+Size: 1092
+MD5Sum: e71c2f2655b54f00569135933ae91280
+SHA1: fbabe077bc7267cea918a3a00f5ed45d97d60c05
+SHA256: 3963ed0a99466dbcd99b6bb92229aa69ce89bd0596cc292811bcc819846f0c6a
+SHA512: 9e3bbf07d27f7a396ed7cba444fb5ee3754788bef38f3a32f244d6366a89380eba90c7e74928af24224f1bdbe0105b78398923265c4ca7e474345cf74c9a39c5
 
 Package: pairip
 Version: 1.3.10
@@ -2713,6 +2713,25 @@ MD5Sum: 1836356b5d30a72fffa4be500f5f4e86
 SHA1: cbdf8c44f4c51287a68c7bfa794dc441474e0231
 SHA256: 7b07bce2c34d5c752b42bb0755f16dda2942ce4cdf62b290e1f04450677c889b
 SHA512: 23f1076301e6b8751e971228a4348cc573e2444078402a1be878d20b58dae04326959884b654541b7ce4c8d3d57e8a3dd2e3f28b545de45cc08efd41e540285c
+
+Package: termuxfetch
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: bash
+Section: utils
+Priority: optional
+Description: Neofetch‑like system information tool for Termux
+ termuxfetch displays a colourful ASCII art banner along with
+ essential system information: Android version, Termux version,
+ kernel, device model, uptime, package count, CPU, memory, shell,
+ and architecture – all in a compact terminal output.
+Filename: dists/termuxvoid/main/binary-all/termuxfetch.deb
+Size: 2068
+MD5Sum: 4ad6592734c66b593572e60ca7d1f743
+SHA1: e2773fc084ae3f594a597cb57de4df12fdb975dd
+SHA256: 1d554897c5971601bb3c5fc6be82eac5eb77d487f318f46b52bc11fffb81b820
+SHA512: 27fc8305b3582a5510cd5e84963271c8955189e272e385c2920086882a95b7443796a13b6fdb8dd63430306bf0914b3a65850fc345b3b7c34ef9a10af02ff6ca
 
 Package: termuxvoid-theme
 Version: 3.3
