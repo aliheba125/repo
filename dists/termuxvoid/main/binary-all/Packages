@@ -203,7 +203,7 @@ SHA256: 044d8ad2e93a9ebc2203d0f4a98595eb3800dd35b42304c56c81192ee935ba14
 SHA512: f01d94c90a71458da98e81e85e8bb75fd3f1478a475fa18e9a00f8185fcc396a19241cd37dc7c50147f79c4f9e13f7123023a41dd6b7917a62d6d3d097fc74f0
 
 Package: apkgen-cli
-Version: 1.3.0
+Version: 1.3.1
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: git, gum, termux-tools, android-sdk, flutter
@@ -215,11 +215,11 @@ Description: CLI tool to quickly generate Android APKs from local templates
  Supports Java, Kotlin, native, and Flutter projects, providing a streamlined
  workflow for developers and CI/CD pipelines.
 Filename: dists/termuxvoid/main/binary-all/apkgen-cli.deb
-Size: 1128
-MD5Sum: b4edb0960197139e6846d747e6b92b70
-SHA1: c3eb5a202fb9f98069e0cf22cfe2616896ddabd5
-SHA256: 9d535261bb3a5f09df9f73ee5850ef8e85e54bbd73e0e962ef457a11fc7ec2ea
-SHA512: a86cbf7335f10a3df0071bdccacf327c83c440682b0234fe2f124110c7a261225c7642ccabaea91b9280ef98c43be7ecc97d2d04ce66be1a644d35a71e9f8f5d
+Size: 1156
+MD5Sum: f4fb2ae457f09e4ac50967b2178cebcf
+SHA1: d4e085f7f2d9c4b04c790910b4712083b01f1984
+SHA256: 0967e57c4197c92176b3a88715992c1b8e136668dc3e90e20957327e6e8db921
+SHA512: 418fedd53d0537078a5a311a97ad9e1f31f074e79037c0d1b2f2da41a6fd91b6df3baac97e7e7af3cd2c526e6cce6713cb8eb7de969ffb6198747252194a1e2f
 
 Package: apkpatcher
 Version: 1.0
@@ -2912,7 +2912,7 @@ SHA256: f3efbf18a3c6b6bbd5abdd185346a5d5beb4f6b22fcc7d1dc707dc3549fb20b0
 SHA512: dc2bf146603a83c2acb61738d47061c181876fc1d525474c0bdc258b9823ce7ba1617e9e6072753a9e9748fc76f4a18c76f2a9135483fe46592aaf42d1a9cdcb
 
 Package: wacli
-Version: 0.7.0
+Version: 0.9.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: git, golang
@@ -2923,11 +2923,11 @@ Description: Command-line tool for WhatsApp chat management
  wacli is a CLI utility for interacting with WhatsApp chats,
  including exporting, searching, and analyzing chat histories.
 Filename: dists/termuxvoid/main/binary-all/wacli.deb
-Size: 1320
-MD5Sum: f6a037f8821e7e5d564f15090966a588
-SHA1: 6e7950674ad07386dcb38bd0eafe1490e75a7341
-SHA256: a09ece22b9ec5d8f701ef4da92bf13bbedf5691e4f08eda7cf56fd52b3634911
-SHA512: df0f46524139061b847ab1f4db0ec57d9bd21fa7b1620dcf4938061a24f73c64cd806d43325b473f7d15856d16f49c9c67b6b776ad338242a32d05bfe2f55e3c
+Size: 1324
+MD5Sum: fb546a16b5a89f4562e6f32430dd94c8
+SHA1: df9a487e4ebe060834533008bc751f3f31756889
+SHA256: c52937275053fea8f94d67041a151806509287e115eabd1da727f44e5ec18484
+SHA512: 89f7b2409bee43c67a3877f0c56c0ef0d37a9a24e17f8e81c2b0b399ae4a00b3d9646aec1a1529cd077d7bc45f6f695b55291eb9a54c318fae7a160446d664e6
 
 Package: wafw00f
 Version: 2.3.1
