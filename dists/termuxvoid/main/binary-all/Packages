@@ -2339,11 +2339,11 @@ Description: Instagram information gathering tool
  - Follower/following statistics
  - Data export capabilities
 Filename: dists/termuxvoid/main/binary-all/silverinstaeye.deb
-Size: 1524
-MD5Sum: 0a285a7ee4add600efcef4b59ebc22fb
-SHA1: 8a283c6793b94698d9b12c3bc5bb44acca9dac8d
-SHA256: d31d4e12c1f34bd0f5e67a19c9418ae336dc473111c263cf4275306fd41ccbb3
-SHA512: e5a37a88a245aa5b601d17240adb36fe8b2da4b0c79de81098895f065c27631d038367e1112710cfa940bfef348c3de6122111348a130049a08687812597223b
+Size: 1544
+MD5Sum: 8d2f71650141c8424895b4d9c10a4ccc
+SHA1: b9083560d9580ba9e4e4f49808f73b1550b1397d
+SHA256: c76ed3f990783ece381625dcab7b55577394102bf03b13726cb84c1af05e800f
+SHA512: 79dc09755bc5425293d4163b6331b71235f204b8728244a4fdeae5319e81bce9f3fecc6219a4099deac1c52b5c73ae71dc308f37a530a2b100525a8726ff81a5
 
 Package: slowhttptest
 Version: 1.9.0
