@@ -908,11 +908,11 @@ SHA256: 48ea0a9ffb75ff9a98abea581a09b2921ca0c10ddfd622d3ca379166b2998db4
 SHA512: 3f241034eff073bfa3a652bf16ac939303aa0a49dd7fbd48f7259136ef04cbd74da71e4ad447994f5281269f37a0b13e88a8648ae25a6bbb945fd1497795a04d
 
 Package: flutter
-Version: 3.41.7
+Version: 3.41.9
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Pre-Depends: x11-repo
-Depends: git, axel, which, gtk3, xorgproto, ninja, cmake, clang, pkg-config, termux-x11-nightly, p7zip
+Depends: git, axel, which, p7zip, android-sdk
 Section: development
 Priority: optional
 Homepage: https://flutter.dev
@@ -923,11 +923,11 @@ Description: Google's UI toolkit for building native apps
  - Material/Cupertino widgets
  - Android/iOS/Linux support
 Filename: dists/termuxvoid/main/binary-all/flutter.deb
-Size: 1616
-MD5Sum: c1d2024026f1381a18e7618645d9c96d
-SHA1: cd0740a3dddbbe48d065823ee01d5abac1bf4da9
-SHA256: 1d9941586216270bef964371b0fe26158f4d6236e0d0201c4a285b1b3d340088
-SHA512: 6c2d017a67ab4bd8b830a12243726ebd1122dfa18384aee6ed3dc09bf7c5c0ec64ab10237432f1a6e15fa882a6171cc38331d11f5c9cd9d83d461f6eac099857
+Size: 1588
+MD5Sum: 508b26721d8759f88d37143a1f7162ce
+SHA1: 90eb6172ed812e263907cfef63f0e7558ca86260
+SHA256: 289454f9adf954747bebd507628bb9bc03a0470a083da24352b62ddca854e52d
+SHA512: 2a84455e14972775bbeb5812e121c43bb4530b2ac42430cc82fdab16112188c795aa4e86345400ff30d760096505fc566a3b396e12b7a8d9b0394f63ecd22711
 
 Package: fscan
 Version: 1.8.4
@@ -2786,7 +2786,7 @@ SHA256: e770582c37dc3dc3b4cbd198b16cf417afa61aa467d03a95520fe02e868b704f
 SHA512: 7533c8bdf4b187c5c91f7cabe587f0b7dbd25084d35d8bc23fdf5549d98fe78bbb8c9df22f05d91269feb3a94b399150f7e46313d297a715dc1a6f1c7ea65133
 
 Package: theharvester
-Version: 4.8.2
+Version: 4.10.1
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: proot, tar, axel, nethunter-cli
@@ -2798,11 +2798,11 @@ Description: E-mail, Subdomain, and Name Harvester
  employee names, open ports and banners from different public sources
  like search engines, PGP key servers, and SHODAN database.
 Filename: dists/termuxvoid/main/binary-all/theharvester.deb
-Size: 1656
-MD5Sum: 0c24f699a0aa4da7f3c94e9f01904aab
-SHA1: ddf39c8bf740db313ab7e09e9747b5933e62f4ff
-SHA256: dd8154b1b5f0bc2967e5a2b5cdf62874308877131ba02c4021391581001c52ea
-SHA512: 8370ab7ea5fb0e9210b65d73a1761d42fe9a18273d598497c2fd53912aea2d98739e17368b8525740c0ba4faa13843d515c57cbd494c69a024d9036899c9bf42
+Size: 1664
+MD5Sum: 85d8b2db85f223de6105e37a701e7961
+SHA1: 74d36d40e2a772259af8ad1e2bb789205511dd8a
+SHA256: bb7ff9ad629e3805bf799c1a50e79af2ef2f1ca595d25989614269ad83a51b1d
+SHA512: 4333e01b20079e88c2014ca4b6de77d29f2fe2d8ff10d808e57e4432abf579dc017dbf9525f4cc670d818b6100216df1ff9a2068f63a22e95aaf99ef25e5c38b
 
 Package: thezoo
 Version: 0.60
