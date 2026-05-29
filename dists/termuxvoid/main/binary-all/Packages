@@ -221,6 +221,24 @@ SHA1: d4e085f7f2d9c4b04c790910b4712083b01f1984
 SHA256: 0967e57c4197c92176b3a88715992c1b8e136668dc3e90e20957327e6e8db921
 SHA512: 418fedd53d0537078a5a311a97ad9e1f31f074e79037c0d1b2f2da41a6fd91b6df3baac97e7e7af3cd2c526e6cce6713cb8eb7de969ffb6198747252194a1e2f
 
+Package: apkleaks
+Version: 2.6.3
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, jadx
+Section: utils
+Priority: optional
+Homepage: https://github.com/dwisiswant0/apkleaks
+Description: Scanning APK file for URIs, endpoints & secrets.
+ Apkleaks is a tool for scanning APK files to extract URIs,
+ endpoints, and other sensitive information for security research.
+Filename: dists/termuxvoid/main/binary-all/apkleaks.deb
+Size: 972
+MD5Sum: 8c1c4da1b8741130595e6219d50ed8b8
+SHA1: 30310b4188adc8d396bca5010c146274953715d6
+SHA256: 15f58f4c2b61ffc8ddccd2497d4af70a87bb96b652fe76fbfdc37b1965963948
+SHA512: 2df45487befae46de7db0de359a14bb42c41a9fb90dbfa215a8d5be5c82d8afaa3065935cd79329914da73d067745a4ba91f09c6573d0da9ffeeb4e44f39e946
+
 Package: apkpatcher
 Version: 1.0
 Architecture: all

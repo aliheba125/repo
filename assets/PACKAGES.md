@@ -163,6 +163,7 @@ This repository provides specialized security and penetration testing tools for 
 | [antisplit](https://github.com/termuxvoid/AntiSplit) | APK Split Package Combiner and Modifier |
 | [apkeditor](https://github.com/REandroid/APKEditor) | Lightweight APK modification tool |
 | [apkpatcher](https://github.com/Anon4You/APKpatcher) | Advanced APK Modification Tool |
+| [apkleaks](https://github.com/dwisiswant0/apkleaks) | Scanning APK file for URIs, endpoints & secrets |
 | [apksearch](https://abhithemodder.github.io/apksearch/) | APK Search Tool for Multiple APK Websites |
 | [apktool](https://ibotpeaches.github.io/Apktool/) | Reverse engineering Android APKs |
 | [blutter](https://github.com/dedshit/blutter-termux) | Flutter/Dart Binary Analysis and Reverse Engineering |
