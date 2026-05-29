@@ -948,18 +948,23 @@ SHA256: 289454f9adf954747bebd507628bb9bc03a0470a083da24352b62ddca854e52d
 SHA512: 2a84455e14972775bbeb5812e121c43bb4530b2ac42430cc82fdab16112188c795aa4e86345400ff30d760096505fc566a3b396e12b7a8d9b0394f63ecd22711
 
 Package: fscan
-Version: 1.8.4
+Version: 2.1.3
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Homepage: https://github.com/shadow1ng/fscan/
-Depends: golang, git 
-Description: A comprehensive intranet scanning tool
+Depends: git, golang
+Section: net
+Priority: optional
+Homepage: https://github.com/shadow1ng/fscan
+Description: Intranet penetration test tool for scanning vulnerabilities
+ fscan is a comprehensive intranet security scanning tool that
+ performs port scanning, web fingerprinting, weak password detection,
+ and vulnerability exploitation in internal network environments.
 Filename: dists/termuxvoid/main/binary-all/fscan.deb
-Size: 1044
-MD5Sum: 845bba2d95e0b8f2cf0f99798797857c
-SHA1: 16dbb64e78762dfdc26edd205c3e799a56e84a7b
-SHA256: 2ef98bfd352c0c1ec2694ff6bd5eecc839dd18210053d50b7281d8e1c52f1461
-SHA512: 64e30a42ebafc98f6e476572e0865944ea52862fca56f75b684b3b9170fe05688d7dc96528a3f3c30cd3e02c055a239a0d4c60b82510fc17434c87422336208a
+Size: 1112
+MD5Sum: 7b9b2d301d7723967633289a30eedb9e
+SHA1: 2f1352a15be60d20f9892e43b31f8603ff26a2ab
+SHA256: dfb7c37fbb54f5db1f4ef9c27d334b880a99ba5cc615e013b38f015e503d631f
+SHA512: 4ca60bb4e0c5d5459a91af84cd92c6b4595e9f1b1b1864f7920a37f461eb93115b46ab921095a0723cf16c3ffe98fba92bcc275574b4350bfa5e01db1df4436d
 
 Package: fuckyou
 Version: 1.0.1
@@ -1445,23 +1450,23 @@ SHA256: 61e59ed650f2a610207c46578418ef0ed781a465e8b94799650af475d9844cb7
 SHA512: 74ded90af770c3a7a8ce6c1448966592638c637c0f851677dbc5f118921bbc8aab0383290d7df02e601f51c66f1596337e72165612827489a3f2bc0b63d48029
 
 Package: katana
-Version: 1.5.0
+Version: 1.6.1
 Architecture: all
-Maintainer: Alienkrishn [Anon4You] 
-Depends: golang, git
-Section: utils
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, golang
+Section: web
 Priority: optional
 Homepage: https://github.com/projectdiscovery/katana
-Description: A next-generation crawling and spidering framework
- Katana is a fast, customizable web crawling framework written in Go.
- It's designed for both security researchers and penetration testers
- for comprehensive web reconnaissance and asset discovery.
+Description: Fast, passive and active web crawler
+ katana is a next-generation crawling and spidering framework designed
+ for speed and efficiency. It supports standard and headless crawling,
+ form filling, and JavaScript rendering.
 Filename: dists/termuxvoid/main/binary-all/katana.deb
-Size: 1568
-MD5Sum: 7f36e10c0ac7a8939689faecbda98afa
-SHA1: c4b7a933f5fd3a6b45d56e07ff13fd06d8d883e3
-SHA256: 21349c695e244d7e7713c24b0b6c1e1e04ac63250309e32f103de9265252c008
-SHA512: 2bacab4378f17c3c85b10c37e1e84f15fa06fca7de5c3ebd865b2a55012dd24a022619c402f0d6824f90769dedfe4310758f79f7caf1f63d7d332bac622cfef3
+Size: 1072
+MD5Sum: 0c537df410512dbf99f464029ccd184a
+SHA1: 2bfab66f45b22477be6e83433012c999232b8fe4
+SHA256: 08c3796afc68811952d6bbc66ba900ad9c3d1eeac2d555f6fffd27d483c689f9
+SHA512: c03975a4cab9bdc02ae1da521a839472208f919edb226d04a09cf6365d0a8cee49f1a76e363b714f55ce2390a16b1c53ea463f2700a6bd28659266f9eba4cf2e
 
 Package: kerbrute
 Version: 1.0.3
@@ -1809,30 +1814,23 @@ SHA256: b46993fa326120b751d7d921bb88c0013b9b369c97fb9b2445be36b7d369ea0a
 SHA512: 22d2fd735bbf5e8f7f40bcf77eaaefeda46253c87a5007b74b080028f87d3df2b9f9266c6154caa8dfaa0873efd41ec217f83d317964624997bb44083f771377
 
 Package: nuclei
-Version: 3.7.1
+Version: 3.8.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: git, golang
 Section: web
 Priority: optional
-Homepage: https://docs.projectdiscovery.io/tools/nuclei
-Description: Advanced Vulnerability Scanner by ProjectDiscovery
- Nuclei is a fast, template-based vulnerability scanner designed for
- security professionals and bug bounty hunters. It uses zero false-positive
- templates to identify security misconfigurations and vulnerabilities
- across modern tech stacks with unparalleled accuracy and speed.
- Features:
- - YAML-based template system for custom detection
- - Massive community-driven template library
- - Parallel scanning for high-speed operations
- - Support for multiple protocols (HTTP, DNS, TCP, etc.)
- - Integration with ProjectDiscovery's ecosystem
+Homepage: https://nuclei.projectdiscovery.io/
+Description: Fast and customizable vulnerability scanner
+ nuclei is used to send requests across targets based on a template
+ leading to zero false positives and providing fast scanning
+ for known paths. It is built with simplicity in mind.
 Filename: dists/termuxvoid/main/binary-all/nuclei.deb
-Size: 1756
-MD5Sum: 36bf56bd7c6de7119057649c85a73192
-SHA1: 1180a33712d5433abdd2ac15238c723f80987266
-SHA256: 30022c229667f7427419109bcfd8a6724b855ae17467f29d29e928e636be7c0b
-SHA512: 2511799338639f8b296c44e3ee23dbf25e249f6365ab5bd14e964af91ca2977b0f24a04b09d7196cc749d264e5b97cbd8406db4e043b1dc65199abc17dc1e6a4
+Size: 1088
+MD5Sum: 71aa19029b181ae75bf49bcc7584a9a2
+SHA1: cffa9cf95d392b29315ea2223c2235ef92f6cf74
+SHA256: c21a6d7afadf347f03b9dce0f6bd3a65d666eef0e0525a179a305fcaa736a640
+SHA512: 2b7267ad1cae8b8037ef9fb879223fd47d9ca5b5ac4ee7c89560dabd914b037b0435f060392225ade99608afabebaf31d4cf56c9d9703bf68d297d218bcd7ee2
 
 Package: numinfo
 Version: 1.0
@@ -2617,29 +2615,23 @@ SHA256: f950a4e9e9b86386473f5b662f37d36cbef1dd0a1cfb4a4fdd027dfbe648c402
 SHA512: 5535bdea12a1e0cc25ca2920e2b2b0b3771b00c52018e30518b7128a9f060ae99d51209fa7ca5d55a2d132bd3af30ff318f7595b0b26a2dfe256c546c47f9fcc
 
 Package: subfinder
-Version: 2.13.0
+Version: 2.14.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: git, golang
 Section: recon
 Priority: optional
-Homepage: https://docs.projectdiscovery.io/tools/subfinder
-Description: Advanced Subdomain Discovery Tool by ProjectDiscovery
- Subfinder is a powerful subdomain discovery tool designed for penetration
- testers and bug bounty hunters. It uses passive sources, APIs, and
- bruteforcing techniques to gather maximum subdomains with minimal effort.
- Features:
- - 50+ passive data sources integration
- - API key support for enhanced results
- - Modular architecture for easy extensibility
- - Fast and efficient recursive brute-forcing
- - Seamless integration with ProjectDiscovery ecosystem
+Homepage: https://github.com/projectdiscovery/subfinder
+Description: Fast passive subdomain enumeration tool
+ Subfinder is a subdomain discovery tool that uses passive sources
+ (certificate transparency, DNS data, search engines, etc.) to find
+ valid subdomains for a target domain.
 Filename: dists/termuxvoid/main/binary-all/subfinder.deb
-Size: 1740
-MD5Sum: 56de1649769c2629e5c1b0bebe151d17
-SHA1: b82151c080a9f04b856481f32b936bf4fe5e9fbe
-SHA256: 99d36b9b5eabd0091c7524f0963f857fa117d8f45961427b900330ea482a6a14
-SHA512: 3b97447f3d46a5252eeaada23db775b69b87608eca36900c7965cb9c26e018994e1c1ed88b670ba2c345823fae769ee86b939e4b44dfdc4b033c114d8963a908
+Size: 1060
+MD5Sum: 8fc4a7391a1c835c4b3bca4c2b2e347e
+SHA1: edbdfa4e170f16af603e1940b4683cd9aea8f10a
+SHA256: 8ef577c646a40275061508cd4f9fcd86efc5be49fc376190fa5c933eb50793aa
+SHA512: a40eccfbf66b4de9c1803abf8eccd2af14c02b61c040225b5baf26003621a12154e339e007d28f1ef1d9203410c9b606db6de54cfa85a47a6c98e61c1c0485a7
 
 Package: subjack
 Version: 3.0.0
@@ -3007,23 +2999,23 @@ SHA256: b208c91b3c5466acb85ce6c9b5c72c24c5e022b22edeee91dc52ca4476fce3b0
 SHA512: 6456764b7c5b8d822cf228385a643f94c31354370558e01954349d3511613cb3b566beea15f3bb4d81d33a48e8908dacc2d17c0c02851b9e1f7e9aee56273b44
 
 Package: vulnx
-Version: 1.9
+Version: 2.0.1
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Depends: git, python
-Section: web
+Depends: git, golang
+Section: utils
 Priority: optional
-Homepage: https://github.com/anouarbensaad/vulnx
-Description: Intelligent Vulnerability Scanner for CMS
- vulnx is an intelligent auto shell injector that detects
- vulnerabilities in multiple Content Management Systems.
- Supports various CMS platforms and automated exploitation.
+Homepage: https://github.com/projectdiscovery/vulnx
+Description: Modern CLI for exploring vulnerability data with powerful search, filtering, and analysis capabilities.
+ vulnx is a command-line tool for searching and analyzing vulnerability data
+ (CVEs) using advanced filters like severity, vendor, product, CVSS score,
+ KEV status, and PoC availability.
 Filename: dists/termuxvoid/main/binary-all/vulnx.deb
-Size: 1400
-MD5Sum: 3265c1f88f4436f3033c18e2af4468e7
-SHA1: c3fd6b39ba055f1004ed9b02d09c77417c66efd9
-SHA256: f3efbf18a3c6b6bbd5abdd185346a5d5beb4f6b22fcc7d1dc707dc3549fb20b0
-SHA512: dc2bf146603a83c2acb61738d47061c181876fc1d525474c0bdc258b9823ce7ba1617e9e6072753a9e9748fc76f4a18c76f2a9135483fe46592aaf42d1a9cdcb
+Size: 1112
+MD5Sum: bf0de9ebbf0ce4ebac75c747129b1de6
+SHA1: 507cd292b49514d7e09aed251d78adf3ddba4994
+SHA256: 99f852906f99705f628c0777886c596bd08d038c4511fe3788055a7ca07e46a6
+SHA512: 5058ce082e79da88d62f8ab8190e5d864a85bfbd35c686110ae4cd983f6d5117214e43093204b880d69fd3d7a5fc78a6bdb484520abca29bfe0750fe0c7059a3
 
 Package: wacli
 Version: 0.9.0
