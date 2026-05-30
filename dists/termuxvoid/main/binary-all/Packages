@@ -308,21 +308,24 @@ SHA256: 9a14534ab8201da136ec69c392828bb26b6a64f45a4845cb3557c190905c95cd
 SHA512: 5c298bb1509c18c4a96b41e183efe9d1e0e51049e6c2c1821eee799b51d6fa063d96917bd1e3f7753a29f0bcb490713d6076d6830a343e65baef10e5d8caac61
 
 Package: beef
-Version: 0.5.4.0
+Version: 0.6.0.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Depends: ruby, nodejs, git, make, clang, sqlite, openssl-tool
-Section: security
+Depends: ruby, nodejs, git, make, clang, sqlite, openssl-tool, build-essential, curl, libcurl, ruby-nokogiri, ruby-curb
+Recommends: metasploit-framework
+Section: web
 Priority: optional
 Homepage: https://beefproject.com/
 Description: Browser Exploitation Framework
- Pen-testing tool for web browser exploitation
+ BeEF is a penetration testing tool that focuses on the web browser.
+ It allows security professionals to assess the security posture of
+ a target using client-side attack vectors.
 Filename: dists/termuxvoid/main/binary-all/beef.deb
-Size: 1304
-MD5Sum: c9f0ed3d5d5d67316fb5158da4c70a49
-SHA1: 4f5d96f585a3c64d6c8af7075018e010a5d760ab
-SHA256: 22d584d4e5a41229e3578f909ed21bd3db2ec5a5538a1707970f697f56d4671d
-SHA512: 6326b9a26f06040af4d5f87b797c09b6a9b768eebae099c38132121dd4deb19a38bda9597839d03f2982030768509ae50e44a93a99c38062b7dde2fc3a67dc4b
+Size: 1596
+MD5Sum: 33890bf9ffd8b2960729d5ac895015de
+SHA1: 1f8498ef2a4ea2289545036c7c602d774ac95c11
+SHA256: 8872e84796fcb2a7e75af2e3ad18bc942baa59b6bc56beb4de838458dc16708e
+SHA512: 99358f520ea01220f497bf722f3c3578c394606beb6e96a7e01373f715fb482a001912feb0efc8cff5dd6f927440dff6260e66a71578d7b28f2168154e4856b2
 
 Package: bitb-framework
 Version: 1.2
@@ -1737,23 +1740,23 @@ SHA256: f42e7799f17c1e87f0240ea8f81e4f67f4d264b45eae8f251a89b93b76a12e81
 SHA512: 88cdb589e14ce52d35a74cdaeb76b4358c01d362bc5f3393451324d34bdaddb8cea319773a4bb8a089c301eef6feb082ef98537d8c584209791980d86511b2d8
 
 Package: naabu
-Version: 2.5.0
+Version: 2.6.1
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Depends: golang, git, libpcap
-Section: security
+Depends: git, golang, libcap
+Section: net
 Priority: optional
 Homepage: https://github.com/projectdiscovery/naabu
-Description: Fast port scanning tool with SYN/CONNECT modes
- Naabu is a port scanning tool written in Go that allows you to enumerate
- valid ports for hosts in a fast and reliable manner with SYN/CONNECT scans.
- Supports DNS/HTTP probes and integration with other tools.
+Description: Fast port scanner written in Go
+ naabu is a fast port scanner designed for reconnaissance and
+ network enumeration. It supports SYN, CONNECT, and UDP scans
+ with high performance and low resource usage.
 Filename: dists/termuxvoid/main/binary-all/naabu.deb
-Size: 1608
-MD5Sum: 36f28342e735bcdb66be0e82ea22ec11
-SHA1: d7fd00ce0b033c55176dd3e70af283a494a336d5
-SHA256: b5ca24338de8120a72d8e5179a038833b6fa735f2bec39924e00d8a76046c15f
-SHA512: 0ce98f8b9e86b2b5f1260d52b629045edfa55290605464a80e82d40129d3a64b8a7eefed07789b98ef2b15865ba1a47ccc3751dedc43ac1a4a99d9652e5527d1
+Size: 1076
+MD5Sum: 0d2fda05ba22920dd6956ec337f2cde8
+SHA1: 44b089a45714d86c7f02bd77a3ad3ba5177babb1
+SHA256: 2212f618e19d05a6202eebaaf140bd762a026a63bcccbb3e12c63174a8d3feb9
+SHA512: 98219a4086ab12b0a552a574a019fca838ed9dc2481d875711320b648fecb5a96017aaddb21e6aeb9512f1161d467e73bbf47d2f53d6971d6fc1bdbd5869b870
 
 Package: nethunter-cli
 Version: 2025.4
@@ -2306,6 +2309,24 @@ MD5Sum: 3db9b45ec53e87dc5e9599e13ff55bae
 SHA1: f9311c8ce06ad614bfacd3601d6070fc3fc46e2d
 SHA256: 1ae988bda3f8558faccd90b0b786da42ebe543c1e702943b0c200a129c337e76
 SHA512: 6c325a84f2172a9243801ac2b5dab088e900b59d9296ca43f616f27b0cc303cff336ac08b21dd17ee87afda7d187534413562dc3af470d07dad185888f7bda04
+
+Package: ruby-curb
+Version: 1.3.5
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: ruby, curl, libcurl, make, clang, build-essential
+Section: ruby
+Priority: optional
+Homepage: https://github.com/taf2/curb
+Description: Ruby bindings for libcurl
+ Curb provides Ruby bindings for the libcurl HTTP client library.
+ It allows full control over HTTP requests, cookies, and sessions.
+Filename: dists/termuxvoid/main/binary-all/ruby-curb.deb
+Size: 1256
+MD5Sum: 4478ce50897c4f81efa2db30d501e2ad
+SHA1: 83ff6a625305b71af633a59526cc81a69303438f
+SHA256: 2074a3bdba65ae714dbafbbb9a6606d07d23ac9b4276abf9a8a7d31064c0d30b
+SHA512: 05b0e9a384038e4005fe479f62301bc5a17359574bd0084d792aa180b3c61bb76d934d924096428c4190cabec4874d38a3d72440d261aed1e6603019d9992ddc
 
 Package: ruby-nokogiri
 Version: 1.19.0

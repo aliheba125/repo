@@ -206,6 +206,7 @@ This repository provides specialized security and penetration testing tools for 
 | [exiftool](https://exiftool.org/) | Read, write and edit meta information in files |
 | [ip-changer](https://github.com/Anon4You/Ip-Changer) | Change your IP address automatically |
 | [morphshell](https://github.com/termuxvoid/MorphShell) | Sleek Termux shell environment with dynamic themes |
+| [ruby-curb](https://github.com/taf2/curb) | Curb provides Ruby bindings for the libcurl HTTP client library |
 | [ruby-nokogiri](https://nokogiri.org/) | Ruby gem for HTML/XML parsing (system libraries) |
 | [shellcrypt](https://github.com/Anon4You/ShellCrypt) | Professional code obfuscation for Bash and Python |
 | [termuxfetch](https://t.me/nullxvoid) | Neofetch‑like system information tool for Termux |
