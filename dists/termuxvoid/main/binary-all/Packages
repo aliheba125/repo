@@ -1667,18 +1667,22 @@ SHA256: 21ca90587421f7a5587b634f90d5f889f864b7a83917ca5e3ab81dfe68ec5d3b
 SHA512: 05983598931e51efe406a0b602e14bd450faf82816048cc684a7a3355eb7d63490bffd4c0a0bf3f23f39399c258d52a962bfa475e016295e946bb1b67b77e535
 
 Package: metasploit-framework
-Version: 6.4.79
+Version: 6.4.135-dev
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Depends: binutils, python, autoconf, bison, clang, coreutils, curl, findutils, apr, apr-util, postgresql, openssl, readline, libffi, libgmp, libpcap, libsqlite, libgrpc, libtool, libxml2, libxslt, ncurses, make, ncurses-utils, ncurses, git, wget, unzip, zip, tar, termux-tools, termux-elf-cleaner, pkg-config, git, ruby, ruby-nokogiri, apktool, apksigner
+Depends: binutils, python, autoconf, bison, clang, coreutils, curl, findutils, apr, apr-util, postgresql, openssl, readline, libffi, libgmp, libpcap, libsqlite, libgrpc, libtool, libxml2, libxslt, ncurses, make, ncurses-utils, git, wget, unzip, zip, tar, termux-tools, termux-elf-cleaner, pkg-config, ruby, ruby-nokogiri, apktool, apksigner
+Section: net
+Priority: optional
 Homepage: https://www.metasploit.com/
-Description: The world’s most used penetration testing framework
+Description: Penetration testing framework
+ Metasploit Framework provides exploit development, payload delivery,
+ and post‑exploitation capabilities for security assessments.
 Filename: dists/termuxvoid/main/binary-all/metasploit-framework.deb
-Size: 1600
-MD5Sum: 34c0f78dc4aae66dd27036b4ca0ac26f
-SHA1: d963304662414648667cefc5279ee08fa98a70c0
-SHA256: 41fc9baa07928f6d7382cb6f6011119163a1af31ad80c60d844fa2cff1033141
-SHA512: 0bc6475bda8913d64318af528a0e6be76500df44aac95b26641f5c749a98ea583f31db4d2b5f6c6c14538a3f80d7b212f3c0fc49a760f8da4b2dc66ffdea58d3
+Size: 1872
+MD5Sum: 839bf69400940c127cb8afc11d68871f
+SHA1: 0c92fdb0bbe79c946c15fa220789f84864060e96
+SHA256: 8986b78bc60da1d4835b510452665d77bb47c8fc01a04d313e257d06b0a6594b
+SHA512: 0b846c5ef2d4893ec7424c3837e893ea1533a10d83d11d6cb686f615d3a4eadcf29ca5743a5d902d59eeab240331e47824b09ccd5ce975a9586eba8c36e89817
 
 Package: mkwebapp
 Version: 1.0.0
