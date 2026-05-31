@@ -48,6 +48,7 @@ This repository provides specialized security and penetration testing tools for 
 | [linkwizard](https://t.me/nullxvoid) | Powerful profile link finder for Termux |
 | [locateme](https://t.me/nullxvoid) | Live location tracker using Google Maps |
 | [numinfo](https://github.com/Anon4You/NumInfo) | Phone number intelligence and lookup tool |
+| [onionsearch](https://github.com/megadose/OnionSearch) | Scrape .onion URLs from various Tor search engines |
 | [phoneinfo](https://t.me/nullxvoid) | Phone number lookup tool |
 | [publiceye](https://github.com/Anon4You/publiceye) | Comprehensive OSINT tool for information lookup |
 | [redhawk](https://github.com/Tuhinshubhra/RED_HAWK) | All‑in‑one information gathering, vulnerability scanning and crawling |
