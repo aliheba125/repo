@@ -13,6 +13,7 @@ This repository provides specialized security and penetration testing tools for 
 |------|-------------|
 | [blackbox-framework](https://github.com/jothatron/blackbox) | Python‑based network analysis and exploitation toolkit |
 | [darksploit-framework](https://github.com/ykankaya/DarkSploit) | Tool to run and create exploits |
+| [darkterm](https://github.com/Anon4You/darkterm) | Advanced Ethical Hacking Framework with 60+ tools across 9 modules |
 | [drshell](https://github.com/DrDataYE/DrShell) | Reverse Shell Session Manager |
 | [haxrat](https://github.com/Anon4You/haxRat) | Cloud‑based remote Android management suite |
 | [hunner-framework](https://github.com/b3-v3r/Hunner) | Open Source Penetration Testing Framework |
@@ -38,6 +39,7 @@ This repository provides specialized security and penetration testing tools for 
 | Tool | Description |
 |------|-------------|
 | [byakugan](https://github.com/Anon4You/Byakugan.git) | Advanced footprinting tool for Termux |
+| [darkcrawler](https://github.com/Anon4You/DarkCrawler) | Crawl .onion sites through Tor and generate threat reports |
 | [dorks-eye](https://github.com/BullsEye0/dorks-eye) | Google Hacking Dork Scraping and Searching Tool |
 | [emailcrawl](https://github.com/techenthusiast167/EMAIL-CRAWL) | Professional‑grade OSINT email extraction tool |
 | [holehe](https://github.com/megadose/holehe) | Email OSINT tool – check accounts on 120+ platforms |

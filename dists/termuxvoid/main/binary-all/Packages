@@ -706,6 +706,25 @@ SHA1: 7e8bc9faf5567701c5136bfc201f8b03bec673c1
 SHA256: 97855996143bf5c085970cfe6ca4cb469fb826561c237bb2a5ec7926d05cd210
 SHA512: 05f7e44008a492b3a7a08623db63208548524a7327d873c7e08dff5ee9d5d38e86a411061d82a3d4f222f2e7f44df557f63ba8e5c2b2c50e025be0546f5c25a1
 
+Package: darkcrawler
+Version: 2.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: tor, python, libxml2, libxslt, clang, python-lxml, git
+Section: net
+Priority: optional
+Homepage: https://github.com/Anon4You/DarkCrawler
+Description: CLI tool to crawl .onion sites and generate threat reports
+ DarkCrawler crawls .onion sites through the Tor network, performs
+ real‑time content threat analysis, and produces structured threat
+ intelligence reports.
+Filename: dists/termuxvoid/main/binary-all/darkcrawler.deb
+Size: 1168
+MD5Sum: ee36cfc984c89ba84b6524fb40d2ab75
+SHA1: 2aa58ab81c8324fa7ce6d153beab69f6292591ee
+SHA256: 63ffa4e842c798100c8300484a061567a9598229ee1b61d146155c6e59fd06ba
+SHA512: d7e9c5e39c751a07e5693251f8f31d87a22f2f406db66512d0a8ad03fb8e4c0ed00a31e09fe0b8209018748b57fa53932f4a99f3bf3152f69771551a7c69026b
+
 Package: darksploit-framework
 Version: 2
 Architecture: all
@@ -721,6 +740,25 @@ MD5Sum: d635f8dd1110e1b35fbcde75a3ef57b3
 SHA1: 7b443100faeb5571a770cf8d26e2e3de68d64b98
 SHA256: dccee9294d02a3872b44d457d1bbb4e079b19d8a6c97caac7c59cb62ea4a71f7
 SHA512: 9a0ce44ea2bfef96a3454fdbd82449c78dfb7c3441cf647172f3572e4c2f4934af1953454dadb56d6fd1f4e194a76edba4f65b2043b9daa80b3c430235fde094
+
+Package: darkterm
+Version: 2.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: termux-tools, termux-exec, git
+Section: net
+Priority: optional
+Homepage: https://github.com/Anon4You/darkterm
+Description: Advanced Ethical Hacking Framework for Termux
+ Darkterm provides 60+ integrated tools across 9 modules,
+ auto‑installs missing packages on demand, runs without root,
+ logs activities, and stores results in loot/ directory.
+Filename: dists/termuxvoid/main/binary-all/darkterm.deb
+Size: 1148
+MD5Sum: 55debae9f74f748487ef1eda2469e13f
+SHA1: 3fbb85e23e11c17d95b522636e9085c1ee98e720
+SHA256: 8e70f05afd5fbb42e578260a8f25a87481e937e621293412b843272548457b65
+SHA512: 4043dc2a10f1300b076cb3de159a769268159ad3c3e74abec24abd706231b2685730004cf2666e5e6cdb9238638a786596313c6cc2398fabd4e291a9cde0fb2a
 
 Package: dnsx
 Version: 1.2.2
