@@ -2027,6 +2027,25 @@ SHA1: ee4084ced83b79dd8cb8cfe7b58e84a499536434
 SHA256: 7ea66093c07ba46d4db9e5396dc2283ceab948f73a5d9c49ce36f3daf5187ab4
 SHA512: ae95ea7ff88ffc2f187595c596d48affe12a1a4aa801a703df6e77d6dd0e57416748ecba97b61837f1636cab5395b2680cc1e5b89442253be08ed758b03223a1
 
+Package: opencode
+Version: 1.15.13
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: glibc, clang, python, curl, tar
+Section: devel
+Priority: optional
+Homepage: https://opencode.ai/
+Description: AI‑powered coding assistant (glibc version)
+ OpenCode provides real‑time code completions and AI assistance.
+ This package uses the glibc build and includes a wrapper to run
+ inside Termux’s glibc environment.
+Filename: dists/termuxvoid/main/binary-all/opencode.deb
+Size: 1936
+MD5Sum: 98f6a86e67aa879035baccae7a8eafd6
+SHA1: 9a46ebf5021fc22136e8ca3799ca976bcde13c72
+SHA256: 005169f5874d75f2bc286d0a028185c5f0eac699ff33ea58000e53b0f4cae81e
+SHA512: ff8138126e99f00f214a12b9422373311d48683aa145d66d43fdb5ac3e54352f947ba8d6ba16c45a57f43ab702da7279bbf587d90dee398d29687ca723e9cb7c
+
 Package: pairip
 Version: 1.3.10
 Architecture: all
