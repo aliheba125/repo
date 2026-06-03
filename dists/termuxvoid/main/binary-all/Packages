@@ -169,7 +169,7 @@ Package: antigravity-cli
 Version: 1.0.4
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Depends: curl, clang, python
+Depends: curl, clang, python, glibc
 Section: devel
 Priority: optional
 Homepage: https://antigravity.google/
@@ -179,10 +179,10 @@ Description: AI‑powered coding assistant (glibc wrapper for Termux)
  patches, and runs it inside the Termux glibc environment.
 Filename: dists/termuxvoid/main/binary-all/antigravity-cli.deb
 Size: 2528
-MD5Sum: 75756e8e1e1bb9bf77feba6b96b03dcf
-SHA1: ab53d271382e6b796f1da5815d928b03a83cc331
-SHA256: 348ed0c41ea3faddec6af7b1ba16d17c620bd9bfb274a69c76566a7f86faa29a
-SHA512: b094d19fa2a703a2192d333941c4397aa0fc2a9a1387370bfb1f5e376c0c815b0bdac505a1a8323a238d2124fe473c2ab9c2510d7ed97dc43bd5a04c9ce702bd
+MD5Sum: c8cc046ef9c62e807f465c0c8b45f5a6
+SHA1: 4b0f85c6e48e0283c6b811f10b760eb9c9e04533
+SHA256: 58cf064d9648684dbb02f7bae1de522ed60b41a922be2c3ec30c2bfe261c965c
+SHA512: 6729a7d58d4579260b0c522df225e8096f241525da083c2b9be6282290c2b871c7387abeba2233657d219ff99fd2f5f2b1c5504f1ae1127111b8d37093759718
 
 Package: antisplit
 Version: 1.2
