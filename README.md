@@ -3,7 +3,7 @@
     <img alt="TermuxVoid" height="180" src="img/termuxvoid_logo.png">
     <h1>TermuxVoid APT Repository</h1>
   </a>
-  <p><b>🔓 100+ Ethical Hacking & Pentesting Packages — Beyond Official Repositories</b></p>
+  <p><b>🔓 Unofficial APT Repository: 190+ Ethical Hacking & Pentesting Packages</b></p>
 
   <div>
     <a href="https://github.com/TermuxVoid/repo/stargazers">
@@ -22,25 +22,36 @@
 
 ## 🔍 Project Overview
 
-**TermuxVoid** bridges the gap between mobile convenience and professional security auditing. We host **100+ advanced security tools** that are not available in the official Termux repositories, specifically compiled and optimized for Android architecture.
+**TermuxVoid** is an **unofficial custom APT repository** that bridges the gap between mobile convenience and professional security auditing. We host **190+ advanced security tools** that are not available in the official Termux repositories, specifically compiled and optimized for Android architecture.
 
 Whether you are a professional penetration tester or an ethical hacking enthusiast, TermuxVoid turns your Android device into a portable powerhouse.
 
 > [!NOTE]
 > This repository contains tools that are often excluded from official sources due to complexity or licensing. All packages are compiled natively for Termux.<br>
-> We now also host **root packages**. See [root-repo.md](assets/root-repo.md) for details.
+> We also host **root packages**. See [root-repo.md](assets/root-repo.md) for details.
 
 
 ## 🚀 Quick Installation
 
-Getting started is seamless. Run the following one-liner in your Termux terminal to add the repository automatically.
+Getting started is seamless. Run the following one-liner in your Termux terminal to add the repository automatically:
 
 ```bash
+# Add repository
 curl -sL https://termuxvoid.github.io/repo/install.sh | bash
 ```
 
+Once the repository is added, you can install any tool using `pkg install`:
+
+```bash
+# Install any tool
+pkg install <tool-name>
+
+# Example
+pkg install metasploit-framework
+```
+
 > [!TIP]
-> After installation, run `pkg update` to refresh your local package database. You can then search for tools using `pkg search <tool-name>`.
+> After installation, run `pkg update` to refresh your local package database. You can search for tools using `pkg search <tool-name>`.
 
 ## ✨ Featured Tools
 
@@ -96,18 +107,39 @@ Yes, all packages are compiled from source or verified binaries. However, these 
 </details>
 
 <details>
+<summary><b>Are these tools legal to use?</b></summary>
+<br>
+All tools are for <strong>legal security research and ethical hacking purposes only</strong>. Always obtain proper authorization before testing systems you do not own.
+</details>
+
+<details>
 <summary><b>Why aren't these in the official repo?</b></summary>
 <br>
 Many of these tools (like Metasploit or Ghidra) have heavy dependencies, large sizes, or licensing complexities that make them difficult to maintain in the official core repositories. We handle the heavy lifting so you don't have to.
 </details>
 
 <details>
+<summary><b>How often are tools updated?</b></summary>
+<br>
+- Security patches within 24 hours
+- Version updates every Sunday
+- Emergency fixes as needed
+</details>
+
+<details>
 <summary><b>How do I request a new package?</b></summary>
 <br>
 We are constantly expanding. You can request new tools via:
-  
+
 1. Opening a **[GitHub Issue](https://github.com/TermuxVoid/repo/issues)**
-2. Contacting us on Telegram: **[TermuxVoid](https://t.me/termuxvoid)**
+2. Contacting us on Telegram: **[Telegram @nullxvoid](https://t.me/nullxvoid)**
+3. Sending an email to: **[termuxvoid@gmail.com](mailto:termuxvoid@gmail.com)**
+</details>
+
+<details>
+<summary><b>How do I report a broken package?</b></summary>
+<br>
+Open an issue on **[GitHub](https://github.com/TermuxVoid/repo/issues)** with the tool name and error output. We aim to fix reported issues within 24 hours.
 </details>
 
 ## 🌐 Support & Community
@@ -139,5 +171,6 @@ Support the project to help us keep the packages updated and add more tools:
 [View Complete Package List »](assets/PACKAGES.md)
 
 <div align="center">
-  <sub>Built with ❤️ for security researchers | Termux-optimized builds</sub>
+  <sub>Built with ❤️ for security researchers by <a href="https://github.com/Anon4You">Alienkrishn</a> | Termux-optimized builds</sub>
+</div>
 
