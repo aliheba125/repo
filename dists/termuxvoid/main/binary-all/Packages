@@ -685,25 +685,22 @@ SHA256: 83ec26339a92b1bb6119c29551b3a473ea87f6c7c2a6be7c917d0c59ac1780f6
 SHA512: 15ea916e9b1319a82432022fbc8afbec991c78e04885056031ae03b7bf8fef2ead522d65ab945697e4be96cabb4ed7d64ea5b0865056f626d45114a28508c187
 
 Package: dalfox
-Version: 2.12.0
+Version: 3.0.2
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Depends: golang, git
+Depends: rust, clang, pkg-config, openssl, openssl-tool
 Section: security
 Priority: optional
 Homepage: https://github.com/hahwul/dalfox
-Description: Parameter analysis and XSS scanning tool
- Powerful XSS vulnerability scanner featuring:
- - Automatic parameter discovery
- - Multiple XSS payloads
- - Blind XSS support
- - CI/CD integration
+Description: Fast parameter analysis and XSS scanning tool (v3 in Rust)
+ Dalfox v3 is a complete rewrite in Rust. This package builds the exact
+ version from official source code during installation.
 Filename: dists/termuxvoid/main/binary-all/dalfox.deb
-Size: 1432
-MD5Sum: 6970a34a197f890ccde95d99f66bd1c7
-SHA1: 061d72af499977817ac1830cae6ca5c4bc8d3988
-SHA256: b4c25c61418bdca3178650670118d01cc4df4ea544d3e001ecb501f770b3acd9
-SHA512: 994ac8712257ff7e872b975d285aa7aa3313b269113015cd2a04cd722b9613a6441a2d2ce75173f9d8e5b973001862d39c5c179880f7908dedc80a8cbca85bea
+Size: 1224
+MD5Sum: b3316d9bd164301ddf6b6cc33a6f418a
+SHA1: 8289a574020e60240ec8e47c68159b674c049480
+SHA256: a9bb1975e2f1c841ffc6b8ce963573bb98d85d7d212156763ff72929a67df225
+SHA512: c2c71e69a9d4f6589913e0575fe76dcaef0daf784ceee1c3bb324617a98aa6218e6c5894c25c74ed0fb1ee4b76f1cfdebde59fd6a88f0f088768c3eaf4ddd501
 
 Package: dark-phish
 Version: 2.3.0
