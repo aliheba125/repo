@@ -2047,7 +2047,7 @@ SHA256: 51b07f2fa3ef324c37af04297211aab5af7a46720799c1edd0e9d6bf7120894f
 SHA512: b07c575663b87be02ddce6c6862d62089af15312b62d1591b6ed42a0348263006678a3d96ac694c45da244c369cc8aa0fee8468374616cab07161e1d8fc2aaa8
 
 Package: opencode
-Version: 1.15.13
+Version: 1.16.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: glibc, clang, python, curl, tar
@@ -2060,10 +2060,10 @@ Description: AI‑powered coding assistant (glibc version)
  inside Termux’s glibc environment.
 Filename: dists/termuxvoid/main/binary-all/opencode.deb
 Size: 1936
-MD5Sum: 98f6a86e67aa879035baccae7a8eafd6
-SHA1: 9a46ebf5021fc22136e8ca3799ca976bcde13c72
-SHA256: 005169f5874d75f2bc286d0a028185c5f0eac699ff33ea58000e53b0f4cae81e
-SHA512: ff8138126e99f00f214a12b9422373311d48683aa145d66d43fdb5ac3e54352f947ba8d6ba16c45a57f43ab702da7279bbf587d90dee398d29687ca723e9cb7c
+MD5Sum: 23b0e615dabe70e2b6156304d492ec94
+SHA1: 87f17f423582eed5e894bcbbd196eb72c873fd64
+SHA256: 073a8a16425c20584c3a868f9811a4c3980e67e644b4bc45ecb1abb9c4e4d3d7
+SHA512: 7d6fb3d49aa24b3f3d2046318f4820aeac5f0a792391b2ee96d9424307e2dfbd153879a720774a9348f01d11739de942217773fd2e485c41c1893ef292f4b749
 
 Package: pairip
 Version: 1.3.10
