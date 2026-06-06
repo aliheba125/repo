@@ -465,11 +465,11 @@ Description: Incredibly fast JavaScript runtime (glibc wrapper for Termux)
  downloads the official Linux ARM64 or x86_64 binary and runs it
  inside the Termux glibc environment.
 Filename: dists/termuxvoid/main/binary-all/bun.deb
-Size: 2116
-MD5Sum: 6edf041a628bbd8248b8a7dab3955c78
-SHA1: 089c74d2e91faf1b6b256e733a966245e69e0ef4
-SHA256: 6a203cfe29415682a2bae0cf6297f06630cb965c6d35e338e023aff236db05a9
-SHA512: 881a0d639eb76bc048c3d7fd61d0d0927d9f36038260f21e1249f83ecc1bae55cbcaaedfb6f1a43a613c0ea50b694b39dd9e8ce7f4602cf162e69774d54ce0d1
+Size: 3460
+MD5Sum: 4551c9699255bb79c5be1ea6f15534ec
+SHA1: 1533fde952ade944bf5cf750e3b59580c27d8f1b
+SHA256: 0528046b395d14f7a5f59a0348fa9fc6d5a74cf5ab4e96ed8b3eca7a7f29e318
+SHA512: 895ee4411df85c3db610d03ae18ef133ac9dd618402cfbd27616123bbc7b4edb954c8fecb3dab8e4421adcd34da07935c80c671e5a3e4c86697151847ab29bfe
 
 Package: burpsuite-pro
 Version: 2026.1.5
