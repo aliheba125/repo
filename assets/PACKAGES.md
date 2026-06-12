@@ -23,6 +23,7 @@ This repository provides specialized security and penetration testing tools for 
 | [slowhttptest](https://termuxvoid.github.io/tool.html?name=slowhttptest) | Application Layer DoS attack simulator |
 | [spurt](https://termuxvoid.github.io/tool.html?name=spurt) | HTTP stress testing tool to overload web servers |
 | [termsploit](https://termuxvoid.github.io/tool.html?name=termsploit) | Pentesting framework for Termux |
+| [wipwn](https://termuxvoid.github.io/tool.html?name=wipwn) | Fast automated WiFi WPS PIN cracking tool with Pixie Dust and brute-force attacks |
 
 ### 🛡️ Defensive Tools
 | Tool | Description |
