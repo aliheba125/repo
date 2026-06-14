@@ -1,0 +1,3545 @@
+Package: 5luser
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Homepage: https://github.com/Anon4You/5LUser 
+Depends: git, python, python-pip
+Description: get unlimited 5 letters instagram unused usernames
+Filename: dists/termuxvoid/main/binary-all/5luser_1.0_all.deb
+Size: 992
+MD5Sum: aa10914f39944490994d5bd4ccc2aba8
+SHA1: 81ecae507059edfa3e98fe97b3cc225b8a0b3192
+SHA256: 43266673871a7228b1e7d4c22af1aea5bd922fbe5841e1b66e926688144e55cc
+SHA512: d45612ef0b442b19d16fa671fd19e68004fb9fa2d4be9b118c1e1f0284d802f234b86909687b136bc8817dff04f0699e00d870b966d317fada6e222c3092a9ae
+
+Package: 9router
+Version: 0.4.71
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: npm
+Section: net
+Priority: optional
+Homepage: https://9router.com/
+Description: Smart gateway between your tools and 60+ AI providers
+ 9Router provides a smart 3‑tier fallback system to maximize your
+ AI subscriptions across providers (Cursor, Claude Code, Codex,
+ Cline, Copilot…). Includes built‑in RTK and Caveman that save
+ 20–65% of tokens, keeping you coding even when limits are hit.
+Filename: dists/termuxvoid/main/binary-all/9router_0.4.71_all.deb
+Size: 1100
+MD5Sum: 955b368bd357dd472d293269320ee01f
+SHA1: 8fec2e292fc72b63af734b3c2170989d1831c9e4
+SHA256: 5e1846982f3b699771353509b1f0b8c4e340bce8ef541861d07ca9e4f690b02e
+SHA512: ec0a393750f4b35d378ee530025750591d24b9f1be62e1ba3200c21098b3346d83a074b0870d42850b7d1a936c88a0a2acf081b1c26ba3a61670ba39ba1c53f6
+
+Package: afrog
+Version: 3.5.2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, golang
+Section: web
+Priority: optional
+Homepage: https://github.com/zan8in/afrog
+Description: Fast vulnerability scanner with custom PoCs (afrog)
+ frog is a high‑performance web vulnerability scanner that supports
+ custom proof‑of‑concept templates. This version includes a required
+ patch for certain architectures.
+Filename: dists/termuxvoid/main/binary-all/afrog_3.5.2_all.deb
+Size: 1284
+MD5Sum: a6cce18d489a7d819e294c39642c56e1
+SHA1: 5625893d174b70c72ef39c67a7be563486aa037c
+SHA256: 6cb885ab158971482cb90b1f2c84df0e7f7ad347f47080febd8fe64678f62d6a
+SHA512: 30994647da0b783692af08213e1fbb85badae9ef430e6208f37c4e95ee8074e4d4ab4a24557ea1262f50e94d525ab5f8ee7c0b1c70e7dce3c987cf96827b8f5a
+
+Package: alienkrishn
+Version: 2.0.6
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: curl, termux-tools
+Section: utils
+Priority: optional
+Homepage: https://termuxvoid.github.io/
+Description: TermuxVoid package manager and system helper
+ Official package manager for TermuxVoid repository with utilities
+ for package management, system updates, and maintenance tasks.
+Filename: dists/termuxvoid/main/binary-all/alienkrishn_2.0.6_all.deb
+Size: 3984
+MD5Sum: 57d667ae0a039da9c52f55721e1d2800
+SHA1: 19f852a4b03386f4ec144ca54bb9d46761beb3ff
+SHA256: 01f49701021613708bd332fac25eb3dfa26d6451772a3b1c5968597e893676c6
+SHA512: 7b49631ca0a7639e3d934138475830fd1f4fed1905b0b7d953c8a84f0d2f43bda6f3964cced8e7aaf121d988e19cca573915e7ce5177b387ad6a78be5265df71
+
+Package: amass
+Version: 5.0.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: curl, tar
+Section: recon
+Priority: optional
+Homepage: https://owasp.org/www-project-amass/
+Description: In-depth Attack Surface Mapping and Asset Discovery
+ Amass performs network mapping of attack surfaces and external
+ asset discovery using open source information gathering and
+ active reconnaissance techniques.
+Filename: dists/termuxvoid/main/binary-all/amass_5.0.1_all.deb
+Size: 1472
+MD5Sum: 39144c9e91c522db752da32ca36cd759
+SHA1: 870137015510d779bdbc592d6d7bd59ceef1168d
+SHA256: cc87f617b54851cc2d8907c3e0404657cb5c0f7524920f9c5d166396a27a06f0
+SHA512: c927fa8431b6df2ab1b7d1c5c8a38ba0c66f12c1a6f777e046a55b3701226739a501fe7acc43ec581c3969a539077e714223cf5f66150823d612662a57e61d2a
+
+Package: andrax
+Version: 5-2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: proot, tar, axel
+Installed-Size: 12060343
+Section: utils
+Priority: optional
+Homepage: https://gitlab.com/crk-mythical/andrax-hackers-platform-v5-2
+Description: Android Penetration Testing OS (rootless)
+ Andrax is a complete penetration testing environment for Android,
+ packaged as a proot-based rootless OS. Includes hundreds of tools
+ for security auditing, reverse engineering, and network analysis.
+Filename: dists/termuxvoid/main/binary-all/andrax_5-2_all.deb
+Size: 1836
+MD5Sum: b2779ff187c6dd02283a747e2376e4ec
+SHA1: e9806231107c6f12ba5f5ea14020f078009b4412
+SHA256: cfdbcbca2792aacd50bb7e4fd7064d77f40c1acc90eb6c720fe362ed1e42fed7
+SHA512: 10c9c55a2cf3d01f958bd48f02fb9548b8cfda01e3142ff9267437470e9e6adbc74c1f593c121431f2d267a0e5c40569b0caad15780fe26a6fb6b7499476434e
+
+Package: androdos
+Version: 1.0.0
+Architecture: all
+Depends: python
+Maintainer: Alienkrishn [Anon4You]
+Installed-Size: 52
+Description: Denials of service(DoS) attack tool
+Filename: dists/termuxvoid/main/binary-all/androdos_1.0.0_all.deb
+Size: 3168
+MD5Sum: d8cdc93da72a8c8f7cd36e019d69e73f
+SHA1: 74b195ff46962811c1b490b0f8ff498578b06054
+SHA256: a099cf97bbc3eaf56e6edd14016401624767ccb13318f931d6fbea5062ddf9b6
+SHA512: 378e1f854be269659382e3a02321e0f281a0c49b4a98f017539638d0fb745cab0f0b564024e13b16350ef45536f493f142aa0e278424bf2890681c12a68ebb66
+
+Package: android-sdk
+Version: 36.0.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: openjdk-21, p7zip, axel
+Suggests: cmake, ninja-build
+Section: development
+Priority: optional
+Homepage: https://developer.android.com
+Description: Android SDK built using musl libc, supporting multiple architectures.
+ Provides Android NDK 29.0.14206865 and CMake 4.1.2.
+ Includes:
+  - Android SDK tools
+  - Android NDK 29.0.14206865
+  - CMake 4.1.2
+  - Platform tools
+  - Build tools
+  - System images
+Filename: dists/termuxvoid/main/binary-all/android-sdk_36.0.0_all.deb
+Size: 1652
+MD5Sum: 27d3606bc8aeb530a23005b37189e94a
+SHA1: 9613f82e78792864fe1e29f3c0a14abeefe40c25
+SHA256: 620f16bf573ac920d3e95ec973dae40f9e08cb812ae764e8052337c776bd5c4b
+SHA512: 43c0147e52e88cb2d1e9a9696394a27d0027322ec16a0fb8066fe4fdbf9bb16eb21c7bb3965c889dc1df42f62d2f99a4c54319dabbf25b9ebf6adfcb72c405c0
+
+Package: androvirus
+Version: 3.0
+Architecture: all
+Section: security
+Maintainer: Alienkrishn [Anon4You]
+Depends: curl, git, php, cloudflared
+Priority: optional
+Homepage: https://github.com/Anon4You/AndroVirus.git
+Description: Android penetration testing framework (USE RESPONSIBLY)
+ AndroVirus is a security assessment tool designed for authorized penetration testing and educational purposes only. The tool can be used to demonstrate phishing vulnerabilities in Android systems.
+ WARNING: This tool is capable of compromising Android devices when malicious links are delivered. Use only on systems you own or have explicit permission to test. The maintainer assumes no responsibility for unauthorized or illegal use.
+Filename: dists/termuxvoid/main/binary-all/androvirus_3.0_all.deb
+Size: 1404
+MD5Sum: 201efa7ba3ba4b58f18464ae41ad7a0a
+SHA1: aa6f787af2ec12f94eb7422e688ed6281a354fef
+SHA256: 5f54149dad559b4d09277cf448f0263f58f7d5da61f5ae7d345d404c0a435c47
+SHA512: 188b0d32c43ea9ea0b13a9b16ae4419619135297b20e7e4d97f6d1b62520cac3e296cdb7466d21dbf3f642f13d8160ca65bafb9e1993fedc603e56ef75645f02
+
+Package: antigravity-cli
+Version: 1.0.8
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: curl, clang, python, glibc
+Section: devel
+Priority: optional
+Homepage: https://antigravity.google/
+Description: AI‑powered coding assistant (glibc wrapper for Termux)
+ Antigravity CLI provides real‑time code suggestions. This package
+ downloads the official Linux ARM64 binary, applies necessary memory
+ patches, and runs it inside the Termux glibc environment.
+Filename: dists/termuxvoid/main/binary-all/antigravity-cli_1.0.8_all.deb
+Size: 2520
+MD5Sum: df9f404073fee337808a7a91ebb9354d
+SHA1: f080fd51792a2da3248c1142101d678e6d6acd9d
+SHA256: 909827a1548c5fd7cb1b550bf7ede1db8c52fd50d2fec7f0354cd757ff40e2c6
+SHA512: c24d138d86945f44ea6fc975468e828fd074ea75b8a66bf267b4cdeced8ac19fc18f9ab7e9061ec74a61ae57e0af011937672deccb1106c5c4ce9ba237fad5b4
+
+Package: antisplit
+Version: 1.2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, apkeditor, apksigner, figlet, gum
+Section: utils
+Priority: optional
+Homepage: https://github.com/termuxvoid/AntiSplit
+Description: APK Split Package Combiner and Modifier
+ AntiSplit is a tool designed to combine split APK packages
+ into a single APK file and apply various modifications.
+ Useful for repackaging and modifying Android applications.
+Filename: dists/termuxvoid/main/binary-all/antisplit_1.2_all.deb
+Size: 1368
+MD5Sum: a7c3e46513383b9ba976beb663aff7e6
+SHA1: f955628694d30f1fc6af5bf32183a21be6c15fff
+SHA256: 734333fe57c0944ae801176f0ef0b371cff9120e34bc7a955a5714fc18021106
+SHA512: b2e4d4ace18d4668d176fee0dc6bb4e622b06b1679c4294bd4f4a691f8afdcec61a08858b108a663ffdd7f5a73fbabf905aaa484e3a7f6572f64bc51d4e12d65
+
+Package: apkeditor
+Version: 1.4.9
+Architecture: all
+Maintainer: Alienkrishn [Anon4You] 
+Depends: openjdk-21, wget
+Section: utils
+Priority: optional
+Homepage: https://github.com/REandroid/APKEditor
+Description: Lightweight APK modification tool
+ Edit APKs directly via JAR executable.
+ Supports decompiling, resource editing, and APK rebuilding.
+Filename: dists/termuxvoid/main/binary-all/apkeditor_1.4.9_all.deb
+Size: 1340
+MD5Sum: fee79b1629b84511221b172743926861
+SHA1: bb588b9a426ef48c4324264c4f7b768d7c393aab
+SHA256: 8702301eb1aa82efc132374a9912135474bfa85f8b5a961af1a4a9136c2df021
+SHA512: 3632a71569b0ce711a40582d5c0190f8b361e048c50be96d6292911f6bbc7112d7068a54f28148975f95050c55dbdbbd0aefb9b9edcc979310516cd8d40e2b19
+
+Package: apkgen-cli
+Version: 1.3.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, gum, termux-tools, android-sdk, flutter
+Section: devel
+Priority: optional
+Homepage: https://github.com/termuxvoid/apkgen-cli
+Description: CLI tool to quickly generate Android APKs from local templates
+ apkgen-cli simplifies Android APK generation using local templates.
+ Supports Java, Kotlin, native, and Flutter projects, providing a streamlined
+ workflow for developers and CI/CD pipelines.
+Filename: dists/termuxvoid/main/binary-all/apkgen-cli_1.3.1_all.deb
+Size: 1144
+MD5Sum: 0a51665aaa003f2a1ed4a82aa257b47e
+SHA1: d52666f0a967ab639413be9b100c13549791a979
+SHA256: 832db5c3ce0aacf3a9936b585f5d344b70ea1e91ec3fcc43c9e56542dc36ad0b
+SHA512: fd8f6750303c66c31fdd32b28ec20b682cec141bbe5b57d7504d95fd2bb31cf004a5ee6d14ec221a78403e6aa496dcf3a0e1c80941bb3c66cd00eb03edf1bba6
+
+Package: apkleaks
+Version: 2.6.3
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, jadx
+Section: utils
+Priority: optional
+Homepage: https://github.com/dwisiswant0/apkleaks
+Description: Scanning APK file for URIs, endpoints & secrets.
+ Apkleaks is a tool for scanning APK files to extract URIs,
+ endpoints, and other sensitive information for security research.
+Filename: dists/termuxvoid/main/binary-all/apkleaks_2.6.3_all.deb
+Size: 964
+MD5Sum: f493eb26a699fc65ce06b8a12a9c2adc
+SHA1: 6ada23a8de0cf9afd03be13a5cfa5b8747b369cd
+SHA256: 99f158702f6d64a72af2b668b4c0f6e9f91b6c969b83ef27caa15e664baddee6
+SHA512: c0db09428d7ebaa5c3705a75a6e6ae656ff3b3256cfba46d2abcc6239db0b7052db7236589fcdcb54250741ea65dc6e2c2a9efb349fe46ce78be7931f29fc7c4
+
+Package: apkpatcher
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You] 
+Depends: git, libxml2, openjdk-17, apkeditor, apksigner 
+Section: utils
+Priority: optional
+Homepage: https://github.com/Anon4You/APKpatcher
+Description: Advanced APK Modification Tool
+Filename: dists/termuxvoid/main/binary-all/apkpatcher_1.0_all.deb
+Size: 1200
+MD5Sum: acba36cfa025dc5ad9da4cc011c070ea
+SHA1: 35624f7d6b9a436c1632ac0f917ef88b94d9c7dc
+SHA256: 21ba812db9ef199097b0a3f8f19bd030ce3f0193cb56071df129a170203b4861
+SHA512: f5824ff7425fd03619a24e1db85a208d71a937eef6944b55d88e3805eefaadf6a61100f2f9c1859a531f33aefad0e45aded06322c55f09f739933397d69d1736
+
+Package: apksearch
+Version: 1.3.5
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip
+Section: utils
+Priority: optional
+Homepage: https://abhithemodder.github.io/apksearch/
+Description: APK Search Tool for Multiple APK Websites
+ apksearch is a Python library designed to search for APK files on
+ different APK websites, such as APKPure and APKMirror. It allows
+ users to find APKs, check for available versions, and retrieve
+ download links.
+Filename: dists/termuxvoid/main/binary-all/apksearch_1.3.5_all.deb
+Size: 1192
+MD5Sum: f1072b77b45f12e539b4ec9dd6e60944
+SHA1: aca32e9b4958a42964f7ae38e4696f4cbbca82f5
+SHA256: a84295389286f22efce663762dc2eb7cdfc3326876b9338545a0c5ebb86fe7fb
+SHA512: 2ef36d173f338e703a6a04ce31ac39988e45e474d69bb57e7c981435356abd1027f3cd7502f617c6602e78ee40bff70b48d5714eeb591e3509c76a05898f19db
+
+Package: apktool
+Version: 3.0.2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: openjdk-21, wget, aapt2
+Section: utils
+Priority: optional
+Homepage: https://ibotpeaches.github.io/Apktool/
+Description: Reverse engineering Android APKs
+ Decompile and rebuild APK files with resource preservation.
+ Supports Smali debugging and manifest analysis.
+Filename: dists/termuxvoid/main/binary-all/apktool_3.0.2_all.deb
+Size: 1380
+MD5Sum: 51c44cfb3599c28c0631c6d5b85f670e
+SHA1: 488aa2c3df2c2e5d6afe018a2f1d56836aa99e3a
+SHA256: f641e540b68ed54ba0453ed002fa802f713e9620e8dd21ad390eac3f57964c98
+SHA512: e59f1457ec3f923b7511949de5896ee395551be5a5554b95bbbc8ee5ac042ae98798bd4b407a37ca82a36ac24af3de9904affda28475f06f353d11f1fa647fca
+
+Package: asciibanner
+Version: 2.1.0 
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, libcaca
+Homepage: https://github.com/Anon4You/asciibanner
+Description: A feature-rich FIGlet-compatible ASCII art generator with color support and font previews
+Filename: dists/termuxvoid/main/binary-all/asciibanner_2.1.0_all.deb
+Size: 1148976
+MD5Sum: b85dca6e2a4c48868dfbc4efaa6e8e06
+SHA1: 1f97f07bfdb88f1d562238b5e412f73a1aec62ae
+SHA256: f730a4b55e548cbbc22757e5a6a146a75164cef41faed96a7ad7df5d365b9bf8
+SHA512: 7136d00c3c69ae13de5122d88a24ff535b62b28a9806a89f29720f4f392ef863ed1cca300d836c8de05d8405629d58ba4f9afd86493fee6048efa7ec9fd54860
+
+Package: beef
+Version: 0.6.0.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: ruby, nodejs, git, make, clang, sqlite, openssl-tool, build-essential, curl, libcurl, ruby-nokogiri, ruby-curb
+Recommends: metasploit-framework
+Section: web
+Priority: optional
+Homepage: https://beefproject.com/
+Description: Browser Exploitation Framework
+ BeEF is a penetration testing tool that focuses on the web browser.
+ It allows security professionals to assess the security posture of
+ a target using client-side attack vectors.
+Filename: dists/termuxvoid/main/binary-all/beef_0.6.0.0_all.deb
+Size: 1584
+MD5Sum: d820b5f1896468429d325c36e18065cf
+SHA1: d3fa77859d1c5f039cf16359833f151db2dfdbcb
+SHA256: 2ae302cfc5c8e8c3230e76e911b043b67b40b665bcf695258445386a9338fe54
+SHA512: 513445e6de86ef0ebf189ba60febb11635be845abf7134f8b4c9dbed50de3a42a984e1e2b2d1a874824193758b0e961198deef6c8a524a19b93061cd26bd325f
+
+Package: bitb-framework
+Version: 1.2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Installed-Size: 2
+Depends: php, git, python, curl, wget
+Suggests: alienkrishn
+Homepage: https://github.com/surya-dev-singh/BITB-framwork
+Description: Phishing technique that simulates a browser window within the browser to spoof a legitimate domain.
+Filename: dists/termuxvoid/main/binary-all/bitb-framework_1.2_all.deb
+Size: 1820
+MD5Sum: 4ef13aa2e131f5e64e776168b1745180
+SHA1: f93d53e0cc56d900616eac3b871f1b11fb9154be
+SHA256: 1485d8e218cd9eeeec763e473c944c8eda46faf28ea89029b85919d65f74df8f
+SHA512: da109acaf6d090e9deb4ac22c8c945bffc6fae78d29ff34f358a93a6d1fb207d75c10d1bc537145d4b0cb43361bdb6cdadf8f2283ecdb4cf6cd5a5ca0b0f3e6f
+
+Package: blackbox-framework
+Version: 2.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python2
+Section: utils
+Priority: optional
+Homepage: https://github.com/jothatron/blackbox
+Description: A Python-based network analysis and exploitation toolkit
+ Blackbox is a modular security tool for network scanning, exploitation,
+ and post-exploitation. It requires Python 2 and supports multiple attack vectors.
+Filename: dists/termuxvoid/main/binary-all/blackbox-framework_2.0_all.deb
+Size: 14164
+MD5Sum: 7ab1ac4d9c6ed91f34e44d4c32d1ea16
+SHA1: 6598ffcfe81875d84659b7ee7ef87a651a0a7dad
+SHA256: 0329d2246577ebdeb884a75468e22cc555510773236a28f10873e8b440cdb5de
+SHA512: 3e15dd1fcdb6428b77db90eca7886861c53925f51c8232ed52e0782696dd88b5a04a1bbc33c7abdf4736907cb685919b079ffe96b59d4d12fa59c0b159040cff
+
+Package: blackhat
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Installed-Size: 56
+Description: blackhat hacking sources
+Filename: dists/termuxvoid/main/binary-all/blackhat_1.0_all.deb
+Size: 15456
+MD5Sum: 7d76096a54a1765b0cc12af52f0acab0
+SHA1: 85c4989c80e4062d41d21840aca1d4d5c7c0309d
+SHA256: e0f23346a265f8ad9c335091593b9967c3024c465a74f2554d7f0d641620f2ac
+SHA512: 6bb6abaf253173019f716af887cf35530f5e836496f23cae32d4f1c1cc66904962dcc7a235374af49d7f50d47152984d048a8db8eefa00f71d67e92aa5c09b4c
+
+Package: blesh
+Version: 0.4.0-devel4
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, make, termux-tools
+Section: shells
+Priority: optional
+Homepage: https://github.com/akinomyoga/ble.sh
+Description: Bash Line Editor (ble.sh) – interactive command line editing
+ ble.sh is a command-line editor for Bash that provides syntax highlighting,
+ command completion, and improved editing capabilities. It replaces the
+ default GNU Readline with a more feature-rich interface written in pure Bash.
+Filename: dists/termuxvoid/main/binary-all/blesh_0.4.0-devel4_all.deb
+Size: 1232
+MD5Sum: 7b13a908e6b4d6ff3b866cbe333422a5
+SHA1: a202828c194aba7fdbe50faf1352bf6955017b5e
+SHA256: d3aca49ec8b462651bce08127a9c51991d0365cd5366cc006f0a73811e28b3ea
+SHA512: 0a3f2f6286551687b4a47993cb9f72e6b84f38bf5aa23b455462655a4841456b98f15ba34045693205389b5490fbacba2b9040400dab8b242f707446a36c82c2
+
+Package: blutter
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, python-pip, cmake, ninja, build-essential, pkg-config, libicu, capstone, fmt, radare2
+Section: utils
+Priority: optional
+Homepage: https://github.com/dedshit/blutter-termux
+Description: Flutter/Dart Binary Analysis and Reverse Engineering
+ blutter is a tool for analyzing and reverse engineering Flutter/Dart
+ binaries. Provides capabilities for extracting information and
+ analyzing compiled Flutter applications.
+Filename: dists/termuxvoid/main/binary-all/blutter_1.0_all.deb
+Size: 1396
+MD5Sum: dab55dba31be5abd9c14abc36e1d571d
+SHA1: 6e4223cf930b2d993e398502230edac235329e2e
+SHA256: acb2c91af7187f6babc6a71b18d05920f9eb706411f5545f463e8579d8973cb5
+SHA512: c133b13630b42d9a211314d34a323f08f09bcbd63ca8fb1d0ffdbdd28dce242505916723f6642e5e7dc3d28a92b2800fcdf3e3e10dee7b9ed6f3551a073e3392
+
+Package: brutespray
+Version: 2.4.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: golang, git
+Section: security
+Priority: optional
+Homepage: https://github.com/x90skysn3k/brutespray
+Description: Brute-force attacks from Nmap output
+ Automate brute-force attacks with:
+ - Nmap output parsing
+ - Multiple service support
+ - Parallel attacks
+ - Custom credential lists
+Filename: dists/termuxvoid/main/binary-all/brutespray_2.4.0_all.deb
+Size: 1412
+MD5Sum: d1e65b6633fd77e906d45f4d5d7a91fd
+SHA1: 592a81a4f1341afd79a7ae0cc2dc2d70b5619b14
+SHA256: 89b0bbde019d23e96ce493de23b69b67f47e58767f06fe1de01fca68cbb5a812
+SHA512: bcc28089dcfa71a065c4bbb37c64216ac0e074ea89c9c8116452bee5baacd2245931e2b09dfd204e8fb52a5b831c2d3d8fffc33cd9d6d42bb863fc1d6085bb5c
+
+Package: bun
+Version: 1.3.14
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: curl, unzip, clang, glibc
+Section: devel
+Priority: optional
+Homepage: https://bun.sh
+Description: Incredibly fast JavaScript runtime (glibc wrapper for Termux)
+ Bun is an all‑in‑one JavaScript/TypeScript toolkit. This package
+ downloads the official Linux ARM64 or x86_64 binary and runs it
+ inside the Termux glibc environment.
+Filename: dists/termuxvoid/main/binary-all/bun_1.3.14_all.deb
+Size: 3436
+MD5Sum: f4907b3bc1f4bef69babff508d31c376
+SHA1: c3dd2141eb5712376e2ac67d366276a349f84a4b
+SHA256: 8e0982e7a8ce4644937919c2a1c29f3cd29a6ec42cada751d287a69eccdd1d2c
+SHA512: ddfa66f878f0d9d9a86ae945511e7bb3ea55b2802fa6b0c07b944c66198fa6af1e5d02fb516beeb183b7647096d8868ff1a2a8f4e18c6f0c075dca5c9356e2a0
+
+Package: burpsuite-pro
+Version: 2026.1.5
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: curl, openjdk-21, openjdk-21-x
+Homepage: https://portswigger.net/burp/
+Description: An integrated platform for performing security testing of web applications (professional edition)
+Filename: dists/termuxvoid/main/binary-all/burpsuite-pro_2026.1.5_all.deb
+Size: 3780
+MD5Sum: 4f358c3b8b59f27c38dbfe7ff0257604
+SHA1: 0aa58c22acea0612dd1c857dc21616f6aa7bbb1b
+SHA256: ddb355b39e033fd43a4b0fdbb0985aa932079e003cd8e6643d87ca6de500e038
+SHA512: 3858faf59d8b435d2b6382451e972541dd5c445615000aac078f113f969ff9ad0fbf91dc6c0f8a90178dedc02b016a94f2a28c5e3144c77b2468ee1e0ba2ec06
+
+Package: burpsuite
+Version: 2026.2.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: curl, openjdk-21, openjdk-21-x
+Homepage: https://portswigger.net/burp/
+Description: An integrated platform for performing security testing of web applications (community edition)
+Filename: dists/termuxvoid/main/binary-all/burpsuite_2026.2.1_all.deb
+Size: 36308
+MD5Sum: 30dde6c4e152aae9f9bf352ab34ca7d8
+SHA1: f92d32b28ff4995b058b5bd31b9630b33d755519
+SHA256: 2b146546efdfc1eea8f77676b53cfc4ec9b231da4e1f69a3317f8d0d3a43144e
+SHA512: 8b3c51cb39deec36f00e1b1ea11db2cabe0277558c5c6581bf108d16893867ca8e889bcce2df2c6d4d84ef24245de62d7bd27b177d6e7fd3cfbca45942291117
+
+Package: byakugan
+Version: 1.0.5
+Architecture: all
+Section: security
+Maintainer: Alienkrishn [Anon4You]
+Depends: curl, git, php, cloudflared, jq, figlet
+Priority: optional
+Homepage: https://github.com/Anon4You/Byakugan.git
+Description: Advanced footprinting tool for Termux
+ Byakugan is a powerful footprinting tool designed exclusively for Termux that tracks exact locations with military-grade precision. Use only for authorized security testing and educational purposes. Unauthorized tracking may violate privacy laws.
+Filename: dists/termuxvoid/main/binary-all/byakugan_1.0.5_all.deb
+Size: 1304
+MD5Sum: e1215146103957080bf67e1866e6f112
+SHA1: 7514cdd85829266a5ab20dc81fa18d5bc9ac51ae
+SHA256: 0581733563f504e6d3b738fc5e45fd7f0e8925cabeb3f9d6b47414ac5fb23458
+SHA512: 112726ccd29bedf664dbe8edc45b320363962a667c36719cd7ae3265422449c23836efbe8ba57d6a5656f37607259daeea538418c009fc92beec4885910413f8
+
+Package: catsay
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python
+Section: games
+Priority: optional
+Homepage: https://github.com/Anon4You/catsay
+Description: terminal-based feline messenger inspired by cowsay
+ A Python-based program that displays messages inside dynamic speech
+ bubbles with various cat ASCII art designs. Supports custom cat
+ assets and piping from other CLI tools.
+Filename: dists/termuxvoid/main/binary-all/catsay_1.0_all.deb
+Size: 1208
+MD5Sum: d54f4f3cd76d364a38f1539df6bb99ce
+SHA1: adaf2963e0bad8d53f74953bffe3c21866cfa493
+SHA256: cc190273f5fe5af74c8906194459e923e17c3f081b112b2eccb86e0043fb1c02
+SHA512: 393a059a6191af0c6ae900d72985c0c3a5904f053afa32cf50bc4e040c94bb4e8a9fb56d06a3d3bd6c98eca128204b7396fd7d6345216b96744f981db234d970
+
+Package: cctvip
+Version: 1.0.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python,python-pip,figlet
+Installed-Size: 56
+Description: A collection of open cctv camera ip
+Filename: dists/termuxvoid/main/binary-all/cctvip_1.0.0_all.deb
+Size: 3088
+MD5Sum: ecc187599c21d0ddb983d7c227139bc3
+SHA1: dd29d185eadbdddb58c5ec0044051ecaebec1221
+SHA256: abc51bcb7fb5329ba33446458f0982cbad1be71641f33407109934909bfd90bd
+SHA512: 7da1e233de4e9456711e778a365ad6b6858bd1f847da2f5c2482bcfa5d8f8cbebaec4f5fec33029d2a4ccb6782c5c4da10e6e4587aee66e2c9a799b05e062ed8
+
+Package: cdxsummary
+Version: 0.1.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip
+Section: utils
+Priority: optional
+Homepage: https://github.com/internetarchive/cdx-summary
+Description: CDX summary and analysis tool
+ Analyze and summarize CDX files from Wayback Machine with:
+ - CDX file parsing
+ - Statistical analysis
+ - Domain summary reports
+ - Data export capabilities
+Filename: dists/termuxvoid/main/binary-all/cdxsummary_0.1.1_all.deb
+Size: 1196
+MD5Sum: ab4d1734d4b8f4ced1081d04b985bd93
+SHA1: f9b013081a080d815a43014a600b1138627efac5
+SHA256: 303f049071a408f364f09b424d03aec66b59fb1114834edc14429c41a429f4c3
+SHA512: 75db7289d9d795af3e9d26be0ba4840cb0ba6caea777c8696a8e5b98600cfe808e9138214a4283e2215aac457c75667223bb66d84cd53c4d23e7c75ffbd61faf
+
+Package: cewl
+Version: 6.2.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, ruby, pkg-config, openssl, libxml2, libxslt, ruby-nokogiri, exiftool
+Section: utils
+Priority: optional
+Homepage: https://github.com/digininja/CeWL
+Description: Custom Word List generator (CeWL) for password cracking
+ CeWL (Custom Word List generator) is a Ruby tool that spiders a target website
+ to create a wordlist for password cracking tools like John the Ripper or Hashcat.
+ It supports depth crawling, metadata extraction, and more.
+Filename: dists/termuxvoid/main/binary-all/cewl_6.2.1_all.deb
+Size: 1484
+MD5Sum: 48af4893e2d8db82babacb2e21a226f3
+SHA1: ab53c48a7e26d0482b7d82b31434049e8b08fd77
+SHA256: 991013f05cfdc0417bd28e809eee3027799e36b06686b2c691a09ba18ba50530
+SHA512: aab6be45ef586dbf2c37486c958b75853c77942259fef505f0616b40a8ace0af04a1debcf9e35b2b6906890ac98ad542580bfbec566ac7a492da05d6ed838489
+
+Package: cloudflare-gui
+Version: 1.0
+Architecture: all
+Priority: optional
+Section: net
+Maintainer: Alienkrishn [Anon4You]
+Depends: cloudflared, python, python-pip, python-tkinter
+Homepage: https://github.com/Keyaru-code/Cloudflare-GUI
+Description: Stylish GUI for Cloudflare Tunnels
+ Graphical interface for creating and managing Cloudflare tunnels.
+ Features one-click tunnel creation with automatic URL copying.
+Filename: dists/termuxvoid/main/binary-all/cloudflare-gui_1.0_all.deb
+Size: 11704
+MD5Sum: 826579a991e9fdf812570d2b3bd007be
+SHA1: 845259a466e14f7b2dee778c4f7df1bff64405a4
+SHA256: df617016d7ddcf30988a432527213b77805beb772bb4389b3d13f2a141a5c06d
+SHA512: 60db738daa805d3dfa36fae999d3b2c4494287b26307fc59892cbc218cb3370e5d06b031686c195056d736db2038610ad0ed13b94784e41bfb83419a01c18219
+
+Package: commix
+Version: 4.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip, git
+Section: web
+Priority: optional
+Homepage: https://commixproject.com/
+Description: Automated All-in-One OS Command Injection and Exploitation Tool
+ Commix (short for [comm]and [i]njection e[x]ploiter) is an automated tool
+ that can be used from web developers, penetration testers or even security
+ researchers in order to test web-based applications with the view to find
+ bugs, errors or vulnerabilities related to command injection attacks.
+ Features:
+ - Support for multiple injection techniques
+ - Tampering capabilities
+ - Wizard mode for beginners
+ - Regular expression-based payloads
+Filename: dists/termuxvoid/main/binary-all/commix_4.1_all.deb
+Size: 1580
+MD5Sum: 42165bc6a0c8be156e83f2e2e7757ae3
+SHA1: fd9377fc40eecafae27397a48158ca607cb476c3
+SHA256: 9ad4158565ffa6ab8c2b4491bf48673d61ecd3869e3f0e016bc6997ff8719eb2
+SHA512: d2be3e599088aba1e1f8dd64841890265504189f55b99fdff5bce822240599c54e93ae6bd43964f3331c9c2f5112593f10f8d1de945e4f9c640103e485467707
+
+Package: cronitor-cli
+Version: 31.6
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: curl, tar
+Section: utils
+Priority: optional
+Homepage: https://github.com/cronitorio/cronitor-cli
+Description: Command Line Interface for Cronitor Monitoring
+ CronitorCLI provides command-line tools for managing and monitoring
+ cron jobs, scheduled tasks, and background processes.
+Filename: dists/termuxvoid/main/binary-all/cronitor-cli_31.6_all.deb
+Size: 1460
+MD5Sum: 11f44dccfbe5a7892db05c77fcf3b156
+SHA1: c326b46cd793a24057fcbb74786c583ea55e6277
+SHA256: 2942a27ccc701be9cb4effadc81fd89e35f9a960e9bbac0b37cb486503ccdf1c
+SHA512: b0b00b9fe21ec3fcf143f0930fba232b8f743d6a0c715f4c85bc5c4aa90256928aeed2a1da23fbb5926db9ed39771ab1380cb5cc5d3b76f72f643c1af9724fc9
+
+Package: cupp
+Version: 3.3.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: termux-exec,python
+Homepage: https://github.com/Mebus/cupp
+Description: Common User Passwords Profiler (CUPP)
+Installed-Size: 68
+Filename: dists/termuxvoid/main/binary-all/cupp_3.3.0_all.deb
+Size: 9412
+MD5Sum: 271272e0d4dfbed1f8c29165aef79b0a
+SHA1: 8f48791ecc3f0a9e7855aa8effaf2ab25a9578cd
+SHA256: e0bbc4b54113b4ac9c896dac6d223e0d2e6de96a4f1d37b6482d3d2638adfaff
+SHA512: af8cd30955e6e0545459e1ea26dcf388cc96bf56da86ed10a0f74c060f522dfe10a86726e5030fb8f86daf858cf68dac3c034d69afd8252e2fcb489f26a8004c
+
+Package: d-tect
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python2
+Section: net
+Priority: optional
+Homepage: https://github.com/bibortone/D-Tech
+Description: D-TECT - Pentest the Modern Web
+ All-in-One penetration testing tool for information gathering
+ and vulnerability detection (sub‑domain scan, port scan,
+ XSS/SQLi detection, WordPress analysis, etc.)
+Filename: dists/termuxvoid/main/binary-all/d-tect_1.0_all.deb
+Size: 1216
+MD5Sum: b4510f68e392db5096f18cc286606d10
+SHA1: 719e0a5458355582cbad84a6562b9b4e759156ff
+SHA256: 5b7c43a518539bffb92e925f4b8768bac5fc69974598d697cc1ead97ca30c3af
+SHA512: 2842069340cde07ec2673989f6fbbe4bc29727e11b8ff413090c2e5522a83be13e4b77f67ec4292dfe06012cce95a74dfbb64d94b7bbf9ee6b92a0cc1a06c8c4
+
+Package: dalfox
+Version: 3.0.2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: rust, clang, pkg-config, openssl, openssl-tool
+Section: security
+Priority: optional
+Homepage: https://github.com/hahwul/dalfox
+Description: Fast parameter analysis and XSS scanning tool (v3 in Rust)
+ Dalfox v3 is a complete rewrite in Rust. This package builds the exact
+ version from official source code during installation.
+Filename: dists/termuxvoid/main/binary-all/dalfox_3.0.2_all.deb
+Size: 1216
+MD5Sum: 32230d351939bea380b47bf9750bce71
+SHA1: e7394cfde4662384738f4736f1b9353090b74aa1
+SHA256: cf63aa9c1cfe317095dc5a041078ace4bfb300bdf3dafc1813238611f744b51a
+SHA512: e4c69a657fa86f9e7202f7c416c9855e74455794c4abd8d6dfef93e3b18b3cde4f129353fb0bb31d73b29f9f5e6fda73800b7b04f2e2b846b5b062d87d7da08c
+
+Package: dark-phish
+Version: 2.3.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, php, python, python-tkinter, openssh, npm
+Section: web
+Priority: optional
+Homepage: https://github.com/Cyber-Anonymous/Dark-Phish
+Description: Powerful Phishing Tool with 50+ templates
+ Dark-Phish is a comprehensive phishing framework offering over 50
+ ready‑to‑use templates (e.g., Facebook, Instagram, Netflix). It
+ includes an interactive setup menu, automated ngrok tunnel creation,
+ and real‑time credential logging via local web server.
+Filename: dists/termuxvoid/main/binary-all/dark-phish_2.3.0_all.deb
+Size: 1268
+MD5Sum: c7201968b0660dea35bea535bb8c41a9
+SHA1: 3cce96a42c53a0892ae278804a4b30917952b134
+SHA256: 53a47be8860d8f52420fe7baaeb6472aa61289c7d2f0113eaaa8e75b995022c5
+SHA512: 9a59dc8e5861a4ef3a339df3b69a59802699425def69e61042b174bfc6f665073c49c9b2c3dcdc9cacb0387529bfacee3735b71f06ccbc28044d88df9ab1085f
+
+Package: darkcrawler
+Version: 2.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: tor, python, libxml2, libxslt, clang, python-lxml, git
+Section: net
+Priority: optional
+Homepage: https://github.com/Anon4You/DarkCrawler
+Description: CLI tool to crawl .onion sites and generate threat reports
+ DarkCrawler crawls .onion sites through the Tor network, performs
+ real‑time content threat analysis, and produces structured threat
+ intelligence reports.
+Filename: dists/termuxvoid/main/binary-all/darkcrawler_2.0_all.deb
+Size: 1164
+MD5Sum: 1b5328b8603cf862b810be810b481dd8
+SHA1: c2db5603aeb352eca4e2f73b4ad0ef1d591c32b0
+SHA256: c1a6ca29e6fa4af86d27dd974e8aacac08515a61124fb18fdc6560c4e319bb11
+SHA512: 3e30f9991dc3210eba97521f861373aa561d1cd92e323d3981d667410be462485e90a66c78d60d3b18d4061e8d5065ee138a4e3f25e10776055235c3f94760f0
+
+Package: darksploit-framework
+Version: 2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python2, perl, wget, php
+suggest: alienkrishn
+Homepage: https://github.com/ykankaya/DarkSploit
+Installed-Size: 1
+Description: Darksploit is a tool to run and create exploits
+Filename: dists/termuxvoid/main/binary-all/darksploit-framework_2_all.deb
+Size: 1608
+MD5Sum: 3b4d143f8bf7da07e626de3bc1d57af7
+SHA1: 6d29b3b9e1e7b7d8b2cf84248c38e70eee8592a0
+SHA256: c1e2ee7b0fae2ea93aa5010d7f0027cb5c40e3da10ae8bb69cd4005a0ff983dc
+SHA512: 3f85675ee571a232718290697f3d3e8bf1e230997035ab4b7daf90885dd24e9a70dde7116efb3069ebfb24fa7d40ca49cc983f98b2dc3d6865ef65488e206c63
+
+Package: darkterm
+Version: 2.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: termux-tools, termux-exec, git
+Section: net
+Priority: optional
+Homepage: https://github.com/Anon4You/darkterm
+Description: Advanced Ethical Hacking Framework for Termux
+ Darkterm provides 60+ integrated tools across 9 modules,
+ auto‑installs missing packages on demand, runs without root,
+ logs activities, and stores results in loot/ directory.
+Filename: dists/termuxvoid/main/binary-all/darkterm_2.0_all.deb
+Size: 1140
+MD5Sum: 6c173001f8595f711e37c99de0b2019f
+SHA1: e995b6842ac7a6667589961c104e1e306fef652d
+SHA256: b430fc05fbc6648854f59a7f8d3facb2a6d7a03e9574cc27973f88a243d04c65
+SHA512: f721369e33efebb5111c0de59ae64d1615020d6e9ef2712978369226c5bb89d2302eb8f8a0da7f35ea3006cb0eb0ba26ca133367d18e5f5435ddbb5c9f911f31
+
+Package: dnsx
+Version: 1.2.2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: golang, git
+Section: recon
+Priority: optional
+Homepage: https://github.com/projectdiscovery/dnsx
+Description: Fast DNS toolkit for reconnaissance
+ High-performance DNS utility featuring:
+ - DNS resolution and enumeration
+ - Multiple query types (A, AAAA, CNAME, etc.)
+ - Wildcard detection
+ - Mass DNS lookups
+Filename: dists/termuxvoid/main/binary-all/dnsx_1.2.2_all.deb
+Size: 1436
+MD5Sum: 030e905d3cbcdac98fe1e3986e31b875
+SHA1: 245b0047ac8b83c6a567042ce1c8da9747511025
+SHA256: 5f15a338a067f65ad9b0d84a1bbd300af6f40cce7c06f7a217503fb3ed30c019
+SHA512: 16627f1464359eacbe848da03a37d20924276eafa06ffe97f90d136f7154e35bd6ebd1d5c1a7f00fb5fc2f68d75a779be83ca2fbd3cb7eded8b4f54223a8fd00
+
+Package: dorks-eye
+Version: 2.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, python-pip, pip-basic-depends, python-cryptography, libffi, libiconv
+Section: recon
+Priority: optional
+Homepage: https://github.com/BullsEye0/dorks-eye
+Description: Google Hacking Dork Scraping and Searching Tool
+ Dorks Eye collects potentially vulnerable web pages and applications
+ using search engine dorks. Supports 5 search engines for comprehensive
+ reconnaissance and vulnerability discovery through Google hacking.
+Filename: dists/termuxvoid/main/binary-all/dorks-eye_2.0_all.deb
+Size: 1500
+MD5Sum: fc97d30696e1a4450f5b0c809dca5c2d
+SHA1: 463db5559bef5be4b952beae0029beeab4e40252
+SHA256: 8b2c4890edcab435b0c78d41c93225098a2c4b06ee57686fa447e4e1e1df6967
+SHA512: ec1518a773ac2cdb5abb59d16d6a11745e619049cc31342bbea67ca90ff4d52f8bd35f4ec2c2dc26a6521d3f4e29bfad5b0ecba835300941a31ee4825fded86b
+
+Package: dpt-shell
+Version: 2.12.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: curl, openjdk-21
+Section: utils
+Priority: optional
+Homepage: https://github.com/luoyesiqiu/dpt-shell
+Description: DPT Shell - Dex Protection Tool Shell dpt-shell is an Android Dex protection shell that hollows out Dex method implementations and reconstructs them at runtime.
+Filename: dists/termuxvoid/main/binary-all/dpt-shell_2.12.0_all.deb
+Size: 1412
+MD5Sum: ee7bf5e75809c260cc1d883607eb1e29
+SHA1: f9b7da920bee2580a294af715e01ef3919a18750
+SHA256: a953fa91ccfeba3290aa2ff8d8339d9d213a14c91c5d57452d809df89f5cfb0f
+SHA512: b05f1a9f0820d87d85a5c53e03aba15188802d0ae076fa24dd33b1a63257bde7ebc00d72593256d1950c1262716d93eb23eac59ea9c63674eb38ed9f18968feb
+
+Package: drshell
+Version: 1.0.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, openssh
+Section: net
+Priority: optional
+Homepage: https://github.com/DrDataYE/DrShell
+Description: Reverse Shell Session Manager
+Filename: dists/termuxvoid/main/binary-all/drshell_1.0.1_all.deb
+Size: 1276
+MD5Sum: 4e2732cc0de97b26bb4e45a29aee20d9
+SHA1: 0defdac37e74d1e8259fabd3c9c0cad946e0d92a
+SHA256: eef3667e8d6662b7b160d2ba31dc53d7b3f0b6b4d09c93ae2545e814efaf93a4
+SHA512: f50d2b27a359c11ac0a401c129af7bdae6faf71010833437968d28fbdf6e6d3b821320bd4e4a37c1f0f378a7be947c9cec7d732a42df36d3e86d1844d21a2da9
+
+Package: elpscrk
+Version: 2.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, python-psutil
+Section: utils
+Priority: optional
+Homepage: https://github.com/D4Vinci/elpscrk
+Description: Intelligent common user-password profiler
+ Elpscrk is a password profiling tool inspired by the Mr. Robot series.
+ It generates intelligent password lists based on user information.
+Filename: dists/termuxvoid/main/binary-all/elpscrk_2.0_all.deb
+Size: 1100
+MD5Sum: 23a341be78ba2a24477d034630223e0b
+SHA1: 22531d88aa7c50e218c3b056762f651e84f36b7d
+SHA256: 57e56630593efdca4171037c429040dbe65ee4462391080c8de846aa4ef9bcb6
+SHA512: d7ead5e6fdf81ed57ab639f60e8233376becb87c8f878808198e52c5cf592cc8ec24e1ab5fc7824bf2026b8585dfd4d180b2df432c0a6a58a1fda02413b5ab87
+
+Package: emailcrawl
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-lxml
+Section: utils
+Priority: optional
+Homepage: https://github.com/techenthusiast167/EMAIL-CRAWL
+Description: Professional-grade OSINT email extraction tool
+ EmailCrawl performs comprehensive web crawling to extract email addresses
+ for cybersecurity professionals, penetration testers, and analysts.
+Filename: dists/termuxvoid/main/binary-all/emailcrawl_1.0_all.deb
+Size: 7720
+MD5Sum: 2d4a79f595b65f7b6b2a0bb2565121c2
+SHA1: d41a00f41549d5e8b430a15260e54f6d38de8895
+SHA256: e9b378b81f72d716ac6b170fd87b17e4939b46463f8349c48b45e25c13e07ffa
+SHA512: 2d3312e35c75d28715e00e9286c1bbc2b2d0b4efc50154dae022afa181b1e12f56a76ae3759d28af366607f472b627ce5c3deacf248dd5546802544d35398221
+
+Package: enctool
+Version: 1.0
+Architecture: all
+Installed-Size: 64
+Maintainer: Alienkrishn [Anon4You]
+Depends: python,nodejs
+Description: encrypt or decrypt bash file and encrypt python in Marshal format
+Filename: dists/termuxvoid/main/binary-all/enctool_1.0_all.deb
+Size: 2288
+MD5Sum: f5c27b9ad4e157634e4c3cc588400cd6
+SHA1: 8c8098ec895c4790533df7f585d1a6444ff361ef
+SHA256: c2a17742e8733546be1de06497013eddde95f7d897da38ba08b9fc1f2ffaa582
+SHA512: 3da7d1c747c1b8233ea463ae0b0330d4feb74797eecfced3fda7bea091061d2693701932d0e6d589770378856b57282d56d675fd977ab4c926432c367418cd24
+
+Package: evilginx
+Version: 3.3.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, golang, make
+Section: security
+Priority: optional
+Homepage: https://github.com/kgretzky/evilginx2
+Description: Advanced phishing framework with 2FA bypass
+ Standalone man-in-the-middle attack framework
+Filename: dists/termuxvoid/main/binary-all/evilginx_3.3.0_all.deb
+Size: 1244
+MD5Sum: 09b711df644e130877e802734d6aae70
+SHA1: 350e504f796c07823a9b6f5ba9faa3c09f71f469
+SHA256: 0608197b3e04e7eab242ec98ab8d4a9633a436c381fb6ff62f57596c662af184
+SHA512: 1593c7a3b15595821bb940e4c89a93be4860567d4c4f9335e4e256d7edb1314f64deedca2336a1757251fb049fb52819badb2541c03f0b2214fb0cd7586e7a60
+
+Package: evilurl
+Version: 3.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, python-pip
+Section: security
+Priority: optional
+Homepage: https://github.com/UndeadSec/EvilURL
+Description: Generate unicode evil domains for IDN homograph attacks
+ Create homograph phishing domains with:
+ - Unicode character substitution
+ - Domain availability checking
+ - Multiple TLD support
+ - IDN homograph attack simulation
+Filename: dists/termuxvoid/main/binary-all/evilurl_3.0_all.deb
+Size: 1348
+MD5Sum: 3ffd545e01b3fdfe6bb2ecc74bbc3743
+SHA1: 51dc5c51d523868b35e38b58d1d1b6850c9c8b42
+SHA256: c2f988afda74c18586cbe243074eb7ddac9a728969c64b877b15eadeac9b282b
+SHA512: 155e7dc2d6308f37e61f6ce6f3d31d8bfc96a7f175830832141b9b0601ae8d243e44e99cf2a87b4db37cb11650ef01b143b967d80050622dd1f7301f543f0de5
+
+Package: exiftool
+Version: 13.57
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, perl
+Section: utils
+Priority: optional
+Homepage: https://exiftool.org/
+Description: Read, write and edit meta information in files
+ Metadata manipulation tool featuring:
+ - EXIF data extraction
+ - Multiple file format support
+ - Metadata editing
+ - Batch processing
+Filename: dists/termuxvoid/main/binary-all/exiftool_13.57_all.deb
+Size: 1360
+MD5Sum: bef3ea31bede5b2473754394e74c7dbd
+SHA1: 348b14e81c6be966e5835dfb12451305dc2e2f78
+SHA256: 70dc34e7e3578324fb51453698bb5649132baef7d9052539e3dfc1a151ebf0b9
+SHA512: e6ddcb140e7f5a091eed1c9026b08dcd38b520d115ac113dce4441f21aeac69bcb74cd827db4960dd9c3b702cd0209d47c509f8a489349d113dfeb87ef83e07f
+
+Package: ffmpegp
+Version: 1.30
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip, jq, ffmpeg
+Section: utils
+Priority: optional
+Homepage: https://github.com/ankushbhagats/ffmpegp
+Description: Python Utility for FFmpeg and FFprobe Operations
+ ffmpegp simplifies working with media files using FFprobe and FFmpeg.
+ Provides easy extraction of media details, format conversions, and
+ advanced JSON path querying with a convenient Python interface.
+Filename: dists/termuxvoid/main/binary-all/ffmpegp_1.30_all.deb
+Size: 1196
+MD5Sum: 6f8f5be76cf81b458bbe8b62efd6c5a0
+SHA1: 26fb72fb73300a64212b6dc70b44280330c56dbb
+SHA256: 06c28712a10eea8541ebd6ef42995def21017edce27592aa66e73ef5be776a42
+SHA512: 5b1606101a7ba59718fadce41b600b3c5e9750a8a43ae1ebe26475127222c9f1374464fa771a7f645a3a5731d84d2da28155951e0ae03b4b18cd38a77b3b3f1b
+
+Package: ffuf
+Version: 2.1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: golang, git
+Section: security
+Priority: optional
+Homepage: https://github.com/ffuf/ffuf
+Description: Fast web fuzzer written in Go
+ High-performance fuzzing tool featuring:
+ - Directory/file fuzzing
+ - Parameter discovery
+ - VHost enumeration
+ - Multi-threaded performance
+Filename: dists/termuxvoid/main/binary-all/ffuf_2.1.0_all.deb
+Size: 1404
+MD5Sum: 9d1cc4fd97eb9d74466ddd6b69668183
+SHA1: c9f355c91d8dac4c97f18b120fa280863c72adc1
+SHA256: 3a7225020fce70d6b92294b7c16ff4cc8affcf95fd3e9ac8d8c0c55898ca7183
+SHA512: 565129ef194c677237395c3e2a9945440839c8164d580ad417125542e4156f7c176f860114d33021ed87fa4ce518f73ec6f7241310522b2f15ce5fb93cfae400
+
+Package: findomain
+Version: 10.0.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, rust, make, cmake
+Section: net
+Priority: optional
+Homepage: https://github.com/Findomain/Findomain
+Description: The fastest and complete solution for domain recognition
+ Findomain is a high‑performance subdomain enumerator that uses
+ certificate transparency logs, DNS data, and multiple public APIs.
+ It includes subdomain monitoring, alerts via Discord/Slack/Telegram,
+ port scanning, HTTP checks, data import from other tools, and full
+ support for configuration files.
+Filename: dists/termuxvoid/main/binary-all/findomain_10.0.1_all.deb
+Size: 1248
+MD5Sum: 5655c817ba4168c8343480a40a599625
+SHA1: 601bb153795152fefded18c0947d8f6cfd25ab63
+SHA256: d0cd645e30e85f24c3b3014d895eff9293b41673b4c83cf65757a5ddaaf1967f
+SHA512: 940dbd3384c0dd3ccaf3dfdaf5e45cae59d44cc8879314eb8b811e233ea23f9148521bc6d5ac3c615468882bce125cb206067ea52424d087b4037f6d1cb02f35
+
+Package: flutter
+Version: 3.41.9
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Pre-Depends: x11-repo
+Depends: git, axel, which, p7zip, android-sdk
+Section: development
+Priority: optional
+Homepage: https://flutter.dev
+Description: Google's UI toolkit for building native apps
+ Cross-platform app development with:
+ - Hot reload development
+ - Native ARM performance
+ - Material/Cupertino widgets
+ - Android/iOS/Linux support
+Filename: dists/termuxvoid/main/binary-all/flutter_3.41.9_all.deb
+Size: 1568
+MD5Sum: 9b746224cb9d7c286de5a2f581a1a81b
+SHA1: 6e5918cd044b58b87aa0c3271a24f6559cfb8fbe
+SHA256: bf5f14f6a8a9090dd25a69fbb3e3de5c7d714f566c166faea7cfb8f7aa65a829
+SHA512: 43121ccce979c2cd7675a80e50f95fb2ff3a04efa098eb7baaf99df72327bed6259e65aa1e47c32fe246845936ffe839aa039db908d5dc5629651e72bbf0f38d
+
+Package: fscan
+Version: 2.1.3
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, golang
+Section: net
+Priority: optional
+Homepage: https://github.com/shadow1ng/fscan
+Description: Intranet penetration test tool for scanning vulnerabilities
+ fscan is a comprehensive intranet security scanning tool that
+ performs port scanning, web fingerprinting, weak password detection,
+ and vulnerability exploitation in internal network environments.
+Filename: dists/termuxvoid/main/binary-all/fscan_2.1.3_all.deb
+Size: 1100
+MD5Sum: 048abb110daadd7b5d2cbf307c64fb54
+SHA1: 469f6f8ac20d14b3c8717938b6b623df7dedc200
+SHA256: bf4fc85f93f56790a8b1c57f1b642118b8abf8416e6e32ee3fdd311f99bb6e09
+SHA512: e04a388f5b9eb2c930703963074e0b43816a527349abf15cccf9987936c189b1fa4bcdb5b37fd881c9d1ebfa1a4b98d110b93dffff2a2e64c807e745215f1ca8
+
+Package: fuckyou
+Version: 1.0.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You] 
+Depends: termux-exec
+Section: utils
+Priority: optional
+Homepage: https://github.com/Anon4You/FuckYou
+Description: A powerful and customizable password list generator written in Bash.
+Filename: dists/termuxvoid/main/binary-all/fuckyou_1.0.1_all.deb
+Size: 3732
+MD5Sum: a62e8bdc6516d88c008a6cc839a2fc44
+SHA1: 1c81ff4e11fc4f9a039cbebcf1f5844133c596c3
+SHA256: 454145ccc8c8c4df81153ef2343d3a6020b49a0b3049a02f0a96d2ee7a007c21
+SHA512: c5d22adb481f26e0dfbd072e7c57574426d97b0498bfeb8957eaaaba2650e592fa2e9b32a48d62655e9cb6d4ab634f69630b43f60f5650fc2f05fa9122c37183
+
+Package: gallery-eye
+Version: 0.1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, ruby, apkeditor, apksigner
+Section: utils
+Priority: optional
+Homepage: https://github.com/Anon4You/gallery-eye
+Description: Silent gallery exfiltration via Telegram bot
+ Builds a disguised Android WebView app that silently extracts
+ photos from the device gallery and forwards them to a Telegram
+ chat. For authorized security testing and educational use only.
+Filename: dists/termuxvoid/main/binary-all/gallery-eye_0.1.0_all.deb
+Size: 1188
+MD5Sum: 06ae5f24d9cf7230d05557dbdbf2d798
+SHA1: e1025fd4e3d9fd2ac758f29db47c6736d8f3ef11
+SHA256: 4d0d010a373a297abbd92aae548299b4e75993bf4162c55513f7decc65d8800a
+SHA512: 7a8d1f5138a4d1f4f8acbd1b4fbdeac9b34054e11f6457c6f01fa219fcad8173596d5a992292cc3b6bf6893d20df99ff19945f0812dd5d5b6b5b4187b6d203ab
+
+Package: gau
+Version: 2.2.4
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, golang
+Section: net
+Priority: optional
+Homepage: https://github.com/lc/gau
+Description: Fetch known URLs from AlienVault OTX, Wayback Machine, Common Crawl
+ gau (getallurls) fetches known URLs from AlienVault's Open Threat Exchange,
+ the Wayback Machine, Common Crawl and URLScan for any given domain.
+ Inspired by Tomnomnom's waybackurls.
+Filename: dists/termuxvoid/main/binary-all/gau_2.2.4_all.deb
+Size: 1104
+MD5Sum: 8e006a0fe32f2112169f0bd3110ffa3d
+SHA1: 05d685efbfe7c5f950543a2da01bfff8e53020fb
+SHA256: ef87ed190378de183c40731bf2307616de3c6b8a27d9acf7990213effc61d92a
+SHA512: 4fcd5820ccc56eff8b0426812d40f3e2387da8e438bc669290c448cbfb7e7e3c69f20efd0e7019cf46f9d2f4e294694ec3048774f97f096415decbccb87b2380
+
+Package: ghauri
+Version: 1.4.2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python
+Section: web
+Priority: optional
+Homepage: https://github.com/r0oth3x49/ghauri
+Description: Advanced Cross-Platform SQL Injection Scanner
+ Ghauri is an advanced SQL injection scanner and exploitation tool
+ that automates the process of detecting and exploiting SQL injection
+ vulnerabilities with advanced detection techniques and bypass methods.
+Filename: dists/termuxvoid/main/binary-all/ghauri_1.4.2_all.deb
+Size: 1300
+MD5Sum: f55c12efd9789e3f02ff7a892a51b1b3
+SHA1: d7d8dec659577e67140620c4e4eca8dafa270892
+SHA256: e9c1c483bcefa2820dde7f881986ff4ce34359656f1338cf9463560d68c3bb5a
+SHA512: fe092c303b7110e4878f5a91d8205b5cfe812246ec35acd275d34b8c989e586d78dfd80ebde67432ccc7b5e0851c3a44358f169ef298e1f69be01a76c1cef755
+
+Package: ghidra
+Version: 12.0.4
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: openjdk-21, unzip, python,wget
+Section: utils
+Priority: optional
+Homepage: https://ghidra-sre.org/
+Description: NSA Reverse Engineering Framework
+ Advanced disassembly toolkit with GUI/CLI modes.
+Filename: dists/termuxvoid/main/binary-all/ghidra_12.0.4_all.deb
+Size: 131584
+MD5Sum: e2427a60a16a78216701bb86ae63949b
+SHA1: 0da4ac95277ca0988934f68a41fcb0fd8426ac1f
+SHA256: eac1048abdc97cfa9fc89db16294e1a29cb2470de414b07e7601ddea6f34da88
+SHA512: d45ec621682dc08cc73ac12b70e058d66ef8d0876b4a625d5d065088765e30df0a2f4e644137c96f7481bb1138b3cb8caf0039eec76f9b9825ac1e54312634e2
+
+Package: ghosttrack
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, python-pip
+Section: recon
+Priority: optional
+Homepage: https://github.com/HunxByts/GhostTrack
+Description: Advanced tracking and reconnaissance tool
+ OSINT and tracking tool featuring:
+ - IP address tracking
+ - Geolocation services
+ - Social media reconnaissance
+ - Data correlation analysis
+Filename: dists/termuxvoid/main/binary-all/ghosttrack_1.0_all.deb
+Size: 1400
+MD5Sum: 8701b8febdf4354cfd512d9984e44404
+SHA1: e15fcb43c072b4a6b52c770b65948c36c337746d
+SHA256: fa9e646dcba57bfe17dc4b4a3bb54c606e874d3fb632e90bab066f1fcba6e989
+SHA512: 816b2fd50836a330205d287b6d5782b688928f5e0894489345ed0b934eee177d5aa6c1f5e47d5c03fdd0293dfc04ce25fe2a233c56fae5f53f930b9bcb88f1ed
+
+Package: gobuster
+Version: 3.8.2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: golang, git
+Section: security
+Priority: optional
+Homepage: https://github.com/OJ/gobuster
+Description: Directory/file & DNS busting tool written in Go
+ Fast directory and file brute-forcing tool featuring:
+ - Multiple busting modes (dir, dns, vhost)
+ - Concurrent threading
+ - Multiple extension support
+ - Output formatting
+Filename: dists/termuxvoid/main/binary-all/gobuster_3.8.2_all.deb
+Size: 1540
+MD5Sum: 498d212881dce5e718e813db8359d6cd
+SHA1: 7c8fc0672c87b3fad547b6ff657e5216c343b0e3
+SHA256: fefebadd3a4738e7588bca0e1ae65f0f9f84b6e5498fc62d757f096f9142048c
+SHA512: f9f93f2e6c8db076a9e469b3888088a33d3a592ce84370ff306646454fda6f8ec973ea51257923ccd0ad90d10b2d98b099b0cb9809a6894e8eced36895c61be7
+
+Package: gophish
+Version: 0.12.1-latest
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: golang 
+Homepage: https://getgophish.com/
+Description: Open-Source Phishing Toolkit
+Filename: dists/termuxvoid/main/binary-all/gophish_0.12.1-latest_all.deb
+Size: 1148
+MD5Sum: d3c85538bbe192674de75bfed687060b
+SHA1: 9fb146d5c668c493af95d859efadf0e833b20548
+SHA256: b428e8c23ba96e3bb99818a30e892228fc83ca2611d8c88ef2fac7743522c815
+SHA512: 1291d88df7fc3aa65a2a8b5c70d0b5965f894442de632d0890b640dfa4b929faf18cf1d6dc39f2620018d3b1a6afccd782c2f1fc4ace1803fc4d40fba6fc65ae
+
+Package: gron
+Version: 0.7.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, golang
+Section: utils
+Priority: optional
+Homepage: https://github.com/tomnomnom/gron
+Description: Make JSON greppable
+ gron transforms JSON into discrete assignments, making it easier
+ to grep for specific keys and values. It is useful for extracting
+ data from complex JSON structures in command-line pipelines.
+Filename: dists/termuxvoid/main/binary-all/gron_0.7.1_all.deb
+Size: 1060
+MD5Sum: 0e422318ca1d24e8da3a2ac397ae2d10
+SHA1: 08f2ded9fc1d117f273fbaa02a7abe109e7501d4
+SHA256: 59ad53428c6be1a71ef68ea799ffdddaaed65f284d0a9873fc6f071784cb5064
+SHA512: fb9fe6d90a43704c041039eda900db7b540aa20ceca1d13d781fb2cd4c3f23743ea11e45ce104fb952a20a2d07a3d3db371960bcfcfa47345e6ccd9d8cf306e2
+
+Package: hashcat
+Version: 7.1.2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: libc++, libiconv, opencl-vendor-driver, wget, unzip, rust, python, perl
+Section: security
+Priority: optional
+Homepage: https://hashcat.net/hashcat/
+Description: World's fastest and most advanced password recovery utility
+ World's fastest and most advanced password recovery utility.
+ Supports multiple attack modes and hundreds of optimized hashing
+ algorithms for penetration testing and security auditing.
+Filename: dists/termuxvoid/main/binary-all/hashcat_7.1.2_all.deb
+Size: 1868
+MD5Sum: cd3a6b67b4ab5df9292499d527c06953
+SHA1: a7f9e27d62a5c5a796d934c9991dfd49dd6401c3
+SHA256: ba8979bcc71d61d88e68b7a9cf658fad6f29fd08002b8c19b2e5561c1d200754
+SHA512: 75409de4f4e395a498c075f80abe724275ac8e3eb4491f79000dbaae4428d7b22581ebbdcf01ebba367fa3546da2c55f47526cd7e1bea37b79fc476d20ef269e
+
+Package: hashid
+Version: 3.1.4
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip
+Section: security
+Priority: optional
+Homepage: https://github.com/psypanda/hashID
+Description: Advanced hash identifier
+ Identifies 300+ hash types including:
+ - Common cryptographic hashes
+ - Database passwords
+ - Application-specific hashes
+Filename: dists/termuxvoid/main/binary-all/hashid_3.1.4_all.deb
+Size: 1096
+MD5Sum: c0f0bc7385acba231740663f40e07a2d
+SHA1: 9fc6ab2f9ad2878e307432f1ecbad5ec348253a2
+SHA256: 1a926d9f8104021360f5dc87bc231c9ec19a4947384ae36d96a7ac9ecca68ea7
+SHA512: 8fa1a8c2a82da8bebe4054e78fd845ef2646238b2e0ab5b18c9c66f2d844d101703423b41132c3e7fcfcc6feab8fba5754ab5898e8c61901ca079872e46f3baa
+
+Package: hatcloud
+Version: 1.0.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You] 
+Depends: ruby, git
+Section: security
+Priority: optional
+Homepage: https://github.com/HatBashBR/HatCloud
+Description: CloudFlare detector and information gatherer
+ HatCloud identifies websites protected by CloudFlare and extracts
+ origin server IPs. Useful for bypassing CloudFlare protections
+ during security assessments.
+Filename: dists/termuxvoid/main/binary-all/hatcloud_1.0.0_all.deb
+Size: 1268
+MD5Sum: 91a356134891e71f2d5cd851ea712b84
+SHA1: d906bbe8aa64d00ae897179dc9de50c31e8a1e21
+SHA256: b0cad9e5b52a48da8c686941fde36e1460d152ec2e6e7a4414b4541b389d5c10
+SHA512: d04514657e5b0740404e610791ae05e036dc3122f28347b621651689e715eef221dfe30246d674ceed40c196fa51fbfe077eb3da4eb2360f41af6ba2720e19b5
+
+Package: haxrat
+Version: 1.0.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, npm, apkeditor, apksigner
+Section: net
+Priority: optional
+Homepage: https://github.com/Anon4You/haxRat
+Description: Cloud-based remote Android management suite
+ HaxRat is a Node.js‑powered tool that provides remote management
+ and monitoring of Android devices. It supports features like
+ screenshot capture, live logging, microphone recording, GPS
+ tracking and APK building.
+Filename: dists/termuxvoid/main/binary-all/haxrat_1.0.1_all.deb
+Size: 1236
+MD5Sum: 06735c7d38be56d4d6576d54ab198a6c
+SHA1: cdcbc41249e923f02b61a2957e781ace96687f9f
+SHA256: 478e3a6f0843d14e6c1420b7afe1a0fda4693206648e4a27ce44192af76568ae
+SHA512: f6fd5df371853cadd9ffeceea9dbefa9998b34fa6010e5207709b7b026ce53d8e706ad5bed9db9fec19671f0f0ac29562dc292cc1db8cbb9c2f7d2263b1b12dc
+
+Package: hbctool
+Version: 0.1.5-96
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip, curl
+Section: utils
+Priority: optional
+Homepage: https://github.com/Kirlif/HBC-Tool
+Description: Hermes Bytecode Disassembler and Assembler
+ A command-line interface for disassembling and assembling the
+ Hermes Bytecode. Provides tools for working with Hermes bytecode
+ files used in React Native applications and JavaScript engines.
+Filename: dists/termuxvoid/main/binary-all/hbctool_0.1.5-96_all.deb
+Size: 1276
+MD5Sum: b659009f60467206cc6baafef5715549
+SHA1: 8815466b5475451c6edf9a44fae53df6941449e4
+SHA256: 06fc81b365ecf2267c073b037436e5d8cdf3e432ebc901156683d6eb2506c67b
+SHA512: 70b45d785f826788d3f7db140ba03c005b58cf5a7017692e3b60cc4f4f59b5b5dd71c197758e541428d39804c9783cdbf8dc4a8e4661c22bd5c158700a28f79a
+
+Package: holehe
+Version: 1.61
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip
+Section: security
+Priority: optional
+Homepage: https://github.com/megadose/holehe
+Description: Email OSINT tool
+ Check if email accounts exist on 120+ platforms
+ (Twitter, Instagram, Snapchat, etc.) without direct access.
+Filename: dists/termuxvoid/main/binary-all/holehe_1.61_all.deb
+Size: 1116
+MD5Sum: da381c51f99fcf86bf338e7d19452c31
+SHA1: 8e513f5e4df3deaa514dde1f22f788df82c58722
+SHA256: d067393cf5f51a94ebe5b996bab06f22e0b721ba6af3dae4e43a2ce6b92c86e3
+SHA512: ada4a2ead1df5d064c8cc787d49724f2bf64212e5780011fa4fda8f761e1a6f02a1555d350b597bcd270bec905c28143d2db19232e5427bd2a7aaac7876e4d7e
+
+Package: hound
+Version: 0.2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Homepage: https://github.com/Anon4You/hound
+Depends: git, php, nodejs
+Description: Simple and light tool for information gathering and capture exact GPS coordinates
+Filename: dists/termuxvoid/main/binary-all/hound_0.2_all.deb
+Size: 1544
+MD5Sum: ed8a310c12de1f1c8e604f59db89371d
+SHA1: 28d8a966186498706c3c95018a279cdcbc4650d8
+SHA256: dda59e5d5006b13daf38f5f2c8ca83b540551a5cb0b2e54acfbaf8e27ccacfb2
+SHA512: f46dbd32c045aaacb1d5d0703e8593c7ba77ec55ee4751de12ef9ef755e1d15c6fb04e3dd05a74a47c9fb4d568d6657f952ec2ea224c91c8c41f718418df9a24
+
+Package: httpx
+Version: 1.9.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, golang
+Section: web
+Priority: optional
+Homepage: https://docs.projectdiscovery.io/tools/httpx
+Description: Fast and Multi-Purpose HTTP Toolkit by ProjectDiscovery
+ httpx is a lightning-fast HTTP client that allows running multiple probes
+ using retryablehttp library. It is designed for security professionals
+ to efficiently analyze web assets with various checks and validations.
+ Features:
+ - Multiple protocol support (HTTP/HTTPS)
+ - Customizable probes and filters
+ - Fast and reliable HTTP client
+ - Title and technology detection
+ - Integration with ProjectDiscovery workflow
+Filename: dists/termuxvoid/main/binary-all/httpx_1.9.0_all.deb
+Size: 1696
+MD5Sum: a050e62069aa9142101fd9d9e7c460fd
+SHA1: 82b48411690f79237aadddd8a2ea1d0b0503ca15
+SHA256: b6cedf1f2c15c5e6c5fb532c81bbbb484ec384807e4b02fe828ebf3bdb91ae25
+SHA512: 1c4e492d1e446a1db0dddd5e995506afe4c307127c5e88f0de86e642a7f2ed426b4684393958b498ad0d4b651335ff4c952b77110433dbac00f1855695a6f325
+
+Package: hunner-framework
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, python-pip
+Section: security
+Priority: optional
+Homepage: https://github.com/b3-v3r/Hunner
+Description: Open Source Penetration Testing Framework
+ Web application security scanner with:
+ - Multiple vulnerability detection
+ - Automated scanning
+ - Report generation
+ - Custom module support
+Filename: dists/termuxvoid/main/binary-all/hunner-framework_1.0_all.deb
+Size: 1320
+MD5Sum: ea7baddbc2245061c4068b9607f4a902
+SHA1: f48c5dad877fe90590a6b9b7fcde197d5a71b66d
+SHA256: 87d775be5fbc17a0ece76d7fd63e5e5f2bc40bc08da6df6fe52b291932a064b6
+SHA512: e1ca5e8283422aac3fda8f48652858752ec8a7034aa79da275ebf4694fedebd9777978d965cc25515e4be0cb99abd876a2bd1b099ca90536099698e868d1597e
+
+Package: ia-get
+Version: 0.1.3
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, rust
+Section: utils
+Priority: optional
+Homepage: https://github.com/wimpysworld/ia-get
+Description: Internet Archive Downloader Tool
+ ia-get is a command-line utility for downloading files from the
+ Internet Archive. Built with Rust for speed and reliability.
+Filename: dists/termuxvoid/main/binary-all/ia-get_0.1.3_all.deb
+Size: 1248
+MD5Sum: 2561c4263d5724557be213edb9531225
+SHA1: df666b86ee5df404f32588b70f1edcd9655dc896
+SHA256: dfe84aa702084b43db1fa763dd981b145d958f49dbce2210090cf37e64a8c49b
+SHA512: 7df8259d3925f6f4afa2f7a5b24fe2b3f41dd16392b212f3360d71fb5b1c4466214422025d56cb4e11c5347db7c6bac88dbe2b8edb1b2d4e18eeb3cd50747839
+
+Package: infect
+Version: 1.03
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: apkeditor, apktool, metasploit-framework, apksigner, libxml2
+Section: security
+Priority: optional
+Homepage: https://t.me/nullxvoid/
+Description: Android APK backdoor injector with Meterpreter support
+Filename: dists/termuxvoid/main/binary-all/infect_1.03_all.deb
+Size: 7476
+MD5Sum: 63d029e0b22a950b56a24bb432b15ba3
+SHA1: 18318bf7871d3f087aab925372f165dee09b34b3
+SHA256: 9b72761d567347c6c0835ba0f62cb3917368a785d7146859d3e6d80bf110b6af
+SHA512: a623e6c7a013496cc78b42871ac686566dd48b26ceb0c92ca1d144146dec8d50248edb8d37751c0c5f3152874aec275f7bb401412090392aa0cea5615cec6ff1
+
+Package: instaghost
+Version: 1.0.2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python
+Section: social
+Priority: optional
+Homepage: https://github.com/Anon4You/InstaGhost
+Description: Professional Instagram OSINT Tool
+ Simple and efficient Instagram data gathering tool for security research.
+ Provides profile analysis and information extraction capabilities.
+Filename: dists/termuxvoid/main/binary-all/instaghost_1.0.2_all.deb
+Size: 1312
+MD5Sum: f4f4644bf0ae97c56f2fe3022bcaa2b7
+SHA1: 15cc2602e4afde439923805dab7fb69573259f6e
+SHA256: 089cb081a44f6918c4a25abc2e096fdce58ac199b9321385770c8de747c5109f
+SHA512: 600bc591e20138756ed42da64cf2d1ce0e35464717111b183cef36800004bfd18dc8973711c40a7097b0b43542363a7c56369bbf0e10b868c10e2431cbe7a0b3
+
+Package: instajack
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python,python-pip
+Installed-Size: 1
+Description: Instagram old account jacker
+Filename: dists/termuxvoid/main/binary-all/instajack_1.0_all.deb
+Size: 10912
+MD5Sum: d897800a425a364d3ff063edd72bf1e8
+SHA1: 1af0dae2b1950a7f253483ab913d83da98c1ef70
+SHA256: d2756496304ebb0b059a8d6faaf332145761e1b42c3eb76291ed58ddb772f4f6
+SHA512: d8052964af45adcf546b453eeedbc6ff0ba2e827d9152e275baa4e6d14c5473acee6b43428f9d3a7acfa1c4cdaa917f2bd2fce804107cbfccb210ae206ac3162
+
+Package: ip-changer
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Homepage: https://github.com/Anon4You/Ip-Changer 
+Depends: git,curl,tor,privoxy,netcat-openbsd 
+Description: A powerful and easy-to-use tool to change your IP address automatically
+Filename: dists/termuxvoid/main/binary-all/ip-changer_1.0_all.deb
+Size: 1396
+MD5Sum: 2ef8f775f34798ba052a9657f93a206e
+SHA1: 2f67e39159b2e0a048bff9aaf752d23ef6a5ac62
+SHA256: cdb329727023b45b88962093731ad55b327629536605f4d9481c50be4c76f9b2
+SHA512: cb9d0c277f90ba706f751715e9196b46c05dcd389dd021310fc0a2caa3fd16781b0aa86984e80fbaefbf56baed0535fdeec424ef8c4a7ef4d708ee43495aa843
+
+Package: ipinfo
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Installed-Size: 48
+Depends: python,python-pip,termux-exec,termux-tools
+Description: Ip address information gathering tool for termux
+Filename: dists/termuxvoid/main/binary-all/ipinfo_1.0_all.deb
+Size: 3564
+MD5Sum: bea2c47e7e2a2ff31692d150194dd778
+SHA1: 5bdcb544050f8c98b82de3b2d853a7a69cb1c73f
+SHA256: adab830d42f9497cdabecd7425e06524da40c3adbeb68e097b4bc7061157d672
+SHA512: 4b818a2682a9e34e17adf1ed92f4b56d74a68867685faa71ae4e3058cd1f6088d4a59915139cd4a4d4a193367612f1d0ba6bfa74b46f0971e23b47bc2f1b94f9
+
+Package: iplookup
+Version: 1.0.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: termux-exec,termux-tools,figlet,toilet,pv
+Installed-Size: 36
+Description: Ip address info gethering script..
+Filename: dists/termuxvoid/main/binary-all/iplookup_1.0.0_all.deb
+Size: 1100
+MD5Sum: 19ab2c89e489b13fd5ada0d24f70ddd4
+SHA1: 483cd48f606417eff502ac93de998705c551f296
+SHA256: 0cf916b5b7138723e27ed8f05cc8990d5bac10ad91884b393f5bc87a155446b8
+SHA512: 2a62a5eb4e950b011aaa22350f9ad729763a340984b08148a5da895e90a5606dc1bc37df7397d5dd84f93b2a06d6deac20bd131f4e783255502795d1c67be98b
+
+Package: john
+Version: 1.9.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, make, clang, openssl, zlib
+Section: security
+Priority: optional
+Homepage: https://www.openwall.com/john/
+Description: John the Ripper password cracker
+Filename: dists/termuxvoid/main/binary-all/john_1.9.0_all.deb
+Size: 1220
+MD5Sum: 142673013a4835197325fb8067994c76
+SHA1: 42b817ca4e427024ee90e378e8faf19ed642d4fe
+SHA256: a4215d0185cce83d700a3043498b8662a197fed2d302d9084786d5295a218ccc
+SHA512: 79956d55e0a2f1d42b62e9a5d725859528564bc0a7fb26360f11e1571ee0446fee7827f8536db6812355dbb494d55bf0b5547a7c4d594a859fa8fb6f63a4160f
+
+Package: jsql
+Version: 0.144
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: curl, openjdk-21
+Section: web
+Priority: optional
+Homepage: https://github.com/ron190/jsql-injection
+Description: Lightweight database information finder from a server
+ jSQL Injection is a lightweight application used to detect and
+ exploit SQL injection vulnerabilities. It automates the process of
+ finding database information from a target server.
+Filename: dists/termuxvoid/main/binary-all/jsql_0.144_all.deb
+Size: 3708
+MD5Sum: 7b9dee0de118820f32cd53457e02ad30
+SHA1: 069a655572a0dd6b8da376f80ab869652539a932
+SHA256: 1f7c65de7052b5b9a7ce5c294aba8a58c327ce219d05c21bff008cc2a9e6c598
+SHA512: 4057a7263d6c96db74298cfd3c1813023e6130d1165098ca38913012f1a4de82c0d957ab232baa4e530b5fbeeb8e01d56fa0a29fbcdf7fa55e6146b7ed5d5fb3
+
+Package: katana
+Version: 1.6.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, golang
+Section: web
+Priority: optional
+Homepage: https://github.com/projectdiscovery/katana
+Description: Fast, passive and active web crawler
+ katana is a next-generation crawling and spidering framework designed
+ for speed and efficiency. It supports standard and headless crawling,
+ form filling, and JavaScript rendering.
+Filename: dists/termuxvoid/main/binary-all/katana_1.6.1_all.deb
+Size: 1064
+MD5Sum: 91aaab5d849b589913f30dff8d74e3bf
+SHA1: 09fa0bcc69c98be4b47e610fb2f4c97741350f64
+SHA256: 3aca14ccf07ed90d24a1ec49a4ce345e50f13b9675e5e5469d2145cf98b6806d
+SHA512: 26a024239a7e437ce075516683b11b21b7e6c37d820dc63776a7b4f87d70851131535911518e73c4c780df7f607d6b401ca1387fe16c3d69e49be4fd12501c0f
+
+Package: kerbrute
+Version: 1.0.3
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, golang, make
+Section: security
+Priority: optional
+Homepage: https://github.com/ropnop/kerbrute
+Description: Kerberos brute force and enumeration tool
+ Fast Kerberos pre-auth brute forcing with:
+ - User enumeration
+ - Password spraying
+ - AS-REP roasting
+ - Performance optimization
+Filename: dists/termuxvoid/main/binary-all/kerbrute_1.0.3_all.deb
+Size: 1512
+MD5Sum: ea1a84f7552e17740f322ad1b26f4e55
+SHA1: 9ec5f01694c871e47001c5aeaa61354a5a399a6c
+SHA256: 9d3c1d751f702707ae1724f39e2c9481c75294749bab52d7dec1da31f64619a3
+SHA512: a4883f3e63c304ae559bef283fb79832e645b1b910e0055f6f7d8bc8d9fc1bdeda5d9ef6f5829164045b8545daffd9b6f26d6562262fb55398d8fae6d3214ebb
+
+Package: keysigner
+Version: 4.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip, openjdk-17, apksigner, openssl-tool
+Homepage: https://github.com/muhammadrizwan87/keysigner.git
+Description: APK signing tool for Termux
+ A tool for signing APK files on Termux with various options.
+Filename: dists/termuxvoid/main/binary-all/keysigner_4.0_all.deb
+Size: 948
+MD5Sum: dc10a02d6146f4c810809a8b168a93ae
+SHA1: 8308508e8cef5db535b36f2accde32795db36618
+SHA256: a28b25b7523ae65c50bfecf183752b2f68533e6ef015cf574ef64ed428272fbe
+SHA512: 97f88065231a8eb5761c2e455df4723757b278550e5c6dd96d10d794f8f9e946bdcb7d1d5f8d6568ec518c754c9beecdef4bd9a49f2757eaf3427b645ebf4132
+
+Package: knockpy
+Version: 7.0.2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip, python-cryptography
+Section: recon
+Priority: optional
+Homepage: https://github.com/guelfoweb/knock
+Description: Subdomain enumeration and reconnaissance tool
+ Advanced subdomain discovery featuring:
+ - Multiple enumeration techniques
+ - DNS reconnaissance
+ - Certificate transparency logs
+ - API integration
+Filename: dists/termuxvoid/main/binary-all/knockpy_7.0.2_all.deb
+Size: 1192
+MD5Sum: 0d1e822f26a065c30b05c5c350e4965b
+SHA1: c556fe66e08d38c2a22148ede436f82eb5dae524
+SHA256: fde579315c9c000aaff35fae37d45e87d16679386f23b778e5b9766f0fc9d770
+SHA512: 3c747c140b40bbcbf7436b875848cdd79059a70a8d2bfa5290a0e3663770a0fef757e748ddee7310413d9b7029f59e900a298aa46d8c13eeb6c984219ed1bfbe
+
+Package: lazyvim
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, fzf, fd, ripgrep, neovim, npm
+Section: editors
+Priority: optional
+Homepage: https://www.lazyvim.org/
+Description: Modern Neovim configuration framework
+ LazyVim provides a powerful, extensible Neovim setup with
+ pre‑configured plugins, keymaps, and IDE‑like features for
+ a streamlined development experience.
+Filename: dists/termuxvoid/main/binary-all/lazyvim_1.0_all.deb
+Size: 1496
+MD5Sum: dfef92a5c89343907c958674d740dbb3
+SHA1: d492ff2ce13e67026438cafea3a65d3c95261b1b
+SHA256: 19c658b0883549e0dd0456bcc4705a052f5893b50b6f355260a6cfd4c29b03c8
+SHA512: 3c1355ef8f71040a2392b1d00c778df54bc56f29e642ebb36a55a38d3b524f243a7f02051d4fb607476c7acead394da0b05c35ff7016ae034a7d3f9e5aba0607
+
+Package: linkwizard
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip
+Section: utils
+Priority: optional
+Homepage: https://t.me/nullxvoid
+Description: Powerful profile link finder for Termux
+ Searches DuckDuckGo for a term, filters results to domains in domains.txt,
+ and common profile paths. Extracts profile links and generates a stylish
+ HTML report. Domain list can be managed with 'linkwizard domains ...'.
+Filename: dists/termuxvoid/main/binary-all/linkwizard_1.0_all.deb
+Size: 38272
+MD5Sum: a63586c386c56866c3c2e3633531db81
+SHA1: 3ed99abbea4e613bcbc866be22498eaf12cd6cc5
+SHA256: cceb963ff1a23ef25479af23d688a20b38f3a22bad41986c83a6f252b1df5e92
+SHA512: 4f9542b86ffc35d9477090e334dd3e3153c4cc2e3b38985691dd70a96f04158a0f286feb05b1e7e406fd20f1a6f4be28269d0a55b66d42ea0bdfc4fc4a36d609
+
+Package: local2onion
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn ~Anon4You
+Installed-Size: 54
+Depends: tor,php,curl,pv
+Description: Expose your localhost on the DARKWEB using termux
+Filename: dists/termuxvoid/main/binary-all/local2onion_1.0_all.deb
+Size: 1604
+MD5Sum: 18cf7370f7b02c7fba433eba90ec4bdf
+SHA1: 6d3295eb70dee0e8b9cbfc07d6f2521ff862432a
+SHA256: 27ef16a8888e7913172b79e3a10eb1d253efa1299579097d99c5a6a4610897b8
+SHA512: 1b0fcea155b0e1e6bda31220540c8fc87d78b28bb6dd23fb80c683add950749aae1b9d2c210ce043c9781a69a946d2fdf32dd75b83a742445fb2cab978f0d087
+
+Package: locateme
+Version: 1.2
+Architecture: all
+Installed-Size: 202
+Maintainer: Alienkrishn [Anon4You]
+Depends: php,jq,openssh,figlet
+Description: Live location tracker using google maps
+Filename: dists/termuxvoid/main/binary-all/locateme_1.2_all.deb
+Size: 39536
+MD5Sum: 0ba9d0a375259f4922a6c1bd5a484c9d
+SHA1: aebae860530c7ff9fe6973474a6227a930949671
+SHA256: 37a80f721e21a1261e94708b5f6523b392ba1335c8483a413130f83a3a835117
+SHA512: 8f375eed88b8380ee06de1825bc3323794d0e5e2e2a81414067158d3135caa883ac8998d480b3f6b79a056d51ec5371d7a1f0d2ea0da4d0c168d8b8efb7541c9
+
+Package: lunarvim
+Version: 1.4.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, make, python, npm, rust, fzf, fd, ripgrep, neovim
+Section: editors
+Priority: optional
+Homepage: https://www.lunarvim.org/
+Description: IDE layer for Neovim with sane defaults
+ LunarVim provides a modern, feature-rich Neovim configuration
+ with sensible defaults, LSP support, and extensive plugin
+ ecosystem – completely free and community driven.
+Filename: dists/termuxvoid/main/binary-all/lunarvim_1.4.0_all.deb
+Size: 1360
+MD5Sum: 94fd52eb9d51820fdd79435d4f590fee
+SHA1: 3d1ddff16fd62856f4cb67ebe870c7843302f24b
+SHA256: ac341988ddc04f42eda17f57cc2593d788d7664ef76aa94cb78510063f62a199
+SHA512: 56cd22a8898b0de86009a0296ad2fbd64e106c4862509dace66d0d05dd6b57e7a086cfd0c0436b920f1c101e8de4c2dc2e6b500277850caf82c188f93bb02364
+
+Package: mantra
+Version: 3.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: golang, git
+Section: security
+Priority: optional
+Homepage: https://github.com/brosck/mantra
+Description: API key hunter for JS files and web pages
+ Detect API key leaks in JavaScript files with:
+ - Multiple API provider patterns
+ - JavaScript file analysis
+ - Web page scanning
+ - Custom regex patterns
+Filename: dists/termuxvoid/main/binary-all/mantra_3.1_all.deb
+Size: 1420
+MD5Sum: 268b00edcb9f8366a489ebfda3db83a3
+SHA1: 559f4013b983dcf7bae8da5477812925d83cdbb5
+SHA256: 945321562226097fef09d014cac0acd5a9e4c5a99c2f6ff518b2059104e9eeb0
+SHA512: aee07b7ccccd8c4bb6b1d6f0baec65cef0cc5737c0029a8f4c92b531a8d7793c4c6c88dcd5d4935aa4ea9a9af1dd7b4791de20f036aa2cfca4c232693e03f5ee
+
+Package: maskme
+Version: 1.0.0
+Maintainer: Alienkrishn [Anon4You]
+Architecture: all
+Description: Give a Mask to Phishing URL like a PRO
+Installed-Size: 32
+Filename: dists/termuxvoid/main/binary-all/maskme_1.0.0_all.deb
+Size: 1600
+MD5Sum: 650d1628437b2e04045535b8e37dcc9a
+SHA1: 02eb14c82e203257b715fafed09a9db38aa16886
+SHA256: cac84ce41bf4c28077a4e8706b96497dc0220b1e2cba4ff37995cc239a438884
+SHA512: d755b2774f66c52216a591ad0e6bd6db763aaca9a88f0636806d608a1276cd3ecb17a7236766557124bb421ad14e5481a2f9affea4a7854dc96afc2c67cef9d6
+
+Package: medusa
+Version: 2.3
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: proot, tar, axel, nethunter-cli
+Section: net
+Priority: optional
+Homepage: http://h.foofus.net/?page_id=51
+Description: Fast, Parallel Network Login Auditor
+ Medusa is a speedy, parallel, and modular login brute-forcer for
+ network services. Supporting numerous protocols including HTTP, FTP,
+ SSH, SMB, and many more for comprehensive security testing.
+Filename: dists/termuxvoid/main/binary-all/medusa_2.3_all.deb
+Size: 1476
+MD5Sum: adb135e4ceb7d61f1d44e0879adb911c
+SHA1: dc91cdf4c2353f78644fa557f491517a039119ef
+SHA256: ea5d1a7f5790b668e5839cea5e6202203940e0442f4cca7a0f42b8f98d7cdeed
+SHA512: 5ae29e56e900eb07ed6b48a31ab3e7f8e56c71311cded494c3495aa589d76bc5be2f4f936b21b106c1d6e55578e56f584a6a226f25d909ba553a5cc40df9192d
+
+Package: metasploit-framework
+Version: 6.4.136-dev
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: binutils, python, autoconf, bison, clang, coreutils, curl, findutils, apr, apr-util, postgresql, openssl, readline, libffi, libgmp, libpcap, libsqlite, libgrpc, libtool, libxml2, libxslt, ncurses, make, ncurses-utils, git, wget, unzip, zip, tar, termux-tools, termux-elf-cleaner, pkg-config, ruby, ruby-nokogiri, apktool, apksigner
+Section: net
+Priority: optional
+Homepage: https://www.metasploit.com/
+Description: Penetration testing framework
+ Metasploit Framework provides exploit development, payload delivery,
+ and post‑exploitation capabilities for security assessments.
+Filename: dists/termuxvoid/main/binary-all/metasploit-framework_6.4.136-dev_all.deb
+Size: 1868
+MD5Sum: a073ff276cc33cffbf350d4b493878a8
+SHA1: 20d25ee97abd1d089daf69778c3052616421ac56
+SHA256: a62c6a27aab70e9e2a07920f9ff77f9d08c099cfbcbb30a84b655dbc0cc288b8
+SHA512: 87fc1830215b3587de2d57c02f6b4035fa3446497776f026b299ffe56da2a6b312e5e2c79008e06724bf534456f156fda5a9877461351544abd6b8f95cc50631
+
+Package: mimocode
+Version: 0.1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: curl, clang, glibc, tar
+Section: devel
+Priority: optional
+Homepage: https://github.com/XiaomiMiMo/MiMo-Code
+Description: AI‑powered coding assistant (glibc wrapper for Termux)
+ MiMo‑Code is an intelligent code completion and generation tool.
+ This package downloads the official Linux ARM64 or x86_64 binary
+ and runs it inside the Termux glibc environment.
+Filename: dists/termuxvoid/main/binary-all/mimocode_0.1.0_all.deb
+Size: 2056
+MD5Sum: df4f1f64a0775a93bea6e8eaf468f2b8
+SHA1: 129688a6188396ebc468dc0b06fa044dbb2342be
+SHA256: 65356a619d5cba58d0eae13128afb546ea64a73c61bce373266093627c5ea4b7
+SHA512: 772a4d5fb235e99bd344c0aed0338676062dcfb3f14654e038a45086d31a02fa19ca0d4b4a18fb771ae1a167c2ce913bf151022d0dcd7d627d4ae2ea88de59e3
+
+Package: mkwebapp
+Version: 1.0.0
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: curl, file, termux-tools
+Homepage: https://github.com/Anon4You/mkwebapp
+Description: Tool to create Termux .deb packages for websites
+ mkwebapp allows users to easily package a website URL into a
+ standard Termux .deb package. It generates the necessary launcher
+ script, .desktop file, and attempts to fetch an icon, creating a
+ seamless integration for Termux:X11 desktop environments.
+Filename: dists/termuxvoid/main/binary-all/mkwebapp_1.0.0_all.deb
+Size: 3160
+MD5Sum: 6e7ccffe17cf93358fe435a225af46b8
+SHA1: 26863ceb9dfab6c64225d08e321614dc494b2a3b
+SHA256: c25ea05b67c8a3f0cf8e642769c2576e970522a536f9441a5fda0af66ca43a4a
+SHA512: f7acad38982273d9fe5dfde691ed9c4e5b47fae98824635c9e31f9ff5d7d60d8602a1d82cf12248eb34edd1dbdfc27ee7449999d8866020e4422f61c21d5764b
+
+Package: morphshell
+Version: 2.0.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, tte, eza, starship, fish, bat
+Section: shell
+Priority: optional
+Homepage: https://github.com/termuxvoid/MorphShell
+Description: Sleek Termux Shell Environment with Dynamic Themes
+ MorphShell provides a sophisticated Termux shell experience with
+ intelligent prompts, syntax highlighting, and dynamic animated
+ banners that change each session. Features enhanced terminal
+ aesthetics and productivity tools for shell customization.
+Filename: dists/termuxvoid/main/binary-all/morphshell_2.0.1_all.deb
+Size: 1688
+MD5Sum: 5986177ce0780f34522c274d6f8cbf82
+SHA1: cb34b11f321be543f52d6b5b23de569c8493f34a
+SHA256: b4d4b9f604e70d5f3bda16072b6f928010f8dffc41601cd4a7f42453357bef41
+SHA512: b484e7bcdd2a1d0389acfd44564a3014a61e16122934cdffb552c4503ba52e55cd8c46646a2a8acb8ad1436f486ddccae71dd3f3588bebbb8c4ac3bea0a21cd8
+
+Package: mtcr-apply
+Version: 1.1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: openjdk-21
+Section: utils
+Priority: optional
+Homepage: https://t.me/NullRE_Channel
+Description: MTCR Patch Application Tool for Android APKs
+ mtcr-apply is a tool to apply .mtcr patch files to APKs,
+ inspired by git-apply. Uses patches generated by MT Manager
+ for modifying and patching Android applications.
+Filename: dists/termuxvoid/main/binary-all/mtcr-apply_1.1.0_all.deb
+Size: 1583364
+MD5Sum: 97cab88dcb3cea41e248f975bdefbf8a
+SHA1: 0980afb49eb7aaab8db3da1d7110e27b1b78f997
+SHA256: 7ce1bae73b2cc956c86a82c0f0bbdf1b2b2dfe44f1e74116bbe8b297d0746483
+SHA512: fa9827c308808bb19ff59e3d1cb260ba25445dc0caa319945ed9f2c754f5a903ca65bb3feb2b35c3200895000b6494278e79a90b9b7dd2549b55b8dac3754ca4
+
+Package: naabu
+Version: 2.6.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, golang, libcap
+Section: net
+Priority: optional
+Homepage: https://github.com/projectdiscovery/naabu
+Description: Fast port scanner written in Go
+ naabu is a fast port scanner designed for reconnaissance and
+ network enumeration. It supports SYN, CONNECT, and UDP scans
+ with high performance and low resource usage.
+Filename: dists/termuxvoid/main/binary-all/naabu_2.6.1_all.deb
+Size: 1060
+MD5Sum: e4782314b4dc87a2464ef52eebfaf800
+SHA1: c10cc685ac18000112d7880b1d84f301378a9311
+SHA256: e11259a3e0772006d8942f5e3c718048f41e82f32797a9a3a3a9ae7109cfc44d
+SHA512: ecbcbc473c40eb06c1d6ed2a1068109eb3788b2c85239e0d0573616f19b328c2421d330adc077e94c37cd295e70d6fb8fcf12216ae1d0e32f744a074f802fc58
+
+Package: nethunter-cli
+Version: 2025.4
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: proot, tar, axel
+Section: net
+Priority: optional
+Homepage: https://www.kali.org/
+Description: Kali NetHunter Rootless Edition CLI
+ NetHunter CLI provides command-line access to Kali NetHunter tools
+ and packages without requiring root access. Enables penetration
+ testing and security tools through PRoot environment integration.
+Filename: dists/termuxvoid/main/binary-all/nethunter-cli_2025.4_all.deb
+Size: 2164
+MD5Sum: c79228759c6497d354149f1959e5c240
+SHA1: ea13845e570c88545475e605f033a94fba9e5339
+SHA256: cec7a5d418f1deafcff337ff104136bfd0b3a9aafa77aae8227fc748b7bcca4c
+SHA512: 2334e61375cb24fb35e2390f3852de9802f45eaab22f1507284a6bed2a507d67e28c503cd3e4668d6b435fc2faf1c2a5b83a501b5aa1bb00496f7ca7bc71d7d1
+
+Package: ngrok
+Version: 3.39.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: wget, proot, openssl
+Section: net
+Priority: optional
+Homepage: https://ngrok.com
+Description: Secure tunnels to localhost
+ ngrok is a cross-platform application that exposes local
+ development servers to the internet with secure tunnels.
+ Features include introspection, replay, and replay of
+ requests for webhook testing and debugging.
+Filename: dists/termuxvoid/main/binary-all/ngrok_3.39.1_all.deb
+Size: 1560
+MD5Sum: ced1f4fc35b262ab75f0aeeb89f43683
+SHA1: 1275661ca502d9174fac05ab380c4522803d39ba
+SHA256: 827701e15dbf27a7bf0610ba701d70e08671927c772d32ada3bd4ab3932bb6ed
+SHA512: 68fc743cb0020065e94a13d058dbea9619245002b4a3da8956e0341fc43c3587e7766b40b1e92572ea3f1d7098efb05b938951502625f2c2f020e2a0531f0ca9
+
+Package: nikto
+Version: 2.5.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: perl, git, openssl, openssl-tool, clang, make
+Section: security
+Priority: optional
+Homepage: https://github.com/sullo/nikto
+Description: Comprehensive web server scanner
+ Nikto performs comprehensive tests against web servers
+ for dangerous files, outdated servers, and vulnerabilities.
+ Supports SSL, proxies, and multiple IDS evasion techniques.
+Filename: dists/termuxvoid/main/binary-all/nikto_2.5.0_all.deb
+Size: 1400
+MD5Sum: eb24c7dd71148d1473b568db7ab46532
+SHA1: bb37eeac59ca2d6a0249397c7ce372fcb4c2ac35
+SHA256: 3d764f3c61d9a1135e1109dbeee0bbd6f35ef4caddff4cf2eb1cb3c4f42c9479
+SHA512: a3225b5098325c4fbeb64e140149ce08e330743f5ebcdc379e49ed44d259f7e28985ca5f9d27a0bd7b276bc7ec54943174e582012b454dfef24af3a41ffb9b1a
+
+Package: nuclei
+Version: 3.8.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, golang
+Section: web
+Priority: optional
+Homepage: https://nuclei.projectdiscovery.io/
+Description: Fast and customizable vulnerability scanner
+ nuclei is used to send requests across targets based on a template
+ leading to zero false positives and providing fast scanning
+ for known paths. It is built with simplicity in mind.
+Filename: dists/termuxvoid/main/binary-all/nuclei_3.8.0_all.deb
+Size: 1080
+MD5Sum: 2f6f28ef6bff0a2fe247ec82046b181d
+SHA1: 9a3e8095da971167ad2b7a0ecc2361029803bdb5
+SHA256: 8d5034490ca1fdc7c37c82b7c44d518f8a2412eb2f57597a628cab4fa9aa16b7
+SHA512: d5572195aec3f43684ee952df2fd4a2522b46a5fb3dfe73c414a970ef69acbc14a353071a7f99467b471d535b7b6ae0329b7022dab0b9cbf729c783cfbfcdd96
+
+Package: numinfo
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python
+Section: utils
+Priority: optional
+Homepage: https://github.com/Anon4You/NumInfo
+Description: Phone number intelligence and lookup tool
+ Numinfo is a Python tool that provides detailed information about
+ phone numbers using various APIs. It supports multiple data sources
+ for comprehensive number validation and enrichment.
+Filename: dists/termuxvoid/main/binary-all/numinfo_1.0_all.deb
+Size: 1576
+MD5Sum: bf9131d65179db1835cdd32c1f6f1e49
+SHA1: fbfba717138be32868bb850682504c3a0656fcf1
+SHA256: 52200e68e536e8c2f9eb40a7ef6c11aba216a8e39056efe8e0aca7f2ca210989
+SHA512: 3873c2af1c9a209cf18d41c0903d1c30df3b3a0d2862eff07a6c768a5571a335312279af94135e355493f96f85a0b40bc2ae1cf8a4a3d1a19dca30b642541e65
+
+Package: nvchad
+Version: 3.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, neovim, ripgrep, lua-language-server, clang, npm
+Section: editors
+Priority: optional
+Homepage: https://github.com/NvChad/NvChad
+Description: Neovim Configuration Framework
+ NvChad provides a beautiful and functional Neovim configuration
+ with IDE-like setup, themes, and plugins for enhanced development
+ experience. Pre-configured for optimal performance and usability.
+Filename: dists/termuxvoid/main/binary-all/nvchad_3.0_all.deb
+Size: 1320
+MD5Sum: ea2dcbec9cae9948d1a38052ab30e68c
+SHA1: 5a35383d080bc50a431238a1451558bee01b1b59
+SHA256: 2f71daab90c8f9a7ea75e2709b5554d51e7aa395a4e918a2094f3b085a5dfbe1
+SHA512: 57847d6d78d913710282bf1ec9f8c32b8a923a2ed255620c85cf8366e1fbd4fab84d4bebe5ea9a3ab60fc4d54d5a623c1d8009ca3518ff9a38f85320e47cddcf
+
+Package: onionsearch
+Version: 1.3
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip
+Section: net
+Priority: optional
+Homepage: https://github.com/megadose/OnionSearch
+Description: Scrape .onion URLs from various Tor search engines
+ OnionSearch collects onion addresses from different search engines
+ for cybersecurity research and OSINT investigations.
+Filename: dists/termuxvoid/main/binary-all/onionsearch_1.3_all.deb
+Size: 960
+MD5Sum: 63bcfe8c08c5fc1c767a9644f44be655
+SHA1: b37fde867aca56aa93dd99e62e3aa192f7d80e33
+SHA256: b9a31afebed33dd7ee62883b16cb280266e466a47ec2a60e0aeb055d88e1715b
+SHA512: c5cc331daaa9b47f030d2b7b59453cfcd458b44cb78ef493aa752f5e2bf3f416c280ec56eed0eab893504c95a17addfe9796c4ddfd06393d68c633f77b866374
+
+Package: openbullet2
+Version: 0.3.2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: aspnetcore-runtime-8.0, dotnet-host, dotnet-runtime-8.0, libsqlite, axel, p7zip
+Section: net
+Priority: optional
+Homepage: https://openbullet.dev/
+Description: Web Application Security Testing Suite
+ OpenBullet2 is a comprehensive web application security testing
+ platform for configurable pipelines and automated testing workflows.
+Filename: dists/termuxvoid/main/binary-all/openbullet2_0.3.2_all.deb
+Size: 1520
+MD5Sum: 01d0ac6a0de7764824cf6d157aceccdf
+SHA1: 11b0acaf5a3e538407d66ba8be5fbdf709e26509
+SHA256: d1b15ebe2c4419df2e2197c2f1872a5d7b8aba73710e998238d6e9e2e1f8d2c4
+SHA512: 5a62c0feb521b85b2e5981e5164f187e3ba6dc069066365e2668dee26dd8684fb0929bbda5ceab1e0d49f9c4f2a891b97221cdb17bb3bce06a5c32f3173e0a1f
+
+Package: openbullet
+Version: 1.0.2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, python-pip
+Section: security
+Priority: optional
+Homepage: https://github.com/esfelurm/OpenBullet.git
+Description: A tool for running openbullet configurations
+ Automated security testing tool featuring:
+ - Credential stuffing attacks
+ - Proxy support and rotation
+ - Configurable attack modules
+ - Real-time results monitoring
+Filename: dists/termuxvoid/main/binary-all/openbullet_1.0.2_all.deb
+Size: 1424
+MD5Sum: f0bb707f3df9ddcd35853efd895735a9
+SHA1: 8ff5a2d5b15731a67535fec317a8267e1baebe92
+SHA256: f84bcc9fff49ae0959c27f5389dec673ddb114e311cb8b0cbe709f10f3eec825
+SHA512: 339781f44b1b6b9a9f178b6777600eaaf00cd5ccd81739a73a17fcfa54c6ca0d058813bdefd18081ca1c44f9ef1c03830f9309bf480f990be49a4cf0035ee31b
+
+Package: openclaude
+Version: 0.18.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: npm, ripgrep, proot
+Section: devel
+Priority: optional
+Homepage: https://github.com/Gitlawb/openclaude
+Description: Open‑source coding‑agent CLI for cloud and local LLMs
+ OpenClaude provides a command‑line interface for interacting with
+ large language models from multiple providers (cloud or local),
+ with features tailored for coding assistance and automation.
+Filename: dists/termuxvoid/main/binary-all/openclaude_0.18.0_all.deb
+Size: 1360
+MD5Sum: 5230f0f3f6ed0bc166e0f64a3b1a3787
+SHA1: 3b9f46df5fbedfc42aa4a8b55b4e1b9010dac6cb
+SHA256: 6503c9772a5f1a122492029e8a20fa0af2837a4ed85e9413087a56f15f2e8f57
+SHA512: 593c586dc78e227ee11f2fff4fabec9ae3d577631a28804bfb33ae0d924df35b67e6ddbe458c5bf728cd6dad3d9400dcf4805fc1b6d27f514c7dfd2ef0145dc4
+
+Package: opencode
+Version: 1.17.4
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: glibc, clang, python, curl, tar
+Section: devel
+Priority: optional
+Homepage: https://opencode.ai/
+Description: AI‑powered coding assistant (glibc version)
+ OpenCode provides real‑time code completions and AI assistance.
+ This package uses the glibc build and includes a wrapper to run
+ inside Termux’s glibc environment.
+Filename: dists/termuxvoid/main/binary-all/opencode_1.17.4_all.deb
+Size: 1924
+MD5Sum: 1b8d899c2801f331fe378934cb1bd61e
+SHA1: 7b8bbc395afa98240f81a457f4251039d94ddd98
+SHA256: f714431b4ce67f66e94648e020428d28c434735e9a8815882c4eb789daa801a3
+SHA512: df910b3526edc57f78f707118cf2252497fd4d61f42656f735b320f1f741b22d58445aa324f846cd4eb7fc6a4bcfec7266e57360c524b7176728152b49a9b90c
+
+Package: pairip
+Version: 1.3.10
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: openjdk-21
+Section: utils
+Priority: optional
+Homepage: https://t.me/NullRE_Channel
+Description: PairIP Protection Removal Tool
+ PairIP patcher tool that supports latest PairIP protection.
+ Used to remove latest PairIP protection from Android applications
+ for security research and reverse engineering purposes.
+Filename: dists/termuxvoid/main/binary-all/pairip_1.3.10_all.deb
+Size: 2106056
+MD5Sum: a606213468e6f356a92004d8a532127d
+SHA1: a155c85f4d8377d747d4bcc8bc49e304c8624d39
+SHA256: 2499b8e940f6d75a5dc4e89e79459475feea41b4a048bed687ad3e99c7b286c3
+SHA512: 63575529e5584dde8e8cdd4d401970ad347635e449fbeea9c187ff309dda5e8331da4cd9d574635bd9a41dbc24b346de6cdaeeff5b8874fe256085ea2ef6ed6a
+
+Package: pandora
+Version: 3.2.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Homepage: https://github.com/MrSanZz/pandora
+Depends: git, python, wget, curl
+Description: open source osint tool
+Filename: dists/termuxvoid/main/binary-all/pandora_3.2.0_all.deb
+Size: 1040
+MD5Sum: 6cba06036aee5dcb33d458aa76046420
+SHA1: d60dc51a72c26ca7472116c731b03dede5409186
+SHA256: 66da78f069fcb8b931cde6a71999e4d506923d7c3c46dbf140266e6edac4f418
+SHA512: 40047412f10fd5ba6dc482fc12490ec06971398e069876486c078a6b8ecb681aaa72e60da9bf9bfbe4bbc80748f9e18f98754bcad3bceade16411f738d9e90ee
+
+Package: paramspider
+Version: 1.0.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, python-pip
+Section: security
+Priority: optional
+Homepage: https://github.com/devanshbatham/paramspider
+Description: Parameter discovery suite for web applications
+ Mine parameters from web archives with:
+ - Wayback Machine integration
+ - JavaScript file analysis
+ - URL parameter extraction
+ - Massive scale scanning
+Filename: dists/termuxvoid/main/binary-all/paramspider_1.0.1_all.deb
+Size: 1248
+MD5Sum: 4705f9a4d03ae0fc585dcab14248f057
+SHA1: f918b3359cc7ed7e2860a6984b046dde80fcce3f
+SHA256: c8ec8c2c87bf937f4f889c2ca995d660051022c32340521fd64ef5e40a4772e3
+SHA512: 6982783628fa9ad13cfdb1b969056e25ae88731d014cc437bba9bbb9f81ec5228e167fac82f1a94370f21fadaa71434d57016c0bfa9a18e41ac8bbd23ac43d2b
+
+Package: parrot-cli
+Version: 6.3
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: proot, tar, axel
+Section: net
+Priority: optional
+Homepage: https://www.parrotsec.org/
+Description: Parrot Security OS 6.3 (Lorikeet) for Termux
+ Provides Parrot Security OS 6.3 environment within Termux using
+ PRoot containerization. Includes comprehensive security tools,
+ penetration testing utilities, and forensic analysis packages
+ without requiring device root access.
+Filename: dists/termuxvoid/main/binary-all/parrot-cli_6.3_all.deb
+Size: 2012
+MD5Sum: e2f79de53b7e7b895dbdb9bf5f525162
+SHA1: 73d280bb06bc942335b280d93a1e4199fe3b282b
+SHA256: 37d9cb5b150e850eea5facf8e71038a991241ab06003c98631c88a651e09f715
+SHA512: b50788d2cdad156cc54a046e17cb55f20d1077842001cd68c285b47580a15615c808e2cf29d69dc126103351dca827269eaf70d7d09e78e233047c55e8068c6f
+
+Package: pdfcracker
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You] 
+Depends: qpdf
+Section: utils
+Priority: optional
+Homepage: https://github.com/Anon4You/PDFCracker
+Description: A powerful yet simple PDF password recovery tool designed for security professionals and ethical hackers.
+Filename: dists/termuxvoid/main/binary-all/pdfcracker_1.0_all.deb
+Size: 2204
+MD5Sum: 7d8c599cf6a44e54d10031268ed5d16f
+SHA1: 958bdaa34d7407c13d64d2817519cc6f0cb3ca27
+SHA256: 7805f9d764d3a2dee825ab31962f13a8b7db9cbed589d0de0df5acfc46161efb
+SHA512: f4e7caaba5797f5a2165a98696134487f9f9252c85a921e0dee47bc1b83e78122c107ab034898a1a5b93832cdeeacb129cd0f0235a326859c9a5af8c6f495507
+
+Package: phishmailer
+Version: 2.2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python
+Section: web
+Priority: optional
+Homepage: https://github.com/BiZken/PhishMailer
+Description: Professional Phishing Email Generation Tool
+ PhishMailer enables rapid generation of professional phishing emails
+ for security testing and awareness training. Provides templates and
+ automation for creating realistic email security test campaigns.
+Filename: dists/termuxvoid/main/binary-all/phishmailer_2.2_all.deb
+Size: 1316
+MD5Sum: 5bc832ca44ad3b63ad31fd1105bc7952
+SHA1: 9f10c1c28052cba2fec39f8f216f848dd694eb69
+SHA256: 5ce2c7354e76fa4900e8d0d2cda1129f8af0c1750b772b83234aba68318bbf4a
+SHA512: afcda087506f858dbbf03f5a2a833f65749f9bd688bcb19365e6309c0d8e48fef4f0444ebcab507ab10df6c690519a766b82d5c5c24a725b80c14c54bf8e3aac
+
+Package: phoneinfo
+Version: 1.0.1
+Maintainer: Alienkrishn [Anon4You]
+Architecture: all
+Depends: termux-tools,termux-exec,figlet,jq
+Installed-Size: 36
+Description: Phone number lookup tool for termux
+Filename: dists/termuxvoid/main/binary-all/phoneinfo_1.0.1_all.deb
+Size: 1400
+MD5Sum: 39633d501f7cdd16253548126bff1d4c
+SHA1: 8c8051de59c60c6c21ef4dd901299f88377633c5
+SHA256: 47e29a88595948ba3ed10c73439993195eb1f32fdcc1a1a9806c57e514b881c2
+SHA512: 5ecb19af3cf7d44db10b0ff886c37ac4dfd5ccebaab6877ed999fb0d737e676a9f532e77f5ff9f61511a1df8e47257bbb13f12ca4c7f2eed64f5f834addad101
+
+Package: phonesploit-pro
+Version: 1.61
+Architecture: all
+Maintainer: Alienkrishn [Anon4You] 
+Depends: git, python, android-tools, nmap, which, scrcpy
+Section: security
+Priority: optional
+Homepage: https://github.com/AzeemIdrisi/PhoneSploit-Pro
+Description: Android hacking tool with ADB
+ Exploit Android devices via ADB with 20+ attack vectors.
+ Supports both USB and wireless ADB connections.
+Filename: dists/termuxvoid/main/binary-all/phonesploit-pro_1.61_all.deb
+Size: 1348
+MD5Sum: c221be31ac016843870f7c502e36e0d1
+SHA1: 0d1a1f29f70fb7062c3221c3adf5fecad7ea49dd
+SHA256: 6c583bd7547d1218e4ddfc09a077ede8db1e7e3683344ff5087d9e2d39b7ddd5
+SHA512: 06ca13a4cae9262b5a90b5d9df9043deade4c7e2650396b7d5582699b1f4eee5312a99851e381bb29e1a7c7fd766d18f820fd8f8e4780d8d73799631fcedf309
+
+Package: pip-basic-depends
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, build-essential, cmake, ninja, libopenblas, libandroid-execinfo, patchelf, binutils, rust, libxml2, libxslt
+Section: devel
+Priority: optional
+Homepage: https://alienkrishn.page.gd
+Description: Essential build dependencies for Python packages
+ Provides all necessary build tools and libraries required for compiling
+ Python packages with pip. This includes:
+ - Compilation tools (build-essential, cmake, ninja)
+ - Math libraries (libopenblas)
+ - Android-specific libraries (libandroid-execinfo)
+ - Binary utilities (patchelf, binutils)
+ - Rust compiler for Rust-based Python extensions
+ - Git for source code retrieval
+ Ensures successful wheel building and package installation without errors.
+Filename: dists/termuxvoid/main/binary-all/pip-basic-depends_1.0_all.deb
+Size: 1696
+MD5Sum: 5b0446fb8d1572102de466d416550603
+SHA1: 5662777d02248d37194298fe100e50609684e93e
+SHA256: e140c5cc389940f7c55674a0ceef991e1e405bb3a127e9846c9d22c7a4129337
+SHA512: 0c51dac17bbbc23c6ef35de19a552ac9a22626a646862eb3dccad4e7e7977f1ead5c458a2d93c130e2891a3ad972d8e9f3c4fa6429d3a68bc8f178ec25509618
+
+Package: pkiller
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, asciibanner, apkeditor, apksigner
+Section: utils
+Priority: optional
+Homepage: https://github.com/Anon4You/PKiller
+Description: Automated PairIP License Removal Tool for Android APKs
+ PKiller is an automated tool designed to remove PairIP license
+ protection from Android APK files. Streamlines the process of
+ bypassing PairIP security for security research and analysis.
+Filename: dists/termuxvoid/main/binary-all/pkiller_1.0_all.deb
+Size: 1368
+MD5Sum: e89d2e12b1be2a10d6c564559df402bd
+SHA1: 0978c07fe478116ffb59ef24caf45059fcb1f07a
+SHA256: 08c80861e377e1d8a2e72a7ab8eb2ec85b3a9fefcbfcd773cf19c0ab6ab00167
+SHA512: 71a9155188370aa6537b5474f02f10fa29b99e69f270fdf99523d09e3caefa584eee7d6025c6e1d2b65e4021a60fb673175354fc13933236dd8e0985fb5fa90f
+
+Package: playit
+Version: 0.17.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, rust, build-essential, pkg-config
+Section: net
+Priority: optional
+Homepage: https://playit.gg/
+Description: Global Proxy for Server Hosting Without Port Forwarding
+ Playit is a global proxy service that allows anyone to host servers
+ without port forwarding. Creates secure tunnels to expose local
+ services to the internet with automatic SSL and global accessibility.
+ Supports TCP, UDP, and HTTP traffic.
+Filename: dists/termuxvoid/main/binary-all/playit_0.17.1_all.deb
+Size: 1500
+MD5Sum: 1fdd7b3daa4f3d82832c672b9fd9dace
+SHA1: ab0c64be922916f0e73851b8bc28e18d6d623bdb
+SHA256: d8257ade8ba43363210659062fd73cfb208e1b8718b1defda4fb38a3d25bf470
+SHA512: 4266c91bd22aa3f4efd4967ae34cb9ade319672b16a5b018fb119f59cee30abcd7ad0fce5fba8a7405b4c2bdc0b158237a5831075b6313b6df43b5b2de96013b
+
+Package: powerdos
+Version: 1.0.1
+Architecture: all
+Depends: python
+Maintainer: Alienkrishn [Anon4You]
+Description: A multi-threaded Denial of Service tool made in Python
+Installed-Size: 32
+Filename: dists/termuxvoid/main/binary-all/powerdos_1.0.1_all.deb
+Size: 1948
+MD5Sum: 0a8008d461cd461c5dbd1b24ccead724
+SHA1: a06aa7ed0206b6d0114aba2b873c13076c271f81
+SHA256: 57ead095d27dcaa637876280210850b45942f01db4fffa53c13b07b2f5e8d96c
+SHA512: 90c073560d118718810b40721e3ee7369c048e4319b7f54c508451525e98cf05e7a297967fb77a5fd768b4c5942b51ea48d2163e4efbad6bcf8beea332eadd4a
+
+Package: pptool
+Version: 2.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: curl, python, python-pip
+Section: utils
+Priority: optional
+Homepage: https://github.com/Kirlif/PPTool
+Description: Python tool to find the loading addresses of Dart objects in libapp.so through their pool pointer offset.
+Filename: dists/termuxvoid/main/binary-all/pptool_2.0_all.deb
+Size: 1108
+MD5Sum: 57523e4423ac8d3f7be59a21c85706c4
+SHA1: 98bc827cdcbd39e47b0d8f529c90e5f0d53adaec
+SHA256: c6311de84b5ca9477ff7afc6ec035e14b78383272364e82d77539e3138c19d69
+SHA512: cbf1bdf41a15533613ae1e269bbc370f513da961d0724cf17885e0008ac501bcff7f2e2eedefd467b645922d3cec27c68ed32c373c329ffebba78f5a3abf9301
+
+Package: publiceye
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: curl, jq, gum
+Section: recon
+Priority: optional
+Homepage: https://github.com/Anon4You/publiceye
+Description: Comprehensive OSINT Tool for Information Lookup
+ PublicEye is a comprehensive OSINT tool that provides various
+ information lookup services including phone numbers, email addresses,
+ IP addresses, company domains, timezone data, and holiday information
+ using AbstractAPI services.
+Filename: dists/termuxvoid/main/binary-all/publiceye_1.0_all.deb
+Size: 3532
+MD5Sum: c976e36b80bfb56fdf539e15e93d34a0
+SHA1: 3803c37183683d12b92fba2bd60abd6f111160f2
+SHA256: 184fcc027e75f4d39577f6a89569827bdf41249b852d61bb760cd6355d4f4419
+SHA512: 26c9c4e959a4f478346f265bfb44fc32bfbd5a96cc98dbae18a71b0862f28abb0d204715c50ca686f0219e8040c99f7d2343f210ba115bbf327d81786dd4581e
+
+Package: python-pandas
+Version: 2.2.3
+Architecture: all
+Maintainer: Alienkrishn [Anon4You] 
+Depends: python, python-pip, python-numpy, build-essential, cmake, ninja, libopenblas, libandroid-execinfo, patchelf, binutils-is-llvm
+Section: science
+Priority: optional
+Homepage: https://pandas.pydata.org
+Description: Powerhouse data analysis toolkit
+ Pandas provides high-performance data structures and analysis tools.
+ Optimized for Termux with OpenBLAS acceleration.
+Filename: dists/termuxvoid/main/binary-all/python-pandas_2.2.3_all.deb
+Size: 1488
+MD5Sum: 2855763d3481f8f77bfbbb55f61a6b69
+SHA1: 3774bafa167d259c983512daf63c742bb598823d
+SHA256: 775ce89d46426e6d2534e234c8aae3e7d80ffe57d7d58e47c5dcf2628cd1717b
+SHA512: 8e05421d799b75f6cfe951deb2ae18d4630913e022bf764a631de64a0f1104a5261d9ef7af63d2a431ca74ecd12e2cda5c26299a16e1076fcf92c7aaa263a591
+
+Package: pywhat
+Version: 5.1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip
+Section: utils
+Priority: optional
+Homepage: https://github.com/bee-san/pyWhat
+Description: Identify anything - text analysis tool
+ Powerful text analysis and identification featuring:
+ - Regex pattern matching
+ - File format detection
+ - API key identification
+ - Data type recognition
+Filename: dists/termuxvoid/main/binary-all/pywhat_5.1.0_all.deb
+Size: 1196
+MD5Sum: 3de0fa901e863627ab6622410db19a16
+SHA1: b2461031a926b42f03a003d69234ecca20233a88
+SHA256: 16be8def99605bf31d2f1750fc5a57fef479681f8b4281a0f4136594fb5955b8
+SHA512: c967ea12d443ee5337371ccf701eeb03f0a8a9a622739d92ddc73e221b9d93cd1e0c93f76a4b4459c907b391233832556e93483ca769562f5379d1efe9f46ce6
+
+Package: qsreplace
+Version: 0.0.3
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, golang
+Section: utils
+Priority: optional
+Homepage: https://github.com/tomnomnom/qsreplace
+Description: Accept URLs on stdin, replace all query string values with a user-supplied value
+ qsreplace is a command‑line tool that reads a list of URLs from standard input,
+ replaces every query parameter value with a string provided by the user, and
+ outputs the modified URLs. It is commonly used in penetration testing to
+ prepare URLs for fuzzing or injection attacks.
+Filename: dists/termuxvoid/main/binary-all/qsreplace_0.0.3_all.deb
+Size: 1212
+MD5Sum: 56c91e1de235ba836e3fdb49f5d9e5fb
+SHA1: 7226a3becc8173b4a8144565cd28b63e869af3f0
+SHA256: d2c8ae8590026e5b746e0ac922cbe320c4685b2d8650795252fb7e4f6dec7e80
+SHA512: c771c0f5535c7c8bf28bb110c563f6fbf8c91a0244d6444ea9a0ce83a535486d99781f26c53bb3c6c9b731caa44aba92080723451d66339198af2a22f5be5413
+
+Package: random-banner
+Architecture: all
+Version: 1
+Maintainer: Alienkrishn [Anon4You]
+Depends: git
+Installed-Size: 1
+Homepage: https://github.com/Alienkrishn/random_banners
+Description: random banner and quote
+Filename: dists/termuxvoid/main/binary-all/random-banner_1_all.deb
+Size: 908
+MD5Sum: 3c5e33c7963fca7f3b84ca31606914fa
+SHA1: 83344a1cec6a9c9434350454bbb3a16ba52c1be9
+SHA256: af42684c7c8ce303e66582ccba6c6ca8734586e5d578a65a09c066ff5f2ba67d
+SHA512: 14d19ab1941ca0f76d11fccaef09ff19235cbe4ccb4ca9a25ddfdc4b5c5e1c44c8ecb6d2ab685a25beb3d17ed2e16aac39d554197a4b58ac49999d6d8a879a6e
+
+Package: ransomux
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You] 
+Depends: git, libxml2, openjdk-17, apkeditor, apksigner, file, which 
+Section: security
+Priority: optional
+Homepage: https://github.com/Anon4You/RansoMux
+Description: Ramsomware making tool
+Filename: dists/termuxvoid/main/binary-all/ransomux_1.0_all.deb
+Size: 1200
+MD5Sum: 2e8ac9b7b2e60a83e8698d65d22ffb95
+SHA1: 053e1d07f4585e0d6266c5607edab3b88b4f1f18
+SHA256: b36afac01b67578f4801d0559d5cec95a164288ed7720fff8fb2aa89ea19cb33
+SHA512: 470a28e88bed229b8d48503cb2c4629fd989e8feca9624095ef15787c08b1553490e734d85b0a28f5e23f8803322d7c7bb93954ec1b3980063c54876470a3838
+
+Package: redhawk
+Version: 2.0.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, php
+Homepage: https://github.com/Tuhinshubhra/RED_HAWK 
+Installed-Size: 1
+Description: All in one tool for Information Gathering, Vulnerability Scanning and Crawling
+Filename: dists/termuxvoid/main/binary-all/redhawk_2.0.0_all.deb
+Size: 1468
+MD5Sum: 6a3baa47e2e7f3eb35ff461a42e81a31
+SHA1: ccf0d272010518f333c2535f8ef9937e115df521
+SHA256: 55873f356e7e8eb4e0b9f76fafa412c017d9db25ca5a4c48fb11d2b33bdd66ca
+SHA512: 4478352b0ea2aef7d5571eade724f6d2bc323a61ab96399e08eef7cc39435741e86c3dd56d4aa27ab82748e99bc7712516242743674d2d9059fb63f0e9305367
+
+Package: rkpairip
+Version: 4.9
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, openjdk-17, apksigner
+Section: utils
+Priority: optional
+Homepage: https://github.com/TechnoIndian/RKPairip
+Description: Remove Pairip Protection and Rebuild APKs
+ RKPairip is a script to remove Pairip protection from APK files,
+ recover strings, and rebuild APKs. Designed for Android security
+ research and reverse engineering.
+Filename: dists/termuxvoid/main/binary-all/rkpairip_4.9_all.deb
+Size: 1168
+MD5Sum: 4c648368c264621ac4b3b4a3149bf7e4
+SHA1: 7b2a9579f31f75a39000fd57a231bf06423cf133
+SHA256: d745b23e919fc87917c1dd9384830f06ae160191a60080aeb0d185bb7b6dd33c
+SHA512: 5f3edf55c1c97575d611aaeee6fc24390b331159a06acf7b6dee66074498f25110bc20b56d4e7f58b8c4313a141c079f5e911199e67f8e3368b20fc68a21a9df
+
+Package: ruby-curb
+Version: 1.3.5
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: ruby, curl, libcurl, make, clang, build-essential
+Section: ruby
+Priority: optional
+Homepage: https://github.com/taf2/curb
+Description: Ruby bindings for libcurl
+ Curb provides Ruby bindings for the libcurl HTTP client library.
+ It allows full control over HTTP requests, cookies, and sessions.
+Filename: dists/termuxvoid/main/binary-all/ruby-curb_1.3.5_all.deb
+Size: 1244
+MD5Sum: 2863a5b0162ba6d1980338374c38f1ac
+SHA1: 1d0f9dc53b1e00594d9223ead981821025e0740f
+SHA256: a5b47716f806b844ab290d9513ca235a1182be9936be8bcf21431409de11aeaf
+SHA512: b20b748e5d63192500cc05ac2b1473b9e6a605c07a0ef321e2450d8ec9e7312a5906dd37fd613cdab5daee6601872911bfcba454d450f196822782b9cc943638
+
+Package: ruby-nokogiri
+Version: 1.19.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: ruby, pkg-config, libxml2, libxslt, gumbo-parser, gumbo-parser-static
+Section: libs
+Priority: optional
+Homepage: https://nokogiri.org/
+Description: Ruby gem for HTML/XML parsing (system libraries version)
+ Nokogiri is an HTML/XML parser for Ruby that uses system libraries.
+ This package ensures proper installation with Termux's libraries.
+Filename: dists/termuxvoid/main/binary-all/ruby-nokogiri_1.19.0_all.deb
+Size: 9904
+MD5Sum: cccf28cdf7befe82245a9cf48493096f
+SHA1: 94fd74cabbb77702782a8f1d560dcb47b3114311
+SHA256: 399ef73cbd9186d4a03d3b0c15b76a61d1f72d7d32438d287b9a3280355a7d21
+SHA512: 2ad8852ca085426a82f7e788bb995851d35fee4128a86cf8cf988e46a4409c069fa6a21d8ca87e2df09d5bdab5f064a787cc07bc5b6ac95dc84e122507028696
+
+Package: scanqli
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, python-lxml, python-numpy
+Section: web
+Priority: optional
+Homepage: https://github.com/bambish/ScanQLi
+Description: SQL injection scanner and vulnerability detection tool
+ ScanQLi is an automated SQL injection scanning tool that
+ detects and exploits SQL injection vulnerabilities in web
+ applications using various techniques.
+Filename: dists/termuxvoid/main/binary-all/scanqli_1.0_all.deb
+Size: 1192
+MD5Sum: 96cf15855155f5a248349221d4c67963
+SHA1: efd1c11fd272a330eebf3cbb749cafabd5845c9c
+SHA256: 8e098eebf565bb7c33c2eb367dff0cbcc8915862badeb1950218f1b0d9467e66
+SHA512: 7390cad5adb34c013bb84dcfdc9fc4e37eb4f365c7c7bf2d341d0bab3415b94f3a7b90c2bf098671a05c02e352c002b9c52fddb64cc4b3a39006955f27d73794
+
+Package: setoolkit
+Version: 8.0.3+git20241021-0kali1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: proot, tar, axel, nethunter-cli
+Section: security
+Priority: optional
+Homepage: https://github.com/trustedsec/social-engineer-toolkit
+Description: Social Engineering Toolkit
+ Open-source penetration testing framework featuring:
+ - Social engineering attacks
+ - Phishing campaign management
+ - Credential harvesting
+ - Multi-vector attack support
+Filename: dists/termuxvoid/main/binary-all/setoolkit_8.0.3+git20241021-0kali1_all.deb
+Size: 1428
+MD5Sum: 874333cc6dfe7c0f8b907a6888921fda
+SHA1: ef4b715f6cee01d78011f50a187eb92081525f86
+SHA256: ddab5bfe6fc98dfd76d5e0ad1f5f36ed4f33b556d99ea5909c26c46321bc71f2
+SHA512: 0fe629f044ad799f7d26021586d7bd445d5294981e75dda9f22601c3c0f15f959842d480db8d01af66e0b42ee4dd02f8c9f9fc5bc3becae0a72738e126340c12
+
+Package: shellcrypt
+Version: 2.0.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, nodejs, figlet
+Section: security
+Priority: optional
+Homepage: https://github.com/Anon4You/ShellCrypt
+Description: Professional code obfuscation tool for Bash and Python
+ Dual language obfuscation/decode tool featuring:
+ - Bash script obfuscation
+ - Python script encryption
+ - Multiple encoding methods
+Filename: dists/termuxvoid/main/binary-all/shellcrypt_2.0.0_all.deb
+Size: 3604
+MD5Sum: 3d8528584018378b42e32f1229b1edfb
+SHA1: bde16777f540924c2604703d09d2cda5d990fcb2
+SHA256: 087fd7f3c0380510260f19c2ad36db07d3cff83173b83a8d122c110cb9190f7a
+SHA512: b04c01cc9ae6cd9bd830adbe5b438ce61f2bf2721d9e7e44b65250e45d235b9e80f896159faab1a277c2bf83971dff0ff7e9098a9bf6af4f64f2ad11b57035e4
+
+Package: sherlock
+Version: 0.16.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip, python-numpy, python-pandas
+Section: social
+Priority: optional
+Homepage: https://sherlockproject.xyz
+Description: Hunt down social media accounts by username
+ Sherlock is a tool for finding usernames across social networks.
+ Useful for OSINT investigations and social media reconnaissance.
+Filename: dists/termuxvoid/main/binary-all/sherlock_0.16.0_all.deb
+Size: 940
+MD5Sum: 4bccf74c33fa4dd0ea7d475dbb8e1a99
+SHA1: 3c8069d88bf81be8350153b54cf5fc902374503b
+SHA256: e80d0eddcda61cd05d43577d2f9b3f85bf12da0c1ee71484be3140e1b39a8a6f
+SHA512: a9fc909892c035f5e41c259a113a836266156689fd908dbbdcae01cac88a7556ffda7054333af4785a7de3fab9aedcb558dc128cbb92bd7578f18f4186f12bc9
+
+Package: shorturl
+Version: 1.0.0
+Architecture: all
+Depends: toilet,curl
+Maintainer: Alienkrishn [Anon4You]
+Description: URL shortner for termux
+Installed-Size: 32
+Filename: dists/termuxvoid/main/binary-all/shorturl_1.0.0_all.deb
+Size: 1316
+MD5Sum: 36ededb53d67f98b38f6b626d2f5d269
+SHA1: c8f45cd12760173c192c6f3ef8fbed2675eaf560
+SHA256: ac519a88d37dc67d231e1c694f39a62af4c23b540c89782fed5f07289026e5b1
+SHA512: 6ed36c61cb9874e53a3def436a8f1ffb735c0b91c9ec1b59d88735fb530b729513d76b655bcd4e7ae705d42abd765c0daa600d2c2555ee97af3ddadbc1301148
+
+Package: silverinstaeye
+Version: 1.0-patched
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, python-pip, python-pillow, python-numpy, build-essential, cmake, ninja, libopenblas, libandroid-execinfo, patchelf, binutils, rust
+Section: security
+Priority: optional
+Homepage: https://github.com/silverxpymaster/SilverInstaEye
+Description: Instagram information gathering tool
+ OSINT tool for Instagram featuring:
+ - Profile information extraction
+ - Media analysis
+ - Follower/following statistics
+ - Data export capabilities
+Filename: dists/termuxvoid/main/binary-all/silverinstaeye_1.0-patched_all.deb
+Size: 1532
+MD5Sum: 67d72b87bfc25bd9450aa24295af0118
+SHA1: 30c2976489d546e7f937a4bbd98d845c78431049
+SHA256: 7f9d5f3f0a7c71643d94874f04f92bedd1f66a685d10872577d9ebe53960da6b
+SHA512: 824dd90d5b52fa514f9a40c5ab975a6b677d01c891be77938b16a2a382d3feadef1fea042bd4b88f525b2f66622d1eaf59f6cf06bba1ad8a25a7ca7c44086a2a
+
+Package: slowhttptest
+Version: 1.9.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: openssl, make, automake
+Homepage: https://github.com/shekyan/slowhttptest
+Description: Application Layer DoS attack simulator
+Filename: dists/termuxvoid/main/binary-all/slowhttptest_1.9.0_all.deb
+Size: 100656
+MD5Sum: d1ec59cc966b33d989a6d0b32f0ff45f
+SHA1: c785aa7513a161bf21a627d2d48565a361bcfa89
+SHA256: 725dd1b7fc23e50799de0472472a2eab37636f3e822fd521a8a3b040b726e20d
+SHA512: dc8b0e38384212b6f332239e8e495da5063a9ef0aa519b9a267a9cc8c21da8af89abd84196a1c5d448b6f331927448e20199c7dc0cb6bc6461b153c2a76b1677
+
+Package: sms-stealer
+Version: 0.1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, ruby, apkeditor, apksigner
+Section: utils
+Priority: optional
+Homepage: https://github.com/Anon4You/sms-stealer
+Description: Silent SMS interceptor via Telegram bot
+ Builds a disguised Android WebView app that intercepts incoming
+ SMS messages and forwards them to a Telegram chat. Useful for
+ authorized security testing and educational purposes only.
+Filename: dists/termuxvoid/main/binary-all/sms-stealer_0.1.0_all.deb
+Size: 1244
+MD5Sum: fded6bbba966e473fc4fb92ef3321dfe
+SHA1: a374d1557574f3f1d6c0ffe76a14483f9c8a9098
+SHA256: 0df203df59134078f9318573007a9b27f7106ae05fb10df09299bd7b5d1a709d
+SHA512: 8576bdfb11261a193ac5527c473fd7900eae3cd1070d115deff7e87d57bbbad11b5e3307f27e904c370d355045046f646d291f09f7ad17cb8d331d69e399d6a4
+
+Package: snatcher
+Version: 1.0.2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Homepage: https://github.com/Anon4You/snatcher
+Depends: git,php,curl,nodejs,python,python-pip,openssh,cloudflared
+Description: Snatcher - Capture Images from Victim's Camera
+Filename: dists/termuxvoid/main/binary-all/snatcher_1.0.2_all.deb
+Size: 1092
+MD5Sum: a1e28415e9dac0f08225d90f47bbdcb8
+SHA1: d57609583c8bf316aa1d9290abe1b4bafcbafc49
+SHA256: c46292303c80c41f47d1bfc154754d1dde058302132bbd547a79c22817a205d5
+SHA512: d10a4ca4d4d5e69a605ddb527260fb60eba6dda7b69a8dca6cbc61c6d90284efdbbab7041aead496be03a880a3ac0f7c356fd69bd5e23eb6e6587398079175a8
+
+Package: snoop
+Version: 1.4.3
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, python-psutil
+Section: utils
+Priority: optional
+Homepage: https://github.com/snooppr/snoop
+Description: Information gathering tool using online resources
+ Snoop is a comprehensive OSINT tool that collects information about
+ a target from various public sources. It helps security researchers
+ and penetration testers with reconnaissance tasks.
+Filename: dists/termuxvoid/main/binary-all/snoop_1.4.3_all.deb
+Size: 1460
+MD5Sum: 0d0e9838c4a3b6dedbd1a1ef1b64993e
+SHA1: 4fa651b2f23c5af7c024fee7e6be824f28718858
+SHA256: beb2730692fee9302a727a6b77a984fc45c11f1e837145568fc7aed627c388f4
+SHA512: 30bdbc028e8e5043a878d6c901806a4a6e130b76b469fb1a82c8c427191172de98f8b6d8662614b20730d4eacc1723683c93f049915c191830e6849cf2cf6ba6
+
+Package: spider
+Version: 2.0
+Architecture: all
+Depends: python,python-pip
+Installed-Size: 1
+Maintainer: Alienkrishn [Anon4You]
+Description: telegram autoreport script
+Filename: dists/termuxvoid/main/binary-all/spider_2.0_all.deb
+Size: 4152
+MD5Sum: 859d874e10a1a5cfe089730492e6407e
+SHA1: 8005bbc7095d3f568c52dd391b8c93626f46f39e
+SHA256: a953018c689a989773397b2301b7c778d5025df5449b16580552836b267f96cc
+SHA512: c47d1abcabbf0b6ea902474154746ef30c60cef95ee492cb8ddc8d9ffae01467c82a4262396c4b33ebfdc7c11069b883f8b095a3dd224614221cef346128c271
+
+Package: sploitscan
+Version: 0.14.3
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip, pip-basic-depends
+Section: web
+Priority: optional
+Homepage: https://github.com/xaitax/SploitScan
+Description: Exploit Intelligence Gathering and Analysis Tool
+ SploitScan automates the process of searching and analyzing
+ exploit information from various sources. Provides comprehensive
+ vulnerability intelligence and exploit database integration.
+Filename: dists/termuxvoid/main/binary-all/sploitscan_0.14.3_all.deb
+Size: 1192
+MD5Sum: 5a25e68a400abfcdbc8bc74b2ba00899
+SHA1: 75d22263e7f36e543a3572593db15a2571a974ee
+SHA256: 9fd885885a3e0caee9bae5072d9550febb5cf40c1fef0d85cb68090da1508b2a
+SHA512: 61686c0a87ebe00ec7514bc2f4604479cb9ddcbc5535eb3bef7c803ad9fa3f11417cfdb50564b84fa11e7454caec1cda816949d0913534ec2a58fa5b01aaa649
+
+Package: spurt
+Version: 1.9.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: make, golang, git
+Homepage: https://github.com/zer-far/spurt/
+Description: HTTP stress testing tool that can overload web servers.
+Filename: dists/termuxvoid/main/binary-all/spurt_1.9.0_all.deb
+Size: 1032
+MD5Sum: d9eda4b48d2ca57b43ad270f6719a2e2
+SHA1: be4a9c2cf6d7b9ebed4bf8f9920ddae98f11e1f3
+SHA256: de4744aa6816b6a6f74f3280060983f78c5cd755f0bf6389a1210d8dd99ebd08
+SHA512: 290c58e095898a95f06cf8ecd001cb48477a4d35d82981d59a8b4309f5337cc21a515196988d99e1edfb4936ae7100a69a2b4ea79f1717678aa059ba8772ebbb
+
+Package: sqlmap
+Version: 1.10.6
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip
+Section: web
+Priority: optional
+Homepage: https://sqlmap.org/
+Description: Automatic SQL Injection and Database Takeover Tool
+ sqlmap is an open source penetration testing tool that automates the process
+ of detecting and exploiting SQL injection flaws and taking over of database
+ servers. It comes with a powerful detection engine, many niche features for
+ the ultimate penetration tester, and a broad range of switches including
+ database fingerprinting, data fetching, accessing underlying file system,
+ and executing commands on the operating system via out-of-band connections.
+ Features:
+ - Full support for multiple database systems
+ - Six SQL injection techniques
+ - Database and OS fingerprinting
+ - Data extraction and file system access
+ - Command execution and out-of-band connections
+Filename: dists/termuxvoid/main/binary-all/sqlmap_1.10.6_all.deb
+Size: 1584
+MD5Sum: 8e65414d3b3afc09c4e63a48a5c0d55b
+SHA1: 6c29a8c9ab88fefc8de64a226c178bd33f783d56
+SHA256: 07e555017d3267f7bec4a9a13af5098da3af1b758d22e18058d37256a43d7491
+SHA512: 8ba69e5ff0ca93402f88fc32552bc2f0cebc8e30425d4f873e55d1abd1e63a073920b2155c803c451448e3dd0fef4c6e44f97cc6cfed3bb8511a6fca35059efe
+
+Package: sqlscan
+Version: 1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git,curl
+Homepage: https://github.com/machine1337/sqlscan
+Description: A small and an efficient tool to find SQL injection vulnerability in a websites.
+Filename: dists/termuxvoid/main/binary-all/sqlscan_1_all.deb
+Size: 1032
+MD5Sum: 1d6d0977ec40b8be5e4890850f9f0ad1
+SHA1: 88d34c31045c2bf5366670f87a4353f1a6fddb1b
+SHA256: d186fc5e81ca5f096f2e83500bf3f88d26e32325b8d6d0a5ee997645e2fc7c73
+SHA512: 72613e62d49ccbc256bab7fabc48445b2489c906f8f22f6a0b6adb7e8f34891b00b91d086635a02d98c11264674cbee98978c8c283465fdb9ece9ef6d4143a7c
+
+Package: storm-breaker
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, php
+Section: security
+Priority: optional
+Homepage: https://github.com/ultrasecurity/Storm-Breaker
+Description: Social Engineering Toolkit
+ Advanced phishing tool with:
+ - Multiple attack vectors
+ - Credential harvesting
+ - Automated payload generation
+Filename: dists/termuxvoid/main/binary-all/storm-breaker_1.0_all.deb
+Size: 1304
+MD5Sum: 5f69c4094540aa95cd35365db1274f31
+SHA1: defce23b6aa7259833c3fbe8d67c7d4605ff6f4b
+SHA256: 7ad6f4024f545a1743f26b47d9d85b502393e5c9f8b09c4a5e631ff315afb72e
+SHA512: c54f8d25f4d0120083498d26dae01f1e451a6d097f38c8b6a1807ae833a255ab4b00efd3cb64d1deedc1b258157078920e610177e3557e8d09668b11de1d9b4d
+
+Package: subcat
+Version: 1.4.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip
+Section: recon
+Priority: optional
+Homepage: https://github.com/duty1g/subcat
+Description: Lightning-fast Passive Subdomain Discovery Tool
+ subcat is a high-performance passive subdomain enumeration tool
+ designed for security professionals and bug bounty hunters.
+ Provides rapid discovery and categorization of subdomains using
+ multiple data sources and intelligence gathering techniques.
+Filename: dists/termuxvoid/main/binary-all/subcat_1.4.0_all.deb
+Size: 1212
+MD5Sum: bd99ed869cc66a71ed656da63d2f07e9
+SHA1: a9367330ee992854fd68a61323eaab9c013420d2
+SHA256: 33904c2184595b9ce53c918a2688abfa070982b9c35c5484bf42a1adf6e881b4
+SHA512: 10cfeb31a48a3aec657616d104baaf9a7326626ff7ec986711b89eb030c62c2171aa5581b0e0a6415112d9365e2c5c4fa98e4055738347db67b05207d39a29f0
+
+Package: subfinder
+Version: 2.14.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, golang
+Section: recon
+Priority: optional
+Homepage: https://github.com/projectdiscovery/subfinder
+Description: Fast passive subdomain enumeration tool
+ Subfinder is a subdomain discovery tool that uses passive sources
+ (certificate transparency, DNS data, search engines, etc.) to find
+ valid subdomains for a target domain.
+Filename: dists/termuxvoid/main/binary-all/subfinder_2.14.0_all.deb
+Size: 1056
+MD5Sum: 48168468897faa636984867d041bdcd6
+SHA1: 5dd92b93026e468fb2166e5ec595b953ed157a37
+SHA256: b0bcc8f9821e239ac948229a8d01dba03ff8edba5c9758fdd87a59848b5aa1c1
+SHA512: 42e24c7fa0ef52e95ead18ad256df9a4f0611cec7c1927b403eec30a0a259e2c318bc4de9173ca6a0bfd6fb56c436586a4f111b41bc425313196cc6a5567cb4a
+
+Package: subjack
+Version: 3.0.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: golang, git
+Section: security
+Priority: optional
+Homepage: https://github.com/haccer/subjack
+Description: Subdomain Takeover tool written in Go
+ Automated subdomain takeover detection featuring:
+ - Multiple service provider support
+ - Fingerprint-based detection
+ - Concurrent scanning
+ - Custom configuration support
+Filename: dists/termuxvoid/main/binary-all/subjack_3.0.0_all.deb
+Size: 1432
+MD5Sum: 710961e0fc70abbfd9b090379ce4602a
+SHA1: d3e18ab927a0264a23f5ba633fab81ceb5260d69
+SHA256: 2a400481d37c3a3a2181f6abfd1430f092b9f866adebb28eac407ccc51010562
+SHA512: 69e4b1a4d0dcde2490f4548c474fed949b539919f926288cf3b18d39c9723379af1093929b6bb62cc2d53d1f4f91c776ffbb17158032d740bc1490bfedd640df
+
+Package: subzy
+Version: 1.2.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: golang, git
+Section: security
+Priority: optional
+Homepage: https://github.com/PentestPad/subzy
+Description: Subdomain takeover vulnerability scanner
+ Automated subdomain takeover detection featuring:
+ - Multiple service provider support
+ - Concurrent scanning
+ - Custom fingerprint database
+ - JSON output format
+Filename: dists/termuxvoid/main/binary-all/subzy_1.2.1_all.deb
+Size: 1432
+MD5Sum: 0b426b298c25e0bfb3456d65bdd49fad
+SHA1: 401dd0ec234f8c4b0efd90f93867c05a79c56ae8
+SHA256: 804a555c803f7fba5d0ad5368389fdedd5bb8d4d9abbc073c6916bd63785214d
+SHA512: 87f6f182818199a38fa5eb25585b63e2b255c23214825ecc9cead42339d1e2f173e06c18f8aed94969b11a26c222e3eddf2c45b75437527731b1ba965299b287
+
+Package: term-helper
+Version: 1.1.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: curl, pv
+Section: utils
+Priority: optional
+Homepage: https://github.com/Anon4You/term-helper
+Description: Terminal command helper and cheatsheet tool
+Filename: dists/termuxvoid/main/binary-all/term-helper_1.1.1_all.deb
+Size: 3360
+MD5Sum: dc461dd6561be1fa0bef88fc0fa2fb62
+SHA1: addff5858622e25e998e8efaa7f5cb6744b089b8
+SHA256: 12e0e634997296c86994b3c5357f95f9428dd84ae9e239810abb64a0761078cd
+SHA512: 5d6da904772fc3834548f83ef6ea011208d9bd55a6e7cb5fa8ed7667fe48c0693874151dfb259f7812d5dc7dc10f8ac63a76ff91ba748faf83d188e8d17897e6
+
+Package: termsploit
+Version: 1.0.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git,curl,python,build-essential,cmake,ninja,libopenblas,libandroid-execinfo,patchelf,binutils-is-llvm,rust,jq,python-pillow,nodejs,qpdf,libiconv,libxml2,libxslt,dnsutils,whois,php 
+Installed-Size: 1 
+Homepage: https://github.com/Anon4You/termsploit-framework 
+Description: Pentesting framework for Termux
+Filename: dists/termuxvoid/main/binary-all/termsploit_1.0.1_all.deb
+Size: 1644
+MD5Sum: 6e1cdba4406f84fa1fb18a06a0891e2c
+SHA1: 1f9700973ef188d3ed9a38d36c5fe8ffc4dc5c92
+SHA256: d81c01d96a7d79a3e63d1607b2afd7dd8ce3660b1fa01dfb803242d902bf23e1
+SHA512: 40a9f249016767b9abe97137d93f61b1331de02117cb6b44edaeadaf250d88c263ba41a44543f6917d8792827b8338ee24fe73f8b3a896dfcdaab3621de4865d
+
+Package: termux-ai
+Version: 3.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: curl, gum, tgpt
+Section: ai
+Priority: optional
+Homepage: https://github.com/Anon4You/Termux-Ai
+Description: Interactive AI Assistant for Termux
+ Your AI companion in Termux with support for 10+ AI providers,
+ 50+ image generation models, and interactive command-line interface.
+ Provides comprehensive AI capabilities directly within Termux terminal.
+Filename: dists/termuxvoid/main/binary-all/termux-ai_3.0_all.deb
+Size: 6268
+MD5Sum: 0d253a4b85309da2e36ebb04fe5babc7
+SHA1: 447814804f3a8bc1e1d14fb1a8dd94e73635f615
+SHA256: 844ec1d0e767fb8615209d0a3732f2bb4d7c31e1b1a02f797758dec3526093ef
+SHA512: 976a193e06594d57043c33c84ca901ae6629d5b3888d0abf9ee267a6802ec52f4c4493012257ce9b1c03a54d56f5692eb63e76e48893347edd9210f0f3e2426d
+
+Package: termux-desktop-wallpapers
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: termux-tools, termux-desktop
+Homepage: https://alienkrishn.infy.uk
+Description: Wallpapers for termux-desktop
+Filename: dists/termuxvoid/main/binary-all/termux-desktop-wallpapers_1.0_all.deb
+Size: 14061736
+MD5Sum: e9158256606677952e4458551817deac
+SHA1: e2290606eea55e325ff3364e61502a155e1d619b
+SHA256: fb7057e1742076e7ac2943d84fa841d0468f3b7709493d7df4bf2dc6a576f32c
+SHA512: f1472bd00639c74a43df7d7c14ecad97fd94f51b6cf9ecdd00b5216bef396288d99450a6c9c13d6bcf9da02badd78b7463a8933d022fafd6eb723d94c1fd65ed
+
+Package: termux-desktop
+Version: 1.0.7
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: termux-am,xfce4,xfce4-terminal,xwayland,xfce4-whiskermenu-plugin,firefox,neovim,termux-x11-nightly,dbus,termux-desktop-wallpapers,xfce4-goodies
+Installed-Size: 70830
+Description: termux xfce4 desktop gui with Hacker themes and icona
+Filename: dists/termuxvoid/main/binary-all/termux-desktop_1.0.7_all.deb
+Size: 9258708
+MD5Sum: 5a797e4c92863ec12513963740789d3b
+SHA1: 86517322d062392c94efc1765c1aaed19524d41c
+SHA256: 9b43a5453aa1f3cc545963b47b25bbdc9dcb0b14ee2cfe6786b64c3a6076b816
+SHA512: 7498283891921a3155836bfb3698a843885c819bb550ff81dbfdbd3ed318f7fea3285cc791a54797373a72569bd7e50206cb8bfa199af5088b91f55e7f61bdb8
+
+Package: termux-media-downloader
+Version: 2.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Homepage: https://github.com/Anon4You/Termux-Media-Downloader
+Depends: curl, python, python-pip, ffmpeg
+Description: A high-performance media downloader for Termux
+Filename: dists/termuxvoid/main/binary-all/termux-media-downloader_2.1_all.deb
+Size: 1344
+MD5Sum: 3ad6212570c961760883a7c75c59b2ca
+SHA1: e32d1f8d05b71348d0f17b52f985dd24598843db
+SHA256: 0e9a955fd0b43b27d084f166765e293e5294d71e3854338db04bc26460b383f0
+SHA512: 27fdee0346ad97c060bf38db68e1e3e7e45dec829930848410511f6343714c26f560840b5574c21d10d5ae73874953dede39169a45c10c718b7cb74b8aaed874
+
+Package: termux-penv
+Version: 2.0.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Homepage: https://github.com/Anon4You/termux-penv.git
+Installed-Size: 103
+Depends: wget, proot, figlet
+Description: Termux Penv - Simplify Chroot Environments in Termux
+Filename: dists/termuxvoid/main/binary-all/termux-penv_2.0.1_all.deb
+Size: 5724
+MD5Sum: d0b85bd1ba664de0c14c11c0703029a3
+SHA1: 6f7761300bad3760f4a2ed3aa7fc9b7bac17e689
+SHA256: ed11e7733c32ad0c9645d43a16c387fb1d99a32d6e8fe2bb00b3caa484e15d26
+SHA512: b2a7dcf2ace90ec7b72e80e848f8b470b1a6f73be737fd8e418359c5dc6b8a372f0ce029f30c36fea39adf5c58bf00c394729cb73dc6fab1894a75bb89af243c
+
+Package: termuxfetch
+Version: 2.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: bash
+Section: utils
+Priority: optional
+Description: Neofetch‑like system information tool for Termux
+ termuxfetch displays a colourful ASCII art banner along with
+ essential system information: Android version, Termux version,
+ kernel, device model, uptime, package count, CPU, memory, shell,
+ and architecture – all in a compact terminal output.
+Filename: dists/termuxvoid/main/binary-all/termuxfetch_2.0_all.deb
+Size: 2072
+MD5Sum: 048d4199b29bf924a18e841112cd5cf3
+SHA1: 3db141c4cd8ab3e01a5bb757f183dbc4b827a938
+SHA256: 6327950b1e13a64c45ca114cea8b64bcd608bb96532ec0ba284ecc945d909bde
+SHA512: 88a7056084d6f60d64c74af36137a473a15855ecaa970273483487e90342ac0897fcde66a5e16983ecb68bcda50e6fe5a4d113e7a6bc0ab8e1b10fee6b8b0d66
+
+Package: termuxvoid-theme
+Version: 3.3
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: fish, starship, git, jp2a, eza
+Description: Professional terminal customization for Termux
+ A complete theme package for Termux including:
+  - Fish shell configuration
+  - Starship prompt setup
+  - Custom banner support
+  - Color schemes and fonts
+Homepage: https://github.com/termuxvoid/TermuxVoid-Theme
+Filename: dists/termuxvoid/main/binary-all/termuxvoid-theme_3.3_all.deb
+Size: 2600
+MD5Sum: 4aa2addf6c5766c3c07282e07ab78ded
+SHA1: 24541802e68826bf4b52a0bd21469c100614f1a6
+SHA256: 307fe42e4a35b56213687279221f4e522f86fe9f39de971e89f59478bba5f485
+SHA512: 60fa8e177474ede3440ec116fc49be78a6b9ea1ac39277fcc54b72195c2aadbf09fbe6d56b05f8a4684e4522067816e152dc26e0eab0fc63a91455166dabd00f
+
+Package: thc-hydra
+Version: 9.8
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, make, clang, openssl, libssh
+Section: net
+Priority: optional
+Homepage: https://github.com/vanhauser-thc/thc-hydra
+Description: Parallelized Login Cracker Supporting Numerous Protocols
+ THC-Hydra is a fast and flexible login password cracker that
+ supports many protocols including HTTP, FTP, SSH, SMB, RDP, and more.
+ Designed for security researchers and penetration testers.
+Filename: dists/termuxvoid/main/binary-all/thc-hydra_9.8_all.deb
+Size: 1600
+MD5Sum: c31ab605704170cec6c375a89434fa12
+SHA1: 0b9ffb6323ec7ddeaabfefbf739bdb824a6c5bca
+SHA256: 2e7157543d8803cb0d43a8da21367fcac325e5d64adb1a475b30996b4b590997
+SHA512: bda8b88f44163cecf4c47582b4f3b38a01cb711c2cd267bf6098ecb4599e861c91e46fb23d7c595666cd86ea3c4745f89a1aab3c85f5ee0f694cb718c940a79a
+
+Package: the-theif
+Version: 2.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: apksigner,apkeditor,python
+Installed-Size: 4842
+Description: A tool that can hijack cookies and transmit them to Telegram using the API.
+Filename: dists/termuxvoid/main/binary-all/the-theif_2.1_all.deb
+Size: 2421144
+MD5Sum: bdc2f076e7716f6ff75f9556b1126bd6
+SHA1: ac74e9b83a12a29f4dcdc8fc097d9aec6eeb5e59
+SHA256: f68b514443c591cdf23bc16b0bfe5cf83aabe08d2109c6e2a4da258a8dc713c2
+SHA512: e7777853ef338db8b9f622c292aa0fea74cd8ba5fc1da1a511823925d7df82a5080612786352077aa1bed1a897dd9fa0a5bbe086b07c04e43cfee659b385cd74
+
+Package: theharvester
+Version: 4.10.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: proot, tar, axel, nethunter-cli
+Section: recon
+Priority: optional
+Homepage: https://github.com/laramies/theHarvester
+Description: E-mail, Subdomain, and Name Harvester
+ theHarvester is a tool for gathering e-mails, subdomains, hosts,
+ employee names, open ports and banners from different public sources
+ like search engines, PGP key servers, and SHODAN database.
+Filename: dists/termuxvoid/main/binary-all/theharvester_4.10.1_all.deb
+Size: 1656
+MD5Sum: 0e10b6f9f54190a1c280776c77fc0940
+SHA1: 09ae08d969fcab539ab4f4d5bdd130d8e143c1fa
+SHA256: 707f661c5d6f625b2cf18682cf9867f6e47429d2c7c25be91c2c56cab5d01f73
+SHA512: daac4e103a2e8f40b0e15e52a53897d6c23c28e6d6c6b294d86ec4e0fe3211b0b9d8b0d4129925b9c7edb09309560e2d77024613a0677dacb6c31a2024d7be8a
+
+Package: thezoo
+Version: 0.60
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, python-pip
+Section: security
+Priority: optional
+Homepage: https://github.com/ytisf/theZoo
+Description: A repository of live malware samples
+ Malware analysis and research platform featuring:
+ - Live malware samples
+ - Research documentation
+ - Analysis tools
+ - Educational resources
+Filename: dists/termuxvoid/main/binary-all/thezoo_0.60_all.deb
+Size: 1416
+MD5Sum: dd89cf5f07f99796a8b0194a1dd83d3e
+SHA1: 764619ce8bac6e3d9943c57a9c0f618d2421d7b0
+SHA256: 09841c80d8076ab4396bbaea90ff42e1b9de0b243b833596802cacb99c7916eb
+SHA512: 1814394bc65c2b9891f92ec2128fb8d12b2bdc524f83bb8bb03a61c6da3b03be09f5cc0caa0fa888de2b7b8a497e285ce22134c9fa1cbedb366334eebb08affe
+
+Package: tte
+Version: 0.14.2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip
+Section: utils
+Priority: optional
+Homepage: https://pypi.org/project/terminaltexteffects/
+Description: Terminal Text Effects and Animation Library
+ terminaltexteffects provides animated text effects and visual
+ enhancements for terminal applications. Includes various animation
+ types and customization options for command-line interface styling.
+Filename: dists/termuxvoid/main/binary-all/tte_0.14.2_all.deb
+Size: 1184
+MD5Sum: c6ac99d974eee7cc243a56ad0fbd805e
+SHA1: e131229319259aec7cd2b10086a537cd8974bf23
+SHA256: 52ef7c0b94a77f1c61771b05acad42621a573e42649d8e2d844534c9a1dcd6ad
+SHA512: 64b06168cc7108e1725b7ef35d94d652636cd69978f83d35830f6b49ad917a102c7d9a0f9b6669fc25d916c64bd4f40e96e391cb1c5091954519c74589f9cc5c
+
+Package: unfurl
+Version: 0.4.3
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, golang
+Section: utils
+Priority: optional
+Homepage: https://github.com/tomnomnom/unfurl
+Description: Pull out bits of URLs provided on stdin
+ unfurl is a command‑line tool that extracts specific components
+ (scheme, domain, path, query parameters, etc.) from URLs passed
+ via standard input. It is useful for URL parsing and manipulation
+ in security testing and data processing pipelines.
+Filename: dists/termuxvoid/main/binary-all/unfurl_0.4.3_all.deb
+Size: 1176
+MD5Sum: ab26f18328930e1adeb06688054f18c1
+SHA1: 37739133bdcd49c550841d1b8bfb1839d416a8ab
+SHA256: 0888c62541d214323ebb78beb8bd614766ff45ba591bbceac417cea68622f03f
+SHA512: c939f9f446598dee3a429344356d7292f3cc49a82f5bd0b849b7f47ba94a5fb47c2e4210b06672c5cd6e6e87c3c7c57178d595704ab26a509b3f29c4da3f47c3
+
+Package: user-scanner
+Version: 1.3.6.6
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip
+Section: utils
+Priority: optional
+Homepage: https://github.com/kaifcodec/user-scanner
+Description: 2-in-1 Email & Username OSINT suite
+ Analyzes 205+ scan vectors (100+ email / 105+ username) for
+ security research, investigations, and digital footprinting.
+Filename: dists/termuxvoid/main/binary-all/user-scanner_1.3.6.6_all.deb
+Size: 1028
+MD5Sum: e889753567ca750f5ad1f8a39411d348
+SHA1: 9de8cab9b37eb94be2ef88d447231f170a8b7cd2
+SHA256: 3f8eddadcb00de57f77f4ab2a0ac606acd5b8258f28922d98d8bea92f10eeae3
+SHA512: 35059c0371a1778492303a8b695d7e08306c4336cd7cbb338ee68ebed682ee1a9ba75743be1fa7d52c89fd7663b1fb708e429888e5c0185f9726fc28828305ed
+
+Package: vedic
+Version: 2.0.6
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, rust, clang, make, cmake
+Section: devel
+Priority: optional
+Homepage: https://github.com/vedic-lang/vedic
+Description: World's first Sanskrit programming language
+Filename: dists/termuxvoid/main/binary-all/vedic_2.0.6_all.deb
+Size: 1296
+MD5Sum: 5b548ba2432b39664466354a437f2ab7
+SHA1: 83c151e5a5a7e985c70cc7603ce6a06d75b13d5b
+SHA256: 4233f1451579b14aeab7b3c03a9341db89c76cde0acd4801c54012476580e2cc
+SHA512: 40694686030b139c42a2c3b89a9b2a514cd61a04495ce761b8358070e8d6edc8ce9fbd31b369e5e42f972a502a3f6b6ff30ce87bb09e719cf3dec35d8c347df1
+
+Package: venom
+Version: 1.0.3
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git,curl,php,openssh,nodejs,cloudflared
+Homepage: https://github.com/Anon4You/venom/
+Description: An automated phishing tool for absolute beginners
+Filename: dists/termuxvoid/main/binary-all/venom_1.0.3_all.deb
+Size: 1420
+MD5Sum: 195072e87bb66305d7d73f3a32c37232
+SHA1: 4de0b4e89dd139597290a7ed5733a7843e7a80cd
+SHA256: 3bcef2059ecc1e566ce405e64eb43edf00a16a8aa9b5b5a76b460c4dd00144e6
+SHA512: a1379ef0db77dabbead4d5cda260db214c172268a6d8301ed2a238778c2135587fc162b356fcb9ea5b34d4e824f2c6db0c8eaa003615a8b1d93eaa7e1d30ae75
+
+Package: void-fonts
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, bash
+Section: misc
+Priority: optional
+Homepage: https://github.com/termuxvoid/Void-Fonts.git
+Description: Custom font collection for Termux
+ Void-Fonts provides a collection of custom fonts specially
+ curated for Termux users. Includes installation and management script.
+Filename: dists/termuxvoid/main/binary-all/void-fonts_1.0_all.deb
+Size: 1244
+MD5Sum: 136027bfee837e353a7ff7a864c0a4cf
+SHA1: 039e3649e60abfdbf8f262dacf36ab19ff42226f
+SHA256: ac17cd22b749c89e1d2d47de5be19b79b62f03153ed1d2fe114296ccaeae62da
+SHA512: b166f7f778f586dd5040cba8c91f967cc37db4f0450fcdf4e36e08fc2d4160827b7313d804db6a30d2a1b4ca627d863bfbcfc94a30243951010156d4256ccc75
+
+Package: vulnx
+Version: 2.0.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, golang
+Section: utils
+Priority: optional
+Homepage: https://github.com/projectdiscovery/vulnx
+Description: Modern CLI for exploring vulnerability data with powerful search, filtering, and analysis capabilities.
+ vulnx is a command-line tool for searching and analyzing vulnerability data
+ (CVEs) using advanced filters like severity, vendor, product, CVSS score,
+ KEV status, and PoC availability.
+Filename: dists/termuxvoid/main/binary-all/vulnx_2.0.1_all.deb
+Size: 1096
+MD5Sum: a969dcf28bb9172aed92a8d56fb023dc
+SHA1: 5d3f4be6be2687f04b6b35e59bdc3dffe3a95f11
+SHA256: 0a9a90177d9b49de5f8d8e50b66e8bac590bc6ae68c16b07269d47cb018cbf27
+SHA512: 6db7167fe9da07866990a1075e3e8a39c35b1914e24da992163e0986168d993523ee8f03847d025d8c109a7d2c51d962ce11fabe105c0ad7c68115aa24de41f1
+
+Package: wacli
+Version: 0.9.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, golang
+Section: utils
+Priority: optional
+Homepage: https://wacli.sh/
+Description: Command-line tool for WhatsApp chat management
+ wacli is a CLI utility for interacting with WhatsApp chats,
+ including exporting, searching, and analyzing chat histories.
+Filename: dists/termuxvoid/main/binary-all/wacli_0.9.0_all.deb
+Size: 1312
+MD5Sum: 5df9305647aaf83c475e2a4d7dba9698
+SHA1: a85462655f614fec01a0be9d81a1d1656e9d3d8d
+SHA256: f2b5899f335d2962f2b8bfff02be5112dc2edfb4c7b7927982dfecc68d8fea6e
+SHA512: 2023a2f9e4d356055ad08fcae5fd8c5884b7044b3885496bf9ba90cb107be2c0eb8c5c6d4dc4bb5433b46ccd08ff5b9eed1349fa5ec7bb1cd300a534e43bf4e0
+
+Package: wafw00f
+Version: 2.3.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip
+Section: security
+Priority: optional
+Homepage: https://github.com/EnableSecurity/wafw00f
+Description: Web Application Firewall detection tool
+ Identify and fingerprint Web Application Firewalls with:
+ - 150+ WAF detection signatures
+ - HTTP request analysis
+ - Custom plugin support
+ - Evasion technique testing
+Filename: dists/termuxvoid/main/binary-all/wafw00f_2.3.1_all.deb
+Size: 1216
+MD5Sum: 0dec190844174f7f250593da0f8227f2
+SHA1: c6a3a77e988ea2c09635c5d42693bf1f98ee712d
+SHA256: a7bbe911c85863700c2f4bf4562b9e722ec5b4258b2e745550d9e4f65ef1fa11
+SHA512: a18af9c1d132f3c2e7ce88e5199ae42061054a0a7c664fafa968cec8d0f459302cb2392e1c41738343b35b87dffba77ac5bd3a9c0edcf590cc31ca8eba024579
+
+Package: waybackurls
+Version: 0.1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: golang, git
+Section: recon
+Priority: optional
+Homepage: https://github.com/tomnomnom/waybackurls
+Description: Fetch known URLs from Wayback Machine archives
+ Extract historical URLs from Wayback Machine with:
+ - Domain-based URL discovery
+ - Subdomain enumeration
+ - Timestamp filtering
+ - JSON output support
+Filename: dists/termuxvoid/main/binary-all/waybackurls_0.1.0_all.deb
+Size: 1432
+MD5Sum: 002ed45915768a9bfdee8b3a4287851f
+SHA1: 062b95dd1bbc61c14972c1258ef5d8b33ffa67ab
+SHA256: 6a0f6060610c5952ebe27bdb33d0fa806d3ea8f1ea715b024d58acf23963b13e
+SHA512: d9e651d02a41a41593d6cf2b9d16e8ba5d780743715696db038b8885c00c667d3143ba1a824d6896cdb7e7eebe2b770c1addeed25599c6f03b03941993529440
+
+Package: waymap
+Version: 7.2.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python
+Section: web
+Priority: optional
+Homepage: https://waymapscanner.github.io
+Description: Fast Web Vulnerability Scanner and Security Testing Toolkit
+ Waymap is a comprehensive web application security scanner for
+ SQL Injection, XSS, Command Injection, LFI, CRLF, CORS, Open Redirect,
+ API security testing (REST/GraphQL), and WordPress vulnerability scanning.
+ Provides automation-friendly scanning with session management.
+Filename: dists/termuxvoid/main/binary-all/waymap_7.2.0_all.deb
+Size: 1448
+MD5Sum: 989bb753996421393b07126d6aa35fff
+SHA1: be2c8bf8d3872f0b1491601f33f1aef94c38ffa0
+SHA256: a11301d75a1d740997f41a32fc41f842ac6d00667291983b073928304fb47cb4
+SHA512: a821dce04c92b96219279013960b00b1e9d53e49e3d66c12c7880199781307dbb1a3202d7420f65b220daabb44f7ac526d9fb12ad232af99f45dbf324bf68a89
+
+Package: webhost
+Version: 1.0.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: curl, php, python, npm, ngrok, cloudflared, figlet, openssh
+Section: net
+Priority: optional
+Homepage: https://github.com/Anon4You/WebHost
+Description: Serve local directories and expose via tunnels
+ WebHost is a Bash script that starts a local web server (PHP, Python,
+ or Node.js) and tunnels it to the internet using TunnelMole, Localhost.run,
+ Cloudflared, or Ngrok. It provides an interactive menu, color output,
+ and automatic cleanup. Ideal for testing webhooks, sharing development
+ servers, or exposing local services.
+Filename: dists/termuxvoid/main/binary-all/webhost_1.0.0_all.deb
+Size: 4976
+MD5Sum: fd60969df2962defd77a0ee45530d708
+SHA1: 64d01c374bc3102d2557f4f46320e51707953e03
+SHA256: feee16a18d004b7286737354fd961a8a11cc7039c71cfe0cff240d639f95cda7
+SHA512: ddcc6ae8e0611e8fb382772f9c2c6ecd34270635b3c289e2f4be3865e70d2e7e33fcd37c4f0098f75afe603a39b1d3aabe9008c7b0402c96040b001780e80fe8
+
+Package: webinfo
+Version: 3.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Homepage: https://github.com/Anon4You/webinfo/
+Depends: curl,openssl-tool,dnsutils,nmap,whois,traceroute
+Installed-Size: 8
+Description:Website information gathering
+Filename: dists/termuxvoid/main/binary-all/webinfo_3.0_all.deb
+Size: 2532
+MD5Sum: 90ca911327fa9ee191183b73cf561b85
+SHA1: ce040d8ec98101085e14b2dbfbcbd22e73fd7fad
+SHA256: 3fa8210c6a8aa5817900f0aa2e09192019c6f08e256b4949eb18a9db3521f020
+SHA512: 47edac3fb720d7c513ccb740dcfd446fcc7aac1f139d302ac80d614adf4b6d8e77e6b98bceb76c68a6883c9db7b92912ccfb8c8daa879c405851170f26eb007d
+
+Package: webserver
+Architecture: all
+Version: 1.2
+Installed-Size: 4.0
+Maintainer: Alienkrishn [Anon4You]
+Description: a simple webserver for termux
+Depends: php, figlet, openssh
+Filename: dists/termuxvoid/main/binary-all/webserver_1.2_all.deb
+Size: 1200
+MD5Sum: 4fb86c404be9e3703a6e81ac432965b3
+SHA1: 37c92b30192e3d020fbdfc5a32a076914af09b13
+SHA256: 53bdcdba86b70e8e7c9fa911736efcedda1cf002acee006616db9100e0b613da
+SHA512: 9d3add5fb6a4050f5c340a8b359bc599f2ed93bfe763d72f1da53bab2403e1f6455cb6aa2e7a3bb2f0f15a025938317bf75c05540f512ed4e90aaef3ed49de8f
+
+Package: websploit
+Version: 4.0.5
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Installed-Size: 1
+Depends: python, python-pip, git, python-numpy 
+Homepage: https://github.com/The404Hacking/websploit
+Description: Advanced MITM framework.
+Filename: dists/termuxvoid/main/binary-all/websploit_4.0.5_all.deb
+Size: 1532
+MD5Sum: 09b6fd7064577a10178aa390ad8f3e37
+SHA1: ec182dd3fb33cbd8b35e12f029aaec96c4273eb3
+SHA256: 861304bd2a76b50c697d7d4a51030dc105135c4c17b0e15ed4bdf31a1d514aa9
+SHA512: 35a325de5684f98f3b55f42854888badc28920fb946589e67b0b752c1d8029c1c202313dbb838a7a6f0b7e3221711540028af915f6016ada44a4edd5c066a5d9
+
+Package: weeman
+Architecture: all
+Version: 1.7.1
+Maintainer: Alienkrishn [Anon4You]
+Depends: python2,git
+Suggest: maskme,shorturl
+Installet-Size: 1
+Homepage: https://github.com/evait-security/weeman
+Description: HTTP server for phishing in python2
+Filename: dists/termuxvoid/main/binary-all/weeman_1.7.1_all.deb
+Size: 1604
+MD5Sum: b8a0a47f7a7b5c3fa14fd2f341614c68
+SHA1: 248272a924c88a35760fd99651c9fe86e3a3a015
+SHA256: 870504334f17d04f081802be49c1ea1f017a6f33ef00afeca6d3366e3fc40344
+SHA512: 7ded5256eb69e5e0944381b12aa8d2915963a4b0bcf6fb306080e47f9178f515a07d978f0d08f44fc37e7747a28698380aeed12dd976a3454cfdcd43c9949c3d
+
+Package: whatsapp-cli
+Version: 1.3.3
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, golang
+Section: net
+Priority: optional
+Homepage: https://github.com/vicentereig/whatsapp-cli
+Description: Standalone CLI for WhatsApp using multidevice protocol
+ whatsapp-cli provides a command-line interface for WhatsApp,
+ outputting structured JSON for automation, AI integration,
+ data analysis, and custom applications.
+Filename: dists/termuxvoid/main/binary-all/whatsapp-cli_1.3.3_all.deb
+Size: 1356
+MD5Sum: a36379d85f8ebc8e330814da0644b753
+SHA1: 14bd6e990e14e7f33ea368c56106524b74dea42b
+SHA256: ade33c1ee27f10b80cb2babcb8b1cb3e1ffc0502ff2a48d22b03a2fe17370ccb
+SHA512: ac0d715b3204a42448b63cd1fe459d862cf72451da3d1b6a80f9894318049acb7c70a94460bdfa850101ae1a07e66065bb6c2ac648e4c72b9365a1f8ca9e9b71
+
+Package: wipwn
+Version: 1.0
+Architecture: all
+Pre-Depends: root-repo
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, wpa-supplicant, pixiewps, iw, openssl, sudo, openssh
+Section: net
+Priority: optional
+Homepage: https://github.com/anbuinfosec/wipwn
+Description: Fast automated WiFi WPS PIN cracking tool
+ WiPWN automates the discovery and cracking of WPS‑enabled access points.
+ It supports multiple attack modes: Pixie Dust, brute force, dictionary,
+ and includes session management, vulnerability detection, and report generation.
+Filename: dists/termuxvoid/main/binary-all/wipwn_1.0_all.deb
+Size: 1412
+MD5Sum: 4e60af358e1c907f21053e83a6ee7eeb
+SHA1: 9d619b0a4f906df9214aa47115807f049e3e824d
+SHA256: c45669ce68bdbc017ff8ed69c0eae2ef08a13f1f90278ce71343e5edad986e3d
+SHA512: 691819e9949d5cee6a7e86db3b89bfd226dec5b7bb88011744da97fd6a3c1375f1a1f0824cb63e38f67db0778e908264fc3b7f932330f968e675f6d8e23f7ee4
+
+Package: wordlists
+Version: 1.1-0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: wget, git
+Description: Security wordlists collection (rockyou.txt + SecLists subset).
+ Uses faster GitHub mirror for rockyou.txt. For authorized security research only.
+Filename: dists/termuxvoid/main/binary-all/wordlists_1.1-0_all.deb
+Size: 1556
+MD5Sum: 9fb7a9db3e6eefec9f750ef214cb626a
+SHA1: b80bdb32ffe35d5d005acbb5a8b72fc0788e20e3
+SHA256: 692cf30600a26ad9980985f30386eb7b9c7495cc08aa95e856bf42c2c6533564
+SHA512: a5e96666e1ca9bb044db8fea3d4d9dc97b9baed895d1b26f1f91cd09105756e33f125e173fb2e677c71ea878fe16a6fe735fca5b732d31ae8b69e942e48bc332
+
+Package: wpscan
+Version: 3.8.28
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: proot, tar, axel, nethunter-cli
+Section: web
+Priority: optional
+Homepage: https://wpscan.com/
+Description: WordPress Security Scanner
+ WPScan is a black box WordPress security scanner used to test
+ the security of WordPress websites by checking for vulnerabilities,
+ weak passwords, and misconfigurations.
+Filename: dists/termuxvoid/main/binary-all/wpscan_3.8.28_all.deb
+Size: 1440
+MD5Sum: 7495f6839933527a74be286ab937141f
+SHA1: 6f7ab3f4bcb9434817ef8a475405c7dc305b3af0
+SHA256: 05ef42b9d6623cb005bb808335705d3761c3a804122ebae61b95afd406d463d5
+SHA512: adea86ec6f37186492bd80d26f722064e8fbc31700e0b22df1255f0f349508d134675116589eb7be3f1a1e975bcd3d09e7feb6676dbd34cc14a26a7d1296f73b
+
+Package: xbomber
+Version: 2.0.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, curl
+Section: utils
+Priority: optional
+Homepage: https://github.com/Anon4You/XBomber
+Description: A High-Performance SMS Bombing Tool for Educational Testing
+   XBomber is a lightweight Python script designed to test the resilience of SMS gateways by sending a high volume of messages.
+   It is optimized for the Termux environment on Android, providing a portable solution for security researchers and penetration testers.
+Filename: dists/termuxvoid/main/binary-all/xbomber_2.0.0_all.deb
+Size: 1512
+MD5Sum: 4bb6474b0792baf4c2e0d28ff690bac0
+SHA1: 294c816180855bf43a598782cc38b7bdc3fce9cd
+SHA256: a84f774626527ce9f2318d14c3f4e2a99244227dc792b8ded139ece8f6340b5a
+SHA512: 9655c4fdc98ce4be98b8fc3a81c26fb70b9949706f5d5bd5335a0eb1b019bad21af6db1b0f5ae98f221af34d20809ef08770f06ff0203881723c66c6e7b3c0c4
+
+Package: xsstrike
+Version: 3.1.6
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python
+Section: web
+Priority: optional
+Homepage: https://github.com/s0md3v/XSStrike
+Description: Advanced XSS Detection and Exploitation Suite
+ XSStrike is a Cross Site Scripting detection suite equipped with multiple
+ hand-written parsers, an intelligent payload generator, a powerful fuzzing
+ engine and an incredibly fast crawler. Instead of injecting payloads and
+ checking for reflections, XSStrike analyses responses with multiple parsers
+ and then crafts payloads that are guaranteed to work by the context.
+ Features:
+ - Context-aware payload generation
+ - Multiple HTML parsers
+ - Powerful fuzzing engine
+ - Fast crawler
+ - Blind XSS support
+ - WAF detection and evasion
+Filename: dists/termuxvoid/main/binary-all/xsstrike_3.1.6_all.deb
+Size: 1736
+MD5Sum: 17d48e96dbe990693a059706c9e0f8b9
+SHA1: 3594339048050fec85b87162ef3e8ee23d4aa5de
+SHA256: f9407c791eabd4ea8384b5e13ef7907fe5c65472f5008595fe6f0c3cc3a621fb
+SHA512: 1c5476bfc7e7767a63426c774c306a24af0750044775159c07a5b7c4394a3542e1f89159ba288dca4be438821f3358e302610bbbd735c7b7e21ae3e769c729bd
+
+Package: zaproxy
+Version: 2026.03.02
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: openjdk-21, python, tar
+Section: security
+Priority: optional
+Homepage: https://www.zaproxy.org/
+Description: OWASP Zed Attack Proxy
+ Web application security scanner with:
+ - Automated scanning
+ - REST API
+ - Browser integration
+ - Plugins support
+Filename: dists/termuxvoid/main/binary-all/zaproxy_2026.03.02_all.deb
+Size: 55764
+MD5Sum: cb6ba1b9cfab6629d963f55743ea6cbb
+SHA1: da27f140c875bf3b79c183c3768f3a515e399b3f
+SHA256: 0ea213377d40055bb2469fceab8956a76e2f9ed59d142f5164d83d221ef8d1ee
+SHA512: dd40f1e8d5835ec6dfd4ff5b8f98ecfd0ca15977883f36499de8d744f4b69f219064e32a21b8647f5d313a6382413befe944125ce168d33e894f28683133b9f3
+
+Package: zen-c
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, make, clang, llvm
+Section: devel
+Priority: optional
+Homepage: https://github.com/z-libs/Zen-C
+Description: High-level Systems Programming Language compiling to C
+ Zen-C is a modern systems programming language that compiles to
+ human-readable GNU C/C11. Provides type inference, pattern matching,
+ generics, traits, async/await, and manual memory management with
+ RAII while maintaining 100% C ABI compatibility.
+Filename: dists/termuxvoid/main/binary-all/zen-c_1.0_all.deb
+Size: 1440
+MD5Sum: 3ee754b6560a61e4b68e80e5c06a393e
+SHA1: 100965fb48feba7885b4e17ab30ab575295bd622
+SHA256: db406710ab19c08c05de9667b2b7eec3519d21a05792e89635acca4dcdff6c51
+SHA512: 8ebcbac7a01426f94d3b34996ffa515e73c17c192640daafbcc97253ef6cfe7a7f95a70c8dea35b1d32e27d7ff54d5b18694ded698598cd5517f24697b0e8460
+
+Package: zipcracker
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You] 
+Depends: zip, unzip
+Section: utils
+Priority: optional
+Homepage: https://github.com/Anon4You/ZipCracker
+Description: A powerful yet simple ZIP archive password recovery tool designed for Termux
+Filename: dists/termuxvoid/main/binary-all/zipcracker_1.0_all.deb
+Size: 2104
+MD5Sum: 3ffc7ec8ffed9c44e9adb56a9b2ea458
+SHA1: c8d04b2df94a82eb998bca26954905196e3e75ad
+SHA256: 7f233c8228c58e9d5e39ef8bd6776aea757ed39aab4e3e540a0ce0656e31e21f
+SHA512: d0f5f0e787a5eed384bc468d82e2e70057a49007764a0fb9dce125649c919bee95fb0363c6ada185e3d16b9c657b4076f0fef5b07980a2c04a6b51a5b00bb686
+
