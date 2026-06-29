@@ -1,5 +1,5 @@
 Package: antigravity-cli
-Version: 1.0.10
+Version: 1.0.13
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: curl, clang, python, glibc
