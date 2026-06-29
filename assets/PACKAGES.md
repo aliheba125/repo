@@ -246,6 +246,7 @@ This repository provides specialized security and penetration testing tools for 
 | Tool | Description |
 |------|-------------|
 | [afrog](https://termuxvoid.github.io/tool.html?name=afrog) | Fast Vulnerability Scanner with PoC Support |
+| [arjun](https://termuxvoid.github.io/tool.html?name=arjun) | HTTP parameter discovery suite supporting GET/POST methods with threading |
 | [burpsuite](https://termuxvoid.github.io/tool.html?name=burpsuite) | Web security testing platform (community edition) |
 | [burpsuite-pro](https://termuxvoid.github.io/tool.html?name=burpsuite-pro) | Web security testing platform (professional edition) |
 | [cloudflare-gui](https://termuxvoid.github.io/tool.html?name=cloudflare-gui) | Stylish GUI for Cloudflare Tunnels |
