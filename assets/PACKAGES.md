@@ -11,7 +11,8 @@ This repository provides specialized security and penetration testing tools for 
 ### 🚨 Attack Tools
 | Tool | Description |
 |------|-------------|
-| [bettercap](https://termuxvoid.github.io/tool.html?name=bettercap) | Swiss Army knife for WiFi, BLE, HID, CAN-bus, IPv4/IPv6 reconnaissance and MITM attacks[reference:2] |
+| [aircrack-ng](https://termuxvoid.github.io/tool.html?name=aircrack-ng) | Suite of tools for auditing wireless networks – monitor, attack, test, and crack WiFi |
+| [bettercap](https://termuxvoid.github.io/tool.html?name=bettercap) | Swiss Army knife for WiFi, BLE, HID, CAN-bus, IPv4/IPv6 reconnaissance and MITM attacks |
 | [blackbox-framework](https://termuxvoid.github.io/tool.html?name=blackbox-framework) | Python‑based network analysis and exploitation toolkit |
 | [darksploit-framework](https://termuxvoid.github.io/tool.html?name=darksploit-framework) | Tool to run and create exploits |
 | [darkterm](https://termuxvoid.github.io/tool.html?name=darkterm) | Advanced Ethical Hacking Framework with 60+ tools across 9 modules |
@@ -21,6 +22,7 @@ This repository provides specialized security and penetration testing tools for 
 | [knockpy](https://termuxvoid.github.io/tool.html?name=knockpy) | Subdomain enumeration and reconnaissance tool |
 | [metasploit-framework](https://termuxvoid.github.io/tool.html?name=metasploit-framework) | World’s most used penetration testing framework |
 | [powerdos](https://termuxvoid.github.io/tool.html?name=powerdos) | Multi‑threaded Denial of Service tool in Python |
+| [reaver](https://termuxvoid.github.io/tool.html?name=reaver) | Brute‑force attack tool against WPS (Wi‑Fi Protected Setup) PINs |
 | [slowhttptest](https://termuxvoid.github.io/tool.html?name=slowhttptest) | Application Layer DoS attack simulator |
 | [spurt](https://termuxvoid.github.io/tool.html?name=spurt) | HTTP stress testing tool to overload web servers |
 | [termsploit](https://termuxvoid.github.io/tool.html?name=termsploit) | Pentesting framework for Termux |
