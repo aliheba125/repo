@@ -176,6 +176,7 @@ This repository provides specialized security and penetration testing tools for 
 | [apkleaks](https://termuxvoid.github.io/tool.html?name=apkleaks) | Scanning APK file for URIs, endpoints & secrets |
 | [apksearch](https://termuxvoid.github.io/tool.html?name=apksearch) | APK Search Tool for Multiple APK Websites |
 | [apktool](https://termuxvoid.github.io/tool.html?name=apktool) | Reverse engineering Android APKs |
+| [qdl](https://termuxvoid.github.io/tool.html?name=qdl) | Qualcomm Download Tool (QDL) for EDL flashing – flash Qualcomm devices in EDL 9008 mode |
 | [blutter](https://termuxvoid.github.io/tool.html?name=blutter) | Flutter/Dart Binary Analysis and Reverse Engineering |
 | [dpt-shell](https://termuxvoid.github.io/tool.html?name=dpt-shell) | Android Dex protection shell implementation |
 | [ghidra](https://termuxvoid.github.io/tool.html?name=ghidra) | NSA Reverse Engineering Framework |
