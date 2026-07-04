@@ -116,8 +116,11 @@ main(){ clear 2>/dev/null; show_logo
     "curl -fsSL https://github.com/aliheba125/repo/raw/main/assets/termuxvoid.gpg -o \$PREFIX/etc/apt/trusted.gpg.d/termuxvoid.gpg" \
     || warn "Key skipped — repo is [trusted=yes]"
   if run_step "Updating package lists" "apt update -y"; then
-    echo; card "$C_OK" "[+]" "Dragon is ready!" "apt install <pkg>"; echo
-    info "List:  ${C_ACC}apt list 2>/dev/null|grep termuxvoid${RST}"
+    run_step "Installing dragon tool manager" "apt install dragon -y" || warn "dragon tool optional (skipped)"
+    run_step "Installing Dragon banner" "curl -fsSL https://github.com/aliheba125/repo/raw/main/assets/motd -o \$PREFIX/etc/motd" || warn "banner optional (skipped)"
+    echo; card "$C_OK" "[+]" "Dragon is ready!" "just type:  dragon"; echo
+    info "Menu:  ${C_ACC}dragon${RST}"
+    info "List:  ${C_ACC}dragon list${RST}"
     info "TG:    ${C_ACC}t.me/a1002a${RST}"
     info "WA:    ${C_ACC}wa.me/9647823210125${RST}"
   else echo; card "$C_WARN" "[!]" "Finished with warnings" "Run 'apt update' to retry"; fi

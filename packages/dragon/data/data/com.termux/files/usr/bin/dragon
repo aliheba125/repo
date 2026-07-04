@@ -1,0 +1,165 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+#  dragon — Dragon repository tool manager    github.com/aliheba125/repo
+#  Usage: dragon [list|search <q>|install <t..>|remove <t..>|update|info <t>|help]
+# ============================================================================
+SUITE=termuxvoid   # apt suite name (internal)
+
+COLS=$( { stty size </dev/tty; } 2>/dev/null | awk '{print $2}' )
+[ -z "$COLS" ] && COLS=$( { tput cols </dev/tty; } 2>/dev/null )
+[ -z "$COLS" ] && COLS=$( { tput cols; } 2>/dev/null )
+case "$COLS" in ''|*[!0-9]*) COLS=60 ;; esac
+[ "$COLS" -lt 12 ] && COLS=60
+
+LOG="$(mktemp 2>/dev/null)"; [ -z "$LOG" ] && LOG="${TMPDIR:-$HOME}/.dragon.$$.log"
+: > "$LOG" 2>/dev/null || LOG=/dev/null
+cleanup(){ [ "$LOG" != /dev/null ] && rm -f "$LOG" 2>/dev/null; }; trap cleanup EXIT
+
+case "$COLORTERM" in truecolor|24bit) TC=1 ;; *) TC=0 ;; esac
+[ -t 1 ] || TC=0
+RST=$'\033[0m'; BOLD=$'\033[1m'
+if [ "$TC" = 1 ]; then
+  C_OK=$'\033[38;2;0;235;90m'; C_ERR=$'\033[38;2;255;76;76m'; C_WARN=$'\033[38;2;255;190;40m'
+  C_INFO=$'\033[38;2;90;220;255m'; C_ACC=$'\033[38;2;0;255;90m'; C_DIM=$'\033[38;2;95;140;105m'; C_FR=$'\033[38;2;0;170;80m'
+else C_OK=$'\033[92m'; C_ERR=$'\033[91m'; C_WARN=$'\033[93m'; C_INFO=$'\033[96m'; C_ACC=$'\033[92m'; C_DIM=$'\033[90m'; C_FR=$'\033[32m'; fi
+
+DSML_W=22
+DSML_C=('150;255;180' '107;250;149' '64;245;119' '22;240;89' '0;238;73' '0;240;73' '0;242;73' '0;243;72' '0;245;72' '0;247;71' '0;248;71' '0;250;71' '0;252;70' '0;253;70' '0;248;68' '0;230;65' '0;212;62' '0;194;58' '0;176;55' '0;158;52' '0;140;48' '0;122;45' '0;105;42')
+DSML_A=('            ▄█▄█' '         ▄█████' '      ▀ ▄█████████▄▄' ' ▄▄▄ ▄▄██████████████' '▄████████████▀▀██████▄' '▀▀▀▀▀  ▄███    ██████' '      █▀ ▀    ▄██████▀' '     █▀      ▄███████' '          ▄▄██████▀' '       ███████████▄' '  █████████████████' ' █████████▀▀▀▀▀▀█▀▀' '  ██████' ' █████▀     ▄ ▄' '▄█████   ▄██████▄█' ' █████▄ ███████████' ' ▀████████████████▀' '  ███████████████▀' '    █▀████████▀▀▀' '      ██████▄     ██' '       ██████    ▄█▀' '         ▀███     ▄█' '           █▀    ▀███')
+FIG_A=(' ___                         ' '|   \ _ _ __ _ __ _ ___ _ _  ' '| |) | '\''_/ _` / _` / _ \ '\'' \ ' '|___/|_| \__,_\__, \___/_||_|' '              |___/          ')
+FIG_W=29
+
+_pad(){ local n=$(( ($COLS-$1)/2 )); ((n<0)) && n=0; printf '%*s' "$n" ''; }
+repeat(){ local s= i; for ((i=0;i<$2;i++)); do s+="$1"; done; printf '%s' "$s"; }
+rule(){ local w=$1; printf '%s%s%s%s\n' "$(_pad $w)" "$C_FR" "$(repeat ─ $w)" "$RST"; }
+center(){ printf '%s%b\n' "$(_pad $2)" "$1"; }
+ok(){   printf '   %s[+]%s %s\n' "$C_OK"   "$RST" "$1"; }
+bad(){  printf '   %s[x]%s %s\n' "$C_ERR"  "$RST" "$1"; }
+warn(){ printf '   %s[!]%s %s\n' "$C_WARN" "$RST" "$1"; }
+info(){ printf '   %s[>]%s %s\n' "$C_INFO" "$RST" "$1"; }
+_row(){ local body="$5 $6"; local fill=$(( $3-1-${#body} )); ((fill<0)) && fill=0
+  printf '%s%s│%s %s%s%s %s%s%*s%s%s│%s\n' "$1" "$2" "$RST" "$4" "$5" "$RST" "$BOLD" "$6" "$fill" '' "$RST" "$2" "$RST"; }
+card(){ local col="$1" mk="$2" title="$3" msg="$4"
+  local w=$(( COLS<60 ? COLS-2 : 56 )); ((w<24)) && w=$(( COLS-2 )); ((w<20)) && w=20; local inner=$(( w-2 ))
+  local pad; pad=$(_pad "$w"); local bar; bar=$(repeat ─ "$inner")
+  (( ${#title} > inner-5 )) && title="${title:0:inner-5}"
+  (( ${#msg}   > inner-2 )) && msg="${msg:0:inner-3}…"
+  printf '%s%s┌%s┐%s\n' "$pad" "$col" "$bar" "$RST"
+  _row "$pad" "$col" "$inner" "$col" "$mk" "$title"
+  local mfill=$(( inner-1-${#msg} )); ((mfill<0)) && mfill=0
+  printf '%s%s│%s %s%*s%s│%s\n' "$pad" "$col" "$RST" "$msg" "$mfill" '' "$col" "$RST"
+  printf '%s%s└%s┘%s\n' "$pad" "$col" "$bar" "$RST"; }
+run_step(){ local desc="$1"; shift
+  if [ "$TC" = 0 ]; then if eval "$*" >"$LOG" 2>&1; then ok "$desc"; return 0; else bad "$desc"; return 1; fi; fi
+  local fr='|/-\' i=0; ( eval "$*" >"$LOG" 2>&1 ) & local pid=$!
+  while kill -0 "$pid" 2>/dev/null; do printf '\r   %s[%s]%s %s' "$C_INFO" "${fr:i:1}" "$RST" "$desc"; i=$(((i+1)%4)); sleep 0.09; done
+  wait "$pid"; local rc=$?
+  if [ $rc -eq 0 ]; then printf '\r   %s[+]%s %s\033[K\n' "$C_OK" "$RST" "$desc"; else printf '\r   %s[x]%s %s\033[K\n' "$C_ERR" "$RST" "$desc"; fi; return $rc; }
+
+banner(){
+  echo
+  if [ "$COLS" -ge "$DSML_W" ]; then
+    local pad; pad=$(_pad "$DSML_W")
+    local i
+    for i in "${!DSML_A[@]}"; do
+      if [ "$TC" = 1 ]; then printf '%s\033[38;2;%sm%s%s\n' "$pad" "${DSML_C[$i]}" "${DSML_A[$i]}" "$RST"
+      else printf '%s%s%s%s\n' "$pad" "$C_ACC" "${DSML_A[$i]}" "$RST"; fi
+    done
+    echo
+  fi
+  if [ "$COLS" -ge "$FIG_W" ]; then local p; p=$(_pad "$FIG_W"); local l; for l in "${FIG_A[@]}"; do printf '%s%s%s%s\n' "$p" "$BOLD$C_ACC" "$l" "$RST"; done
+  else center "${BOLD}${C_ACC}D R A G O N${RST}" 11; fi
+  echo; center "${C_DIM}tool manager${RST}" 12; echo
+}
+slim(){ echo; center "${BOLD}${C_ACC}🐉 Dragon${RST}  ${C_DIM}${1}${RST}" $(( 9 + 3 + ${#1} )); rule $(( COLS<58?COLS-2:56 )); echo; }
+
+_names(){ apt list 2>/dev/null | grep "/$SUITE" | cut -d/ -f1 | sort -u; }
+
+cmd_list(){ slim "· all tools"
+  local names; names=$(_names); local n; n=$(printf '%s\n' "$names" | grep -c .)
+  if [ "$n" = 0 ]; then warn "No Dragon tools found. Run: dragon update"; return; fi
+  info "${BOLD}$n${RST} tools available:"; echo
+  # print in responsive columns
+  local colw=18 per=$(( (COLS-4)/18 )); ((per<1)) && per=1
+  printf '%s\n' "$names" | awk -v acc="$C_ACC" -v rst="$RST" -v per="$per" -v cw="$colw" '
+    { printf "  %s%-*s%s", acc, cw, $0, rst; if (NR%per==0) print "" } END{ if (NR%per!=0) print "" }'
+  echo; info "Install:  ${C_ACC}dragon install <tool>${RST}"
+}
+cmd_search(){ slim "· search: $*"
+  local q="$*"; [ -z "$q" ] && { warn "Usage: dragon search <term>"; return; }
+  local hits; hits=$(_names | grep -i -- "$q")
+  local n; n=$(printf '%s\n' "$hits" | grep -c .)
+  if [ "$n" = 0 ]; then warn "No tool matches '$q'"; return; fi
+  info "${BOLD}$n${RST} match(es) for '${BOLD}$q${RST}':"; echo
+  printf '%s\n' "$hits" | while read -r t; do [ -n "$t" ] && printf '   %s•%s %s%s%s\n' "$C_FR" "$RST" "$C_ACC" "$t" "$RST"; done
+  echo; info "Install:  ${C_ACC}dragon install <tool>${RST}"
+}
+cmd_info(){ slim "· info: $1"
+  local t="$1"; [ -z "$t" ] && { warn "Usage: dragon info <tool>"; return; }
+  if ! _names | grep -qx "$t"; then warn "'$t' is not a Dragon tool"; return; fi
+  apt-cache show "$t" 2>/dev/null | awk -v a="$C_ACC" -v d="$C_DIM" -v r="$RST" '
+    /^Package:/{print "   "a$0 r; next}
+    /^Version:|^Depends:|^Homepage:/{print "   "d$0 r; next}
+    /^Description:/{sub(/^Description: /,""); print "   "a"» "$0 r; next}
+    /^ /{print "     "d$0 r}'
+  echo; info "Install:  ${C_ACC}dragon install $t${RST}"
+}
+cmd_install(){ slim "· install"
+  [ $# -eq 0 ] && { warn "Usage: dragon install <tool...>"; return 1; }
+  info "Installing: ${BOLD}$*${RST}"; echo
+  if apt install -y "$@"; then echo; card "$C_OK" "[+]" "Installed" "$*"
+  else echo; card "$C_ERR" "[x]" "Install failed" "check name / connection"; return 1; fi
+}
+cmd_remove(){ slim "· remove"
+  [ $# -eq 0 ] && { warn "Usage: dragon remove <tool...>"; return 1; }
+  info "Removing: ${BOLD}$*${RST}"; echo
+  if apt remove -y "$@"; then echo; card "$C_WARN" "[!]" "Removed" "$*"
+  else echo; card "$C_ERR" "[x]" "Remove failed" "$*"; return 1; fi
+}
+cmd_update(){ slim "· update"
+  run_step "Refreshing package lists" "apt update -y" || { card "$C_ERR" "[x]" "Update failed" "check connection"; return 1; }
+  info "Upgrading installed tools…"; echo; apt upgrade -y
+  echo; card "$C_OK" "[+]" "Up to date" "all Dragon tools current"
+}
+cmd_help(){ banner
+  rule $(( COLS<58?COLS-2:56 )); echo
+  info "${BOLD}dragon${RST}            interactive menu"
+  info "${BOLD}dragon list${RST}       list all 204 tools"
+  info "${BOLD}dragon search${RST} <q> find a tool"
+  info "${BOLD}dragon info${RST} <t>   show tool details"
+  info "${BOLD}dragon install${RST} <t> install tool(s)"
+  info "${BOLD}dragon remove${RST} <t>  remove tool(s)"
+  info "${BOLD}dragon update${RST}     update everything"
+  echo; info "TG ${C_ACC}t.me/a1002a${RST}   WA ${C_ACC}wa.me/9647823210125${RST}"; echo
+}
+menu(){ clear 2>/dev/null; banner
+  rule $(( COLS<58?COLS-2:56 )); echo
+  info "${C_ACC}1${RST}) Browse all tools"
+  info "${C_ACC}2${RST}) Search a tool"
+  info "${C_ACC}3${RST}) Install a tool"
+  info "${C_ACC}4${RST}) Update everything"
+  info "${C_ACC}5${RST}) Remove a tool"
+  info "${C_ACC}0${RST}) Exit"
+  echo; printf '   %s[>]%s choose: ' "$C_INFO" "$RST"; read -r ch
+  case "$ch" in
+    1) cmd_list ;;
+    2) printf '   %s[>]%s search: ' "$C_INFO" "$RST"; read -r q; cmd_search $q ;;
+    3) printf '   %s[>]%s tool to install: ' "$C_INFO" "$RST"; read -r t; [ -n "$t" ] && cmd_install $t ;;
+    4) cmd_update ;;
+    5) printf '   %s[>]%s tool to remove: ' "$C_INFO" "$RST"; read -r t; [ -n "$t" ] && cmd_remove $t ;;
+    0|q|Q) echo; center "${C_DIM}>> see you, hacker${RST}" 18; echo; exit 0 ;;
+    *) warn "invalid choice" ;;
+  esac
+}
+
+case "$1" in
+  ""|menu)      menu ;;
+  list|ls)      cmd_list ;;
+  search|find)  shift; cmd_search "$@" ;;
+  info|show)    shift; cmd_info "$1" ;;
+  install|add|i) shift; cmd_install "$@" ;;
+  remove|rm|uninstall) shift; cmd_remove "$@" ;;
+  update|up|upgrade)   cmd_update ;;
+  help|-h|--help)      cmd_help ;;
+  *)            cmd_help ;;
+esac
