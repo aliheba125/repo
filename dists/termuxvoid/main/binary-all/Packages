@@ -7,10 +7,10 @@ Depends: git, python, python-pip
 Description: get unlimited 5 letters instagram unused usernames
 Filename: dists/termuxvoid/main/binary-all/5luser_1.0_all.deb
 Size: 988
-MD5Sum: dcedc13352196a2fe421257467a9fecf
-SHA1: a3a23d7a03b070e37d3d5a0f370849a891a4a116
-SHA256: 480b35a9f25715b2d2b3b126cba4c181c1d69e772600a91282b049bbb617d3ed
-SHA512: b13522f2af0d605d2313e1918e8def33cfe25da0ec06bae174f53444870d0802bc4f39e4dc0b5fa996c7dc7e216521b9d9b4ac3db2a3a155263e6739cbf6aa3c
+MD5Sum: b395945ecc050034f9e765d54d00548c
+SHA1: 8e25aeff814a6384d0b19083e70852e49d68a99e
+SHA256: 0da967257e2bb9cef792010a6f829e50d789c44fef3e3e845640087e4cffb5ff
+SHA512: 5c2233ec5bd9efa1398079cd0109aa64541c55e77aea18df960ec0551968950902e3ab30b48dbc98154fbd8ce9a25dfac0b10dcac4072b13b60dfce4a8494ac0
 
 Package: 9router
 Version: 0.4.71
@@ -27,10 +27,10 @@ Description: Smart gateway between your tools and 60+ AI providers
  20–65% of tokens, keeping you coding even when limits are hit.
 Filename: dists/termuxvoid/main/binary-all/9router_0.4.71_all.deb
 Size: 1096
-MD5Sum: 5604ad9c88828563881b869112f7c351
-SHA1: 9641bb7884a94afbdc9100454fdf7a6408d5988d
-SHA256: 01f6cab01543d22b43d881a8a9ec646cc906e87c40460fb14f5526c68afbdc7f
-SHA512: 67cfb032ae2f06a5e6b1ee1628c90eda62778b7d011201a974292b72672654517193d144326e62b8ea2d9d39e91e9cc3575c58a669f9f67ac358fc31e8e391b8
+MD5Sum: 6ffeea64ed4d5a166e3ccb1008b21063
+SHA1: 5d9a9e3a9b145910acb5832ca5fb0c360a35b2fd
+SHA256: 74f30e5e3d5fe59803baad6b5d499b6edf1caaa43ff3b698aeb66042aae050a6
+SHA512: bc0b608f38ef9fd00cf6a29d24bf9a22553c5b1a00c06e0494b4cc1b5f41540d80b83dbb7ba45164658c86127300b133d6b74adb6c86a9d35ee250a8b91d5c3b
 
 Package: afrog
 Version: 3.5.3
@@ -45,11 +45,11 @@ Description: Fast vulnerability scanner with custom PoCs (afrog)
  custom proof‑of‑concept templates. This version includes a required
  patch for certain architectures.
 Filename: dists/termuxvoid/main/binary-all/afrog_3.5.3_all.deb
-Size: 1280
-MD5Sum: 3a9065badee06946d82d86ec16a52a14
-SHA1: 864d05b617d81890a3a165390da0bfd56290eb5b
-SHA256: 67b8cac0af657cbdca08f7f4798bb0d3dee7f03ea5bde0e4e47b9715f5e1ab52
-SHA512: dfbbfd191ace489ecc586bb4d9e601d8ebe41696f21c6eafbd50e7c92aaec3d25d03c8b7adba5b20f56e0dab815523b441a7ac075590bde75de259b62584aa2a
+Size: 1276
+MD5Sum: dbc80264c821ad2cf39db21b1be07926
+SHA1: 03230c91c0ff8ab51bd9b4e40f1e8923497355dc
+SHA256: 279fc06f75bda1a2e0cfce1fcee0b8fedd1e0a7b8c9ea973dc0d2d6a81e33679
+SHA512: 686712a175d209a51c7ca807dbf4e82e0bfd6a90b1e540656d43c7a9dda20b4d84dfd815f3b8aad0d859b111ea84c813f02250a94181edebd6ea773b92ea5b6d
 
 Package: aircrack-ng
 Version: 1.7
@@ -67,10 +67,10 @@ Description: Wireless network security auditing suite
  and cracking tools.
 Filename: dists/termuxvoid/main/binary-all/aircrack-ng_1.7_all.deb
 Size: 1652
-MD5Sum: 55d59e845a88f30376eeee547dcdbd66
-SHA1: 661f972cf3196d55eefb59bb3f89cb25e483a6ac
-SHA256: 9bb91e77b76cd3631bccd4eefb6d2dfc0197cb41a4ce78599a7859e5da569aae
-SHA512: 03e4765f650a4493e675b403d5cf9b4a58737eba2e7be3168236b512ceeab5342c1e61a209ad98eb52dd42ac6ffd6bd1aa9d8a0c06500ddc30fa14e9dacea876
+MD5Sum: f50b748ef62e522cf2c51656d4e69a30
+SHA1: 4c12cf10dd60df59ac0c7232daa3d636001cd082
+SHA256: 812e11649cf0b87c95a61bf6124b477e5109ef88f0b0bd486972167d88024df2
+SHA512: 737cd4fdce453e83d04ea65792e3f1ba552ca44b295ca750fed98f942ecb421658fcd05d06f55f1d128a0d8f503bf05d555009c77e5233c5aa0e58c1b36e794c
 
 Package: alienkrishn
 Version: 2.0.7
@@ -84,11 +84,11 @@ Description: TermuxVoid package manager and system helper
  Official package manager for TermuxVoid repository with utilities
  for package management, system updates, and maintenance tasks.
 Filename: dists/termuxvoid/main/binary-all/alienkrishn_2.0.7_all.deb
-Size: 3960
-MD5Sum: e9766ff678da8714cbc33c0485544e1a
-SHA1: 0c80250aec3fd9ff702f8eb3d41454ac4b850288
-SHA256: ab8669c801fdeb2837eb90275f9d7a60d9a30f9c723ec3b7e095b2ea0bb6372c
-SHA512: 8aed58e289649d16ac2ca7ef032c9a9f25b2218a5eaae6b76f73addf8d63ba9bda5b03b44648aa618df701581ebd42ca3b2e0365c16195a81cc23e2606a8027d
+Size: 3988
+MD5Sum: 5dfad39524f9700c0072060eff4e45c4
+SHA1: 28c0d5fbbccad13767620ea5351359e93940e459
+SHA256: 0d8a064152c4844b747f9520858e6be55039792cf55665aebb59148a7cc710ce
+SHA512: 9b15e8d1b7057ccf9f2592ba982463c74d794ff7a5c6d3e37a411c85ee348231849264c8dd65d855f5ab685147c01907fe7ce23136d937759f618cd35298484e
 
 Package: amass
 Version: 5.0.1
@@ -104,10 +104,10 @@ Description: In-depth Attack Surface Mapping and Asset Discovery
  active reconnaissance techniques.
 Filename: dists/termuxvoid/main/binary-all/amass_5.0.1_all.deb
 Size: 1468
-MD5Sum: 6c39b3ca6d4c661ff858d4ec422dc1f6
-SHA1: efef8e4d1c82673678ed55b77a4529fbe9b302f3
-SHA256: 18f7e94847cb8bf1c5621d9535d0e89bcb1ceaf90bc320361d7eb27e07f310aa
-SHA512: 8eaa380d03ccd14ebeaa4b344e19f75ba2303e60f58797fd177a51cf5c99c6fe9be408251da0b403b1bc16f47b4b93e920fd741269c2ab5f598e9643f34821bc
+MD5Sum: de654d469b677aa4862eaf66c334b6ae
+SHA1: ba42c68bc7039b7d3f9d2c40ea38f38f82afbc43
+SHA256: 93a9b5aa8c51bab628beaa98e16a22bbf86fedc716631b206f883f034fb58faf
+SHA512: ed46c2dd1cfc578d5adf783c3864e8a57ff10218438567cb1127797a04061fc11f4346200b46aebfccbf2d1005f333e150aa75e418a645b2f81fe0fc94134d1c
 
 Package: andrax
 Version: 5-2
@@ -124,10 +124,10 @@ Description: Android Penetration Testing OS (rootless)
  for security auditing, reverse engineering, and network analysis.
 Filename: dists/termuxvoid/main/binary-all/andrax_5-2_all.deb
 Size: 1832
-MD5Sum: ae420925642a61dc2e6317ff9f3967e8
-SHA1: f031a3d1c1ef413b7acc3d6088c65e3b98d5c144
-SHA256: 85b3228d739967fa44eea5922b17ddc0ec6849d7b975cf0062cd958acd08c82e
-SHA512: f5f6f387a2c1a160479b70457684e8aca4844041cd838203c1d951ec39705e85fda6c5234c78fecfacd0013eef747aaabfcd338013f946c5f6f0da7785cee638
+MD5Sum: f49a3909ae96806bacd70d2347fd58bd
+SHA1: 9c67f5f10fce6ccbd4a1bffbb457790308a51ae1
+SHA256: bac861c413324f09330f823a47654b5b6452c09238da0246f8c732edfee5fad9
+SHA512: 6131d9535c97023c5ed657badd7cc6ece76df630f282aafa5441a321ac04a431d62c35f8509f60a8d24764d69fa9776e1b90a24d81d52ae5a6539f35e3b73ada
 
 Package: androdos
 Version: 1.0.0
@@ -137,11 +137,11 @@ Maintainer: Alienkrishn [Anon4You]
 Installed-Size: 52
 Description: Denials of service(DoS) attack tool
 Filename: dists/termuxvoid/main/binary-all/androdos_1.0.0_all.deb
-Size: 3180
-MD5Sum: b61462de092ec35b947b9208a9c96dc3
-SHA1: 002548b3cf7090d866e2a648deac804a66f7224f
-SHA256: 6ee35d32319c2d21e1e5af805fe0b333fd1de51cdd83bb4a6804f76474add94c
-SHA512: bfadfc274d2945ce0b3f88e55cb1ce6647477dc2cd11c2ec8b05c2c130f87e5fd6e464ddf90d7c2c7450e20801a13a4536c888af1d95898483d1869157f0bfed
+Size: 3172
+MD5Sum: 17d132a747962b8d56595d4a31854e35
+SHA1: 1bd61b617591844ce9e363767fb8e46711c3a2d4
+SHA256: 0b0747030dc2d1d99235f00a24cf49e0227d7b3050735341ed45ffae12b31423
+SHA512: dc26415370501df4fa867eb3263a9f0eaac84eb77ce128d7279e888df2b8988b50f799e7296204723dc270348d54ee7c3b56ca3a7ed7bc6c4e1726ef228bfdb7
 
 Package: android-sdk
 Version: 36.0.0
@@ -162,11 +162,11 @@ Description: Android SDK built using musl libc, supporting multiple architecture
   - Build tools
   - System images
 Filename: dists/termuxvoid/main/binary-all/android-sdk_36.0.0_all.deb
-Size: 1616
-MD5Sum: e9990d8e47d4c70192901d52d7aa7933
-SHA1: c3bec80f48f871a1991ae4aa533abd0fefff157b
-SHA256: 7ef9ff697f8364018489fa23a73c01e4eb2a188c8f78f19f402baeb0588235cd
-SHA512: afb89918ad6fd8d5818e2918653cefccb21a2b2a8df6a9e2f571e3258f0f77c455723d16a0dfd6ab567f98894530a55fcb8860126102b75575203ff2960bf717
+Size: 1652
+MD5Sum: 8f625f768ede0f5882984462b1aa1975
+SHA1: 94405a70793dd35d3793b8ebf7e085ac154bc699
+SHA256: 49edcb5be0ef2ca07b1186b9702b4d7a9b4e3c74772055ca851034df05f084c7
+SHA512: e04128c7a387621f351897835b76ca4978feb8f349e65e0c5900de05fa1c176ef008d4b16216130051e3fe6e1cc387692f72501273dd88c466ae65f1cbe106bd
 
 Package: androvirus
 Version: 3.0
@@ -181,10 +181,10 @@ Description: Android penetration testing framework (USE RESPONSIBLY)
  WARNING: This tool is capable of compromising Android devices when malicious links are delivered. Use only on systems you own or have explicit permission to test. The maintainer assumes no responsibility for unauthorized or illegal use.
 Filename: dists/termuxvoid/main/binary-all/androvirus_3.0_all.deb
 Size: 1400
-MD5Sum: 5f54f67c8cc86cceb952b5d1b30896eb
-SHA1: cd77a7187bb5f9aa001e6e42127b335f578722f7
-SHA256: be0992a435922d4e914e902b62be19b4cfdb0309df6345bc44ea25d32158b36c
-SHA512: f3dbf88e64dd9b52af6c2d7b820523488d82fd68def9e8c448d07718d6312639b1ee6813cfc43462cd602a3a7e5cd9508563f9e8630fea8e8916b325c1d175ae
+MD5Sum: 515889cb7160847a7f36789f3ad0d300
+SHA1: 6900bd1cf4969d7a0a1529f0bfbf2f013d6d86e0
+SHA256: 8b2c1168b09e24eeb6eefdddacf85f090a684aae75ae42242274ddc14da4939c
+SHA512: b815a9954891c9c4e980687da7648d4ee00862f19946662ac0a408366181ce275e30999937ff21ee370389c18c76bcb80b1ffd00c8df281a70da614c73b610cc
 
 Package: antigravity-cli
 Version: 1.0.16
@@ -199,11 +199,11 @@ Description: AI‑powered coding assistant (glibc wrapper for Termux)
  downloads the official Linux ARM64 binary, applies necessary memory
  patches, and runs it inside the Termux glibc environment.
 Filename: dists/termuxvoid/main/binary-all/antigravity-cli_1.0.16_all.deb
-Size: 2512
-MD5Sum: 6a5eb4cb67ecea63561424c795357adc
-SHA1: 90dbc431895d0e648946859a015a07ceb4faccc5
-SHA256: 722bb51101d36a1a2ab4f2a3b402e01dcfb0b73c65402d57bb65fab825c6fe2f
-SHA512: ea1cf5ad21bf6da6f794a4b55999463844bbb5a5b7ec705c396e1ce1ed9c72dbcf2299e04bc993b55b83b747028cefaf574941366cac0ac926447ba577c18018
+Size: 2516
+MD5Sum: dea2d2c4edb1a9fa10831440ec358153
+SHA1: afe2f28f2c807f0de2d23ddfb448cbcf23ac25e2
+SHA256: 9efc4ae5e9d2b6b76e1afbbc3806f45eb24a0ca4e7230cb7e589719e63b2b448
+SHA512: f1d8dd3fadd40b7a1a4134497109f003b739bbb6ec3be860f70cda7e715e953ffbe0934f241dfc63c203eafd9fa34300a2dac32ac60d2a7fbad8bb237d417e33
 
 Package: antisplit
 Version: 1.2
@@ -218,11 +218,11 @@ Description: APK Split Package Combiner and Modifier
  into a single APK file and apply various modifications.
  Useful for repackaging and modifying Android applications.
 Filename: dists/termuxvoid/main/binary-all/antisplit_1.2_all.deb
-Size: 1332
-MD5Sum: d5c7a87296bfc737c5af37e85759ed04
-SHA1: b50860a6b2b034a69fed316e1052f428a3503010
-SHA256: cf9bdab0b93d32964b81232f9df681d46e6374c6d86feb4cf0a109ba72ae0323
-SHA512: a2528d9ffbe0a4d8a051fe394d0d649fe2c65fc40993fe5922e58bafef936f3bacc32c534345e13687043e95c322a55e325f21301b767670ce51ece964c7f538
+Size: 1368
+MD5Sum: 62964e3219413186f33e7deeee487bd2
+SHA1: 35c0ac0e207cc22b16ed29ab090741e52ba6aa87
+SHA256: c97ece71aae063c73db400bf1262b33bd640d38f6239ea3109614b9c26774109
+SHA512: dd141fd3dbc113496cfe2f6be974a79a02acaa4590d391f24fd9c737f5f721a119362fcb4a20058f479d2dd3044463cbc8305f0f6781d2309e279bb326ea0310
 
 Package: apkeditor
 Version: 1.4.9
@@ -237,10 +237,10 @@ Description: Lightweight APK modification tool
  Supports decompiling, resource editing, and APK rebuilding.
 Filename: dists/termuxvoid/main/binary-all/apkeditor_1.4.9_all.deb
 Size: 1336
-MD5Sum: 5abdb0fc5ec6e07e5361cf9dd68f3d59
-SHA1: 0dcd4a93e673023250e74d4006668ae61cbd82d4
-SHA256: 9cc375e4298774f5d041859f138ede32dbe2489cd286fa5a9ba284c70b1d0ff7
-SHA512: cf5521054bd3002dfba1108b88bf7ce9f944996eac9abd85566c517f203ed20896937044e30634853a98f32c366cbabe6bb2858dd369ce9b6a47d4a23747613b
+MD5Sum: 15d9bd4d9f4cfea13d5190033ef09d68
+SHA1: b2ffd5e9b70c94638f192ec8200579b4d7bfa39a
+SHA256: ccb35faadf87b0d7b2aaaac9e93d747ddcba025db3d3b61da313142027b56e80
+SHA512: fb13ed26ecabeb1b6314d9d05bd8bfbdc1a43046f9a0906ad9eb649e1c6459721e67b345fd4519166b878fd8ab6b35d968218e07f2b8f68186b7efa9a6137efd
 
 Package: apkgen-cli
 Version: 1.3.1
@@ -255,11 +255,11 @@ Description: CLI tool to quickly generate Android APKs from local templates
  Supports Java, Kotlin, native, and Flutter projects, providing a streamlined
  workflow for developers and CI/CD pipelines.
 Filename: dists/termuxvoid/main/binary-all/apkgen-cli_1.3.1_all.deb
-Size: 1104
-MD5Sum: ba95a8b446e67806ff5903bf69ee11af
-SHA1: 1724407d1400c17ca15191cd5707cb4cca4abe53
-SHA256: 1484a58af33e0df9e923e8a9b417a645a0a957857074ff370d48356fc20d1ef1
-SHA512: fe6554f6c18732c2a398211fb3b87af8857ccfeaeab49562d41c270a1df6d9294a6e7f02b16824f9a673c41cdf78bccabf11a860585ec2dc12347668f41bc6af
+Size: 1144
+MD5Sum: 899f9ed854a1613bd18c8828ee91376b
+SHA1: de7b17ab64cf0426566132447bc2438345f5f259
+SHA256: 5bc1ee564694d7db805b21ec4473ffeae1b1b051043bebb48311ec30312ad4d1
+SHA512: 13b5453076b0bdae92d803fe33e92a94c9c77972f3b9f18797afe5ba48753a19b01a9c45a5e1accf1083337e0ba335724994969e7c92d1f015c73eb23a75eb8c
 
 Package: apkleaks
 Version: 2.6.3
@@ -274,10 +274,10 @@ Description: Scanning APK file for URIs, endpoints & secrets.
  endpoints, and other sensitive information for security research.
 Filename: dists/termuxvoid/main/binary-all/apkleaks_2.6.3_all.deb
 Size: 960
-MD5Sum: 938778c39716ad983bc4a6e113234bab
-SHA1: e0321b002756af537fa5d45ca93768dc735587c3
-SHA256: ef80848bbc56500a2e89c5419439433d9cfc632bba9bb819d49d9a33b9fc2841
-SHA512: c8e7af83757640adda259f28e14116592d491d96623975d2062ce96e51b38ff0826e0da56de9d9b43e00f8f54ecad47d04021aaea1f1c1282e12c1c4d345873c
+MD5Sum: 8d3c5ee831849938b68ecbf8e5034462
+SHA1: 70ddf4c3f58f6436ee71c8f9ab7125c8208ce911
+SHA256: d74216970530c70e55e5b5029f9e40236c31c803174b42af4fb035505eae1fdb
+SHA512: 6a114b4ff2dfe3bc6e13c0c68459aa7f37eb8b40710e408c52dc5cc2f8f538429f62520626649e3723149cf8da18b905188521ac1d2c92cbfebbe171249ae616
 
 Package: apkpatcher
 Version: 1.0
@@ -290,10 +290,10 @@ Homepage: https://github.com/Anon4You/APKpatcher
 Description: Advanced APK Modification Tool
 Filename: dists/termuxvoid/main/binary-all/apkpatcher_1.0_all.deb
 Size: 1196
-MD5Sum: 011812dd352a9f60dfae66e1bdb8e606
-SHA1: 40d7af73e9a5edd0e52a635c869e423841b465c7
-SHA256: 9fe9684440d0f67d875a47441c87b3ace3f8a8fc214717c32327330877c64135
-SHA512: d6bca5c740c304c60e1268d848d2a6a0c3f4431e985c96b3d089cb1ea154ed12ebe1335e1c3189cde4d844dd9fcc2549e2a50068397deb323a8d5e2e04bb8be3
+MD5Sum: 52e27c035443df4dddd7c64901f05d43
+SHA1: 8f38be787c9b953007fcd8dabfeb9a24e6e1d298
+SHA256: b79e331ef98962fed5ac3b5113c02abbb9e0127e82db692519ed58334a74fc26
+SHA512: c980a845e1978b3e54eac462bbf754f114b0015fec70940935c146bf17a89cac50eea19bdd1409d7944b50e352d618afb5932223139f0394d8c901834da476d8
 
 Package: apksearch
 Version: 1.3.5
@@ -310,10 +310,10 @@ Description: APK Search Tool for Multiple APK Websites
  download links.
 Filename: dists/termuxvoid/main/binary-all/apksearch_1.3.5_all.deb
 Size: 1188
-MD5Sum: 9d8914d5bbb2e54d641b14b086bbbf9d
-SHA1: 4ff715b5492148d4902a6976f66240abf4fce9df
-SHA256: 6726f329e660a5725ab26a340565ad67969782480891e75fd3b9e58501c42df7
-SHA512: 70dd33a8997352f34b5efd3ceeaa13de3c81a4f2e48e3dbf6bfbbd8f77f2b4c085fc9f87505626e389223ce371063223be9b747812f64fe9dfd2590008335e19
+MD5Sum: db66bb35edffb7cab51175a7d496a6e0
+SHA1: 6224f75c63868c6e6b6b080062e4822158633aee
+SHA256: 1d2cf46f8a3bcd196309f950d6de3bc22ab8ac6b34bd0e14974c6d3cc77db9f6
+SHA512: c84eb6a50ed2a375ea7353f11c93e090949265b5c73ff8eb13d46d34922d6bc978246e511accbfcb6a0f9de6f5e0657cb5ebe14f03c8b2e2342f8ece64b2bbb3
 
 Package: apktool
 Version: 3.0.2
@@ -327,11 +327,11 @@ Description: Reverse engineering Android APKs
  Decompile and rebuild APK files with resource preservation.
  Supports Smali debugging and manifest analysis.
 Filename: dists/termuxvoid/main/binary-all/apktool_3.0.2_all.deb
-Size: 1372
-MD5Sum: c77d616dd8eeb0d60ac7cd063c5e57d6
-SHA1: d01015a39828d786a33c9d85057223e0f6ef12b5
-SHA256: 505155420e6a89b1dd6f2f7b6f1f0e41425c9779be769edcc5e8eebd9fb81f53
-SHA512: d8d908e0a93ae8e1d5b5987ed552a587b3c303e8ad711cc5ba4024c5113f2b917981e95defe93fd1dd029c313f6feb4880e952207600c57f379cf4fdebfc7cee
+Size: 1376
+MD5Sum: ccc5d497c9ac22b29a770743d2065de2
+SHA1: 7515cf114cf669b13cce1df20edf5ad1317cc171
+SHA256: 9b155efa96edf60e2bd95a753b6654f214e7980f0ec841c9650f37ece809d394
+SHA512: 1b81aa64e28eca8b0ea04a647c39859b3289bc67c1b69fc6d76a7e06603cf56e238ea3c423ff8eeffa79203b47b57e10073c7932de8887779d7d5a8cd456c5c3
 
 Package: arjun
 Version: 2.2.7
@@ -345,11 +345,11 @@ Description: HTTP parameter discovery suite
  Arjun is a tool for finding HTTP parameters from web applications.
  It supports GET/POST methods, threading, and various filtering options.
 Filename: dists/termuxvoid/main/binary-all/arjun_2.2.7_all.deb
-Size: 1048
-MD5Sum: b85e5ce68b30bcb138a63c06620ab8a3
-SHA1: 789982067a212f23016d3b8c38c119940025a8f2
-SHA256: c1b523690318592aea59e8ae326dab8cede44d2ddb6817885d117a3848913b5f
-SHA512: c42e5b2f6f6a659b998cc80c4a5f52f002597a4654efc616a0ba51e4aa120b66f4767e93e4bbe5e3765cc1eb0534fe3235f317a270b3894fc2ca1f802598a40a
+Size: 1052
+MD5Sum: b590f3ea04a476113891e40c984f7720
+SHA1: b0c173fe85c2fb0b5fb89e0b3575da721f7df899
+SHA256: cf47660dab4169823b0638be9840e14122d9b8f54e5faa41599eefd2ecc83075
+SHA512: 9d752d6c628c23bbb7cdd3a142161a8e86c86915d5fda24d110ec18a7e7f0847f2eff496450d72a82060ddd413b6026b19684ab689b5a0d9e55d8be44ad6f137
 
 Package: asciibanner
 Version: 2.1.0 
@@ -359,11 +359,11 @@ Depends: python, libcaca
 Homepage: https://github.com/Anon4You/asciibanner
 Description: A feature-rich FIGlet-compatible ASCII art generator with color support and font previews
 Filename: dists/termuxvoid/main/binary-all/asciibanner_2.1.0_all.deb
-Size: 1149076
-MD5Sum: 0643c2f461cc8b2dbe7b1a8e7cafa917
-SHA1: 4ff95fb60545737b153881bfcd354fe46a2dbc98
-SHA256: a6b06ab645d872da5da78dc70112ef71b8cf2f9968c36bdbd55d22996ee48b3d
-SHA512: fd656a53bafe78e99084073fcabd4692bb429e2a64d0b33df17593bfa0b51a6eeb96048eec704beaa4ecd48f30049828c14d9dde4a2774e4aaa59a2ea78410fe
+Size: 1149192
+MD5Sum: 8ca6f48f4f36f7f77e548fd8b8dd916c
+SHA1: 0ab70baedaafcb872ce5881f2ece9ab91db54ea7
+SHA256: 34de10b0dd8b393b0beafcefae89988b16e36fe5e4c2946c1316abedec391a57
+SHA512: 43fa7df3e6cefa084baf45ecfdb4537b9d6f306348002e352d5c3198a1bf81532138d32d74f93fc718b5e4d5edff9ce5718d1c2d481616e73b710f949de2b57c
 
 Package: beef
 Version: 0.6.0.0
@@ -380,10 +380,10 @@ Description: Browser Exploitation Framework
  a target using client-side attack vectors.
 Filename: dists/termuxvoid/main/binary-all/beef_0.6.0.0_all.deb
 Size: 1580
-MD5Sum: 7622e03906ea2334d0d8fe0af9358dd9
-SHA1: f6ae28d8960e6ce7fb57c5a26a2cd0171ea1e948
-SHA256: 4785e0df28cfe7c14998a8e02a1c39ced1d9b68216a58f35a51a93be4c8db052
-SHA512: dd972950b5fcd83a0ba42b6b46cfb544303edf2b46aedfec26b098f329a647cfc2cdcfed9f30dd27a8a76474543a466fde48094dd41889d1ec0140168d552bae
+MD5Sum: 91a1bcba784745ed8e8be0004598d0eb
+SHA1: 1a6932e1f70ed1e2176b3a4908455cbe86a51ac8
+SHA256: 378e9a6753d0ce5048f1b2f6624e421979c48958f6e320007189850f5a709502
+SHA512: 0fea155f0abb60abe1826c72efd248b5580d384900aefc11f84cf5b893b8a079aa15f19277ec9d3bac6eca14191aa8180c7d7d5e2215a6c09c48a1fea445a7a0
 
 Package: bettercap
 Version: 2.41.7
@@ -399,10 +399,10 @@ Description: Swiss army knife for network attacks and monitoring
  reconnaissance and attacks, including sniffing, spoofing, and MITM.
 Filename: dists/termuxvoid/main/binary-all/bettercap_2.41.7_all.deb
 Size: 1308
-MD5Sum: a2e3c1e908b31aa192dd275b53f8443a
-SHA1: e68b1ee99e5d30bee807340633751ac718031818
-SHA256: 1089cfa663d18b70b303022c2417f6f1657b1ce737c5e950257da2bda04e1026
-SHA512: 720cf299c1749e77670c31834bb39274d1dccafd21ec8ff06c6926b32b8004c1e40ea23f632f019020de2909cf41510a31af46c65d38169811256ba9623371de
+MD5Sum: 285937591327e1db4d6fb03906e2e7ea
+SHA1: cec8c965a4635016055a3ee19c5b9c0efc0a2db8
+SHA256: 22c4e43a1e9a2e176f2401a576b21ee042010ba60597088760d73c16833b8454
+SHA512: 1bdf1758bb84fb71e11d9fcf2b30e8ddde590144c9f4384930866fb14ba36f88cd3ff20b0ce1396294f783236d84654276059c4b984866622df6dcaecf11fa36
 
 Package: bitb-framework
 Version: 1.2
@@ -415,10 +415,10 @@ Homepage: https://github.com/surya-dev-singh/BITB-framwork
 Description: Phishing technique that simulates a browser window within the browser to spoof a legitimate domain.
 Filename: dists/termuxvoid/main/binary-all/bitb-framework_1.2_all.deb
 Size: 1816
-MD5Sum: 7696c7da2ad668446a58086919bee2c1
-SHA1: 8b4183a630c67a3eeb80dd10df81921d48ff688f
-SHA256: d3b2264d45e08a00000acffae0a44d62b951b4ae893d882ca24c85fe8f3c8d7a
-SHA512: 2a08c132a6bb3bff47c7580934d8523ff76ae2da55d926256f8f5cd1e6be7a5ca878c6085f02caf7b77839deda3c65446afd3eecc5556efc000d226092ad3a8d
+MD5Sum: 1c0778bc1d7aa9929929d56a7807fb47
+SHA1: 97091b585c943e2932a00a826e98787f33c91deb
+SHA256: 3393d52052efb289b66fb90616718bd21450c787bb11b5e2074f7d89255ddaa8
+SHA512: 2afd14897a3f180e87c0e763d85ed131224b1d76127fde6d3981c1ac254dbfa5afb96339cce6db246d617465226e89a780cc2d41ee3f3a3a10b2273c072aa486
 
 Package: blackbox-framework
 Version: 2.0
@@ -432,11 +432,11 @@ Description: A Python-based network analysis and exploitation toolkit
  Blackbox is a modular security tool for network scanning, exploitation,
  and post-exploitation. It requires Python 2 and supports multiple attack vectors.
 Filename: dists/termuxvoid/main/binary-all/blackbox-framework_2.0_all.deb
-Size: 14120
-MD5Sum: 6021523cbf4fd4ec6d79e8afbae2dd2f
-SHA1: 54cee22cff2991e54c593a78029da21b8535bf87
-SHA256: 48ed494c6229cfeaad955f0a08b460ab259ba80d7162b7321e46bf0542535281
-SHA512: e0c98d0dd4ef4f94ad2023d1c0ab34dd9b5e777d7d4edd654634a932c67a8c735b9f3d24ce7e6243c741861a1a1ec880c1cb6a755737c2f135e01209b174b7b4
+Size: 14152
+MD5Sum: 6d5195b96169fe51c80a88af01b9eecd
+SHA1: ac337ed453ffefe2da1800f12191da03c8222a23
+SHA256: 295db85c347059d4bcbe12ebbf7ee043feb63c46bbc955190ff9a6b512984275
+SHA512: 022c8a2ba7da154a2f5c64cbcd64d7b3a39a029ddac0e9631c2237b1729c373f6fb62dfd4c441519b84f95472b5d23a9438d87a031dc725348f8bbf2f0e1f5ee
 
 Package: blackhat
 Version: 1.0
@@ -445,11 +445,11 @@ Maintainer: Alienkrishn [Anon4You]
 Installed-Size: 56
 Description: blackhat hacking sources
 Filename: dists/termuxvoid/main/binary-all/blackhat_1.0_all.deb
-Size: 15448
-MD5Sum: 5f5acdab31921a2c532865ffb512a4ad
-SHA1: b4e3f3b9446ce48a9aa871c515f3341b84978821
-SHA256: 591bead200c14342ff3fdab61ba751c757afef97b6b6df95a2548d1d567cae6f
-SHA512: 14aea0db44ff0a828db8cd4d20608fffab24d7577eb2d75d81a8f49f4330612e5b51637c3c5e1bd95e8a1343dc9680db9a7a49ea46d9f28f7dfe5a34a0d4820b
+Size: 15452
+MD5Sum: 6912e2bbf7c520b5841675f1d36ca052
+SHA1: 438d609af117a97bcc7466f71deeeab8f10dcb95
+SHA256: 364794bd55cbea27bbc9ac91d61d67719e13334a144f5ea6f8f88e07d95a426f
+SHA512: 5eb648659c954d944cc6083aa7e26549cfc10fb7595965550ff9a9570c2a4586982fe0c27dc3e2669c6a36158f3da894b9b4b2dab89315f5e73e354274bccde3
 
 Package: blesh
 Version: 0.4.0-devel4
@@ -464,11 +464,11 @@ Description: Bash Line Editor (ble.sh) – interactive command line editing
  command completion, and improved editing capabilities. It replaces the
  default GNU Readline with a more feature-rich interface written in pure Bash.
 Filename: dists/termuxvoid/main/binary-all/blesh_0.4.0-devel4_all.deb
-Size: 1224
-MD5Sum: eca06c742703aa16b3c3cb1ea3eb1082
-SHA1: 0f20c662dcd414cc4dd96e7f11afbd334502973a
-SHA256: da1729875417eb3b5af98aef9c209172e7b7799b4408d300b8b7fd90bbf732ab
-SHA512: 4c2147280af39de8e2ed2d8ee82e25b0e6ad4b423b667b4a8ca7c3d4c8697d932b15795228f5b766d51873d3de3cd6c4821cfc72900c560c997ffafcf355cc6b
+Size: 1228
+MD5Sum: 0773a7cb85290b97bfa850bec1d6c500
+SHA1: be7aea7000f1f0e9ca8339c5b7ece024e0bf7d91
+SHA256: 2766505909dc529317e2a1ee3f45082277b6183a72ac30b8968515c809f6f11b
+SHA512: e54bf4aee8efee78d1b12e6f93d5b2f85f3f2fcb1b14b719b06a80e749c3f85202df57cd43c57fe054cc1b483da77689a229c5839a8c80d9f4c661fb440d7578
 
 Package: blutter
 Version: 1.0
@@ -484,10 +484,10 @@ Description: Flutter/Dart Binary Analysis and Reverse Engineering
  analyzing compiled Flutter applications.
 Filename: dists/termuxvoid/main/binary-all/blutter_1.0_all.deb
 Size: 1392
-MD5Sum: c2f19f2e464ddad5fa4ef639260db66e
-SHA1: 91579ca6cc826d058e913392ad6368757a9de8aa
-SHA256: 329c7f29409e6ea10d82df78e43bc4b47f1ea39daa437ce18fd4a2067bdf709e
-SHA512: 6d435169547f25b693f71d584282b7fbe7d9e35bb63efae9d6b4d7b7e3a2eef42b5b3e862b0f69f9ceef629bcf72e827c5054fa10480f4f81d7ec6b133f666cd
+MD5Sum: c728f4d63c4a35fe3aac0770342c2186
+SHA1: 770d9bea4850a2d1948ae726358a9ee8500c7c84
+SHA256: ba61f9f3280b708b90b33daf29abbefe9546174c843e4b8031e7c59c5c828388
+SHA512: 908be95c092ca47cea7b6abe542e7c00551bb07e42b32717231c934bb8d970b00331ed00e9c533e71c139b345818e6dc7458f2e9fa9ae63083eb0286e177e31e
 
 Package: brutespray
 Version: 2.4.0
@@ -504,11 +504,11 @@ Description: Brute-force attacks from Nmap output
  - Parallel attacks
  - Custom credential lists
 Filename: dists/termuxvoid/main/binary-all/brutespray_2.4.0_all.deb
-Size: 1404
-MD5Sum: aaf2560a130ee0929966738108e01de6
-SHA1: 3718faae5a620bce712e77962bb3c42ba1182973
-SHA256: 2f6d7aadfc03caffa10170bdab6d26b6e15dfbdb7dc501874dfd2dc28dd89ba7
-SHA512: 9121d6053d0da11a7c6efba7609ddd3fb1d1f3059d030b1a33f968a750fd990c6d72621e1034b538817489b9a705bbfd2460975c624d0fba61f790827269697a
+Size: 1408
+MD5Sum: 0759b5b6b40dd23c1c8459b570ae2105
+SHA1: e2f0412cc790fc5a2e68aa1c246029b449d6dc30
+SHA256: 9689fbfb300086f3a79ed30a69bc0b5e16fca0d5382313eadb05860e28e8ade4
+SHA512: 8bb1aa42b4432fb408976206a4c5e0c820507f87a9c23130ef1b5fbb94eff5d9526043020a05184dceeefc6c65eeb243da5c426f41cd0eb9ddcc203274ee4fa7
 
 Package: bun
 Version: 1.3.14
@@ -523,11 +523,11 @@ Description: Incredibly fast JavaScript runtime (glibc wrapper for Termux)
  downloads the official Linux ARM64 or x86_64 binary and runs it
  inside the Termux glibc environment.
 Filename: dists/termuxvoid/main/binary-all/bun_1.3.14_all.deb
-Size: 3428
-MD5Sum: 1de7ddf2b2c3397f552e0ce71bcafc4d
-SHA1: eaa09eca8dcd45275de3b5958fe4869663692a37
-SHA256: 24733be2d37253aa5577c32a12be9c30327e1839d9b1d1f44c912fcca4baddd3
-SHA512: c642899e4f76c20e8975fbae3980daf649dc3cac4afa862b2e283f2086c4c133a2fbb0c5d6a3ff91733e4b6544429d69ee5474a1bd40ade3c5ad42fce0da8d94
+Size: 3432
+MD5Sum: 3876608131ba132bed4fd7756b086640
+SHA1: 73a069a409451701861082fc2f8aaabbb388211d
+SHA256: 04055c3c930ae1a767f2769e27250684e9f354960552ddfda805200d227323d5
+SHA512: 981a10e19e590a6219ee6460b29ff7db7f633f05a4c417ecb2ea3eaeeb5d8084649434b4bccaeda8a867a50bdeec7128108f48bfa56bc92ab4204f03ce9c25f4
 
 Package: burpsuite-pro
 Version: 2026.1.5
@@ -537,11 +537,11 @@ Depends: curl, openjdk-21, openjdk-21-x
 Homepage: https://portswigger.net/burp/
 Description: An integrated platform for performing security testing of web applications (professional edition)
 Filename: dists/termuxvoid/main/binary-all/burpsuite-pro_2026.1.5_all.deb
-Size: 3772
-MD5Sum: 9a472c2ad6388799cb756fd5af87e109
-SHA1: 1195dd69e33ce5d47c8fe2ae00a4661cd4aa4c65
-SHA256: 6b7e98d75d54fcac1a94504629b6ddf37b2c0869b5a93edd0f89b7ededfd746f
-SHA512: 13aba256d041c90fc661357e08a30c02ea4a6c55e871d81ef0d9b51267190135b89106cecdbed781e45e4aaf4fc08779ecd3c7285a1ce8dd373299e4505642ae
+Size: 3776
+MD5Sum: 213be8dd8f38dcdd0904c9526745f2de
+SHA1: a560d708527b27ac0c168fa91b162b7c47e08dee
+SHA256: 4485fb5d29754a8be7d8f4d329bafa280992de166303fb0fb1fa0e7debb001e1
+SHA512: 554b7ed792b444d0869d650169e74916fc2ba14316f506a6d6a14804db310427c41d9fbe9dd88e2dffb7994b906b1dc10b5c7924e04e3368e1b433c328e33e81
 
 Package: burpsuite
 Version: 2026.2.1
@@ -551,11 +551,11 @@ Depends: curl, openjdk-21, openjdk-21-x
 Homepage: https://portswigger.net/burp/
 Description: An integrated platform for performing security testing of web applications (community edition)
 Filename: dists/termuxvoid/main/binary-all/burpsuite_2026.2.1_all.deb
-Size: 36300
-MD5Sum: a3429e32d1cefd49aa4891bebd088d77
-SHA1: e3f7e03b655b2e48aac98acb0088b23a9656f431
-SHA256: c88222800103e946eab4d2074db8599c015b2dbbfa4188b7b17c9ec4fbe093a9
-SHA512: cbd1183280ecaf15daa80bd92a15441e81cdc3edc52619df1fbd161bc761a73372fe87056b71358a615886cf347c8b66a9ac81594d0c2b8378182b631ff2ab14
+Size: 36312
+MD5Sum: 8fef272ccd1c2632f5dff7ab3b5a607d
+SHA1: 7025601755bdcee7b24045d72aaf6cefff002536
+SHA256: 1891593dffc920a7055f0eb69bf8a8536495e45bfba201f793490849b1f13ec3
+SHA512: 2fefe0c144ffc83e0d4a775c66083ecee96febd331203ae7b130c1126016afe16fb1fa8bb60d9e98971c201dbe2545783791dd70428cea718a6c802affc25511
 
 Package: byakugan
 Version: 1.0.5
@@ -569,10 +569,10 @@ Description: Advanced footprinting tool for Termux
  Byakugan is a powerful footprinting tool designed exclusively for Termux that tracks exact locations with military-grade precision. Use only for authorized security testing and educational purposes. Unauthorized tracking may violate privacy laws.
 Filename: dists/termuxvoid/main/binary-all/byakugan_1.0.5_all.deb
 Size: 1300
-MD5Sum: c92398f79414a14102dab24da765f247
-SHA1: 8743e75d5fd2358a08fd18f79b73172e4c3b3e3f
-SHA256: b7768589be6923c285bbce47b4dbc7e8f4f139f8a2ffff8b4829142b8dbb3a9d
-SHA512: bdd6a2e2293ffffb84bfb8cb63d271cfefeaa469563f4fd132438fb9f8b04bc67d0d03f958692974a2d823539e0cb04b7ccae73ac6ad1e6b48a68acb502ddff9
+MD5Sum: 51a8eff8c41e471b45b29a79412460ca
+SHA1: 4295b307fd106f2a75d202dfaa7d4749ea9d176a
+SHA256: d2755571b0039ab33f236bc27a7d48c72be4b012e83dc191751d82acc736b555
+SHA512: 24bb93548e76ec2bd30b3fc884f96605dd9c7077925ece8a2ffb324f347a1a10a1095217e4750b632f349b09ebc84a553db809991ac0efca611e4ad68a63eb25
 
 Package: catsay
 Version: 1.0
@@ -588,10 +588,10 @@ Description: terminal-based feline messenger inspired by cowsay
  assets and piping from other CLI tools.
 Filename: dists/termuxvoid/main/binary-all/catsay_1.0_all.deb
 Size: 1204
-MD5Sum: b47f4cf6412aebf77e0bed5cf77ba4ef
-SHA1: 47213a7499061f77594db18cbdd7625f57ef622b
-SHA256: e402290982b63368944f1d0b74d7d0b3c6f01f3653b4df62c0038a2b364a54e8
-SHA512: 2ffcdcef257443c929fe300ea3b2fe42e7b27c8bb67d41a30a20e4b7270deda7ebf135d5597826d77c112d1a2bb05c12ff02e90e5d2a5540a69fc5e97991827f
+MD5Sum: d961d43729e8b4bee0abc59794ba7c3c
+SHA1: 465a94d39251314d0684fc14223aabf1dbe7a283
+SHA256: 2a84017465dca98a5e08e43e0d28343f7c945f95a0ceddc607c3cde729d7c042
+SHA512: 38ecfa54f60add1f35bd3c514c68b67ac728bc30231ac93d85b593a697f3df1df3379c4afd2b080f37c4245c2429fde345eb05cd6dd6cd5e5d3b252901e7cc92
 
 Package: cctvip
 Version: 1.0.0
@@ -601,11 +601,11 @@ Depends: python,python-pip,figlet
 Installed-Size: 56
 Description: A collection of open cctv camera ip
 Filename: dists/termuxvoid/main/binary-all/cctvip_1.0.0_all.deb
-Size: 3092
-MD5Sum: 31b6908594168be0cf9020b874e37438
-SHA1: dc138c7dd976a4a42e785f949931bdf3f9d7c199
-SHA256: 243cadd839f6c35c2b9c84ad2b9299fc3f05f6d4250f5337aea126bbebcf5110
-SHA512: de24fe375f61704f1480cb849fcdbb80a6eb1aa61dbefd714d8f3a3efad0980a5305424d5084bb559c894e1ca98064fffa403a7a59b8eccb0f162c7d18f36378
+Size: 3080
+MD5Sum: 9361bdd8e063c9f30188cc12c7bacbd7
+SHA1: cb072259f757f17d0cf044d47fc7e9890393e9a4
+SHA256: 669e535dbbc49af7c1a30d4e131e88c05c8668044b0780ee9682663c5ef2f4a0
+SHA512: 80eb5778527fa3d17b4c352ea5134fcfbb450cea3980ce4b6fd8b1687a3c92d8f522894c2ee383274a05150c5af8684cf3ee34210d5cd65d932e55f9f2f1491a
 
 Package: cdxsummary
 Version: 0.1.1
@@ -623,10 +623,10 @@ Description: CDX summary and analysis tool
  - Data export capabilities
 Filename: dists/termuxvoid/main/binary-all/cdxsummary_0.1.1_all.deb
 Size: 1192
-MD5Sum: 657288a644cecd08ba783f6a342b3d42
-SHA1: 395be463715f5cb7671f48e0229236068287c15f
-SHA256: 0f41853ff521d9b2dff50cc741f73ff24b770a026fc04cea465446074e190c07
-SHA512: b5c11a8092b91dda95d8cd58e0c3cde642b8583e577991b5014450539db487e0ba5284310ea3264f17b96c35aa3a0152ea0b72e232028e4fec970068fdf0b5ef
+MD5Sum: 775da4a2f31826b05e9b7fd3cf41fcab
+SHA1: 38fd354ff710aae2674c3ee7207187aa277d259c
+SHA256: 18d93bb7e0c3b11517ac0b2badf2eb4a64a4adbb12b229410492012748c10909
+SHA512: 2dd7ea2f123fb87932dea7aacfd22a08c2e2089cbcebd87d47917c0d69e7114a7c1abf4d97b8a3801a1857c2d28cb2018d4fb39c88eeaa29c09601bd774dfd72
 
 Package: cewl
 Version: 6.2.1
@@ -642,10 +642,10 @@ Description: Custom Word List generator (CeWL) for password cracking
  It supports depth crawling, metadata extraction, and more.
 Filename: dists/termuxvoid/main/binary-all/cewl_6.2.1_all.deb
 Size: 1480
-MD5Sum: d9c5011ce82f3b658974d026baf8eca4
-SHA1: 490657432839fda3d03c67decc7b9c526a6b5c9c
-SHA256: 0ba9500be188695995d4d737403be35386cff713382459e3c15c6f3247b29ffe
-SHA512: 2a6af3c12983cd458d4a0c4f7db6514e91b12e3b74252896c26f60f2c6f485664aebaf5da30a06732b3f2278458a9db02d55b9653b32e6ae1546db04a62902a8
+MD5Sum: 5df8cf18ead7e698c0c1f41f31ef9b4b
+SHA1: 30002357a59108eef4aaa9a37d9ef7333060c21e
+SHA256: c2a96aecd7eacef00256ede5fe089e99daee9f6cd05d3ab38c2208d3c12aac68
+SHA512: abec8186dd1106c43a3abe41e43b7aac75f28fad76cfcc69bc682ae1ca0fc7af04f40231a15d4e87f42a0d565354d60e7906475327f8d90bd6980c6403a0d9cb
 
 Package: cloudflare-gui
 Version: 1.0
@@ -659,11 +659,11 @@ Description: Stylish GUI for Cloudflare Tunnels
  Graphical interface for creating and managing Cloudflare tunnels.
  Features one-click tunnel creation with automatic URL copying.
 Filename: dists/termuxvoid/main/binary-all/cloudflare-gui_1.0_all.deb
-Size: 11700
-MD5Sum: b7fe86f10322f1d39ba3cd25ae311d97
-SHA1: 8cecf8644d6eb8fc92fca6a255375896527a2bf7
-SHA256: 0b1f12b876a5d8000accf60113d48708dded1b52261a4f5317f6399d806800f7
-SHA512: 8f2d211e01633cf9cd77456f7575142430e07a355ea43fc26f59d418f1197622930ef25d8ce246ad057051281e1bd2729df2ca72bac271917b1a5d222bf2cd72
+Size: 11704
+MD5Sum: 6a33e7e6e4654e97e8563941d9287b76
+SHA1: 9cab50ad2aa8791a05e52435dd76733aa1bb431e
+SHA256: 5b397683bd914fc5a1a0125103d0a68c290b2262a13f79a2147f914cc360a3cf
+SHA512: 7be94bde7dca272bb953e25a79848a78914d2826edaf15d151cf5767db85a642adf4bb209abfb2246d0709939972897dad46a337ab53fb1b63b35e6b4f685648
 
 Package: commix
 Version: 4.1
@@ -685,10 +685,10 @@ Description: Automated All-in-One OS Command Injection and Exploitation Tool
  - Regular expression-based payloads
 Filename: dists/termuxvoid/main/binary-all/commix_4.1_all.deb
 Size: 1576
-MD5Sum: 03f3d9cf9f7eb7eb170fa1bc5c09a605
-SHA1: 22ab2cd0d884ccac3a955bc5fe994d980653a858
-SHA256: 36f214e957e057b1ca78df0fd68de0caa93df12ebc3bc2b8fd5f59fa18ab6a14
-SHA512: 78a0a8ddbf6da06e479e9c32b96767a5e2a3f6ab5729a4165e81a244ab1379bac4fe10b1e3eb5c61dd5663b0b539e919a27dab049b72a4adc022bf689bfa2afa
+MD5Sum: ca49ff3eaf419f3dd76f2ab6163abd57
+SHA1: 6d5e0736e2d3e3760caed9c3439393fdec64c28b
+SHA256: 7572d0937ad2bc3f76d327fa589fe7c748256b6bc6d59163950d256b5bafbd8b
+SHA512: 846a8a733762aa770fa6c8bcf058bb13d70003f9e7ff984bcf131713f53a4e352d37b12465ab0c979f4d5926439170eedd25620dd36d1685b5cc2a8763ded3c0
 
 Package: cronitor-cli
 Version: 31.6
@@ -702,11 +702,11 @@ Description: Command Line Interface for Cronitor Monitoring
  CronitorCLI provides command-line tools for managing and monitoring
  cron jobs, scheduled tasks, and background processes.
 Filename: dists/termuxvoid/main/binary-all/cronitor-cli_31.6_all.deb
-Size: 1452
-MD5Sum: c3caf9d3286e0e0a9a3bcf506ca0f6cb
-SHA1: 7543981b97476c8dfad9b9b73f5e0d1b0bd95706
-SHA256: aea5a763ea0335844c5191e7943b7d3299a426e2e007fd78fe4135b342dfe9f9
-SHA512: 2361865d6e3e9086c204992aace9ab6f80dd0c6d8b2fea9844cbd6c36285ce2b14dd248c517d020feb6d61e83d22cec5ae89e234b428db40b053a67b837456e2
+Size: 1456
+MD5Sum: 0dd8c639a8469ed2c38026f7afdd4a25
+SHA1: dc0184222c7652bc11986582d328feb90f93379a
+SHA256: 793a9a3595418c4cf6c67a40bd400bb883c28bcaf32c1c730a33563d4692923f
+SHA512: bdada320a5e8792222552012c97633c4b09f84a0fdc3120b79386914ff18c54335560294b1818c7ec15e103dc0af53fa18e8adda955c2b55b240e67905fd9620
 
 Package: cupp
 Version: 3.3.0
@@ -717,11 +717,11 @@ Homepage: https://github.com/Mebus/cupp
 Description: Common User Passwords Profiler (CUPP)
 Installed-Size: 68
 Filename: dists/termuxvoid/main/binary-all/cupp_3.3.0_all.deb
-Size: 9404
-MD5Sum: 25174d55bdffbd328eaee6e236a7d412
-SHA1: 4271c47de8b47a3be29d623718e380b29b28da22
-SHA256: 8f4c8d685093105443de7e24864bbbdeedf014e9154e6bfb251f963651b71bd3
-SHA512: 6e9320362b86bcaafbb79b9a92846d2d565f034095696a9e71654c191a387b6db05418710585e9cfd214176c19116980e392688bb95ae38d7a8ed73e600e386d
+Size: 9412
+MD5Sum: 6f5918aa2e151e489d9079fc9f732683
+SHA1: e4582468f4e611377b4be29371c613a7cb51339e
+SHA256: f49964bb7f23400468398df5dc2d369982d8643043ab8d33ca8ead75dd342c08
+SHA512: 0577f40671267647ddadf523075137b8e5ed1e91c93c153962d24663ed16677ea869dba0b41936bdf29f5f62673201b47eed607523e87f352125aa79005bad4b
 
 Package: d-tect
 Version: 1.0
@@ -736,11 +736,11 @@ Description: D-TECT - Pentest the Modern Web
  and vulnerability detection (sub‑domain scan, port scan,
  XSS/SQLi detection, WordPress analysis, etc.)
 Filename: dists/termuxvoid/main/binary-all/d-tect_1.0_all.deb
-Size: 1208
-MD5Sum: 6ebaac7d317217daca593d211995e5f9
-SHA1: c94699137ce2e29b7161f95e7e74d1fcf2e88ac5
-SHA256: ef7754313fbe878d324a6fa082f0334fd499d3c54e94facb774c3e74f7e1c8ac
-SHA512: 8357bd03a5240f5246ec5526000c3a022d8b5e272816791207a6f446dadc61e092064a0ee279c89b0f2f76b2df82d64b3fedc1b14f021bc15753c2c95d3e0a21
+Size: 1212
+MD5Sum: 7eb44bb94b254f9f0eb19ed38c911655
+SHA1: d569264fc68b4148945b110381e786ffe465108b
+SHA256: 8ccb134dbf0c19a2b059fa5f5be63cdd195ca5dc0531c5f60fc5ad7eecd7491f
+SHA512: 6a11724816bf2bc3e74aab6ccfd9b5b2691010532a9788ef9f85ab9628e0857485bfcd9997960c72734bc1af3da5b07fdfbca3d3da18e4624e939696ab2b4d72
 
 Package: dalfox
 Version: 3.0.2
@@ -755,10 +755,10 @@ Description: Fast parameter analysis and XSS scanning tool (v3 in Rust)
  version from official source code during installation.
 Filename: dists/termuxvoid/main/binary-all/dalfox_3.0.2_all.deb
 Size: 1212
-MD5Sum: 641d3b9263e8cd6360c18185eeaf6574
-SHA1: 48f52c87ad8a1dc92529374f615f6592524bb01f
-SHA256: a12a4e637f58134279198b5d66a6eb0a67bc668499af13e49a54cd33a8fd447c
-SHA512: 191712114de3a6431ec1b288720b9b66379b2a9eeb5a3bc2e58df0b88ac55ae0546e642e26e84f1101193dc3103ff9bdbf4a242c9db113d569537bd54fedcf88
+MD5Sum: 27c3b0be74b82b2853ebbbea748dec56
+SHA1: 8538295b749b981d473dc74ac74a54981e83fd28
+SHA256: 8f8cf8f70c437348007652ffae6c368fbfbe3b4036fee0ea331cbe8d433117b3
+SHA512: b544d965aa25211f9ee285398f1afb12f536440a2fc7296ae0813843c40a757087524ceb84772fde688613b38ee91882ee055d8a847936810f505c2beccb0fd8
 
 Package: dark-phish
 Version: 2.3.0
@@ -775,10 +775,10 @@ Description: Powerful Phishing Tool with 50+ templates
  and real‑time credential logging via local web server.
 Filename: dists/termuxvoid/main/binary-all/dark-phish_2.3.0_all.deb
 Size: 1264
-MD5Sum: da2e42553bc1cbe598f49639e5bac72e
-SHA1: 17ebe4021702ec334ceae8b964a557397471ed4a
-SHA256: 714d816dc9092f02fef71635a9c0e9ba371ff184f6f3d5f3b558442fc2687204
-SHA512: 5197f05949a90f975d3eaae2ddb4c37457ef098c5e544aa5d70e9c0f3a624a5c26dc31cdcfd0cf8195c621fd257156df7d49fdf5f3b90a0eac781db5cd00e0d8
+MD5Sum: f415e5c2672e233ff3556fa82e17bfa2
+SHA1: 446005dd8df36d9a0153604556dc887e23d3d3cd
+SHA256: e4d5d8ab88ac8198f46ba4e6c5955418b6b445b5bc73053f22a7b5c74434e890
+SHA512: 309104f30ae2f1052fa15b75516a9c2a5f8e2f8f7cc06787a8371b0559c84397cd27ac4838c125bb839a4c58dc52d06adba1827b14b9cabc59f5f25863f3a6d8
 
 Package: darkcrawler
 Version: 2.0
@@ -793,11 +793,11 @@ Description: CLI tool to crawl .onion sites and generate threat reports
  real‑time content threat analysis, and produces structured threat
  intelligence reports.
 Filename: dists/termuxvoid/main/binary-all/darkcrawler_2.0_all.deb
-Size: 1156
-MD5Sum: 6e1ef1f5f1de1fb56334603a05d8618c
-SHA1: 861e1299ca1354878aec41a683e93618c7996543
-SHA256: 559becfbe2737766caafb1de22f2f8e3af1d94b1775644a6727ee6c6bc9a3470
-SHA512: 969d5ca5efc8c2d6a1ea5b9ec44f3617f3b7cde6493031b0994153c92a4addd4336666c9ebb506ede940cb97db8ce7609fe08b62dfccc911532c797f57f20581
+Size: 1160
+MD5Sum: 56a94ab62c16156e6c3f4b4a2c6cd7ad
+SHA1: e8fd34a8c0446bf1393a58b4119be81e36491786
+SHA256: 67aa1ff7a49da98dd2f9ba27488728e906f1d3536da5061cd01047629b5ed51b
+SHA512: 3d1e558f87e56ab83d354e986f14a2a0358237aa9939f918ae1dbe9dda9dab7e8662b127a4b0c750065d3d41088ac7e047b97674e598747ea2ea53a85d15c902
 
 Package: darksploit-framework
 Version: 2
@@ -810,10 +810,10 @@ Installed-Size: 1
 Description: Darksploit is a tool to run and create exploits
 Filename: dists/termuxvoid/main/binary-all/darksploit-framework_2_all.deb
 Size: 1608
-MD5Sum: abfb1989fb6d88770cc0f30682ec9e83
-SHA1: 51c49bac90cd1441e67cab68b0eb2d11ad1ca3d1
-SHA256: 8294413fcc003399a88bdf5a3a628c55da882d84b6197a5440064c2f36b8019e
-SHA512: ca60f5bd6ecc8826e5208f6efbb68407e3d05c6a2d97e3b53447af821db0c36ebcd883128f84e5ab4eaaf503602e30e08de0babf3e2a622e9c95b93c1ec2c73a
+MD5Sum: d8b0e987ac80a870e8bc3a7b2102c61b
+SHA1: 6cf2c3416cca0b100241e3536b027e44c2b78c58
+SHA256: 4a060eec423a54418beb89cfd7d4d9cb2982f6e8286fb6866ed98d60c99c8eb3
+SHA512: da7c316dedd84858e63b9eec9419933060f43d6f633a3f19613eb37932b8f9b817ad9f69514ce5dc791804864b8baafd91f6e5eb6a8ca0200859a9b83a2c9abc
 
 Package: darkterm
 Version: 2.0
@@ -828,11 +828,11 @@ Description: Advanced Ethical Hacking Framework for Termux
  auto‑installs missing packages on demand, runs without root,
  logs activities, and stores results in loot/ directory.
 Filename: dists/termuxvoid/main/binary-all/darkterm_2.0_all.deb
-Size: 1132
-MD5Sum: c73747b72544bb9ae4d8ee489871b244
-SHA1: 42eee291f618550c29a389605000d3683e83fd01
-SHA256: ce0a5c667f8c122b557d0572066605163f1032728f6feacad722e9f3884cd89b
-SHA512: 77f97914da4069e5ea8d281a6221768414ec46da6b36f535c50e05753a7c6f6b82b47f8f98faa0f3f88acddc2233f9a72292164b8b31b554909ed3e8c241ce21
+Size: 1136
+MD5Sum: e7f3a425e1c684fd1b980734b0127c93
+SHA1: 3a0ae93de80994e535bb9e9fc07318112abf9522
+SHA256: f77b71a9fd702e4fdaa96bc6a2a5438ba6705e81af831fbba719c67b3e4d40ea
+SHA512: 43f490e3472eacc63dc69a50a7fc15b5dda5713fedbf9a017a15acf3a0172f769d740d5ac67985da6e47c166703d90a7e4c7f7352434a9607865c912d4e80b29
 
 Package: dnsx
 Version: 1.2.2
@@ -850,10 +850,10 @@ Description: Fast DNS toolkit for reconnaissance
  - Mass DNS lookups
 Filename: dists/termuxvoid/main/binary-all/dnsx_1.2.2_all.deb
 Size: 1432
-MD5Sum: 41cb9ffd6680fd81dc8c87661c9e3e8a
-SHA1: cbe5132cf40b304396930c5de5cda5b8a56257dc
-SHA256: 91485f8f36a4bb2edce0617c8c7d4e0e99e09878204f2b39955a7223ba07d143
-SHA512: 7b91bebfba5f8f335ebea4302d43cef0bda8ef568b41282f7a5d0751614360f7913e42191b1473949e667809b853dcf56322c348ffbdabec86becc5ea24767e5
+MD5Sum: d82a89b11ef14cbd6033b0d4551e7601
+SHA1: eaebd3f81077f675a6fb3c0ba33849f1816f9ad2
+SHA256: ee3416575ce1fb017a3f5f3721d8d2d3bf1eb4a09b93003623a18f6307784500
+SHA512: 004af6f21b2106e7f2cd11ff4a66d6ad7d4ab7817d8a11b906a880e9c220291c26a1e2c3cf1c1f74368e497aefd97e32edf192cd84a205ef2f80db8e8b451020
 
 Package: dorks-eye
 Version: 2.0
@@ -868,11 +868,11 @@ Description: Google Hacking Dork Scraping and Searching Tool
  using search engine dorks. Supports 5 search engines for comprehensive
  reconnaissance and vulnerability discovery through Google hacking.
 Filename: dists/termuxvoid/main/binary-all/dorks-eye_2.0_all.deb
-Size: 1492
-MD5Sum: 0dff9b56b5e32f45d0869b368e776d2f
-SHA1: 68ff9205e14b1d83ef1bef5d528f1ed3bb9e702a
-SHA256: d1afca2a32c7b6983ea43107daf9a047f118ad8d87f26f3fe65db0b3c1285afc
-SHA512: db62f26d225a4adf03f06073513ec9e860e6bbd9351062fdb6d5332500aa639143717deee900ebd8ebd27d6cb9d326824ad748847addb2175d86061217a4c640
+Size: 1496
+MD5Sum: a17d7dfbb451d6cd696d95c05b10ac90
+SHA1: bda8ff6199b9fe260554d9822e2f238cdcada774
+SHA256: aa20e843a466344272c8f938cf4410a7124fe7b77ad682fc3011c254226ff8b1
+SHA512: 35304fc7205a32d88bb8893fe8429c9c709b61d02f7ba8f5fd7b4602e8e77f9966103325ede32ac7b0183cac1a253a617888a76331499a8bb3e870548bae7490
 
 Package: dpt-shell
 Version: 2.12.0
@@ -885,10 +885,10 @@ Homepage: https://github.com/luoyesiqiu/dpt-shell
 Description: DPT Shell - Dex Protection Tool Shell dpt-shell is an Android Dex protection shell that hollows out Dex method implementations and reconstructs them at runtime.
 Filename: dists/termuxvoid/main/binary-all/dpt-shell_2.12.0_all.deb
 Size: 1408
-MD5Sum: 8930a9fefc6fb98e802d6f5c4faf771f
-SHA1: ef3e6596880293fb92d6f0a7687d79e86addf3be
-SHA256: 907111e26e21e7407143a6027f7b2522beb7e4e3e1b98b494ec121fd235b5dbf
-SHA512: c7114ad612b6cab19d53972e82369dfc26eed4b8929e155dc65b2124127b2e38c43b802e429dc8697691430614171362be917bb66ee5d5532b464cd781a6cf7f
+MD5Sum: 3690f27d72defc08ca194de870c27de0
+SHA1: c8456496cce86e7ad28679d06b302ac822aa25a5
+SHA256: d3cb5cf9de27fbecae9de0f559c996b8a2b85cf6bfe8c405fe39d7520a1989ec
+SHA512: 40ccebb557b0e88ff2f028ccde1033261a897f34196a1f42eec54a724b5709d3626e6aa3b0e61564abb3c608590668e2f43900b65df6312c60225cd6c1676b91
 
 Package: drshell
 Version: 1.0.1
@@ -900,11 +900,11 @@ Priority: optional
 Homepage: https://github.com/DrDataYE/DrShell
 Description: Reverse Shell Session Manager
 Filename: dists/termuxvoid/main/binary-all/drshell_1.0.1_all.deb
-Size: 1268
-MD5Sum: 4f0cab6e2d36bb893304cb5a50ce6af5
-SHA1: de5bdf2e1c4970652a4dd5a145cfd1fc314904e4
-SHA256: f209fa3032aab80746f1d02e4daad50bd8d48306e0bb26a8e52de673dc4ac78f
-SHA512: 9a2654d66dba48e70a426778d8ff6f858a173da2749c17a71e4c1effe35f5d75f98a0f2553204028a530c516deee22e293ed12246304741fde0b0bb7c62daca2
+Size: 1272
+MD5Sum: 5725bad78ce7fcba35ce1c0caffa0067
+SHA1: 1f7e9dcb77bbb3c6daa45446dc407dd03a20b405
+SHA256: ca8a2ba51e2ea0cb36e2aa54bf7848992ca4296a143ed8a233dce22575ea9ee3
+SHA512: 25bab41b7152850f6a9be32e5e58ebf1101dcadfef75c36f8319fdc46c0fa05b9a91320069c9fd35ef0853266b0cedc5066367944f26260b70cd7cd4b8abb527
 
 Package: elpscrk
 Version: 2.0
@@ -919,10 +919,10 @@ Description: Intelligent common user-password profiler
  It generates intelligent password lists based on user information.
 Filename: dists/termuxvoid/main/binary-all/elpscrk_2.0_all.deb
 Size: 1096
-MD5Sum: ee51cb16673980380049f8fb092da395
-SHA1: ab79edf5eb2d43253852633370e7f28cc74ee414
-SHA256: ca944aa725a92f9f657016d7f579c959ffa57e7ba6db8191eb3cb6ef0cb2c6eb
-SHA512: 1e14b122b532ed81dbe19513b1a0ef165bf803e678769e074d9b8527b08f01114056b95fe8fd085bcfe2a3592bc6d21059c56ddd331c37c4244a546c545fef59
+MD5Sum: ef30f2fe393d85de23966409ad2faf19
+SHA1: 0471d3c7090b6cab87346cbda142216790be80e5
+SHA256: 3669d05cee0114050df65cfb4dd1cef4bcb63b7893e703ae92e36b8b7341dfd6
+SHA512: bea05fd37ac215bb9d9665b9d05d9f8a3d7c59ba8d9219ef7787e77f387f37bb9c3c1d7e8920a58955fc47fce93c8455a89c6b88f95b3b44db153ca74dbab43d
 
 Package: emailcrawl
 Version: 1.0
@@ -936,11 +936,11 @@ Description: Professional-grade OSINT email extraction tool
  EmailCrawl performs comprehensive web crawling to extract email addresses
  for cybersecurity professionals, penetration testers, and analysts.
 Filename: dists/termuxvoid/main/binary-all/emailcrawl_1.0_all.deb
-Size: 7716
-MD5Sum: 8713e42966c6025250508b3b8a475bba
-SHA1: 288fd205a8510b008efc13badc14ad77bc27d886
-SHA256: 2038232cafd5520da44a7f32f6ff26239d1aeb148f86ef7eebc219256c988525
-SHA512: 982a62488144f0288591ba4f8f09263c45a5c8f632eea0bb842381c7e2d13c2d4e764097489d837c30b7a71c665c4cdfa04c10392c55d3b0b93c6d000e5dd1f6
+Size: 7720
+MD5Sum: 67f990fedc98fdd35c493019e8a3938d
+SHA1: 28876703720b0d245eec8a6bdfa3be476bf2172c
+SHA256: 061fc6a3971121d1889260df9d68c84ea658c866a7f8f0ad789a1f1ae4303da3
+SHA512: e3c940cda7188fb307f4c4bd2475612edc9bb173392076efedfee33e5f173187d385012ab8d9f9e597475f3efcff1d466268a9835bd403998d19c76b89971b51
 
 Package: enctool
 Version: 1.0
@@ -951,10 +951,10 @@ Depends: python,nodejs
 Description: encrypt or decrypt bash file and encrypt python in Marshal format
 Filename: dists/termuxvoid/main/binary-all/enctool_1.0_all.deb
 Size: 2284
-MD5Sum: 596297beb76f139f62104885bc8824a6
-SHA1: 38a568935ee6e9ce9f62edfd20c7d1062938400d
-SHA256: b26c4e081d5ef3ddf1670638ef4cc2812abc282cc3d99349d19eba11f107cb2f
-SHA512: 922af3b112cf3312cfd821382607f2ed52645d345a04e24d72cffa8f3d3744f2d3a30b1c1c14fdad13540df6c572c54aaeb6c054b2ad47f960df6df3f8605851
+MD5Sum: ce81bf0e78a419ea87ad98c67b11c96a
+SHA1: 46d9a4203fb2d371bcbc17bad24a0832c94ae5c5
+SHA256: 60d85a461a5d965049dd41f80b415355e4b26470ad01e62e53f81cac14b579c5
+SHA512: 484c2d1e7c64ae09070ee2524c657c4352be9267542f393c0204cfaf9f92aeaac653a716451c94825db64c40fafb3c1f03f95dd3cba89aad5601fc01bc47b3aa
 
 Package: evilginx
 Version: 3.3.0
@@ -967,11 +967,11 @@ Homepage: https://github.com/kgretzky/evilginx2
 Description: Advanced phishing framework with 2FA bypass
  Standalone man-in-the-middle attack framework
 Filename: dists/termuxvoid/main/binary-all/evilginx_3.3.0_all.deb
-Size: 1236
-MD5Sum: 7b51d6b22cf4ec1459e00735519632af
-SHA1: 66bb67b54e101813e72415be643bdca4e8848fd9
-SHA256: 5d8577e6cc4a4f6a3602f217604fab6ccbe263f4a60c335304e81ef20a46c6a1
-SHA512: 9c9d4228c1ed6936d512fb94af5d9d6d7b8587865464174a3e443ed3ec671471dc6901c27f7bbeba8b3c4d073e0148329555d9c9e4dbe080a51c081282285a70
+Size: 1240
+MD5Sum: 9ef539348ecca6c366bfa0c76bbde153
+SHA1: 89671573f75c2d86946060cd0d044f8e7f9a0b3c
+SHA256: fb4696413a09b672520cac308079672a4fa2aef8bfdb8be03326abab85a2bfac
+SHA512: bc467245ce19c4292b963a95dc12a9bcd94f3a23487978bb5b51de025738c5e8438db80a9350d53a04d52fd2dd61342a40c4bc153fea429b2c4e33c565c00587
 
 Package: evilurl
 Version: 3.0
@@ -989,10 +989,10 @@ Description: Generate unicode evil domains for IDN homograph attacks
  - IDN homograph attack simulation
 Filename: dists/termuxvoid/main/binary-all/evilurl_3.0_all.deb
 Size: 1348
-MD5Sum: 25c48135156b7f4715533771dac2eba8
-SHA1: 3ecde85a863c1866ca8290c8c1c329c850e24c8c
-SHA256: b0202782cf68281638b17bd22a2437fafb69c927e4d81c0785ebb641afe1e5e2
-SHA512: d11b3c2bc77e30b40381d1a14e3a35090e32a8c2c8e14e96927c1e79357cd5dd5f783213667875500142b17ecb2ea00e0d9ac7d04ecf8f07ce13584be8c23036
+MD5Sum: 287e7f769d86c2972e58ec5a03290dfb
+SHA1: f7a866f8454364a61720ce7dbccf8519a876e99c
+SHA256: 16bd2d7702f46d73880d01acb68ccd2161a5a3ccafaa124b1ed4f065576101de
+SHA512: 69e97e6af4030cde25e0f0f7c781e1f9c1526e09ad6c72d6464bf60bf952ecf44b025df827ea39f328ee5d7dc0fc71380b4a27f332e204c55f14d443de68263b
 
 Package: exiftool
 Version: 13.57
@@ -1010,10 +1010,10 @@ Description: Read, write and edit meta information in files
  - Batch processing
 Filename: dists/termuxvoid/main/binary-all/exiftool_13.57_all.deb
 Size: 1356
-MD5Sum: d8a15735d266bc3859c36a3c4fe5f1c0
-SHA1: 10de3021811b4e89fa2c14c4a40229ae0dc02037
-SHA256: bc7b5f56d5ccf0bd1f1098702e9b9e5979fa0b43f4e781193b2083e0b89de12b
-SHA512: 544437221e9f26b95bed299b8824194e038ea57a02c14aa89fd92087cf10401a73d7174bbeff738f67e16d384d6b5910a8e1f408a27504a6859b7326f2dde7b6
+MD5Sum: f1917922c9c9e7b30d047a7a46c5529b
+SHA1: 0bec07d24e68ae7b9487990b8ee9ea7c6115a2a8
+SHA256: 0656cd268f36b0028660b068eafe37ff06b6cf3ca8b0dd7ecc8655bb570de315
+SHA512: ecbe644da840d3382be50b64c57afc39db4281744672baaf57761e069286954a9e620eb03e7941c64fd2bbc9d6f470b0220a6e783dae379dc2a001b766306118
 
 Package: ffmpegp
 Version: 1.30
@@ -1029,10 +1029,10 @@ Description: Python Utility for FFmpeg and FFprobe Operations
  advanced JSON path querying with a convenient Python interface.
 Filename: dists/termuxvoid/main/binary-all/ffmpegp_1.30_all.deb
 Size: 1192
-MD5Sum: 541bc25216ef98a9946f92d6a5da74c8
-SHA1: 91409a1cdf35a31792b644f8ebe438bc339fb547
-SHA256: be3bde9ec0949fb2e14a681ae57cb912c53bcc2ed0c935ca458de4d1f2a03e48
-SHA512: 0aa06692376fdc5a275ffab09ca25745aebf966d24f490ce84f1afc46c7817145caea2added452113f0ad0c1dac795d0dd39b15bb94e3b23b02285113e2e477d
+MD5Sum: 87ac54c06ce1afbf0c79f6769faffd1e
+SHA1: daaf347ff26fe43dc351a2e85056a7c762c37b06
+SHA256: d5b5aceeceddb120e66d47bac37e018b67f9ae8c364770893e3d019911bbce8a
+SHA512: 3dc51370e402427fae5c1cbc6da40359c1b5469b7f9a368719d161a15a396bb10d3d50dc711f4bf0700510c4108a7e082c51b9e82d9dbaedaa5700f0e403cf0b
 
 Package: ffuf
 Version: 2.1.0
@@ -1049,11 +1049,11 @@ Description: Fast web fuzzer written in Go
  - VHost enumeration
  - Multi-threaded performance
 Filename: dists/termuxvoid/main/binary-all/ffuf_2.1.0_all.deb
-Size: 1400
-MD5Sum: 7da52c5321bc2060e44c80532a2dd272
-SHA1: 4b4e171aa6f52333c27ec44ef45be4d87e19cdbe
-SHA256: 63424c24b101e3c85263ff4cd54366e4c3c2f4b14dc912e657430606250c01fb
-SHA512: afa24ba3b269cb15f660f48efa04a47d0ad59c5c709d1ad38a2a9bd7a688f9eba1c6d2a3836e123bb87efc6b69f254dc2d1e484424e7f6012d191b297fabed54
+Size: 1404
+MD5Sum: d9fe16eefe626c54cc4d7bd3e9cc54e2
+SHA1: 97e489b86abab9801fd1fdac24cc7d973f25a02c
+SHA256: e9d2290d91fafbb4337eac6b659b8bc867d6ac635c6c102363bf0b4e9145b530
+SHA512: 90ae1513ff0590c29e30a05e0d0f329d605983940274c797dd51fedb383be7da2a156401827dcdb205d4a725d0bb88275650ac6c18acc536125d584b3a53be89
 
 Package: findomain
 Version: 10.0.1
@@ -1070,11 +1070,11 @@ Description: The fastest and complete solution for domain recognition
  port scanning, HTTP checks, data import from other tools, and full
  support for configuration files.
 Filename: dists/termuxvoid/main/binary-all/findomain_10.0.1_all.deb
-Size: 1244
-MD5Sum: 6419da3cf8103e35dce0537333e297bd
-SHA1: b7074985d9c49f3db7e185a3c46127e2fba45985
-SHA256: 75225b837a16299de463244c72da970125eaf67b280a43533a51eaf93559883d
-SHA512: c959340f82157cc415001a4c537ac5e9d2713fc76c0e7c91ae8f2eab3741dade2c6fab7a671a7627fe1c378cf1c592d1060d2bfac23e5962d7bfde351e21f735
+Size: 1248
+MD5Sum: 8d9d82cc6967da43a3bc58eab1c0448b
+SHA1: 9750f600f83becec5cf4634b80c83313901b0af3
+SHA256: 987e60d4cc0c33f833ec9ea7422f23193f28707a6752e885f00b8f9a1e68bbc2
+SHA512: ee7f5a3963c2f9bf1fd7e08f55cd24112f42256ce26c2e920a56d9d70728f2ea7084c85ba16767d8f4c8aa08f63bc3e104c7cc2f20ef4d5860267ca4df1f4041
 
 Package: flutter
 Version: 3.41.9
@@ -1092,11 +1092,11 @@ Description: Google's UI toolkit for building native apps
  - Material/Cupertino widgets
  - Android/iOS/Linux support
 Filename: dists/termuxvoid/main/binary-all/flutter_3.41.9_all.deb
-Size: 1536
-MD5Sum: 03ec60cf4019edbdb7e6a356bfb14e09
-SHA1: dbe68d3c35fc26ad2afcc0d5869d30f5ba8cf2a4
-SHA256: dfa7c8e31bd04a7528c232cf506081f2b33ad2c1e8ebe1e673d2c8a7f2ae85cc
-SHA512: b703caffeb82dbacb40fd2201b3cba97f143b04e92bd7c9947f00f146ca5a95c3342a08f7e382c79f6e3eec105cb69b35aa0166741f58eca6926c343151c579b
+Size: 1568
+MD5Sum: 6a426d05baaf3e03d4aaae2ec02770f2
+SHA1: 6ea9d5d2fa46d4d91db3d841fcc586a9f717bf94
+SHA256: 0c5ab38bac7732c2409bee5661df40a824017877fbd28ca4c9f074e0c06f707f
+SHA512: 0c501cdf449012a3d3d1b19b6971301992cb5354e3a846ea6698eadd7197e08e59b5f5a4918f36815b0e5acfa7933fb438d27b4df6e18248402d77b424abf150
 
 Package: fscan
 Version: 2.1.3
@@ -1111,11 +1111,11 @@ Description: Intranet penetration test tool for scanning vulnerabilities
  performs port scanning, web fingerprinting, weak password detection,
  and vulnerability exploitation in internal network environments.
 Filename: dists/termuxvoid/main/binary-all/fscan_2.1.3_all.deb
-Size: 1092
-MD5Sum: 1acfb6d4b71b9dbe164ecfbab32a3adc
-SHA1: 02930198aafc25e9c5d69d974e73e983041f7e96
-SHA256: 9ac8656cd670464237376fbf8f10ff5087cb0c1755ca3c2da74bb137d66b5a0e
-SHA512: 63c5bf1dc6c66bc7eb6967e91210374d09f8045804b10683b873da1e0feba6b399fd6e4b05c01a26cd6760cfbe27e49331594b11c5e3010783211617bb4d272b
+Size: 1096
+MD5Sum: b2acc011c3fea8d482d1dea341fab0d7
+SHA1: 5d068ef77cd604c4b885d3e7a7180c84fb31660b
+SHA256: 4efb5179727bfa68c241601acf96812058a1c936ab30c31cb82c142a476908b5
+SHA512: 6017068feddd2f5b72d62dfa824735fafc35dc4048ecbadcfd9ace4325ba4898325183fc1b78a99675d8d0f79c013e06ee24642803d4b0502170c2eaafe77e75
 
 Package: fuckyou
 Version: 1.0.1
@@ -1128,10 +1128,10 @@ Homepage: https://github.com/Anon4You/FuckYou
 Description: A powerful and customizable password list generator written in Bash.
 Filename: dists/termuxvoid/main/binary-all/fuckyou_1.0.1_all.deb
 Size: 3732
-MD5Sum: f12b9f91d9d88c031729d727009ee895
-SHA1: 040282fb39d8982fee78ad12f6d836799f7a34a7
-SHA256: 393e28ff460b8925b213141c8a224986aa0137ec433b4bca8eb55033cd3b2ba1
-SHA512: ea35f06fb4c2ce092043b9d5fc854148358d5c16a6e0fb3df0acee8bc363775a0b61a8d60785c92b0c3bb8b5f599dc540f86fd6bb6d28d95ee143f878a624416
+MD5Sum: b976969d2f5faa5b657fe9e0e3e13e66
+SHA1: 9ec759929f227924a8410447ee7e25855fe1e809
+SHA256: f8e6c16ea72ecbbcbb08b1a9b19ebe1e7022faf44000a090bf1ff36ce421a877
+SHA512: b2abaf23ba1b61a450ec6ef42cb9e324a7723ce8ab9d56091aa5f01976bf6a94681e9f2c9b400ccd06e47005b7562abda4002e4c47f4921c67be1d0edace432a
 
 Package: gallery-eye
 Version: 0.1.0
@@ -1147,10 +1147,10 @@ Description: Silent gallery exfiltration via Telegram bot
  chat. For authorized security testing and educational use only.
 Filename: dists/termuxvoid/main/binary-all/gallery-eye_0.1.0_all.deb
 Size: 1184
-MD5Sum: ab6a82da1efd105b5e23548a8d816e37
-SHA1: 82a694f0351120cf717b2feb7e3f63985f9a09df
-SHA256: 26da1163b50f3d9a4b3b7e08cbd0338e11020d7788ae9782e845c50ab8ba528f
-SHA512: d1c4ba710bd78999691725a4548d78f0dce9a26c25a0bd2520d1fbeab6c6cc508bd31169097e330450eaf05254bdcb5a87fd0c5562fb10836ba331a18243ead0
+MD5Sum: fb054a1a715c065bb2552155e86c648a
+SHA1: 7f733e9c9ed69661c1bc6bfee5d97674b951d5f3
+SHA256: d42598dc01f420fd1e856f103590de094b1fd7fd7bce9f1d75d228e0fed2703e
+SHA512: e3243ab9d7ef7e2aaa910ec4e19858c3c2a60d6302ad55dfc5e2742b2b81ff43c782521d3b1af71ee2a0ed278c38ffe1285b8c25c7b79370f61f7a639ab5f05e
 
 Package: gau
 Version: 2.2.4
@@ -1165,11 +1165,11 @@ Description: Fetch known URLs from AlienVault OTX, Wayback Machine, Common Crawl
  the Wayback Machine, Common Crawl and URLScan for any given domain.
  Inspired by Tomnomnom's waybackurls.
 Filename: dists/termuxvoid/main/binary-all/gau_2.2.4_all.deb
-Size: 1096
-MD5Sum: 7efac7378dc391fe22ea3047321ca863
-SHA1: 20af2dad0cdb163470d38d2a49b0a95e8d7d5d15
-SHA256: 23f339550d475472424209bc61af101e42389f41c736befe8e967dcef2a15fd4
-SHA512: d5905b45b8688f3b5df0965e24390c7e432d2327b32b34c139e66c6961825345ce681917466282685f0c908b1092f383262a81a4eed13baa56ff29b3bfe2351b
+Size: 1100
+MD5Sum: f5d81a78815e7ae88ee35e864c15ff64
+SHA1: 75e4b33608a123758efe3384ac9e1a5da17894f5
+SHA256: e74b220b56ec2282b45d00044cace050ebd8d2019eabd3b518ded24a3a4e49f0
+SHA512: e1d076d46d514120dd7cb4c077aefdf215e5b2b88bb32d546c6292ec18560b4665fe57ad96a7c7abba79934dfdcf5f11485fdd986217a860003735abb95eb6dc
 
 Package: ghauri
 Version: 1.4.2
@@ -1185,10 +1185,10 @@ Description: Advanced Cross-Platform SQL Injection Scanner
  vulnerabilities with advanced detection techniques and bypass methods.
 Filename: dists/termuxvoid/main/binary-all/ghauri_1.4.2_all.deb
 Size: 1296
-MD5Sum: 39f1136f6c424417a859f9a0879a8e95
-SHA1: c2b3f8a44357b0e8be5c82dfbc75523f938c9a67
-SHA256: 84c33e731642fcb5f69149b9fc9ca970492a5d9ed151e7b8cb995a73924d191f
-SHA512: 1cbaba9647918a92b0365f941c91fd96e47ba4ba582c8c1960aa791f834ceb20c356f225c3ee879ce0e579ea7bb490e321a796abf69ad7b5f7ff19fa4f1bccc2
+MD5Sum: 46285fd3c9feb985f2ffe7ce20310fb3
+SHA1: d5d5106da5372a8f941ec21a8526530f14607dad
+SHA256: 5d895f8a742da8d2784f584e6c3744485711fb33ae9d6b3fde96d172efd7e418
+SHA512: 24a449755469ab362607712ac59195d9a8d7912fc671a785dabc268a03ce5c349f3a8d08e4bdae49e7422a5b73511a619f5d59cfcab16026d61c2ce8b6493334
 
 Package: ghidra
 Version: 12.0.4
@@ -1201,11 +1201,11 @@ Homepage: https://ghidra-sre.org/
 Description: NSA Reverse Engineering Framework
  Advanced disassembly toolkit with GUI/CLI modes.
 Filename: dists/termuxvoid/main/binary-all/ghidra_12.0.4_all.deb
-Size: 131580
-MD5Sum: 6bb27fa96e6557ecc2a9f84e3c6f04e7
-SHA1: 39eedb18c291216f8c083d5abee5461dd2da5162
-SHA256: cbe74302c840390b46ebed57804f800708ea17929caee52454a29a611cd27287
-SHA512: b9e53b19bfc8b5ef626cc8371647c4c9b44878150c771b81b6e41a1f7b49aaa6d3644a5027e4be47031bc56e9639869ea9ed31ad3cd9e4faf08f0806aa8af366
+Size: 131584
+MD5Sum: 6c0979e98eec54ed97cb95330dcb900b
+SHA1: 6d503cabae1d812d8ae9e3f762e692ce417c6cfd
+SHA256: 8e7791d21d8aacb3005142b3316c3d906ab8ffd87b78c007ac6d8c59c3036729
+SHA512: eca998728b6c46c1ca58015261d422b5d7ab6a66c0fe663dd925bc5a8dbf0f708e471d895dd14714e729919a36ea41c3e77a0c43f45ff58522f42501759d63f0
 
 Package: ghosttrack
 Version: 1.0
@@ -1223,10 +1223,10 @@ Description: Advanced tracking and reconnaissance tool
  - Data correlation analysis
 Filename: dists/termuxvoid/main/binary-all/ghosttrack_1.0_all.deb
 Size: 1396
-MD5Sum: be06072c7f47bb65f6a32f579e07482b
-SHA1: a54575772e0e99f7a57b1e587dda1edcbcf71d71
-SHA256: 0a7fc735485af82738e0c25806b23915d977691c849ae5569fcff445bb3bcbb3
-SHA512: f4fbb9b8233d75e4c3442d761b032cce75fedad697a8b5c39f463a6150d12251184abe2f246545a3fa49218728216558c354702a4ffe12d8ecf9f507d1679c66
+MD5Sum: febea55e676715d1e7a46e7628f6470f
+SHA1: 6afb21c30faf31d671978e743ddd8d9750e6a35a
+SHA256: acacaa44ba5a4c64b9f3397ae19ce7c32a99c14ad45f5595c271bf8896ad60fd
+SHA512: bb53e7c8b606fdc4fa1cd5fbeed97c6c0aaf8bdb1a2373b75e52d9ccc9acc4d50a92bfe85a290e4df3a1357817fbaf49bbb00ec8d8816aba0255b2b21d93659a
 
 Package: gobuster
 Version: 3.8.2
@@ -1243,11 +1243,11 @@ Description: Directory/file & DNS busting tool written in Go
  - Multiple extension support
  - Output formatting
 Filename: dists/termuxvoid/main/binary-all/gobuster_3.8.2_all.deb
-Size: 1536
-MD5Sum: e487f0637e29131aebcbec151dc0abb1
-SHA1: 941fd9dd2057144fab3c4305f360f137f4ed40f8
-SHA256: 8a72cea1e4ad97a9e9fb5e8a5e2531bde0ec8299ac3828183f23b65a31ebfbbd
-SHA512: dea15b20e10f2424f2638d4ca965e8a31a82ae3cb2d282384f410c930b14b1d004ef2c3096c9b0c7521da18cca90cd44d4e1517450abe5173e913bf06a431af0
+Size: 1540
+MD5Sum: 9447bcc0855d995f8ea4adcb4edb3251
+SHA1: 6e96db8b8ad9d7342b34ad5d2ca6f6eaa20329d5
+SHA256: 9a256be4e60dc74906d478e3f829dd336a6e9de4bfd59989842dea283d3c015f
+SHA512: 6c7d877b17ffa7c9547f36a21db25016c52062ef7b0a4cca54f99b95764d68f57c845f103038c654651c2275ea9677a630ed6fb46055615909f01cff9655c2bb
 
 Package: gophish
 Version: 0.12.1-latest
@@ -1258,10 +1258,10 @@ Homepage: https://getgophish.com/
 Description: Open-Source Phishing Toolkit
 Filename: dists/termuxvoid/main/binary-all/gophish_0.12.1-latest_all.deb
 Size: 1144
-MD5Sum: dc2ba7f547ed60fbddf54c2bf49ec686
-SHA1: fcb72ce1a64dd8a33de3a015c14d225565f9e75e
-SHA256: f620247fdfa0525dfde783e6252e895ec994e612f58a30520afa7d45c82bbd6d
-SHA512: 231730cf1e1c1186da6c740886457e1f263013db3815efe60deecad5c789e35c4b0f0ff51c1191f496c432b283989839db847c19b6ef1c2a99411c5f88e21456
+MD5Sum: 5fc24d908022a597b161f80d077e0f39
+SHA1: c730edce2602a173c45ad3e265c914315fcf8be0
+SHA256: f7b36b7ed8f2d64f71b259f09a332740944a6c79ff819f272b4044bad3aadb9b
+SHA512: 940b7201d4b70f8060a3c629e5cdcb7a918a00333cf0391c99109b6a9cf5c07cb1b11c58b92956819ed08f4c2a87b347469d7a48df7bb01efd4d2d892a71de43
 
 Package: gron
 Version: 0.7.1
@@ -1277,10 +1277,10 @@ Description: Make JSON greppable
  data from complex JSON structures in command-line pipelines.
 Filename: dists/termuxvoid/main/binary-all/gron_0.7.1_all.deb
 Size: 1056
-MD5Sum: 7a5a3f54f81dde4505403e44b79c228f
-SHA1: 18fc5ae291ae1bcfa8b8973007db5c4a3315c1ef
-SHA256: dddc1d841851bd591469260081c3a043f284bbac078e5ac7df7e277266f2e807
-SHA512: f8715598157a8c07edc7d573a3e47f1c03c9ab66b5e3ac21354519cf4a40bd4f30577e1b8ebb0c0ca9ea5a4b61dc46fa89b8dbf3a0b69888078b44c4a936f8b4
+MD5Sum: dde25ce4a2c6e54e9e1bf2d683f6dec3
+SHA1: d8dc1ee3ac6c55ce8fa6d3f1c6619bd4128478c1
+SHA256: 09984a41d4edf165d152424c70fa882be2cababa640cecd27448b71551f146ea
+SHA512: 0e4e508a9ffbb1487b0b692c684ece74278de143c98ad579f030f61f34335ca042637fe12fd94f4dcb8a3b2719826e6afba9a502d59b69827ddcf2b2d47c3c92
 
 Package: hashcat
 Version: 7.1.2
@@ -1295,11 +1295,11 @@ Description: World's fastest and most advanced password recovery utility
  Supports multiple attack modes and hundreds of optimized hashing
  algorithms for penetration testing and security auditing.
 Filename: dists/termuxvoid/main/binary-all/hashcat_7.1.2_all.deb
-Size: 1860
-MD5Sum: 3c108f914083d9fc5370e1d20ac5dd4d
-SHA1: 7c2c5322420d0d8da571a657f00269e0081623a6
-SHA256: 37eb3ae80ef6ebf9f4091d77b552661c6c9a23e4bf783c966f1c01c735b05c74
-SHA512: 569ff6b8ce9b4ac298471df6488e69c1af7af43752cf197571ca86309c6dafabedb9546b2b208d5bc1ac068971b43a7b71e110f9921f35a151fab2a28291a04d
+Size: 1864
+MD5Sum: e6e6f08cc10711dbbb8624f1cbb83b84
+SHA1: 2e314c1541985c796ba346aab97725ec6e23265c
+SHA256: 197a0b2c7a0ee50fd33e6ef71d1ea5d357c08105bdb4e86fa0e9131a79263593
+SHA512: 5325104fa4736707fb9c274e67ae1535df67767bee8532bb765824dd70b96a7bd821fbde7f19ff2ce0cf88ef490164e8c8be945d27c9b2c8a7599f02b37dddf7
 
 Package: hashid
 Version: 3.1.4
@@ -1315,11 +1315,11 @@ Description: Advanced hash identifier
  - Database passwords
  - Application-specific hashes
 Filename: dists/termuxvoid/main/binary-all/hashid_3.1.4_all.deb
-Size: 1088
-MD5Sum: effa8251a4ccdcc46088c3bcd2c9d5a1
-SHA1: 5d132e91cda33446ce23ed39c782f6fc6e104696
-SHA256: 0263632a1e27f303b5a322a4171ffa13a0ba34707dbc059ba588ad650fcc20fc
-SHA512: 6b31e23624db4903123189ffd5dd600d792a7311c9b0ca54eb581baab1567d9b0f096e8c78541cb37d5b12e794fc3bf2a38bc3c7452c53b7a7ec4248f7330d83
+Size: 1092
+MD5Sum: d0dfe54a02a56e272508d06d37870e85
+SHA1: f3c62f003dc8b0dcc71b7865db689635f57ce47e
+SHA256: e8c63df8574cfe4b51f7d1d66155d941acf30b446c5bbe18f6963a2db2ed8d40
+SHA512: c2d25c0d903f3be44a37a36e14c9a11417484bd469e023ee96f1be9aaf321b06343581e52daa27b9194978320b393a16458d5f09a1900d087c4a2ef5f648bbea
 
 Package: hatcloud
 Version: 1.0.0
@@ -1334,11 +1334,11 @@ Description: CloudFlare detector and information gatherer
  origin server IPs. Useful for bypassing CloudFlare protections
  during security assessments.
 Filename: dists/termuxvoid/main/binary-all/hatcloud_1.0.0_all.deb
-Size: 1260
-MD5Sum: 3021d56fc2c243b997d076ba1738b733
-SHA1: afbb308e7300c7622adda793b20f281610ec6b27
-SHA256: b963d25c1485fa86790e9a2fabfe1d5ccca7ebac59360d71eabff796f1d49ef6
-SHA512: bd6c7eae5e76f0b3276f7c7a9693da5b9b6674d015e01783d55d2927ce1e5829e54fa9ae17c8cec680f573c0fe2a864ac662d41915e2bfcf41d02a137f871f66
+Size: 1264
+MD5Sum: a9b13450813fbf6cea6072aebcecb487
+SHA1: 87c2ad51d0e0403fb9fd90fa32a07630e01cd6ed
+SHA256: aa4f9d6d73ee6eb0be8418b8918d62c7c64f1c144c88cf9499ae2615bea75fec
+SHA512: c68f8d23c211bcfb6bbb8299c39d9c04ceea6836158a18a905c6343237f869671a67630c37fda03e41e7ab20859968cbc5d15a51a55441765f680bccd8075bba
 
 Package: haxrat
 Version: 1.0.1
@@ -1355,10 +1355,10 @@ Description: Cloud-based remote Android management suite
  tracking and APK building.
 Filename: dists/termuxvoid/main/binary-all/haxrat_1.0.1_all.deb
 Size: 1232
-MD5Sum: 433914d5b51b6d50a839b95ba34ad1d8
-SHA1: 7d02e9465bbd9cca21f10aa87d4fe77796795131
-SHA256: 05c3cec63f5e8f9db1fbced3665b230f96cff9441ecaadf9aeafe447aec27e33
-SHA512: 8e4a6fd33c6902ba0522aa8a08708288f0bfe57612dd3c3e23e626b00b9a65077d07d7ff08fec9f350afa1c909327e4900633dee2d4e12b03be40fd08d20f403
+MD5Sum: 64e65b50e3992b43e6127f8be855cc43
+SHA1: ab028dbdc6d9e56737e743e1cb722b1f0d8457dd
+SHA256: 2c63c68d339b24a81d33924fe98eccb700999f93ed71ba907149c7759ab24031
+SHA512: 8d0bf9288ec69ae7081af296e2cdf756c5fb648ba756bce65be85e4ddede1968d4c95537cc8141ef4cf89610ac79f3c80154725adc568b1321856816f23f61fa
 
 Package: hbctool
 Version: 0.1.5-96
@@ -1374,10 +1374,10 @@ Description: Hermes Bytecode Disassembler and Assembler
  files used in React Native applications and JavaScript engines.
 Filename: dists/termuxvoid/main/binary-all/hbctool_0.1.5-96_all.deb
 Size: 1272
-MD5Sum: 554c0f56e67046f74850268e9bb9fa30
-SHA1: 048b489fd4b6056438f27a8ed8e675ed84d5508d
-SHA256: 4270b32fb077bad215e9ac9e8915d5dcadfdeb189e754c0abbf3567cd16cb0c4
-SHA512: bcffe2feb555775e29fc502691012c613939c7be5ef0854f7fc65544068cead9025efc05dfc558308146d8d557fe007a220f69d7e26f809462b33209f70de67d
+MD5Sum: 49cd06912f51ee7c4dd2747476b90230
+SHA1: e53a2938c75b8bfd60f00ac7786516eeb2e36eca
+SHA256: 086ce59df7eb9ef3faa1db7517bf2ff017dd7a6fbd95f5cbdba962917bdbe9df
+SHA512: 20de19d88f5125e937ef237e71cbcab595369a5710d32acf87e47ae1ca275e58f2104efb21ce805e3971ede07a99142c8670c7f417f18f4bb9dd5bd99cda9cdf
 
 Package: hermes-agent
 Version: 0.18.0
@@ -1391,11 +1391,11 @@ Description: AI-powered coding assistant and workflow automation tool
  Hermes Agent is an autonomous AI agent designed to assist with coding,
  research, and complex task automation through natural language commands.
 Filename: dists/termuxvoid/main/binary-all/hermes-agent_0.18.0_all.deb
-Size: 1404
-MD5Sum: b5eeb2b6c84e50aed1e5e07d60570e98
-SHA1: edeffe2bb69e361e23bb79d7e07e1e82cfebc7af
-SHA256: a74650294424826d65c5617568d5d431f1e428ac72ac972a55109cee32c3d60a
-SHA512: 729328a7640ceb0b4d1180c93c0c30a1223d459c958f2ee9089733e1e82af349b2bf55588425a0f5493ad4a28a64c8dbd32e6d4a2bce183e72b664968d705b52
+Size: 1408
+MD5Sum: 1611b4b58b5977cf053822ce565123b5
+SHA1: 7a0e2e6d5bf21b090edbdbf8a346081446367e73
+SHA256: cc66257a9379c48e9ad480645a1f49858e9eda44264626ae6877228c06ac998d
+SHA512: bc47ddb7cddfd813e8c3e104968c7f77135b653536e3bf16e7dc148ea92a9d68195e1c1384178ce59b835d7c8194e990e350313e6d1fd5698ddca1952344a4d7
 
 Package: holehe
 Version: 1.61
@@ -1410,10 +1410,10 @@ Description: Email OSINT tool
  (Twitter, Instagram, Snapchat, etc.) without direct access.
 Filename: dists/termuxvoid/main/binary-all/holehe_1.61_all.deb
 Size: 1112
-MD5Sum: 34b1a23d8a9b1ab9aa19325236fe8167
-SHA1: 3c3c77da9195a82ca375a11dd90aed7bceb0d2d7
-SHA256: 5c37e3735ca03d4a91bac578931c1dce115fb4f66f8da7daa41eabf38b169943
-SHA512: ad3f3e498257276a276649b723b163627cb75c9cc8c5de47ff33cc52f2f1ceadaf423a82ad05ea87dc7d360bb4e1c1021e497cfe5a5e9f0c354f1f072676c400
+MD5Sum: 00593d946e330f7c6545d23a6cab0933
+SHA1: 97cd0d9c5264e0c4f8a2659bc248a1d5dccfb0a3
+SHA256: 9a78e597043904a0de890dcd0d146a9af60adc38d4d76e11a9075f07d020d173
+SHA512: a57329eb8c3785894bd5f59a76fda58ea51793b0014a7ccb8b258222067b400a8f8274ead9c6e1872957ed2490605af3e2fd24e28adda4be1e04e66c844b1d44
 
 Package: hound
 Version: 0.2
@@ -1424,10 +1424,10 @@ Depends: git, php, nodejs
 Description: Simple and light tool for information gathering and capture exact GPS coordinates
 Filename: dists/termuxvoid/main/binary-all/hound_0.2_all.deb
 Size: 1536
-MD5Sum: 6a8579e55234ff69d6f8bcc75a5428e7
-SHA1: 44ad727d92bc7aebdff64f525b5672ecd3875d10
-SHA256: b679e218e5543ce4e9299f3e4a7270d1cd6aa5124e9276f7da685a30bfb39d70
-SHA512: be43eee1dd4227ef36663e545f42acf79cf241371c4c04efbf8ec7b25af12cdd5675d9e373504f37edaf7c8c144bb7bf4f95f47acd4f246e08615a3134cf30c8
+MD5Sum: 644752019a98773f6fb714d62c1cf73c
+SHA1: 9b748c878e9ba3938b5d4f2e42db7ef84780b0f2
+SHA256: 0f09224c5fbdb95ac78e201c6ec7629cf013088f665cb5bce17c45a53701d6f0
+SHA512: 8adeafeb2b0e37d4da92cd81e21c98743edd4d6a6cc561f7fdd565704ded17990d1ba889759df991026e2dd5f0a6ccae9028218a7e25bd2ca083c4cf25e8e725
 
 Package: httpx
 Version: 1.9.0
@@ -1449,10 +1449,10 @@ Description: Fast and Multi-Purpose HTTP Toolkit by ProjectDiscovery
  - Integration with ProjectDiscovery workflow
 Filename: dists/termuxvoid/main/binary-all/httpx_1.9.0_all.deb
 Size: 1688
-MD5Sum: 8b91e962946feb6ab957bb6ce3f7af25
-SHA1: 2e87f8936fb37aed0fcf46f4850df65d7a175561
-SHA256: f270975b8f39903458e0b6f6f0858b3ddfc131d25d52b32ccc4359f1183aafb6
-SHA512: 2b00b37eae175b8b18164094bbef2024c37ea010ebbcff9f5880e957ed072930f8be85faec6ae9e2d0342235c593f6487cfc0747944867d4ed69bf9a63738137
+MD5Sum: 1ab120cef44cb1179bb933ce59bb2375
+SHA1: 5161012cfaf7735bc9ab7c7416abb92eb8865861
+SHA256: 9da7409a062cdcf98e8d9435b362993822191a42d8058f930cf44229ae643d98
+SHA512: bf1a3395bbbf47abc3fdd3b90fd99cc6e3e7a82df6de9c18c6dec88f3caaf8af198c4f99f7ee45f1077f4881ab2aee5bc5b2076be11bbc8d24614ad6b0da4f11
 
 Package: hunner-framework
 Version: 1.0
@@ -1470,10 +1470,10 @@ Description: Open Source Penetration Testing Framework
  - Custom module support
 Filename: dists/termuxvoid/main/binary-all/hunner-framework_1.0_all.deb
 Size: 1316
-MD5Sum: c09afdae4b48517a34b48b1bc5a127d3
-SHA1: 3fd40622b23c252100bdb45c2655974b325f69a2
-SHA256: d4085125b7b88d20e38c38750ec68556dc0e7a8f59d17b76c483b787dc85634c
-SHA512: f7f94720194bd3749eba9bc2e09c622563bae5b2789444531deb967975278b0dd7862261062eefa389a3c47cbef480641bfe5279425f72f5bfb48ddda9bef844
+MD5Sum: b19cc7f2ff0825ba262134146cc019f5
+SHA1: 068dd037f23014539f121e797bbc3cc818602e60
+SHA256: 047e3297001f2795b6985a4eecd8b905c36ee5f3b265b313d95112ffae2acc56
+SHA512: 1ea04891946c58891390063f1180c5e2762ad0768433ce6aad0ea02b1586dbb0f932c383b7bf06cdac71dbebcdf09e0be8d0d22b73ffe59f05d3a6b09a6d7187
 
 Package: ia-get
 Version: 0.1.3
@@ -1488,10 +1488,10 @@ Description: Internet Archive Downloader Tool
  Internet Archive. Built with Rust for speed and reliability.
 Filename: dists/termuxvoid/main/binary-all/ia-get_0.1.3_all.deb
 Size: 1244
-MD5Sum: 2a1268a42a6d4e4699bce5e12950f6c7
-SHA1: 6e7c3751cbf7fcff249924108afd03d715bdf517
-SHA256: 4b8bc0139767d86152e17a53e878cffbd12834c6d3bec4e0c3f551f02b28d105
-SHA512: d8f1fee0c5097712f5f22b20afefec4b2170afa5718e157d45edbc908c5d8ff0ecc2ba67665eeea26f54ce130d127f211a7158944686020dcafb075df91ecff9
+MD5Sum: 75318aac2e10ce86bb46c6c9f5425681
+SHA1: f3c327a39eec9c92d7130c1ed19c141c43976ae5
+SHA256: 3fa6ea294c211312203ceab7c1ea3399f69da423dbeca2934f7e51a6dfb55274
+SHA512: be22e3d691f07f0872ad7c0e6dc0f273e08a10c3eb45ed951416c788363c316cf0b1c8abe03a680bd588175ae8e200bf07261ab96a1babe9995ded191104a559
 
 Package: infect
 Version: 1.03
@@ -1504,10 +1504,10 @@ Homepage: https://t.me/nullxvoid/
 Description: Android APK backdoor injector with Meterpreter support
 Filename: dists/termuxvoid/main/binary-all/infect_1.03_all.deb
 Size: 7472
-MD5Sum: 35acba508b0be4073551a70b2c154e22
-SHA1: 5479bbb42e43d6551ee27dc374fa76c5de08ab65
-SHA256: 68bf5ee4b03cb531ba5e33db732ecbf94e0df6fbc6b0a7915698509c957d41b3
-SHA512: fae23f6b121abe851b61bce204eb45f1eef721bf38d538f33ada86407d6761ee4a0b01623a6522ebb5f8a2d33f060fae1634a48e77af334c4c6ba73e93451077
+MD5Sum: 59143d13307bcb806a1c3a55e752dbc1
+SHA1: 1d3533a49992ff3d4adffd4b0a59cb342f96ad51
+SHA256: 29b760187d24a469f45aafb1e1820acf04fbb86c37a9d0d47ee9b9da903c8128
+SHA512: 73c194dd1deeed2c1383d5410953ed390af91a44092704edc6dad2b81bd30cd5829f5b32dda4b282b87acd293f82764d6e7eedc4345835808d98385dc24be305
 
 Package: instaghost
 Version: 1.0.2
@@ -1522,10 +1522,10 @@ Description: Professional Instagram OSINT Tool
  Provides profile analysis and information extraction capabilities.
 Filename: dists/termuxvoid/main/binary-all/instaghost_1.0.2_all.deb
 Size: 1308
-MD5Sum: a20b3bdcfd8d491e97ece343ec262314
-SHA1: 4f362ecf2974cb023e7f7a4512b1da80156676a5
-SHA256: b62e255d52c8b6b8777491ae8a26d03d2c70287e2767f342b332507e0b85ed24
-SHA512: de404f172c0f65ad64254ed942187417547973fffcc725c57ae9f1124eac1f869a2da23b5fc9ebc135f46499e5f1bed06a1d8573f2c40feeb589fadb68c5e8c2
+MD5Sum: 025116c4e122328e5b8d03c7f91ddf06
+SHA1: 5f31cd6c39c8d48e48045f1d8b7fe667b4931af7
+SHA256: 63c3bbbf3b7520de25198622af630f57835010409315c6cf3911fae296d12e62
+SHA512: 4f3a324dc5e4ca50fdd586d2e2b1f48d8ec74e7f340b2caba28937f1fb31b78c1e5aadc0b498d0bee5828bc6d3d1b8daa525249d241bb3ba13e49ddc29121882
 
 Package: instajack
 Version: 1.0
@@ -1535,11 +1535,11 @@ Depends: python,python-pip
 Installed-Size: 1
 Description: Instagram old account jacker
 Filename: dists/termuxvoid/main/binary-all/instajack_1.0_all.deb
-Size: 10912
-MD5Sum: 4f697dbb815406cee3655538c1ed1e1a
-SHA1: 1b7f82d4ac14e3e1ea4d37e8628cd9f8ac936319
-SHA256: cd7e45a32df9e7f03d0b82d4d807e8970045fd0a8ac0219923b0551a8fd4151a
-SHA512: 90319b0adf18428262412aed4f88c5b53455d02c719ca8568e4aaa0249eeecca70d488582998835952ba108c4f07723912c528484e7d731fb22969a752570f64
+Size: 10916
+MD5Sum: 43b6cee12ab0ae63ff1735e2f474a864
+SHA1: 235d6a07fbaa33808691b0d4a5ea151e5b367539
+SHA256: 1db113fa6e5e405e116752d238adad35e6d4fc0b3edd32ff97c3479cc68f75c1
+SHA512: 617db628f70ed29f105076452af8fda3a2944ee6c24765889c92db0d7e835d97c1018c45d766aedaddb0afdf3ebb3c2281f5265b352882481dca0d0345d4862e
 
 Package: ip-changer
 Version: 1.0
@@ -1549,11 +1549,11 @@ Homepage: https://github.com/Anon4You/Ip-Changer
 Depends: git,curl,tor,privoxy,netcat-openbsd 
 Description: A powerful and easy-to-use tool to change your IP address automatically
 Filename: dists/termuxvoid/main/binary-all/ip-changer_1.0_all.deb
-Size: 1388
-MD5Sum: c7a780fe32df97be4607e44d65e4158b
-SHA1: 7a9c0078a032a9f41a6f11ec7a07ee71d7c8d6ac
-SHA256: 4d45700b17737a8b79c7a357b67ec8fcd4f7f4933cb09b83e6d21d69c6097e03
-SHA512: ddb87058f6ffc36e9db9d57246b1e931eb404cecd3bdaae46a391055dce63797f258449180627b0b32285d0467bcd78a89e879ad2df66caa40c526ef64c38753
+Size: 1392
+MD5Sum: c1c78e8fe02c9c86debe1e596a5d75c4
+SHA1: b2b3408327fa2d906eaacc56d355418d851eeda2
+SHA256: c50dd2b545f6c69835f7839257a26eb6436ed4aa91b7027e7be51bed5b42f0e1
+SHA512: 3021d08c0c1c04a370f57cfb8771a91a67fc815d2011067a2a358d4d2dd1ab38580c8a49180887382dfad051c89af9e4a9b1c410ef0c39388ff3e062d2a50fea
 
 Package: ipinfo
 Version: 1.0
@@ -1563,11 +1563,11 @@ Installed-Size: 48
 Depends: python,python-pip,termux-exec,termux-tools
 Description: Ip address information gathering tool for termux
 Filename: dists/termuxvoid/main/binary-all/ipinfo_1.0_all.deb
-Size: 3556
-MD5Sum: 56a77dc7bc3e3eeab87f10098a3ac275
-SHA1: c5ab738a1e3a521ad4aeb27ea205494608e1a929
-SHA256: f1dcb31b61a041586b435ef3933e0f1ff6204c77d8d9f386626eff31fc09a3f7
-SHA512: 287d6e9cbe908dae10d080d751c2377695b72ce47f03cb84374eb6878a9bccc78021abd5aeab46471c2a619e0c27902d6111d2a95d3ae6f319bbf45b9a52e961
+Size: 3568
+MD5Sum: 3a60a3a3a3aaab821a9d70680f59c301
+SHA1: b929d34bdc569f74b40ae7b6bcb8220136f29f2c
+SHA256: a78754a63b90003e66964e8fbad79b7e8ddb752ae86158faedc33261b973d83a
+SHA512: 4f27eaff5f617c6af5919cec8478191d94ff381b8e9306de9046f0cf67b03caf7878b4f03ea539dc536df914b82e115bfa2f86471a4497fa80a59550f3f0338c
 
 Package: iplookup
 Version: 1.0.0
@@ -1578,10 +1578,10 @@ Installed-Size: 36
 Description: Ip address info gethering script..
 Filename: dists/termuxvoid/main/binary-all/iplookup_1.0.0_all.deb
 Size: 1096
-MD5Sum: e33d37668ad901335bb502d8d29bfa07
-SHA1: 844524f858c41f4f977d25fa9ce56d0386701887
-SHA256: 51feceb915de93c2468053309ca07300012bc76eb1d0dad4d7e82e7da9e36528
-SHA512: 39031e9f5d08a1a87b4f5312ee6158f3be2ab1e30dd0b3873a1d926ffb91844a922b4157cc2fcb96bb35e355e49aabd7feaa0bd1727f5f7670ec68374bdf4304
+MD5Sum: d4558e97b62a0bed43be490637e2e67c
+SHA1: 97e74d1b241453ee4630cd1c5257d39f15240bae
+SHA256: 768af3f558d5fe0b93015b177d048922975929a1dc2ca4bfe22de19931d114e8
+SHA512: 46f7e4a15b0e884cda3470fcc5da985e0ba74ab490d44cf3b4fcc3d717c32a54761e5abf4ba51b9af8267ff864e23acfeea80cef5d5fd0f571353d712f6c0b4f
 
 Package: john
 Version: 1.9.0
@@ -1594,10 +1594,10 @@ Homepage: https://www.openwall.com/john/
 Description: John the Ripper password cracker
 Filename: dists/termuxvoid/main/binary-all/john_1.9.0_all.deb
 Size: 1216
-MD5Sum: d4800be9ea38a15846de276419618461
-SHA1: bf71a4d55e077e89ec8fde3d9895ea80dbaf9c0b
-SHA256: 8f0b6be28080883fd67e1097356688d087670b36252543cbd811fd56af19becf
-SHA512: a034c2b5c93724ca2c047062299a0d557e80a1b8421b8b923ab787bc7d856bd4a9d72684268790f0b3f2557c2f2f9e866c2deb609ce255876389b5643d4128e7
+MD5Sum: cd36ba3c4a92442de277b4eb75be4228
+SHA1: e2b218409d6bbb6e56d68d6278089cfd1dd0ee03
+SHA256: 147343a8b4e036974349f1040c6b063233701af31f3c0ef84f0a54eb5746361b
+SHA512: ac81c7f2def5f6314872a1fd91c66c292dcd219159824f4885b3705b921a4e8e36cf0e01e7b49ee8e7fbd14b7eee85e3af7a745499931b81052f7fb62224bc6a
 
 Package: jsql
 Version: 0.144
@@ -1613,10 +1613,10 @@ Description: Lightweight database information finder from a server
  finding database information from a target server.
 Filename: dists/termuxvoid/main/binary-all/jsql_0.144_all.deb
 Size: 3708
-MD5Sum: 9ae45afaa99fa29479b820869d5e2c15
-SHA1: ed50b977d56daf737939e9ee44eef24ac9cef5a4
-SHA256: 6f0f61e088cf72ae5e7250229d564dfc81cd33952820006572155f7f623ef24d
-SHA512: ffce96144bc4a9402a7f7ad38b2ea5ea946e882bca2dec5df27ad706b75ec390449d490a35dbb59900c20c7d1103c317d013bb7bd8b83ed783ebc19c100e6b8d
+MD5Sum: eb48724fb5774a443f40bb26affc86b0
+SHA1: 41a6a7b0c7e7a856268ddd8d95634581837ab020
+SHA256: 96118b84b58af6ce9a079a678a5ecc355c0bbcb8b9215d3b75f0e7ed021678ed
+SHA512: 0b28fc80259395c85a6b45a7066a7ebb04a5eb82eb7b9dc11ef433dcea9d7ba0d35a5b32a1c4c0467aa8a483e6feb5ffdac4fe48a5f988b887f85e0297794f77
 
 Package: jwt-hack
 Version: 2.6.0
@@ -1631,11 +1631,11 @@ Description: JWT security testing and exploitation tool
  including signing, forging, and exploiting vulnerabilities like
  algorithm confusion, kid injection, and more.
 Filename: dists/termuxvoid/main/binary-all/jwt-hack_2.6.0_all.deb
-Size: 1224
-MD5Sum: 539e91f6d54424f215500379910b2ed0
-SHA1: aa6b70b497c4ec17531a3f984dc1f117947a543e
-SHA256: 7672e2436d2b1a99b3dab5e3e6e6075a7344d072f16b61ecd06e8af3cc14dee8
-SHA512: 42e1492e8eba26de0aaf1175433a08caa1dfc21f6445266436436b908ed2401b05d5dabb8adfb4f595afb63ea01890fd3c4bbe004a2496aad1de41cb63b088f1
+Size: 1228
+MD5Sum: c44c22f044f95163e788ada067e37e78
+SHA1: 36e5e37f0df49e3c9215ce42ef4c4c5274211a0c
+SHA256: c70f5f0d2969a595e75174e0ebcd2a94e9eabba8a6b63229d18313a499b2b84f
+SHA512: e4ed24d4ff7f173f3338a8868aa9f3e6f9898cf878459adc36a28e4fd3faf306376753051c8b0ec79e8ebb33071865450c80fb21a95ed89af7132c1e6b8ed089
 
 Package: katana
 Version: 1.6.1
@@ -1650,11 +1650,11 @@ Description: Fast, passive and active web crawler
  for speed and efficiency. It supports standard and headless crawling,
  form filling, and JavaScript rendering.
 Filename: dists/termuxvoid/main/binary-all/katana_1.6.1_all.deb
-Size: 1060
-MD5Sum: 9f1f7fb42434440ae27593b18d2c4b2f
-SHA1: c977752a17e541a6b7407a7fa5ec2346b1162273
-SHA256: 200e0263875b26987fbce8b4a9b939497566b099f31950a952af5906f04d2887
-SHA512: facfcddce2d1396b07b5a8653504c5ae0b8cb932dc4d270c2fc38f71e2044c0c0e2a02281ec75b92acdf7e4b09ab3b7233e23af81b7cad516f3b3190cbf53ec2
+Size: 1056
+MD5Sum: f746fa4b2e5fff7ff3ff0a6527d035b8
+SHA1: 0e1382da47d588b6e5aff59d98f6d86971e1d2fe
+SHA256: 1725c66a67f7bb9141ec6e9983e93a0151df201cc251e950d451240d6ddbb26d
+SHA512: 2a46407466d14a53edf98b45442ef6a0770499caf9659efe02a34a86cfc0d2e695d932573fd88171baacbbe14befbc3b1fcf9e2334b65d9b7495ebb462d3c92e
 
 Package: kerbrute
 Version: 1.0.3
@@ -1671,11 +1671,11 @@ Description: Kerberos brute force and enumeration tool
  - AS-REP roasting
  - Performance optimization
 Filename: dists/termuxvoid/main/binary-all/kerbrute_1.0.3_all.deb
-Size: 1508
-MD5Sum: 2e0b66069c4bc0dfb77f01e538cd290e
-SHA1: 99bf1924d987b5262c5a600707c2c3a86067954b
-SHA256: 38660479478daf1369a40b00e6aebe3134bebdf86d0922296f8ac2355e601c3e
-SHA512: 66c2bf198b23def381600c95c6b8ae576fbf45fa966f60eb815dfc8ab06d3eee6c13951dd223f122cfc04d78d49488387c2a76e974a2dcf90d5890c30415c5fe
+Size: 1512
+MD5Sum: 990c23d777f4ec2cfaf17b22a2993bd7
+SHA1: be35be72b13cc64e14f31239834ac3167f4cf28a
+SHA256: 1da4ceb636956d7aa3991c5431a3f403d472d4c9868a48750f610d2bd6e1edef
+SHA512: 2641336955b38a787ab5e47dc9581f109abda79e4535f40203e2d2a6ca23913f8a3b8447b8198466904fd1fa7e11b78cda632fbe626bb4feb17888aa5f9ee525
 
 Package: keysigner
 Version: 4.0
@@ -1687,10 +1687,10 @@ Description: APK signing tool for Termux
  A tool for signing APK files on Termux with various options.
 Filename: dists/termuxvoid/main/binary-all/keysigner_4.0_all.deb
 Size: 944
-MD5Sum: 839b604126df74324bfc8560cdb49bfc
-SHA1: 7cab1496332efc6fd0e6a4b0454250da5a5ad4bc
-SHA256: 6f19e2a21bf28a81ab77d6a0c87b5f2a69fd9289a88f414df3323fe6ac7d4fd2
-SHA512: 45f3731dc095a06d2c19c5af0bacf141b9dd8f9ce87f948451a4e0f2255899734c90a14b7128ba8e9094ad5261984abce198d43629091d3e646fa8c2c98b55af
+MD5Sum: 3e7ae391f40ba47ef66c6e4606e692e7
+SHA1: d72108d15d1cd81ad342c70b7d11f462a3e1ed11
+SHA256: 2edf9cf36e4751226e77715306858af10b4ff55610164837aeda01758a24a929
+SHA512: a00c41ec218e8ba14f380445561895dadf94cf03050925e1c7df7dc365ec3f3fa993a9725b99e3c70a2a70849eff7a01aaa7761f24fbb15efd9d965ad659bf90
 
 Package: knockpy
 Version: 7.0.2
@@ -1707,11 +1707,11 @@ Description: Subdomain enumeration and reconnaissance tool
  - Certificate transparency logs
  - API integration
 Filename: dists/termuxvoid/main/binary-all/knockpy_7.0.2_all.deb
-Size: 1184
-MD5Sum: ff95a3347d9084bb891fb5fdda344ada
-SHA1: 10f8eaf19d135060fdef0a5c94ffd347d65e43a1
-SHA256: 9dca574ed37c7fbe44565a9e0ca26e7a5b381d8f5ad0254740d2087710a64814
-SHA512: 446c2693325e5f8f979316b63c68758269c407507662f72dd87f85e94e859964acabd69be820cbb0a8b8268ed9d1a871b8e30511f6c05dbad6f864c439f269d5
+Size: 1188
+MD5Sum: 145b7a5d00f878e68d34e83de7613cf7
+SHA1: 178423bf2a9c5f0ddce3174e9dac5814121ce1f2
+SHA256: 95a1355fa676c772949d5353af36f56bbca445add6daff77e5905c07da90095e
+SHA512: 4a2f55a031ff85c60e066ae2082b602c87ee9d96030047408aacc0c6f73b4bf5ae55d416a26c666c9722f6fb33474dda3bd25e0ab9f5f4dc448503eb6a40586b
 
 Package: lazyvim
 Version: 1.0
@@ -1727,10 +1727,10 @@ Description: Modern Neovim configuration framework
  a streamlined development experience.
 Filename: dists/termuxvoid/main/binary-all/lazyvim_1.0_all.deb
 Size: 1492
-MD5Sum: a88d877acf9927a3a7f1ac05168405b2
-SHA1: a2ad0f11869974b3b27642cda8f5fd79012b117f
-SHA256: 76ca9611815fe0859b2f364cc8103e79046ef37c0edb49498995e5220922aadb
-SHA512: 113a105554bcdcdf380ce3d8e7ca1405839584a6d8609d9b36e06f922ceb73821ff611f80727afe96d871ca2a4292e86164b70758791441ff6a63622f6f5b532
+MD5Sum: 7ed6554552a27163563e6c0972d9629e
+SHA1: 7e54ccb6785be0c71dcde08231fbe30a1a21c95d
+SHA256: ec6e0b5faab699c8af9761000b6721a56429c5b02fd3b28976dc95d390b961e7
+SHA512: 8b7b6d9d713afef0a195bdbe2bc7ea9d57b5fe1bcd7d6eda95416362955e2c3b4756300d673de08bef6927580ff2072bb85125d493a304ce25ddb3cae7f72bea
 
 Package: linkwizard
 Version: 1.0
@@ -1745,11 +1745,11 @@ Description: Powerful profile link finder for Termux
  and common profile paths. Extracts profile links and generates a stylish
  HTML report. Domain list can be managed with 'linkwizard domains ...'.
 Filename: dists/termuxvoid/main/binary-all/linkwizard_1.0_all.deb
-Size: 38268
-MD5Sum: 225fa04bc5ec376f5bd7ed478bfb20a1
-SHA1: 9ebdebe5b75c48581565e5593b778cebf92a9b50
-SHA256: d0eebf8a80ed0c9149e2d8aab61237fabc2000f90c81db68197ea27413c012c8
-SHA512: 57855fe04e1320b4c05bd4bf73a8c4a79d117c0b4e62d2cb2cdca3d0d00dab41bf82f5fbe66a47ed911bce5154819135349556e78448a128e83c234802c2d671
+Size: 38260
+MD5Sum: 8f16600b5963a5741eb82b507172f21c
+SHA1: b32741a02d25e603d21c337f613306df2440f3b1
+SHA256: e30fad29126e3a6b74b9f941fe723ecf31776cdd3b8184101a02edbb77fe180f
+SHA512: d3ba119c15d9f7b7c4f1c0afcfd99651067d83cb3a254c484753611cefceb40cf8776e63d8454c1e7a4f69c5fee20fa57709eba211cf15763f4cf4c076745fba
 
 Package: local2onion
 Version: 1.0
@@ -1759,11 +1759,11 @@ Installed-Size: 54
 Depends: tor,php,curl,pv
 Description: Expose your localhost on the DARKWEB using termux
 Filename: dists/termuxvoid/main/binary-all/local2onion_1.0_all.deb
-Size: 1600
-MD5Sum: 8300eb396717929f4f3bb195d9adb1d4
-SHA1: fb9a031ea4db0820f8b78e135e31e2989d44c713
-SHA256: 99f0081ac8bf81a4ea16cc4b287ed9f7d07f7b1d31517b84183b077a583f12b1
-SHA512: af9ce182714d08d8e982c36dbb7c97f6e7a7a35229aafc976fe0d4fcd58261046610dd851761e6823a0b33c36c1c9131bcec80a160732d942ac86e3836964c19
+Size: 1604
+MD5Sum: f4b74d50d71ef46ca99b6662b1e82ec0
+SHA1: 18845f0a587ac71494196f54289f3e71b34850ef
+SHA256: dd5ed75eda145e0a613274aa89972f418973234478219b1c89609c84a12a96e8
+SHA512: 1d1153184777aaa900bb72e0819fd24421bb455f83cf26c191b3ae9e31498da9884323cf46d1c5bf3f9fbd7c4d35640314fcc6cdad4a8d732bde408e431323ed
 
 Package: locateme
 Version: 1.2
@@ -1773,11 +1773,11 @@ Maintainer: Alienkrishn [Anon4You]
 Depends: php,jq,openssh,figlet
 Description: Live location tracker using google maps
 Filename: dists/termuxvoid/main/binary-all/locateme_1.2_all.deb
-Size: 39544
-MD5Sum: 9b42a4d648de4855db7d940846d74261
-SHA1: f446cdc3ea784a954dcc34b1e92ee813599d3878
-SHA256: 0df6719a8bdc7c6d4c3c84651f442e36e701fc23ed32383a234f51dfb75c6f82
-SHA512: f391b636d74e416b6ec4191ea291fe8d3de2a96ffc54023138dfc0d2a87a4424c1e81369b77249ef88a02d7845122646b5d1378dca0d96beb8fa4099f01105ba
+Size: 39528
+MD5Sum: 6ae732561bb57113695a46e57a8897e0
+SHA1: 01fd569b81e74a48221d5c6b5fc68848f51eb43b
+SHA256: 439e793a35cb7979c95675aa1e02ecf51940fbc9aa4083746a6d13016d5780b1
+SHA512: 77868f5df56e1fa6b8162e46ebdbfa192ee09987477389ff5952ea2439255d9f121a4b3925242124141674dd481b5a3dd92eafa0cc9540019097b4d91aeea885
 
 Package: lunarvim
 Version: 1.4.0
@@ -1793,10 +1793,10 @@ Description: IDE layer for Neovim with sane defaults
  ecosystem – completely free and community driven.
 Filename: dists/termuxvoid/main/binary-all/lunarvim_1.4.0_all.deb
 Size: 1352
-MD5Sum: 170b7c58d7c496dba601cc2b5f94ad6c
-SHA1: 327a15c71caaab624e743dbd605f5dd3057252e6
-SHA256: 7bd3c2a37c7b83f08f8347eb688bbea68ea8b016337c1afb0a633aac8aee2a74
-SHA512: 9ef3009fae42ccb07dc87ad09da1509659faa072ac962318c303624eb96a14953b936d7d0afc1d58fbebb50086e97b314b417882a13069c94fae9800d2b8fd3a
+MD5Sum: 748ffadbb19bda41934e996322cb617b
+SHA1: 5c9db370d7c1db92b3ff4ad009ce1fe43884c7ad
+SHA256: 22a950ec5cdcf0075134119bca3d1153ad375e052971c693681478b206fff299
+SHA512: 786650934186fb339b8fcaa41042024c8110488db38fe669bbdbb891d9e438b0288be46f76bb635d639dce5bc0d16e997151e951c801d7a2b01730f11ad1420e
 
 Package: mantra
 Version: 3.1
@@ -1813,11 +1813,11 @@ Description: API key hunter for JS files and web pages
  - Web page scanning
  - Custom regex patterns
 Filename: dists/termuxvoid/main/binary-all/mantra_3.1_all.deb
-Size: 1412
-MD5Sum: 56dbc49190112c40c0815b7c37ab85a1
-SHA1: 3933bcd3ec1b5e91a779ed6c259b92eb19e95f75
-SHA256: 230e0f834d1559d06a170f25314023a8a0cb4beb458610965d9ac1a835700043
-SHA512: d786c1d5b48325b50c3bba43b0a0f0223fbf1df55c63ad8936cc31bb27929f60468e900ff57396c934cfab1c25c833330de65e5e9820c8fefa521b1ee19e8787
+Size: 1416
+MD5Sum: 158a17df430ecd82e53da22c2c13012c
+SHA1: 65a70f4f01a07d78d82a6984dbf63f4982d0a1f6
+SHA256: bc333039becd2f12c770fbb7ba474e3fd4e5dc2d0b62238f8823bd41b0add19b
+SHA512: 0c86582ebc8051340a7fb417cbce66675de20a2fe170e5e9c0ad397b9e577c531c64d28b02ca82bb0d73026c82cd728ffd8d504f90c75f0d76e1011a6703a3ce
 
 Package: maskme
 Version: 1.0.0
@@ -1827,10 +1827,10 @@ Description: Give a Mask to Phishing URL like a PRO
 Installed-Size: 32
 Filename: dists/termuxvoid/main/binary-all/maskme_1.0.0_all.deb
 Size: 1600
-MD5Sum: ceba505e22ab93fddc0ffc0d08160b69
-SHA1: 27c53fd92ef48733b242eb34ba0115e689811419
-SHA256: 3f0296c58eea04884a468be8a17f92a1b39b3461fa6b9bc08bae07b6d0c7372e
-SHA512: be57fc74437474c9eee4353c136c9b1e4d3892d0596d4badc3d6397726867728c99f91c22ccd5ff2ee3e487dfdd1ab7ac031f21a3d1500c01cd9388ce02f521f
+MD5Sum: 75551edb62edc5326ca17856037d1940
+SHA1: c38ce5ebbe1caa15ecf4c4ee5d71525bb4ee57ba
+SHA256: 2003c2d7818bc4d303a7f9ab99588e8999b05c82e4906f3104f111017d2dff32
+SHA512: 2824f47282467f6b846e0ce0cc44610a9e8ff154b34114543509b7ebd125017744da13c1a625b4977c8b75d01c78e3e78d59ccb80949f0ca4646f39132cf8349
 
 Package: medusa
 Version: 2.3
@@ -1846,10 +1846,10 @@ Description: Fast, Parallel Network Login Auditor
  SSH, SMB, and many more for comprehensive security testing.
 Filename: dists/termuxvoid/main/binary-all/medusa_2.3_all.deb
 Size: 1472
-MD5Sum: c8189f32c90c2882b0a103ead1839b2b
-SHA1: 223db0005eaf39d634cce8a7ad6375dd67d0c654
-SHA256: b7dd716a51f8917ae3c225dc4e4330676c7c75b143737e267d79c785ab91139e
-SHA512: a1e8195b330c4fb3247fc3ea002a1ecd99ac9e1665a5d417368a848f796b39f22f49164ae9132779ed1092e9cc4ad3f5d5ac8c454631d1d3aac8d90117541c23
+MD5Sum: 2d9a6279496c452e7f1a406613b4a1ff
+SHA1: 32ab9b4c52230b24b29fb05825991f16abcde517
+SHA256: 56ec5eac3d21a66cd620691b0a1a70eb7fd3a1d350c106b21b8912f33ca507c3
+SHA512: f6bfe81f540d2e95b3edfe14f4543abfed1d3f0fa78b3355864bd1c0cb045f25cb36d2f73c38f432924569ee32315d367c22b06b413a9389e69ffecc29cf20fb
 
 Package: metasploit-framework
 Version: 6.4.142-dev
@@ -1864,10 +1864,10 @@ Description: Penetration testing framework
  and post‑exploitation capabilities for security assessments.
 Filename: dists/termuxvoid/main/binary-all/metasploit-framework_6.4.142-dev_all.deb
 Size: 1864
-MD5Sum: 3ecf64176ad1f9f9c68a84a15032526e
-SHA1: afc995817f4654d62ca0af00af104ceff42e1da0
-SHA256: b95e9f748d6bb2f0ae9db73d3afd0b523daf71ee9c8ce78790c64f16d3ddb015
-SHA512: 6b2334618c2254e4560e1b890acf0e67c5031134f68b39fc90dbfb59438787df2be8e4e769e1946547895657bbab28d331499265f32991d91cbcc39048992c20
+MD5Sum: 8598a84d2892fcd54632b7ad7d63800c
+SHA1: a76d70c23e56d39a1bb7df15842f8e5e90e51871
+SHA256: c41c8348d31bbefcbbd90bf95cea798fa3f9da10d316ea03da6468219a886233
+SHA512: 65369d9524fd76c5fde699a4f242a2d33208adb8298ecfe76c3d31e4af6687ea02caa19106ec11e170f3b4165490c82006f1dfc26000ae0e14f17cd98dca0309
 
 Package: mimocode
 Version: 0.1.4
@@ -1882,11 +1882,11 @@ Description: AI‑powered coding assistant (glibc wrapper for Termux)
  This package downloads the official Linux ARM64 or x86_64 binary
  and runs it inside the Termux glibc environment.
 Filename: dists/termuxvoid/main/binary-all/mimocode_0.1.4_all.deb
-Size: 2048
-MD5Sum: 1c0c811ebc163d8dd24bee0599d7621b
-SHA1: dd284af8fd78515adb052418ef95fb1895b6cab0
-SHA256: 9737da6a7f3531579d6bcef7154d1e4baaf9c58808c880958ffd62ef7bce8775
-SHA512: 338c05b33827a9c7995b83d3cb6f57f156f9884caedd70944d45441895f6ded50db56aa16f6d51e7502883b89981385c0a813d420b4f302f4424b37ecd8322c8
+Size: 2052
+MD5Sum: 3d2c29576182e7fdd689ec7e7acfefe6
+SHA1: 1017f31ef9058bea2e42d807f5cfa2d5974f0187
+SHA256: 736b07a3bb30d92e29dd9ccdd53900eaaad1e86af142c81fd58551715b15b2b2
+SHA512: 4f6a1391a646bfc02a7f64e9b1fa0567ef1df64c9a73d38c9a8ca159fc1960c297a4ef7d2dd3539359a0def0b3a50cb93fdcf9fccdb592cd7ec453fdafb31a87
 
 Package: mkwebapp
 Version: 1.0.0
@@ -1902,11 +1902,11 @@ Description: Tool to create Termux .deb packages for websites
  script, .desktop file, and attempts to fetch an icon, creating a
  seamless integration for Termux:X11 desktop environments.
 Filename: dists/termuxvoid/main/binary-all/mkwebapp_1.0.0_all.deb
-Size: 3160
-MD5Sum: 848899f47b08e3f0d36927447cc048ba
-SHA1: 2dbf74246c83ff3beeeb4e2c7ee6f704aad6d914
-SHA256: fa247074029e845e4d0b927c35bbddb0b35408ce5c888a1aad88ee73c2415758
-SHA512: bfbcd3cf2b729e6c803dbe888f3d05cac912321737bffd0688e40001e7a9107fcacc45bb9c0bca7a69582f5ac7ba0b433dc19c4477b4d7ad50cd33221f622fc5
+Size: 3156
+MD5Sum: 3a3b1146332eb1812938014fd0b18740
+SHA1: 1d9964d6483188b2b952352e751dd6f463dff7c5
+SHA256: cd44ac47db311bf264c9fb44b550e201a5235950fb29c294a00a2b748b007b03
+SHA512: 362148dbe8c67d733cf3921f1d06f4fd6a59942c7a77a6de4de55cd7628ad229643f47dc152221cdcc1e2467e4cf4522ceb240f102322bb73a06f9e6084a3a03
 
 Package: morphshell
 Version: 2.0.1
@@ -1922,11 +1922,11 @@ Description: Sleek Termux Shell Environment with Dynamic Themes
  banners that change each session. Features enhanced terminal
  aesthetics and productivity tools for shell customization.
 Filename: dists/termuxvoid/main/binary-all/morphshell_2.0.1_all.deb
-Size: 1656
-MD5Sum: 01c924885918a0d30a53f374350fce73
-SHA1: 0b725f0f5b80ef36871de92ff94e28047e391e99
-SHA256: d263739159560f9e735e089f65e740ffd4411233d2091b2cd895f818b25cfa88
-SHA512: f1d23ccd05b63800ece3fb722a1e757b8a83acfa0dbb1e01701d6d0a276ba7a86985b77837c22d4a438ebdfa9a71afd3ccdf619566dbdd636f4a1cc9333c6d43
+Size: 1688
+MD5Sum: e09bebb234d4465757c959f87ba58ede
+SHA1: 5c361414cc94182132e8de4851aca82a4202cefd
+SHA256: 265eed4407ae82d23d8e3916e9e43e4e9c1ace807bd847766ccb950e0919b784
+SHA512: 8e91830649d6237b43474e55c9230242c5736e8039075c8e6ee849ca1c6fb39f83a5658ac1df371b1114027c53d4a72e516c50faa6fdf0cf786ff88ed1567033
 
 Package: mtcr-apply
 Version: 1.1.0
@@ -1941,11 +1941,11 @@ Description: MTCR Patch Application Tool for Android APKs
  inspired by git-apply. Uses patches generated by MT Manager
  for modifying and patching Android applications.
 Filename: dists/termuxvoid/main/binary-all/mtcr-apply_1.1.0_all.deb
-Size: 1584152
-MD5Sum: cb0de41b022ac31d51f0454bd1f030d9
-SHA1: 66fed122037ac589e2df2043c1e46b564e058cca
-SHA256: cb5be5d59fd0d25c16f814e83c13d06b912455249d444629ef1b572c6123689c
-SHA512: 745aa3a92952b785e7f09a3e1c7f87df1252a9baff98974b1c064b4f25fcecdf62661c1330b40239d76de980d1a71c442e173dece65051c87381383f0755a498
+Size: 1583992
+MD5Sum: 1fa2f5ac26e20049ba3cec5c112336ba
+SHA1: 44bd81ac3019e6e1c459f50bec219cb307e08d57
+SHA256: b29b7681ce0fc938951c649cd94458cbd70b5bbf3d502faf25012f902b5259e7
+SHA512: 9c9bd98b735c6368b1470104534f40b902af1b284d269d44b5ccc47ca570de5e0bfc5a799c1829e79cba4230cce454f5e8884b0c3de8aa96a84d70a8528d8c06
 
 Package: naabu
 Version: 2.6.1
@@ -1961,10 +1961,10 @@ Description: Fast port scanner written in Go
  with high performance and low resource usage.
 Filename: dists/termuxvoid/main/binary-all/naabu_2.6.1_all.deb
 Size: 1056
-MD5Sum: 9147e8cc50a7ef7ba1857e9c6ff6eaa9
-SHA1: eec42bbeed488a14a1dda76552c48bd4a142c16d
-SHA256: e7ed453a7b0589aa8ca63e3557c847c3d12861732f9e5de92cb3c99e5a5a40ed
-SHA512: 8ac1ccdc9983baaf01626dd41e200631f9919b0e432cc8f2fb2ba4305368286a825219248fd0281337cd4e13764eab022130e26bd2edc0c2a02af40741b9e32f
+MD5Sum: ad0741acd9c1923f966f0b7ac43ce392
+SHA1: 9108ceed0a802f8f3d08a0b9535d467f3b5bd82e
+SHA256: 66207620036c00751ae22ed7e7112406b5a69e357ab70c102ee80792ac4222b7
+SHA512: 576034536a35a6efae5e0e736089db8a74191a966580567d94093676dee461cf7d5a13d3cd790b1989ec6733c86c15bb7619e9445902245537d50c438bb91075
 
 Package: nethunter-cli
 Version: 2025.4
@@ -1979,11 +1979,11 @@ Description: Kali NetHunter Rootless Edition CLI
  and packages without requiring root access. Enables penetration
  testing and security tools through PRoot environment integration.
 Filename: dists/termuxvoid/main/binary-all/nethunter-cli_2025.4_all.deb
-Size: 2156
-MD5Sum: 4ad109246ba38caf9b9a7410ab477ab6
-SHA1: 40625e866d7e7f28a8188b78861dc9e9e70a029b
-SHA256: 691f898690549e6ed795cea1443b05f1beee9bbb1ba3e4aec5a52442637ce52f
-SHA512: 97b48e4de51bccf8c2dfe224a5b53c17fe19515b4ba5a2d60aa9b7e45a07c0305067d36fe09cf476f17521ad300e3abbf9faa9c8315f9797c4df4bf875176a87
+Size: 2160
+MD5Sum: 90ee4d15eb1011e7aac722b8409f8591
+SHA1: 993df4205db79870f1a0d859786432fd85ddb73e
+SHA256: b6ab313cc873e192f89f981390c2bba7eecc97ce4db2cfab99af4b649f6c04bf
+SHA512: e21dd65bc72bd60db526ecf45f587148d65ccb4539ad0a86ff1db33b427b4fe9b42c3f2735d0972198d18d483e58a4ff605050fc65f6c8b5b1d0d14616627a72
 
 Package: ngrok
 Version: 3.39.1
@@ -2000,10 +2000,10 @@ Description: Secure tunnels to localhost
  requests for webhook testing and debugging.
 Filename: dists/termuxvoid/main/binary-all/ngrok_3.39.1_all.deb
 Size: 1560
-MD5Sum: 923bbe403c2eca559c4e5b0015d30ea5
-SHA1: 9528f017a2bb0d4f52f5d3be9883242095e7dbb8
-SHA256: 84909b1c7b744724842b8bbcdba724d4a8604c93fd0ccf56fcd0710c669a2962
-SHA512: 7b4b9c478b7c1d21f3f8936a49a4355a7ad1d7d227cce604f44ba4f25d3dc4b0e6e0e1a21744cc230a9c4bb1c7a68e304fd3b1d7c485b24b93f27624825a9eda
+MD5Sum: 444cbef2542d181475681a54cf3b4910
+SHA1: 347c5575c2d4958a78f117555d15786441eaa49f
+SHA256: 55b337c016502d9c3cd153bc1c041aad821170a95b3857f90ed8f421345507d4
+SHA512: 5b2b3e0993f88e67aa8c8e8980bb1ee2041b30a0f9ed79d5678fc9cd87efe7490c4959dc737f43cdf6eba7dbf70031b507c1a711ae8e627328d4e64b81b8d872
 
 Package: nikto
 Version: 2.5.0
@@ -2018,11 +2018,11 @@ Description: Comprehensive web server scanner
  for dangerous files, outdated servers, and vulnerabilities.
  Supports SSL, proxies, and multiple IDS evasion techniques.
 Filename: dists/termuxvoid/main/binary-all/nikto_2.5.0_all.deb
-Size: 1396
-MD5Sum: 8738a4dcefe45da8fb1e798370b94f43
-SHA1: 546990b17a61348463b14c2efc6dc7973686abda
-SHA256: 0264fe14f415721f347475bc8413f7a74cef6b4e32d5ec857d594fa61ef7255f
-SHA512: 72beed011bcd77c316eb157c81a6c6c037be7db5f04cac41e043a9083d4fb035c6fc2d26112690a18a39874e772dc759e47a79b35d5647946b4b9d750b21b2b4
+Size: 1400
+MD5Sum: 9bb5b99676110c34e2ded04e0c80ebf2
+SHA1: c15243bc0b47c788524201dd61c586263061395f
+SHA256: b36885edaed915d071ba79373fce7e19110e559a35210479c3f02938a0310bb9
+SHA512: 6ab6bbb772cf4960f401ad1c7888747b0696a52c7b943a66e82fc9f3c93aaaba0e446e358e29a69b672edcf79db2f5d7aff71a0567b7a5f4bf803c4265893044
 
 Package: nuclei
 Version: 3.9.0
@@ -2038,10 +2038,10 @@ Description: Fast and customizable vulnerability scanner
  for known paths. It is built with simplicity in mind.
 Filename: dists/termuxvoid/main/binary-all/nuclei_3.9.0_all.deb
 Size: 1076
-MD5Sum: 921d4058f54f45808c8acb2c1fa1273a
-SHA1: 951221a20b967704819d319d4522d239c736d516
-SHA256: 9f905751791b3870a6c224bb2dcca7bc2131acc34248ec529d6ae81d59691111
-SHA512: a449508149a7272638ab934b70f8dade49a80be8b66336c197985fbbab1615e04da1dc66747b69b837b9673da71d731157dd0c90428eac3cc5930498ef26d0e7
+MD5Sum: 210180e05b0488c587036ad75c550b0a
+SHA1: d815107dd25561d60b97363b8ac26936dd39b88e
+SHA256: c73b4162f32e647e3656a7b533690b57d6b36ed68d39268ec184c7072832ba7f
+SHA512: 69e674eb0337e62977c86a158de0634a68c08df67cdb962b3d11f79a79e688770944dff2795ab55c393008cba1ed7bb4e744390ee79b1a993b44e2e4771d2d19
 
 Package: numinfo
 Version: 1.0
@@ -2057,10 +2057,10 @@ Description: Phone number intelligence and lookup tool
  for comprehensive number validation and enrichment.
 Filename: dists/termuxvoid/main/binary-all/numinfo_1.0_all.deb
 Size: 1572
-MD5Sum: 047334df679cd23799e5daedca809116
-SHA1: a5ccee8fed15745df753e72c75e5e5cc44088cce
-SHA256: b9e85d33b3a47fc9976354fade43a4b42a76d1d007499ad457f6e802d96fec3a
-SHA512: cfebbd3b9ad1f09f23825f066c833dd2d4f64668ee0227808b1332c94c31a6fe0c72e26233d858cc39771a0a2720fa43a6795bedc1821446fabaee59ab0062f5
+MD5Sum: 423708c974d99d1d8d96c2914c390aea
+SHA1: 1655453fb8a2b1dd2f689882de278d7a0da24f2e
+SHA256: c8d6db37825247b54240a6353229c539acb1a41e9ba74065e2abb1e67af91b4e
+SHA512: 3a499e7ea47347447fd4031de5f0e41f890d60479c70cfdbe21c9f53eaded6fa0edc2747019c25111c63c01fb84459a3f99e243f47c3d0a76f5c1db883aab522
 
 Package: nvchad
 Version: 3.0
@@ -2075,11 +2075,11 @@ Description: Neovim Configuration Framework
  with IDE-like setup, themes, and plugins for enhanced development
  experience. Pre-configured for optimal performance and usability.
 Filename: dists/termuxvoid/main/binary-all/nvchad_3.0_all.deb
-Size: 1312
-MD5Sum: b141976cf53720e941f46a1a73f1de7c
-SHA1: 5311e86538d12fb1bb66e0b3c836f3831bf60d09
-SHA256: a5e5a25d473f3dd837bb908483abdd15e835a34c57abe3e27cc7e366730d52ee
-SHA512: fa8c3be44e361aec44a1649e13d399e3209bc514f2f705ab4f28d325e4c2820e6d0e6932c46419f6535bc5f61f6a6014d94348ad5f7d30b3da9378fd89a01d92
+Size: 1316
+MD5Sum: 326fcf35330ef7e295e0dd763987e02f
+SHA1: 5f38bcd3cc68ea561f2a1cc659ab4bff3ce7bbcf
+SHA256: b5e78c655cb8a4d6c7f637b8f3da989a6171c200d06376aa824506daaccf106a
+SHA512: 8c0e30cd7c3333d97cd4d15ade163ffcaa1cbdf80e9e8730e739be1d475861f482eec729df959d606c7ac5076655c7b80b25c4ec14ab3cee879b39217616bc68
 
 Package: onionsearch
 Version: 1.3
@@ -2094,10 +2094,10 @@ Description: Scrape .onion URLs from various Tor search engines
  for cybersecurity research and OSINT investigations.
 Filename: dists/termuxvoid/main/binary-all/onionsearch_1.3_all.deb
 Size: 952
-MD5Sum: 9ee106810f070050cf6b3fe0cdbee8e5
-SHA1: da138bc87cf6cefcf9e66a1b52c1fa9768afdbfd
-SHA256: b997249d3602101615e6ebea7e285c716bbff97414edd87c065ece607edaa0af
-SHA512: 81d3ec987a774120a7d6d657c6daa47c1fec5fcff713f0b53b1e2de9a0996475e7cc0721ba750b340497d3f56688f1b2732a7325c637632d7e5567ff36d3ffc8
+MD5Sum: 1182636df30490260e7d8248f6e88c02
+SHA1: 0bdc0620f30b1648a2a2a163a508e1366b4f8e4a
+SHA256: 629e4d5224fd3402b0f341ac9224de44f0b3728ebc47dd45ca77c87ae40c2523
+SHA512: 7fc7e09d088b599a15cb8bb5a34f551ef121a0dff2f66e4d50bf29c6895374a3252a7bc69da72e3ed0ad804b9b9daff2ad5a2ad43cbd60987c8a53f0eea8ab70
 
 Package: openbullet2
 Version: 0.3.2
@@ -2111,11 +2111,11 @@ Description: Web Application Security Testing Suite
  OpenBullet2 is a comprehensive web application security testing
  platform for configurable pipelines and automated testing workflows.
 Filename: dists/termuxvoid/main/binary-all/openbullet2_0.3.2_all.deb
-Size: 1488
-MD5Sum: 476d0c416c358e8eea169ddff2042c55
-SHA1: a8612bf3316df4fff8ab9c8c471dd8f9c9e9cefa
-SHA256: 4504d4bd00dbd146bfc7189416c72cfc1f172c7b65bb89088f4228e79733fe07
-SHA512: b2330dd740bf2fe097b572c9db0ed1511d870724fb2acdc4b64d736b540078a8a192d6581faa9eba9603485e9ce52dfd9c7cb102ca2df557c5d69f622c388507
+Size: 1516
+MD5Sum: 659ab08f2a9777529c84020dbcf34c71
+SHA1: 07ee5bd659e54516bcb534256b506c2158084c8c
+SHA256: 7b602acd562de2201b67e3f97a92ca84a9fad8e2929147eb2f013e7cff9105d6
+SHA512: b28b15ccc37314a250ce07a4805b51a1859df733355fa44cecf756d27fa0096d6d4791e2f3af53c23b25b1d7cd710dd41ca103ca064de19f04a9f44849d7b060
 
 Package: openbullet
 Version: 1.0.2
@@ -2133,10 +2133,10 @@ Description: A tool for running openbullet configurations
  - Real-time results monitoring
 Filename: dists/termuxvoid/main/binary-all/openbullet_1.0.2_all.deb
 Size: 1420
-MD5Sum: ca20e5e5250179756679fde925bbb233
-SHA1: dee1b8ad42b74505e32f671ae011ae8c5d68a04b
-SHA256: 83bce50ccb962e9f4860f00a2edb93fb4ff0be38de14021ace0ea0f4c474f233
-SHA512: fbf202d23390e0945cf86b8bb3decbbf19ddd82d96b61cf9072d9f0bfcb4c71a6110053051d77144f0d5cd023c748aa4140de66f7b61cee3144d73878b9262c5
+MD5Sum: 8b2f70ffad132a9b06d168a7fd47171c
+SHA1: dc7aebcfe8d48f97a67f42f54ef128b0f338eb1f
+SHA256: 5e9cf16a4479f8cdef28a35fc960d5feeb151b276b41b6420d553eb3a4c01ece
+SHA512: 8e8d2ff7463862f7bc6adec86f4d09e132ce1676f41e8fd3881a365a8f45fadc4ef384b84c83f29fbc0cdc77696f9fe111c355b7bd790ec145e826f2b4ee48a7
 
 Package: openclaude
 Version: 0.21.0
@@ -2152,10 +2152,10 @@ Description: Open‑source coding‑agent CLI for cloud and local LLMs
  with features tailored for coding assistance and automation.
 Filename: dists/termuxvoid/main/binary-all/openclaude_0.21.0_all.deb
 Size: 1360
-MD5Sum: 40fb1877e6a948a90d1f6a562013d84c
-SHA1: 9badb1ea377107aebc602a761576156266d2f738
-SHA256: a8e5c4a79986d35ce6fff8d30a84eb4e4750e837c8654ab081a0edcc44e8ae06
-SHA512: db456fb300823e989b404a5a49bcc2e0b6548af849192d7eb1babb67562020333ebbf75b6c9652338bac3fb7135e7f3af6ed842ca2febea001196a0ee06a04ee
+MD5Sum: 6da5edc1ef0a46c6346cad6ce3cee6f1
+SHA1: 721243bee65444ecc53ab617f355ee67e73740f6
+SHA256: 38ffa759fa78dad3472be9c5cb7cb14bd48aabc259a8bf50f0bdb89d5485ef2e
+SHA512: 425bb54fd30e5ff662dc2cd2a7ab03ea34c5a455baf578969f70d6a5d64391e5e5460285686041e9eadbc15c455df6affd3eb987ef19752d1ebbb09a48b6ba77
 
 Package: opencode
 Version: 1.17.13
@@ -2171,10 +2171,10 @@ Description: AI‑powered coding assistant (glibc version)
  inside Termux’s glibc environment.
 Filename: dists/termuxvoid/main/binary-all/opencode_1.17.13_all.deb
 Size: 1920
-MD5Sum: db9c7974453163c0271bfbec1a528db2
-SHA1: 9593da825cc57d1d45ef95531bb01db6e8facfe8
-SHA256: 8dd8ab68981ef03e5edb233b361eab3349189556e455b9c63a3f703649cd078b
-SHA512: 3ecdb4f6e3f0a19c25f74a10e6eb0831f50bc1270c891456e2c626daa6251773e148221e71627eef61e4866eae5f333b143c37623f22ac384009bccab3a9af0e
+MD5Sum: 06d04bac0860d5e696352304fc2ef593
+SHA1: ca1514f478f6ed6479766e209b1d10a1930ca96d
+SHA256: cd327b28c0783c7c31a1ba16c448edc01f871422c343a05d8c360322da15b49b
+SHA512: 685cf639088ff550567d91e15e71c9dd46491168ba5ed6a288cb5d7b550e78fc55a3fbc25dbc2b6e3f7625f67a1560568eca7c679e26433364dc4bb5bbb3ce36
 
 Package: pairip
 Version: 1.3.10
@@ -2189,11 +2189,11 @@ Description: PairIP Protection Removal Tool
  Used to remove latest PairIP protection from Android applications
  for security research and reverse engineering purposes.
 Filename: dists/termuxvoid/main/binary-all/pairip_1.3.10_all.deb
-Size: 2106216
-MD5Sum: d23ad821d9f23d31179fb9648ba52e66
-SHA1: 029a28d592c7d69e44cb01d722d20f1c62ee9f3e
-SHA256: ef21fc9dc7848113bf0c28ea324caf18d65169813a4449094da79c6b74d3f40d
-SHA512: ea3eb164efd940cfdbfe395a1adf1732faac879ab939518552d078cb4437c087cacdcd14382b5183c8df032608bf4bd0e250e8a8eca22149ca6a90d5346a8447
+Size: 2105892
+MD5Sum: b7c22adc33db982cc1f62dcf540c5309
+SHA1: d045aa6bbfc2229ca8ab8756fe4fc10d71e69f46
+SHA256: 9c57d9d33f48e401e634933cc0116b0320bc73a8c1b16c331eddc6f9c1783297
+SHA512: 63d0b6bf18500e38706eb232ba191d489d82c7504632b25f1dc8633a3d6f35697ce0c77ca1c58d76a22dccdacc492d5c169ebce5559fbaa7e5df4db100a710fb
 
 Package: pandora
 Version: 3.2.0
@@ -2204,10 +2204,10 @@ Depends: git, python, wget, curl
 Description: open source osint tool
 Filename: dists/termuxvoid/main/binary-all/pandora_3.2.0_all.deb
 Size: 1036
-MD5Sum: f6ac5988f07e50c7502739139300c6fe
-SHA1: e45879ad40adb18b0b9f869f4519953f9d2e51ce
-SHA256: ef61b1aa3e945368ab08496b24be309de699c9a543fbfbc5b80a90654ad3b158
-SHA512: 726c922dca04a20d1c51939131af2a65852d7daead11838154baff428507506de0968a61306d8a0683f439316ed2c51637da72b1cda580ce2b78d04e797c8475
+MD5Sum: d84d6ebc9530c6c8dce52c222962b092
+SHA1: a595aef5a9dbafdb716751e31fd693f7746c01d3
+SHA256: d208444c52e49a17007705e37e06bda20d8e3f1b0d35f1be104dbb6fd96ab94a
+SHA512: d76873084ec2661361449acf4d04287f16cbb500097ca299ad62c1ef8dca783bba69b4d4aabf37a11deb56bb17a2e90a54fe69089934a7d311ac3f5ac9c747fa
 
 Package: paramspider
 Version: 1.0.1
@@ -2225,10 +2225,10 @@ Description: Parameter discovery suite for web applications
  - Massive scale scanning
 Filename: dists/termuxvoid/main/binary-all/paramspider_1.0.1_all.deb
 Size: 1244
-MD5Sum: 0b8d7da90ed60f6b4cc3f839ca1305ef
-SHA1: ef991ba0a59a5e123a8d60fd59aacf36ae0f0b5d
-SHA256: 36b95434eb7e76adb35ac3ac1f5f936327fd0926752f0572c3ccce9c694b0d6d
-SHA512: fda921b7d515d04d450b4c3259c5ed2df94b6f5c76978bfdb5824522aff5ef228482ebc9a07147f46bb09c683623b74772f4faf85406ce2a6eac8d17bc5fce79
+MD5Sum: e1947d508c5b409236062d9085b4649e
+SHA1: 518c40da9609f57874fdd24cc2cdb67e4e5d16f4
+SHA256: e6b3347501bbd7ec461403c75f6abfac4e278218a8d9809e57af898e999bddd7
+SHA512: dbd65b930bb24b09e2426cbc288fc358c8102f73e4ec6209561b92ac38918b9275e96eb32f5194d2f52be04129ce0c8680d66bd31e763385be9ba3a47542fddc
 
 Package: parrot-cli
 Version: 6.3
@@ -2244,11 +2244,11 @@ Description: Parrot Security OS 6.3 (Lorikeet) for Termux
  penetration testing utilities, and forensic analysis packages
  without requiring device root access.
 Filename: dists/termuxvoid/main/binary-all/parrot-cli_6.3_all.deb
-Size: 2004
-MD5Sum: 7561d0de76fe5d39429430f6702e7f6d
-SHA1: b69a8f44def4b82ec2007ad1b16bb4d778944daf
-SHA256: 2ca87d034bd0c159ff155c02e2e05364560854ea571ef26414bb5abd5c1d7a15
-SHA512: 249e8e706e1ac5ff3c90581d70e5c50699ffc2b1e8797bb201d3b2c9a1b8df00089f60b38d0403511b1aab4864e901477ffa4b1c3bc71383eb9a8f6e1f57c72c
+Size: 2008
+MD5Sum: 0886b2bb9175832c3571f5e1988a0041
+SHA1: 538c51f4e7f844e09f18a9d05bc692d3496adc54
+SHA256: ce3e7bc9fb3f899f895178a81a518265d6eaf22b3dec17c2515ffa5383b59242
+SHA512: ee9fc4f2934f47490657d2102a7d24b9ba0e7f2a668e3b5d4034719658f675244c2ee297b1753afe45780eddc328359faac872c669dd5d7c944dfc054e87e806
 
 Package: pdfcracker
 Version: 1.0
@@ -2260,11 +2260,11 @@ Priority: optional
 Homepage: https://github.com/Anon4You/PDFCracker
 Description: A powerful yet simple PDF password recovery tool designed for security professionals and ethical hackers.
 Filename: dists/termuxvoid/main/binary-all/pdfcracker_1.0_all.deb
-Size: 2200
-MD5Sum: 20498bfaedff50b6ace55efb50a8c25a
-SHA1: d6501b8ab547518097ff04eb721a92268d3582f8
-SHA256: 89d93274b631e836548a207f51cb0abfc31702c361d16cacf0ab70cefce4fe43
-SHA512: c0e3aea36a1ff6dff643342900979f73847f6a450316691db0724708f0fb90219c303db4e18e5b8a8ecb0bd6fd9d71386d0bdff7e8ad8160c5306150aac1cf00
+Size: 2204
+MD5Sum: a088f3b6d9504d0043b0203d9161489a
+SHA1: eab2ab1ee7ffc071b27254b42f1b6d3039130922
+SHA256: b102267d8d99eb40f39895ad2ac4061e0a5b5be64a5cfc6a0d4edb262b7e55ad
+SHA512: 866c40fa4620639d651fac8aa44156c0d9fe1a0e254f5cae6c599957d6bd64283c9601fd836bc56a704be665a24ca5f6e91da0b89b89f2e6ef990071e68a36c9
 
 Package: phishmailer
 Version: 2.2
@@ -2279,11 +2279,11 @@ Description: Professional Phishing Email Generation Tool
  for security testing and awareness training. Provides templates and
  automation for creating realistic email security test campaigns.
 Filename: dists/termuxvoid/main/binary-all/phishmailer_2.2_all.deb
-Size: 1308
-MD5Sum: b5321191c8a16d50e0f1e59aee4a6ed8
-SHA1: fff2b716ae375564d0ea53f61313eaa039fdea81
-SHA256: 7c47216ec54ead23894cb95c5bc83b5f7f44efc3a651efe9bc0e5f87e5ec6196
-SHA512: e98161eecceb9a41bbb16e03b27e6b062f80ea001a5c76bc1b82f0bb7d925a0f9b9718fc34e88e46954c9fbc74040cab27197277f63639fe24b4a563fa030ae0
+Size: 1312
+MD5Sum: 3a6d325abd3e9fd6e5187519fc390459
+SHA1: 29a893f91d4e92874ef0686fa2a04973bcc4f93c
+SHA256: dc2d8a4e3186da8dd2779e98060c921b1f77d64f5f64c2211ad1bbadbe64771a
+SHA512: 9c7e56bc1a5084e9abab753369d23478453c4fe42c86421ba3f1dd49ef058a7f76bd06970c5f11730bf23c2b79bec104a302ed0900089acd35dd948e0cab590d
 
 Package: phoneinfo
 Version: 1.0.1
@@ -2294,10 +2294,10 @@ Installed-Size: 36
 Description: Phone number lookup tool for termux
 Filename: dists/termuxvoid/main/binary-all/phoneinfo_1.0.1_all.deb
 Size: 1396
-MD5Sum: e9e625f4d052d9fbace00fdc959f1788
-SHA1: 261d1dd0baddeeaedc63ff38937b24001bb9a546
-SHA256: 31243a744f24179d8fccac949aadeea5d8da891d6c981cd2d9f0537d9540cfda
-SHA512: 3619b2084b5a394c284fc6a54a26db5c0743a16f57f4ed798a8afbd644822b913dbeea89d4a5ffe5d04d15ebbd42376b49e9fadc0ea03dc7fbd5246038ab99ab
+MD5Sum: 62b80bb2c415f68fbd53e29a0f0f128a
+SHA1: e9f189b14dc0d4dd86df79cebab9ad7b3dbaadea
+SHA256: 070a834d4f7b684fd7351c2967d7a5b97286d2e6da1182060d6099a8ca87a85b
+SHA512: 7cce4cf4b8ebe08f42607c1bf578e7a7836085136737c94a6cdd1292bb91b395400b442429eace21b63c71e368571f2602fa5b69a321879fc4cc89cb3c55a5b8
 
 Package: phonesploit-pro
 Version: 1.61
@@ -2312,10 +2312,10 @@ Description: Android hacking tool with ADB
  Supports both USB and wireless ADB connections.
 Filename: dists/termuxvoid/main/binary-all/phonesploit-pro_1.61_all.deb
 Size: 1344
-MD5Sum: 3dee73be787e8fdaa8e5ea2d50bc211a
-SHA1: 3378370a7fa400eca7a7f4b4f1be3cfe1a983cb4
-SHA256: 83183b1215db77dc1e466df939c58eedc4018b46c63668af75db06b5f9a57873
-SHA512: e9a2b6ca3382cf0a6a95fd62d90ea3e09fe86555320fd4cbbbcce54e490334a200149ac7cd1a8d6514793292d2ade2d2aa967c2bfd383324ee8cacfe55b3a574
+MD5Sum: fe7b997210a9557311ec6e85ff30e910
+SHA1: cf0ea398f09745362b892846ccd1c776a4891eb8
+SHA256: b0211e47c7874834bd24fd323f4f51c098e4eddf94bed14b81bd13e63bad6f4b
+SHA512: 1318c083e5d1db50b7b674610c63835f5b9ea9773db798be1a8d0c802146f4f5cd203393a56c249893edfe549a0db51ba6b754a7dbc9c5b2462dfeca78ddf738
 
 Package: photon
 Version: 1.3.2
@@ -2331,10 +2331,10 @@ Description: Lightweight web crawler for OSINT and reconnaissance
  OSINT and reconnaissance purposes.
 Filename: dists/termuxvoid/main/binary-all/photon_1.3.2_all.deb
 Size: 1196
-MD5Sum: bdb246c928285ca6b41dcfebd7d3fed1
-SHA1: af5399a3704894c117deb92bf5baef0b1e4a92b1
-SHA256: 5e919c0fdfb1191d030ed49e0806932cd14960814ecfee620854a355cf799d50
-SHA512: 65d1c8f12d0e90377e2a4c893a83fbb4b57f01defb945c4adbf7ac90d300f9a407508d0e8ebb39d1d1f3e0cfa857145f6a2e447bcbfd994bc1c1032fd531bb78
+MD5Sum: 047ffea309bf6f09d60e0e2383135873
+SHA1: 746707509c26b5885830a5cced6dca12c47e93d2
+SHA256: 5b86ac662ee1390341b124a31ea80fa85abfc94659d338a378ab84ac214a2a2b
+SHA512: bab5f30183855bd8fe53a86091e3a9595ac774505e58b919f59305e7c422ec83450e10766ab34d509b161702febd8b68d95f744fd03683956b1fd056bd4aa396
 
 Package: pip-basic-depends
 Version: 1.0
@@ -2355,11 +2355,11 @@ Description: Essential build dependencies for Python packages
  - Git for source code retrieval
  Ensures successful wheel building and package installation without errors.
 Filename: dists/termuxvoid/main/binary-all/pip-basic-depends_1.0_all.deb
-Size: 1692
-MD5Sum: e4d69f5c3fc8054c540d0675419273b1
-SHA1: f2f67301bb245e4981a1a6de8cd4945cca1ebd70
-SHA256: 070a80f7659f3354d9c968a49df5c51e1658e7105ad268004d1c5512850eb792
-SHA512: b3c7d0738cdcbf300f7c48b4b5597f20681ca1ce0c73402cfd9cde98b7de8bd25bdfaa94e2dcf44374d5526364806030e206777aafce765284b4550dc667af10
+Size: 1696
+MD5Sum: 9421f99e3302130fac4c7e4d72c4d2be
+SHA1: 7a093675dce8c5101d74f6f4ede4e3d1b1d2eaa5
+SHA256: 12032719a104233f405e9f3ea6d5735df777b8030401e26b67f456d6873d9836
+SHA512: 2bc0966a301032b8a7184f56ecb6961b105416ad73babde6cbf574139036522398af27e5d03764c01d62f9e00779693904f2a4966689d8f25974c14cb8b4d3e9
 
 Package: pkiller
 Version: 1.0
@@ -2375,10 +2375,10 @@ Description: Automated PairIP License Removal Tool for Android APKs
  bypassing PairIP security for security research and analysis.
 Filename: dists/termuxvoid/main/binary-all/pkiller_1.0_all.deb
 Size: 1364
-MD5Sum: a975d31d3f17b5548f4176e6b654a9aa
-SHA1: 4f134bad4eee44cf5eb02ea4466e06865075d3a9
-SHA256: 33a1b4cbf3fe34f187dde7caa4aebb9cf8b94d877c2d4a11a5544bd9143748a0
-SHA512: 4dd2c0e7747547741bf392723baad4dca660ecc7ef9109fc6fea3c82ee347280208c5d5059583465d8309c94222798764f759014cea27c6e9230560329fad7bd
+MD5Sum: 36572edf248401fa3b077ad21be5f804
+SHA1: 7c28dec7b2221d9b6a7a453acda9596504193edd
+SHA256: 11c60ab1af7f289bb14f07739a5ddf4cbcaf8a4322b6496e53e810b1bc56292e
+SHA512: 67700cc796c53a122e6593d7f3660c65980c1a88c91a62ae88df0c9b8f5f604ba7f084dee15667b3d79d0628c4ed6f317aae9be5fd0cb2ec28bbcd9a3588d70e
 
 Package: playit
 Version: 0.17.1
@@ -2395,10 +2395,10 @@ Description: Global Proxy for Server Hosting Without Port Forwarding
  Supports TCP, UDP, and HTTP traffic.
 Filename: dists/termuxvoid/main/binary-all/playit_0.17.1_all.deb
 Size: 1492
-MD5Sum: cfe1b217d9b75b66764158265222ecca
-SHA1: 835c8a426d5ea87027cb6aaff124715087f16da3
-SHA256: c0c237e8b1b351fbd717fce3463a27617f6178c8fad357abbbbe0ab3eb5e454b
-SHA512: 6ae46010d50846656630ab4133cabbec0a81335e5d4c85ee17bacab6dfbdf873e7ad98a4aff476ebbfcf7123f64b86311936ef0cead46020872bf8a4e3847010
+MD5Sum: 79da8a96a093ff82ec49ec7bff95c3e6
+SHA1: bcbfbd25bf693f3349cb79d6a9689dcd5c68ba3e
+SHA256: 1fc6631b262cb48ea8f6083665eac7f8aec345037971b49ced68d1459d837204
+SHA512: fb587b01f3b6e5130964408f77b302fe71a213f864bd6cd6670ba3621c7472a5c5242254858755955ab5c04326d08ffb43401d3488c349ab7824ffd3ee88dd1e
 
 Package: powerdos
 Version: 1.0.1
@@ -2408,11 +2408,11 @@ Maintainer: Alienkrishn [Anon4You]
 Description: A multi-threaded Denial of Service tool made in Python
 Installed-Size: 32
 Filename: dists/termuxvoid/main/binary-all/powerdos_1.0.1_all.deb
-Size: 1940
-MD5Sum: 40a402a3a590a1eca6f05a89948a9d79
-SHA1: e9cb3e2e9923dcdfe2c8ecb794007af21359a2d1
-SHA256: 35cb46bf39a2a47511cb701d21d539024502733cf167da55f330f8b72783d012
-SHA512: bc16ecd8f49319db6e869e9cd81009ff66c2c3afa2977518c819be04fd759fa94e3b04d668aeb2102a71c2e5919e40995f2dc0055ef099aa861fd70d3c231b6b
+Size: 1948
+MD5Sum: 8be2ea86ac2ef4293e8b1715cde62b81
+SHA1: 4004d7e049ec8cdd0f0b15585f9ab47546ef16ca
+SHA256: 11abcdf1cedc0961056d9f92b85091bb852c2232a0f170e8f1aee537c66fd7a9
+SHA512: ed830494e09c4aa039ecec0f4469ac60a0456078bf032b2cc34776b02b2f90de7891bdcde5fa72c80b3229b5fa651341c8ceca8f5c79f3e83d3f23663aeafd77
 
 Package: pptool
 Version: 2.0
@@ -2425,10 +2425,10 @@ Homepage: https://github.com/Kirlif/PPTool
 Description: Python tool to find the loading addresses of Dart objects in libapp.so through their pool pointer offset.
 Filename: dists/termuxvoid/main/binary-all/pptool_2.0_all.deb
 Size: 1100
-MD5Sum: 0c6796ccb960768b1023b24f5142a11c
-SHA1: 43ca1675ea981babd19f95aebdc596de5f2a5c42
-SHA256: 607fd8a71109a9c5a04a4b055578301f508215521d34185eb430027589991d2b
-SHA512: 910022598dad93a93da0466fba5d93aacd71f0228c17eece6ac4f59f8e1a6ac5afb8f8621ad5d4f5e57d9a43d60dae22800bd3e1a19fe06e52f612f71e4cf15a
+MD5Sum: 79c53417e88cc0e99fab5d444b139a80
+SHA1: b3d98676e38f6643e4bd70074138fcd7c8ba96b6
+SHA256: 5c454569979c8fe9da6e2af888ff445c72721dc18bba4b6568ab783958589c29
+SHA512: dc345eb2202e2ce3b81c29651d35564a264d89d7f5d5ec6c44c4a0f187600a8f2a9483d8a015d04bade19b2a1147274879eb21a4736df90bfd1090624f7d0aba
 
 Package: publiceye
 Version: 1.0
@@ -2444,11 +2444,11 @@ Description: Comprehensive OSINT Tool for Information Lookup
  IP addresses, company domains, timezone data, and holiday information
  using AbstractAPI services.
 Filename: dists/termuxvoid/main/binary-all/publiceye_1.0_all.deb
-Size: 3532
-MD5Sum: 4f2af51b94f92090acce4a66871f30ac
-SHA1: 388c4cd77ba7681edfb73e4ca089a42718ffdfb2
-SHA256: 38e4e8ce164510802ac6d00456196e938883b483671c2764af233d3383328a77
-SHA512: 6afc54db1cb7fb1a028099b398a700d0b2ad5fabdcffc320293b3205833145d241a9715ee1f07947b8a5f8560edaa34025149c63e7771ae3daa0422d583c1078
+Size: 3528
+MD5Sum: d1d9b2e70bed1575a74fafc7882462f9
+SHA1: dc538e95b7d9afbbaf96dd87a825b27fa8c13b51
+SHA256: ba14f1061a564223de1cad09298651d5d830bf279e237517f9d0d8873ddd1805
+SHA512: 4528622d49793d6b4f5507f0b964e1ee2f9fa8ddcc42e38e3452bb2493e5ad0097aa3524d90f0ea9a21a897dc57ff01761adc81a68188c0430f3eb8506bfbf2d
 
 Package: python-pandas
 Version: 2.2.3
@@ -2463,10 +2463,10 @@ Description: Powerhouse data analysis toolkit
  Optimized for Termux with OpenBLAS acceleration.
 Filename: dists/termuxvoid/main/binary-all/python-pandas_2.2.3_all.deb
 Size: 1484
-MD5Sum: 2ab5de296780d9c1787337fb595a4994
-SHA1: 06c47a5876a6e6b52b130e9a7c6316d07a99ee4e
-SHA256: d729dfce8a23623975037e33fc07d237969171a1ae3818e06defe4a5d2712854
-SHA512: ff83313056fad950c43b1047a6f1e11a5c29ac8ee5ff03f37216b8a6e320af49f1dbedbc707c4c788a4f01e2e7a38dc3900f7bd4cb5dc616b1fdff4b18956224
+MD5Sum: fa0a54167fb34b198ffa641add18e7c7
+SHA1: f3a571ee39906c2f8dd370d5e784be86e00458aa
+SHA256: 02d41de138622e05306c5477f198fc49a82c7c5f03404a889934c085f035c408
+SHA512: eda1940e301ef3760ff8b93d648152eaf09fd3cdc8d50d160ab882b058996b1b9b254f2e0ea679096e1286da95d4a08863297f0d4b2e58e640a290926b0f5e7b
 
 Package: pywhat
 Version: 5.1.0
@@ -2483,11 +2483,11 @@ Description: Identify anything - text analysis tool
  - API key identification
  - Data type recognition
 Filename: dists/termuxvoid/main/binary-all/pywhat_5.1.0_all.deb
-Size: 1188
-MD5Sum: d25fa63a273420f2e1bc011ebcd4bd42
-SHA1: 145a45de906bbc7c5a0cc65600bb08ad181530f5
-SHA256: 28401c130fd343e7fcc245c013ac7e2670944a6e5ba6cb3b1400f8687c1dfdb7
-SHA512: 2d71b6d301105bef9271abca21f516da66dcb9906a78558b93efb2cf10db0359e76641936b67c2e3a70b976eedc8de97165148be9cea72755de625901827565e
+Size: 1192
+MD5Sum: 16dd301797e61b3a11e539c71be2ee6d
+SHA1: c0201410a7467cfe8ed90bc7757bf74bfc1e4fca
+SHA256: 76f4c2b0c1c8240fda6a13777fbe0e87777caf50dc58a156eccc47317cd38203
+SHA512: 008c376f80dd78ff1e697a5cceb3c6392947e1d1dce222a091abe5ed2704da72560125a3b41a8da2d95b922a6b9ebf3190e8303447617c17871d561273c6b86d
 
 Package: qdl
 Version: 3.7
@@ -2502,10 +2502,10 @@ Description: Qualcomm Download Tool (QDL) for EDL flashing
  Built from source with Termux fix.
 Filename: dists/termuxvoid/main/binary-all/qdl_3.7_all.deb
 Size: 1344
-MD5Sum: 0d783c15905061949fd87be761902b8c
-SHA1: d63259961a7c89e41cfc859633e6fcfca5eb18b3
-SHA256: 5b545d5179c0a43f7571949d5a33fda815f32469916222650a3f2a07ae7a902d
-SHA512: c85d4d6698b6c96a0d8301e223b09a924323f2447d8ec3adf5a9ad58824bb0c823aa2eb18394873cedc441a36a9ffa004e4f9c96f00e0713ffd4a9a8ef476ad3
+MD5Sum: e53d5b75d9aaa26abbee09d3056065d7
+SHA1: 59ec791725565ee48b97130836fe6f279d3e553e
+SHA256: 3a51729bc41aa74396a061b421faf8b98867264c53903924a0b29ae22b362422
+SHA512: dee53f316699193052eeb551782f84c3ead1609c2613e6a908fb97157fb7233d65378742e6f1c099cb0287d46e0e4b0787578ccc454239952b8c59669cad3405
 
 Package: qsreplace
 Version: 0.0.3
@@ -2521,11 +2521,11 @@ Description: Accept URLs on stdin, replace all query string values with a user-s
  outputs the modified URLs. It is commonly used in penetration testing to
  prepare URLs for fuzzing or injection attacks.
 Filename: dists/termuxvoid/main/binary-all/qsreplace_0.0.3_all.deb
-Size: 1208
-MD5Sum: f275bc6437a862b515d47583376b4a8f
-SHA1: 68341ceaa316e13e56362e2d455572688a11b831
-SHA256: 676aa6b7c7dd889c06a6dcbb419f55f9a548d3488d74f25c95d122767e8dc52c
-SHA512: e70ea42e9cda24ac7bebf46bd76ee71a07548fb35807bdb2a59ee97ed3ba8329239c213a49359df3b18b79fa3e6f18f1a8d0919f2ca024f03847f7b134dad8d1
+Size: 1212
+MD5Sum: c49930c9a8257833595d8966e4a57701
+SHA1: be8d30300a82bac97a73fde2a34cfae2d2bad4d1
+SHA256: 78944fcd2de1eff052ae139894a8880ee596aa6cbe1139b6b372716b42c4635d
+SHA512: 61a1b862ef784590f035cd80ecc4a86e4afe364eecde0d0a88571648c12f127f866b6ea60a29629760dde493af97578c35c7649dacf92cf17711398941ce7ee9
 
 Package: random-banner
 Architecture: all
@@ -2536,11 +2536,11 @@ Installed-Size: 1
 Homepage: https://github.com/Alienkrishn/random_banners
 Description: random banner and quote
 Filename: dists/termuxvoid/main/binary-all/random-banner_1_all.deb
-Size: 904
-MD5Sum: 3b662d99cf814b19abbbfb92dc6f02ea
-SHA1: 29a6d8f3c0a7a5fcf34079012adf269a4794294f
-SHA256: 77e309339587d71b4a390c010b176d0f170e2a9b596bee631520d2dc06916481
-SHA512: cf95c777728cee6547c3c4988b7b404fd38dbc7f2b4a01ab71926a63fbb1b3902fadd1ddfd94a74628f087e7c150a2dc9f54df6a1fa8c194ba06d4f76827bd35
+Size: 900
+MD5Sum: b76491376d50b754d3e454b1389ecdc3
+SHA1: 393da9f204ebded9bf5d8c21b0d3386d594a6ad0
+SHA256: 631ae2f380d38a3a234836d18c7cb9c1a4c65892b050ce44729b05b89851a467
+SHA512: b690e6a10028ff084ac0ca892e6b8d66de8221e1ba18a22cfea9e0d078bc14ff15994a23c2c356b214fde148f72a181432ab7e970f54b8b329a0deb56b4c2d0a
 
 Package: ransomux
 Version: 1.0
@@ -2553,10 +2553,10 @@ Homepage: https://github.com/Anon4You/RansoMux
 Description: Ramsomware making tool
 Filename: dists/termuxvoid/main/binary-all/ransomux_1.0_all.deb
 Size: 1196
-MD5Sum: f717a86971258eb7669585bd50c7e0ad
-SHA1: 16b2c9fbb60b44ed88880a967ecdd18ec12d18c0
-SHA256: 4d42238ef1e80da3bedc1cdce2771fbd53aa10ca920f80766d4d19e2719a5c6f
-SHA512: 42aeb2c1e868404f76997776704067421b8aa1925155f40fa3c353de592131d88530d66283b809babe12a7375aba1c953bb93e0f297a82d4f1a2e012f950ddc6
+MD5Sum: 6487cce5c686648e10f9b294d7962bd1
+SHA1: 531fe141a934d6d9b5a613cae0af98bbb5880f1e
+SHA256: e349190f5592b80b8a2b9acb16aa034970d9981951a4e62cca7011eb657cee8f
+SHA512: 64d3c7290b5b0fd8b26c384bb83f2bfaf24e5d5a4b61b73983821d261cb85b6a64ebd3e1cfb0bd089284feb1d915027f3355acf499b9f814d81f8c2bb011966f
 
 Package: reaver
 Version: 1.6.6
@@ -2573,10 +2573,10 @@ Description: Brute force WPS PINs and recover WPA/WPA2 passphrases
  improvements and bug fixes.
 Filename: dists/termuxvoid/main/binary-all/reaver_1.6.6_all.deb
 Size: 1292
-MD5Sum: 87f29c0726c670c89e8b4c3564f399de
-SHA1: 4e25bba1ef48a5e66ac7a6db22ad837aa9299436
-SHA256: c16e355c246d75c945d07e551919d43cd3e5ebe017e5e9f17be64a4c62cb700c
-SHA512: eb8bfdb88e4dfb4539a68b0805cc7b464e4f99d7f903bfaa4e4555a409dd2f630a0c6e653045decbcc31a43054a60e9f8f06b986837bd4802db9efd7aee09b94
+MD5Sum: f712f3affbc1f43e68012c9261b5002b
+SHA1: 7b832ff9ccd23a06e79c30673d16af88124e7c7f
+SHA256: 3b5efa4cf4e8ffd34936b9bafcb34253cf1a7908dbf7937850d06e59ef2757af
+SHA512: 82697f52116e2e27ccec4efc8879e617906e9a0776fe1b97fd8a8895e0c352a68304369712faa00b1259444fc7bc6ab1d8803d03471135513d920c893a6a521c
 
 Package: redhawk
 Version: 2.0.0
@@ -2587,11 +2587,11 @@ Homepage: https://github.com/Tuhinshubhra/RED_HAWK
 Installed-Size: 1
 Description: All in one tool for Information Gathering, Vulnerability Scanning and Crawling
 Filename: dists/termuxvoid/main/binary-all/redhawk_2.0.0_all.deb
-Size: 1468
-MD5Sum: 33d6fb6091bf45f7bd76d46e48c7ae12
-SHA1: 7991ea8fe74e5431d3a9e743f88f5fb9c3caac00
-SHA256: 83b527f354932384ba17fa0ab6287e3132ef459eaffe9b4b86d388e7f9efb886
-SHA512: 7a8aa4cdbf86595d3e5de314bf8d1237a938e5767a4bbd084c73564978323079342262062bda2a2967d36f5338f4fa02ff6d019950228f9eff7288a8992fda9e
+Size: 1464
+MD5Sum: 8f5a8db96e8c490095cf2bc1ac8ee78b
+SHA1: 58264dfbbce0b3c397417187eecbdd9f9837a326
+SHA256: 17f40b17a2fed46fad9e8e7afdb265d984b8c5ff9a886cbbe4cf2934ebc60621
+SHA512: b7b1511668f0cb7f7d131c53fe5454dcdcf510cdca23304a1d3eac6ef335a8505ded35c06bc6507354f0222d60228a985a9a8eefe756dcd38feb94b772f4d18d
 
 Package: rkpairip
 Version: 5.2
@@ -2607,10 +2607,10 @@ Description: Remove Pairip Protection and Rebuild APKs
  research and reverse engineering.
 Filename: dists/termuxvoid/main/binary-all/rkpairip_5.2_all.deb
 Size: 1164
-MD5Sum: a1ebc245dc6fc0dc4ada422fb3a3482d
-SHA1: 289326064b38a1000ea6445caeb2621a13687fa7
-SHA256: 5d99789de6a2144419f62b0ac4edd2a0a7f3bb3a27483be44cfb2d5653075c94
-SHA512: daeed62eae93695a8080677e63665fe7bf0693a86f510057bb9e853fcba0c3532796b7ee2dd2e24dfd860ed77870f39dc0e4829c351f258f04a1f008101ae49b
+MD5Sum: 1d3ed7693a3c5353444d5fc54486adb9
+SHA1: e6fe2c211e0159e4b73d5788324d3c2bf052d151
+SHA256: 8ffe11664af809177e0c47df1e59844d06d5c09cb34a86746d2a12a9ba7a66d6
+SHA512: 15d609be6edaffc8fe702f87399d7aa9794389700e3cfe6e43b098e6a5b4d0dc10c0652d3ef6eab4f26d5ef0ecac78bf0af2ba481350aa5262b9dc3f60c42dd7
 
 Package: ruby-curb
 Version: 1.3.5
@@ -2624,11 +2624,11 @@ Description: Ruby bindings for libcurl
  Curb provides Ruby bindings for the libcurl HTTP client library.
  It allows full control over HTTP requests, cookies, and sessions.
 Filename: dists/termuxvoid/main/binary-all/ruby-curb_1.3.5_all.deb
-Size: 1240
-MD5Sum: 1c1620c2364c4fb729b01610d6138270
-SHA1: 7f6432c141a8feaefa578a49a52ef6df0d1bfc2c
-SHA256: 2156d2b8a4f9792faf6abfd558525334bac04f23307b79aa14697343a72649e2
-SHA512: 14ea0ea67efecbe29601a41f17f0b103ca0b890649bb35a38ad95efa81fdc1836fb09a05bfc6bca6c1042fea13aa4f70a6e667e27e559478f3af077080f6bc65
+Size: 1244
+MD5Sum: 18d4dec6d2af541d1f60f340da1a9da4
+SHA1: 6d981d035f14476c272b2ddb7ebb973cb1be0ac4
+SHA256: b13416ac53d9b2f9693ca901d95804aa1d9e074ca0b3d61931184654880676a5
+SHA512: 49e4a3690f2295ebfbf5b64a38d2c465a070d5e526e4cab9182837ebfb949df401bfbfdb7758ed76f8b6ec79a3f35f48460abb4df2837fcd762240753fa3950c
 
 Package: ruby-nokogiri
 Version: 1.19.0
@@ -2642,11 +2642,11 @@ Description: Ruby gem for HTML/XML parsing (system libraries version)
  Nokogiri is an HTML/XML parser for Ruby that uses system libraries.
  This package ensures proper installation with Termux's libraries.
 Filename: dists/termuxvoid/main/binary-all/ruby-nokogiri_1.19.0_all.deb
-Size: 9908
-MD5Sum: 2f6dc4603a647c71c8c2b9e009268beb
-SHA1: 3cb32424f6e47708bdb1d0e591f083ca95d6b20c
-SHA256: 9f013939504b61ff32fcb66a3e98949145404044e6245cffd1edf97f99d1177a
-SHA512: 6a7f8c75b6381003c6f31510893552178de06bd2148483091d985a3d5b4d3831f88e239bd9846430bd93e5758d69972c775fa1abb1b0ed89a4a89cc9a3606a03
+Size: 9904
+MD5Sum: 8d5009567f2a89d8580e70b6be95409f
+SHA1: fd65c0816800fae33cbaf607f9453790b0bd7838
+SHA256: 3a1b7f8940fc7e5f97b39a7ff3bf92eba5a9000c35714bdfeac47ebdcfedcba7
+SHA512: 3c2b5458aee228fc0c02661463cc231fbd6e9abbe0cf16a9ec544ca4e7d5e6beb966c9aaf9861d67421e9266ad44c13b15bb7bb1181c788a280db5c33e9a6137
 
 Package: scanqli
 Version: 1.0
@@ -2662,10 +2662,10 @@ Description: SQL injection scanner and vulnerability detection tool
  applications using various techniques.
 Filename: dists/termuxvoid/main/binary-all/scanqli_1.0_all.deb
 Size: 1188
-MD5Sum: dff4a6dd3d8650a9aeff57e0ae20add4
-SHA1: 181ef16f44557c1397a890793b6edbfa95e475c0
-SHA256: ab4244633b328bd18708fd97e1dc4846587efdb74db19b3681fbc6e73dd236ad
-SHA512: e76234606b2063b5901f87fc4256219cb8559e9651c46fa4db705165047415d53bc978e4193d52e487a0bc077a332924a347fb06f13306bf564f5c4d0fb1282c
+MD5Sum: 2141beb0dc54c0d3d02b3de53f998d36
+SHA1: 11212da288ec754614617ad7ec47122e708ce872
+SHA256: 7a56872da73f764e9db4190d5a8ce25fdd3d8e4e93d838fa99336b39200a068c
+SHA512: 476bf846093d18b6d5c57b366c449d4de16a2b627d6e0dde0186bcb592e58b12b2f1ced6d63521a632fd662799acfaa6dc5e8422b58451acb67343a86da9a605
 
 Package: setoolkit
 Version: 8.0.3+git20241021-0kali1
@@ -2683,10 +2683,10 @@ Description: Social Engineering Toolkit
  - Multi-vector attack support
 Filename: dists/termuxvoid/main/binary-all/setoolkit_8.0.3+git20241021-0kali1_all.deb
 Size: 1420
-MD5Sum: d6c56ada7c537120b7a9a96fc1b74336
-SHA1: 8f46c22165d33c6006fb8889707117fa808bd315
-SHA256: 91ab08c9179becf4e15d5e09661b289e2eb4af8aeaa27256cf6c17a586a379b9
-SHA512: 16360d1e0167b1d6b7b02a42b35733a0753b160fb7d0af55a0d838ef4fe4aa6c2c6412ba93431504879d90468a05a6364c5adec0da979426ded3cbd1af3b2c95
+MD5Sum: af1e01924a465df26806b0b51efce82c
+SHA1: 33497a45085e696fdccd00fc632cdb74591a1857
+SHA256: 67ac130b2b42d0e5fa8fb3f69aff5a5089bdc824329360d9ecb2c8301f20dd09
+SHA512: 52ee9988bfc15b178bb4b647ec9aa5b3c7cd4a4059110e803bf2e491aa8134cedcd97bfa833582707110f2d006cad6828f2b0d2aec2b1de68e72d19e1ca0b680
 
 Package: shellcrypt
 Version: 2.0.0
@@ -2702,11 +2702,11 @@ Description: Professional code obfuscation tool for Bash and Python
  - Python script encryption
  - Multiple encoding methods
 Filename: dists/termuxvoid/main/binary-all/shellcrypt_2.0.0_all.deb
-Size: 3600
-MD5Sum: ebd8c4f2393423f8c59d48f57053bbe6
-SHA1: 2d13b054594fcf142056340750b838660e564fa8
-SHA256: 134a341629688691d442da4f37b503946f176705bbcc257195f03adbc94d83d9
-SHA512: 4791351918818f0429603d80f9cbe78fe1a119ea799f796b4ebeafb46cf3b350c164eb403273e5748ea8805b4a0e6e30183414c89030d937d6a63421ee6ddbe8
+Size: 3604
+MD5Sum: 8240ee836f21a29d3636604e34525cf6
+SHA1: 30b3fd58aa877c78accb24c2207bf0b981cef280
+SHA256: 0ec1bc91cf0d6d2b62778e7e437b0542806bcaf10d8dfacc94e6034cc01b68af
+SHA512: e9aa4ec0027c75fa4962436a510c27f8fef69abd05c8d91484e89b046bb7ab9d17f45573d2a18f7b5f70a794d41a0fa75a67cba1efb6efae5ca8cd844665f084
 
 Package: sherlock
 Version: 0.16.0
@@ -2720,11 +2720,11 @@ Description: Hunt down social media accounts by username
  Sherlock is a tool for finding usernames across social networks.
  Useful for OSINT investigations and social media reconnaissance.
 Filename: dists/termuxvoid/main/binary-all/sherlock_0.16.0_all.deb
-Size: 928
-MD5Sum: 747a201025fffb3ca040247033a7ba57
-SHA1: 584f5f97edd2da911c8cd85c3f08b4f672977dc9
-SHA256: d753db304215e343f49b48d7c6f182d8bebe565a27bfd2484f74210bea287f11
-SHA512: 512f416d876c20238edb08f3a0e7769639278b74d96a602c3376116e6795c151f7cbe8612bc12711ff44a2858939ff82d8c6e7f08a9e80e3a1bb3c63bd32fe79
+Size: 936
+MD5Sum: 34dc050bb33aba2500ea8d29ecfa0741
+SHA1: 8dd94b5131403ceef7729c921b3a2ea555df65c2
+SHA256: b94280d3a3f18feee6658af911314afde0760420059678525b7cd1047281fa2c
+SHA512: a4b012caea84a201055e241c7569d55dbac05471c3810cb9618b96605d1350ccf5787b020d8c08f443d55f45e60d9f0e63cba0ec4fac2f28c5b0e6034f6d20f6
 
 Package: shorturl
 Version: 1.0.0
@@ -2734,11 +2734,11 @@ Maintainer: Alienkrishn [Anon4You]
 Description: URL shortner for termux
 Installed-Size: 32
 Filename: dists/termuxvoid/main/binary-all/shorturl_1.0.0_all.deb
-Size: 1308
-MD5Sum: 46d9548d3c60aea3cbd7548e01e3dea0
-SHA1: f50ae93907fbfbca0c67370a0027b02269ef8d8e
-SHA256: 561fe1744b7f5e33307d7ed7e79f0f2133b5c7b9348d4e901f7f21092c905797
-SHA512: f56a1fd04dd6ded2befc59b84ba72858f425da773b09239efc1a3c7291ac95073957f021897a7e5379a4c8c68f5c538f1287768c50078869432b2ed5d5ce4456
+Size: 1316
+MD5Sum: 3d75908fc5bcc7fc32ec279e7aa7103d
+SHA1: f925145790652a5547c7f5e18206bd241819ee38
+SHA256: b70e3884fa354cb15ef5e5c2e072ad2e230c0fbdd2539e21c00ae3d5f57f4f3c
+SHA512: 4c85ef610fe317838165a8fe1444d84c76b9c1e20870be20b947401cab38e90e699f4b66b3b1621ee955e872f17ae97c7c1d73cb4c2ce9662afaf3d8f6df7daa
 
 Package: silverinstaeye
 Version: 1.0-patched
@@ -2756,10 +2756,10 @@ Description: Instagram information gathering tool
  - Data export capabilities
 Filename: dists/termuxvoid/main/binary-all/silverinstaeye_1.0-patched_all.deb
 Size: 1528
-MD5Sum: 4419dea779190f542193523872efaab4
-SHA1: b9d5f2994caf5566bfafca2950516821e03ff57c
-SHA256: 427067ba27aa4aa963aa63edd78afe2f726615bbeb45b4e24f0d323020a0bdab
-SHA512: 2a05a244280ffdb65cc1564baa53778d1aff63d9eb30cceecc46fb58300df54cbd505b210ee864e0ff41faa51f345feecada8343c90a081ff7100490090079ab
+MD5Sum: 9d3199651bc1e495f5134857721056be
+SHA1: 9e6263705e7f025e5b0f676bc97e582e7c8bf5b4
+SHA256: 174e3306838b24e2982bd233f79211ccaf2316a872aef10265b6a174b053fcbf
+SHA512: 2ab80ea6e08124285b85f94320bb36ffa865c070ec76d3dc13fee6c82e61d5a33838b2b8089bcc9571e155ee1c3802fd38afefb4797971780d9d62d163ccc26f
 
 Package: slowhttptest
 Version: 1.9.0
@@ -2769,11 +2769,11 @@ Depends: openssl, make, automake
 Homepage: https://github.com/shekyan/slowhttptest
 Description: Application Layer DoS attack simulator
 Filename: dists/termuxvoid/main/binary-all/slowhttptest_1.9.0_all.deb
-Size: 100652
-MD5Sum: 85f0f73a564dcc5c2a099b0df58f06df
-SHA1: b00613ded30b10119901ec1cd03e930cb44d79f1
-SHA256: 57046cf2bfdf5afbbf02a4b2621af97262269b6a2a425be8a7b29356bbb4c919
-SHA512: 6739bff730d859d389c477af19348f6f5978d702e798096c28be4ebcd3faebced62341a8fe3d64e0fc59e7e1d3a96db8a06442f22a689fa168bbc96979d7d6b9
+Size: 100648
+MD5Sum: 398e82c128c3edca7ea483a8d9c6057b
+SHA1: 7255f9dbd7533b80934b58dec0fb7616542f40fa
+SHA256: 9e5c1a604e644b0a98979d8c9a6d6c757070064d6c8cb43a1e31e89ab33dbd58
+SHA512: 615634536cac83f77ba8a8b830a2caf8ff4cb875a39225e30ea9a5cf052c753d5a5887b5ed4a677fcd5a1d0f7b7d2ec8c8c66150fcc9ef40df4eea15c57e7780
 
 Package: sms-stealer
 Version: 0.1.0
@@ -2788,11 +2788,11 @@ Description: Silent SMS interceptor via Telegram bot
  SMS messages and forwards them to a Telegram chat. Useful for
  authorized security testing and educational purposes only.
 Filename: dists/termuxvoid/main/binary-all/sms-stealer_0.1.0_all.deb
-Size: 1236
-MD5Sum: f51b23531fcddead41572de95e2a21ae
-SHA1: e1490c0e51c29ab4521a71619a37c46c15ff99bb
-SHA256: 1dc80e81bd3cb10e0fe0e78db00604fb45ff2f1a250e7e43e72606ddebf39d6d
-SHA512: 91fd0f4c7e0454e4e98a7d77384f4b3fc020af7ac090e01e4a89f05985ad78443caa1b8da1701a0e6c7b03099e81f7c60ba7fb64a1285eb64467f2aea2fc68bc
+Size: 1240
+MD5Sum: 45865375c9bb34313bcb8173130e4bd2
+SHA1: 0fef973f7b94e8265e97e55dd5c9e785f46f9330
+SHA256: ef64c1c0b409f9ae71b5675ce6b720467aac202b1c0a5fc426e3f26057d3ea7f
+SHA512: 50c36b231a473363b0db0c8091511dd88997f1781ea92cf1b8ce4604c94586b7e3c516efb9ac8271b10a4a3922e03ea9b03c475281a3d4d621c4dd8d7d872e43
 
 Package: snatcher
 Version: 1.0.2
@@ -2802,11 +2802,11 @@ Homepage: https://github.com/Anon4You/snatcher
 Depends: git,php,curl,nodejs,python,python-pip,openssh,cloudflared
 Description: Snatcher - Capture Images from Victim's Camera
 Filename: dists/termuxvoid/main/binary-all/snatcher_1.0.2_all.deb
-Size: 1088
-MD5Sum: 1a733fd2d39272859cad488304a3e3c0
-SHA1: 649bc753569a961683ebfa5232b6a0b295e34336
-SHA256: c8b286589179f85d090ece21c66594503da41c50ec93943487e0f2cdd5429e91
-SHA512: 242140b38516e53e45a585dab6958d74e35a1b10291643c08644578b2aa2ecf17c46aff8beb4e4d6546a1f0051d4ba8a2472a0f9a64f2e66b76d664ca0ed52a6
+Size: 1084
+MD5Sum: f8366aba14e8efba4d12be8f2e4be43c
+SHA1: c361cd300038e979e89bd3e5be0d00e2d1edde7c
+SHA256: e7e44550dea558375484f6fe9ae3bb690ecff8cfa6ed9066a86035e3af30143b
+SHA512: f990ded10b2af41610d19ba1d5518e74bc24f3c6de592a5209abcf636162ca210fae3f4c228a4e2e8c11d9fce6f81c36c96d01b89fb89e3237a2f2cbcce995fd
 
 Package: snoop
 Version: 1.4.3
@@ -2822,10 +2822,10 @@ Description: Information gathering tool using online resources
  and penetration testers with reconnaissance tasks.
 Filename: dists/termuxvoid/main/binary-all/snoop_1.4.3_all.deb
 Size: 1456
-MD5Sum: 9725e767fb299925c374750399533cbe
-SHA1: efe73f09c953f6e2665a1fe13bb751aa3632fb1b
-SHA256: ed93491455ee7a0e1e8f5cceeadf8db08206bc360121de53d1e75e3aba1e2484
-SHA512: 687b8170b1ba744c98ba7deaceb9ac5b8bc283636a2abb092df467ee4895043855eb51ce0cffc29c8b0493609f00528effe59cf88101d4c12dc63f3c8543a4ba
+MD5Sum: 0466a65aefcb8c081f4297a07e099b37
+SHA1: ab7916ee34ac3d567c5d787079b77beef409d378
+SHA256: a378cf0ab67d06210f71806454c183fff4b1665e9968cac79d94c909b913d078
+SHA512: 3123b57aa3c6c775664666b7e338d192f94c2e39c456f1c911d2b09507760eaf26365717788b66f9a69388564b849414e0ee2a843063640f664c26375053c764
 
 Package: spider
 Version: 2.0
@@ -2835,11 +2835,11 @@ Installed-Size: 1
 Maintainer: Alienkrishn [Anon4You]
 Description: telegram autoreport script
 Filename: dists/termuxvoid/main/binary-all/spider_2.0_all.deb
-Size: 4148
-MD5Sum: 63048be82183d71ff5a71d34da492611
-SHA1: 629cf09ebbcb6a8d8ebdc61337792f6d708bdccd
-SHA256: 8f4811836047f4644d0bfdcb73fc961cc59899b4a4625cf8c0897f6ba62f8d62
-SHA512: ae5a409ca28c15ea7a67ec300943a89e3b58d96b64a19f3229e0268b8b0ccdaba6d64dcaefba4f64e1d2c1bff55926a854abc4cda08981125c0321740d3a1aee
+Size: 4152
+MD5Sum: e042af233a81a085292a40ab11acfe59
+SHA1: 39fcd65104ae931aaed7d55047fceaaec11fd8c2
+SHA256: 67294307cb16eb8e686777d5564b4e27f0fb4fdd5ccb8249626a1fdf0c722073
+SHA512: d38035e556b7a627069422aea1a37d811387241531f02c155f60cc0c42ab4ae1c236c9060df75a7cae0cc529d065c6be7535e5df4907fe9723e2a739c7b4f2f8
 
 Package: sploitscan
 Version: 0.14.3
@@ -2855,10 +2855,10 @@ Description: Exploit Intelligence Gathering and Analysis Tool
  vulnerability intelligence and exploit database integration.
 Filename: dists/termuxvoid/main/binary-all/sploitscan_0.14.3_all.deb
 Size: 1184
-MD5Sum: 52bd21dfdee48cb69e7641e0c62d74a3
-SHA1: 8f399dd54e688e2b62bbb4c4d7676e7d48785fe2
-SHA256: b12c8d91a38d00514a5b3a213a88165c0d1ae318381e2dc516c1c2cdd428961e
-SHA512: 8a624d05fb10a18a5426690da16daef0dace63ae4b7cc4e9fa42dac91836ceb2b8779373b5e18cfa7686183572a3eb8747ef08724f0c9cee29d659cdd7b3a61b
+MD5Sum: 0b6c9a6343f80d51e283d666a054d336
+SHA1: 1fe9823ebc78eec4774bbb4fe8d87499700ccad2
+SHA256: 241fdca008336a693f5be61c2fda22d614a33869a0ae8f29ee673977ac68fc1c
+SHA512: 22962c7df7fbb8bafdde2e8f28795dd6c547dd133677fcffbf62dbee88e01667902cce28c3113d382563ae3dcd233afaf0492f227fbada40f4152b03a9002ea6
 
 Package: spurt
 Version: 1.9.0
@@ -2869,10 +2869,10 @@ Homepage: https://github.com/zer-far/spurt/
 Description: HTTP stress testing tool that can overload web servers.
 Filename: dists/termuxvoid/main/binary-all/spurt_1.9.0_all.deb
 Size: 1028
-MD5Sum: d2a692e7a42b7b716d127af6b9c8a98e
-SHA1: cd98dbac906a8569d2d8594f2a1ff1dfbc0ba360
-SHA256: fbe7eef93152ed9204f4cc33c491d8f1d03bcee1720b129542ad3250c6f5fedc
-SHA512: 7cef20a8f07edb7c3fbedf55aeec88306538dcafc051676a278b91d79e9ec6427111cb44f29849c443f5a48831aea079a0267029f353b104cf8cdd2cda20726c
+MD5Sum: 863af281dca0db52a4d76e62696ffd8b
+SHA1: 33a1035ed41d93b0dce40272c5998b9f9e4838ae
+SHA256: 8bc02f26d192e03ab3ab27c3c0a9fc0e1e19471bc0bd0de68080940117627b05
+SHA512: b61f1b7958af9e610f9b656384d045c06ff67a0ef2f4d5e7315a0d8e960a9c9c7b03c52f6b94422bf2a1638bf6685d374f53b00871b8b272b3d9395b4d7a7f7c
 
 Package: sqlmap
 Version: 1.10.7
@@ -2896,11 +2896,11 @@ Description: Automatic SQL Injection and Database Takeover Tool
  - Data extraction and file system access
  - Command execution and out-of-band connections
 Filename: dists/termuxvoid/main/binary-all/sqlmap_1.10.7_all.deb
-Size: 1576
-MD5Sum: aadc08d3b1d1ebc7613429573fa35800
-SHA1: 58bebf27a65dfac126c685acea3de33738293224
-SHA256: 109f30cf4b4ac7f94e12c81e8bf0817135ad39a2632494541efb9a733861c0d1
-SHA512: 797f8278b3c43ce2c59705806e9a6876ee2b976f595ec29ef958d942e83bd9a76f7621f6fc3fb9dee9a0e33433e6ac26c10a26d323c345dd13f2247c53c3d2bf
+Size: 1580
+MD5Sum: df9380059ab22577bb5cb0c8b032eb00
+SHA1: 77d9d1cb30dc6dbbbcefa57b8396c5e677de8ad4
+SHA256: a1b637a2247516b230196623455fc0e052a0615ae2573627d917cc76cbff986d
+SHA512: 3dfc393a389a54e684f4b11842652452f21c8dda44f11474c3f67c1d93d208dcd16d6bc673078b97a56d30181e94f96289d0375a4cbab69acdcfcb1153557c02
 
 Package: sqlscan
 Version: 1
@@ -2910,11 +2910,11 @@ Depends: git,curl
 Homepage: https://github.com/machine1337/sqlscan
 Description: A small and an efficient tool to find SQL injection vulnerability in a websites.
 Filename: dists/termuxvoid/main/binary-all/sqlscan_1_all.deb
-Size: 1028
-MD5Sum: 00d0b618a36e42eaa37d12b4fc5ff283
-SHA1: ef65585a601c191df4984c0cb1a06076c672277a
-SHA256: 4292c3f3cb59d118eed56bfaec92ea84fbeb0f8abb9cbff99f9e93360e389c4a
-SHA512: 221588868718e80bce9b3881c10e7f04078b442d01e87a95bb8e27c53d4cb46c39cecd9db87dd4c1442bb6e4205e1c7276f31786bb5968f60c232f81598d07f2
+Size: 1032
+MD5Sum: 5e9b0c1167727178b6aff4f810f011e3
+SHA1: 97aebf2376393a670ca98c21b034aed58a3df7ea
+SHA256: 29a36a9799ac72245c101dc649a7d19803efafedaa68eca5adb930b42c71bbf4
+SHA512: 1c55cb89a40f2c4813fa100eabbad4297427f2c55e732f2c1f1c161cb9e9f630cd359fe3a18824b999660b46c6977db1a893fb69332954ddeb065b7aa2c3573a
 
 Package: storm-breaker
 Version: 1.0
@@ -2931,10 +2931,10 @@ Description: Social Engineering Toolkit
  - Automated payload generation
 Filename: dists/termuxvoid/main/binary-all/storm-breaker_1.0_all.deb
 Size: 1300
-MD5Sum: 41ff2cf5a507625ed0a740c977dc6917
-SHA1: deb438d3817ba81ecb05de18f9992dc732f675e2
-SHA256: f6d0948077319e25401e9567073611f9aa194be14ab2690f86ebb49ac5082a20
-SHA512: f7c2e5fb75294a464c72bdf2270f4733cc0033b1419e5208d89d9e037b0f6931319cef5801cfb17b97edb70b25629fe5b9d10277684bd76a7c7e496640be5839
+MD5Sum: f610d7983bf0d144d99ef9e9ab78326a
+SHA1: c5692de903ea41c4971b593503e7b9cfb379f15f
+SHA256: 9769fe544c7d6573e7c3e5bc4e3167da6e974a8d4879f2c800f4be0aacce97b9
+SHA512: 26e9d217271cd0b9b3305c3447ea21b542ae8e3058bea6885eba279f9a9db6626625743364ade06572bd92d9a99317026e3d2709703799d16e14334fb985bf04
 
 Package: subcat
 Version: 1.4.0
@@ -2951,10 +2951,10 @@ Description: Lightning-fast Passive Subdomain Discovery Tool
  multiple data sources and intelligence gathering techniques.
 Filename: dists/termuxvoid/main/binary-all/subcat_1.4.0_all.deb
 Size: 1208
-MD5Sum: f667f8b7301ff6a7d1ece015a156f9a8
-SHA1: 3175166bd7143f9963726a8859bbd0a7ed5f712d
-SHA256: 222d2e33e02438197ab37abe1fd87efaed8332560180a0dc6eaf5117ae56500c
-SHA512: 47c8ff75c6606bb4dd8509c86606296d88d47db39821f926db7e074b97e8d84455f1474475a3c6b6ed48aabf1fb624ac504f16d4a266232c3fe47fb66acbc027
+MD5Sum: 0c47184cce8ce80792380caf8b9c7a63
+SHA1: b9ea1dd99b8916e997079f2d22a41b08427ee6f1
+SHA256: 13aea67540f970ff9615b33ecbd75978702ad0561b85fa1e7bbf26dec09de207
+SHA512: 492fa8397f7bc570817e5b468f5513c7f0c7c339211b9a66326057fbc69bc761e1c3aef5eabc6f3cff02142df350d4acc700e8e2230f20e040320b1548e88323
 
 Package: subfinder
 Version: 2.14.0
@@ -2970,10 +2970,10 @@ Description: Fast passive subdomain enumeration tool
  valid subdomains for a target domain.
 Filename: dists/termuxvoid/main/binary-all/subfinder_2.14.0_all.deb
 Size: 1048
-MD5Sum: 4e304630979a925c21c8e58345e5015e
-SHA1: 009aaf577a13bf042312a70180db3ea28401f869
-SHA256: 834ff1dde6d232fbca2768c72e9b0befefeff4f6195c64e6490b473c6fbebf36
-SHA512: 1acb61850e27b7211c2babb8ed7a40388b9fa8d0565481cb7f0f67164e65339f7e8be3040f47d915211b98da55f6c6bd24d988a91991395adbc356ce027b36d6
+MD5Sum: 7a0e057889738a5a718a20d23eef0f53
+SHA1: 4ac2ee616e564978f8f18b495e99b3da3d182232
+SHA256: 9386bfca16d0ca7d6a69dd54f1a77e8baf97785b25f63c6b8fabe2201255680f
+SHA512: 22aa843c3313654bb6c6a911cf31ab3e142a9215e612b7d18230816a4a1bb410862c086cb9965f8de9dd26f3a449b8b20f6fa398e4bb1167a63ab148a3b7443a
 
 Package: subjack
 Version: 3.0.0
@@ -2991,10 +2991,10 @@ Description: Subdomain Takeover tool written in Go
  - Custom configuration support
 Filename: dists/termuxvoid/main/binary-all/subjack_3.0.0_all.deb
 Size: 1428
-MD5Sum: 0cc9388426db06bd4e78b8078320df15
-SHA1: 55682b3dd66dbf2f6a4c0ac5032d21dc1e46bdea
-SHA256: 5344f21ded4fc555103fa8fe3a573b1fa362e88bc705d05497f54e3bb5f20638
-SHA512: cf6c42b1216c327e85d712bf933a7c9132bfabf384c6c07996a91e2be5b952c4c7782d9bac21c8b821a4b546b73b842ea6faaf3d9048094a18aa0a223d052c3d
+MD5Sum: b6c0fe15745dcb903be8ec4612134bb4
+SHA1: 45c6ab50e65bc21ee6fca51625e73dec2c5b6ae4
+SHA256: d8c2878762920a58ccc6f37b78b04e12135cef528ac7b3cd76c30c7d3ffa0ac6
+SHA512: 46e32c7bf4221ae13cbb0f1381897b95b3823cedafc3bebe28ffbdc79395e5591fd836a4aed45009adf197cfbaf35cf31b42d3b7e4b5071fd7b0d12d8c3be3bd
 
 Package: subzy
 Version: 1.2.1
@@ -3011,11 +3011,11 @@ Description: Subdomain takeover vulnerability scanner
  - Custom fingerprint database
  - JSON output format
 Filename: dists/termuxvoid/main/binary-all/subzy_1.2.1_all.deb
-Size: 1424
-MD5Sum: da7d99b6f73e4ab25fd46fe8462aa81c
-SHA1: 25709a3830afb9a2a2b67f1adff4f8cabbc23b0b
-SHA256: f2961817feadbfd9753bd0cd269c3c5f58ef45ae90394e8c0cdfdef80933b46e
-SHA512: f7da3ff5741a02237dc9af60b5bba72e6ea4772eb586803441dcd904242f694431a61e74effca4dcf5ccb10f772e9904e11a3e9638d2b4207137fd7a22e92254
+Size: 1428
+MD5Sum: f3a545f48023bb0ac3ba40e5e3972b32
+SHA1: 1e556f74186688b9a51446dc2ac54460b667be6a
+SHA256: 2e3f25d83ad67d2065345bf5a41f8f5dfecde7413c0c16bc4d7bdfd36a1227d2
+SHA512: 56eeb3c9762460bedd1fce7cf085f64c987e9c3d4734bf5e3869c1518cdc8343565f284659eef5b300278bcff7c640667251f8912d6fcdf5c9e9538eb399cdd2
 
 Package: term-helper
 Version: 1.1.1
@@ -3027,11 +3027,11 @@ Priority: optional
 Homepage: https://github.com/Anon4You/term-helper
 Description: Terminal command helper and cheatsheet tool
 Filename: dists/termuxvoid/main/binary-all/term-helper_1.1.1_all.deb
-Size: 3352
-MD5Sum: 521ef57be3b90d7374098bd9ce4a6144
-SHA1: 7aef5bbff1030102ac53c6c907972d7a2a5b5bfe
-SHA256: 8e05c502833edca2cb3e0fc32581a5b29f1e6eb423d331443c27a453e102deee
-SHA512: 672bead077149fb4ded9b68d3f821cf6363847ef4a6191004ccfb87b7ca3bc6cd8abac704791a9bb8b440106325e6883404ae6dd8713398946f218cd703a6740
+Size: 3360
+MD5Sum: cb3c086a580950b0b0a95d8693ed9196
+SHA1: a2e692dba0ee79a6f1d210ecec8ff8861b07fcea
+SHA256: b2f039dc63b09badd965b02d895216fcf1af9345c1218e9343c61eaeb8db8a09
+SHA512: 733e567b5b0563b276ec4d5a74c6918f928e1e8a04c4fbba715247718e91e9b824318398b7edda720b882d87dfe1645128d4c1f87194bd654bc834507f106730
 
 Package: termsploit
 Version: 1.0.1
@@ -3043,10 +3043,10 @@ Homepage: https://github.com/Anon4You/termsploit-framework
 Description: Pentesting framework for Termux
 Filename: dists/termuxvoid/main/binary-all/termsploit_1.0.1_all.deb
 Size: 1644
-MD5Sum: 84eefd5a08c3940b33aa62a27cce10b4
-SHA1: 80452822dd0f8eb9a2f7b7a9133546e082b16091
-SHA256: 0b892b2c8a125c4103b1a4b9462a6dd126c6f6ce50fa2bc5afb175a37a381a6c
-SHA512: 4ec3cc2ef9c19c47ff294791a994231ee01f3fcbca6395b7c3b6fa284999dc5f7a918273c5d540bb37cea63f1254b356165a016d1719c30d698841f2f315ea9f
+MD5Sum: 4bbdea2687bcba38ea6abf2ec14a67a6
+SHA1: ba8653f975c4bb3575c597276faf42331e2b977e
+SHA256: 33700dbe9504de50f97f39dd43d7a8ad23dedd0f0e836e45825edac8b0464252
+SHA512: 4b34540345cb7eef353984cbf4fbc1a1893797cf7f24a158bf2dc88dd760372c36764cda980ea46cce4786e4a725200d9c02562c47fc64d62315d3c82bbfa9a1
 
 Package: termux-ai
 Version: 3.0
@@ -3061,11 +3061,11 @@ Description: Interactive AI Assistant for Termux
  50+ image generation models, and interactive command-line interface.
  Provides comprehensive AI capabilities directly within Termux terminal.
 Filename: dists/termuxvoid/main/binary-all/termux-ai_3.0_all.deb
-Size: 6260
-MD5Sum: 62d8a093b7c1d1c31537149b163d52df
-SHA1: 70ddcc98ddbfb15f2176d379fc25981746b12c6f
-SHA256: 4c950f8d2e27a22b886bfeaa9799257ff4a897d178d4bc4cffaf5f450094d023
-SHA512: 4d9d74f027ac8c79b062a5eb4a19afa92c82918a8c20ec6b9264c19b2cff6a1754eec05402b0b4008d3c175dcd11e942f2096ee04ebbea58c2aaced3ee2486c0
+Size: 6264
+MD5Sum: 1abb6d6549bbfc0cbea1b43a6f201a6b
+SHA1: 499864a043839b235d0f12f7c60f71a3f8c76a78
+SHA256: 3119fa9d7f56f155a1c6ee8d8500670ea9aada099563421ed5d7074d66073b43
+SHA512: 618eec2007309254641c987e78db61ffd412738b5c6749877d5f290deffcb1ffa1cc7452e943df4b48b531f8f62a5a71446a25ea5cbe7f488f303edb9284f2a2
 
 Package: termux-desktop-wallpapers
 Version: 1.0
@@ -3075,11 +3075,11 @@ Depends: termux-tools, termux-desktop
 Homepage: https://alienkrishn.infy.uk
 Description: Wallpapers for termux-desktop
 Filename: dists/termuxvoid/main/binary-all/termux-desktop-wallpapers_1.0_all.deb
-Size: 14061692
-MD5Sum: 2eb5ba32e41dff03628cb586c1583e6f
-SHA1: 7706623b30fe35fbf85c8c80ed04a86936df2ed7
-SHA256: 7e1cf1bead319b382015e4888dfc10af06a78633068c1dd950f38522af82b71b
-SHA512: 2fb984c75c54ccc03be456e5c5bb8e95b9d4f05612fe2d6892dbd4665719b5f3a640ed6f6d401a210d1089e5cea2a7089407b841fef16c0fe8823f1c95ce2ef7
+Size: 14061752
+MD5Sum: 88915423501323e84e19b74c0d967765
+SHA1: 037331ec1d53795d2faf90c34af472a17b30f71a
+SHA256: e49502296f2fe2a37da7c11258e1cbd204de625f21a0a02a37a0f0a5d2e744f9
+SHA512: 224adeeced55b9eed5e8d23f4c4ff7097fda3728416dc95f046af2cb7aa0af3b3f06d04ab626f96683764bccd71cd97bf833732273d4caebfa345dd7b8d19fa2
 
 Package: termux-desktop
 Version: 1.0.7
@@ -3089,11 +3089,11 @@ Depends: termux-am,xfce4,xfce4-terminal,xwayland,xfce4-whiskermenu-plugin,firefo
 Installed-Size: 70830
 Description: termux xfce4 desktop gui with Hacker themes and icona
 Filename: dists/termuxvoid/main/binary-all/termux-desktop_1.0.7_all.deb
-Size: 9259452
-MD5Sum: 9891c5c0f8746cb17fd111ac57dc91aa
-SHA1: 8519594349696e9f5b83d8aba868ec0d39abe7c2
-SHA256: c76ed68593e662e28a034ae9a7adb1ef52b0421a33f7da9ea178f4559cdf31cd
-SHA512: 78441445609960d08c3a990058b71434d6facb29f724078acce2cda334211a79190c1b7891361537f234b7c7eebd23eb4e4e6f3a136906259900cbb7949ff6f7
+Size: 9258812
+MD5Sum: d9850512d14404675192c81b1215d158
+SHA1: bacd0618ced1fe4233f1f01f4f718382d41394e5
+SHA256: b2192f194aa4f169ab2ab3081637708ed9d7de57f1f721e50b4ea9da4dda2c53
+SHA512: 127af7c43578072f8fb7903b2e8ba96829315161f71134025d52461c2751bfb04114f5b67ff62169079f0c44b1de4cc19cb34fa92653c3abaf2f96ef51ff7287
 
 Package: termux-media-downloader
 Version: 2.1
@@ -3103,11 +3103,11 @@ Homepage: https://github.com/Anon4You/Termux-Media-Downloader
 Depends: curl, python, python-pip, ffmpeg
 Description: A high-performance media downloader for Termux
 Filename: dists/termuxvoid/main/binary-all/termux-media-downloader_2.1_all.deb
-Size: 1340
-MD5Sum: 3faec1ce230281df4351c42f8da42300
-SHA1: d0573e352c205c5b62e155a9861ae15540a789cc
-SHA256: e60be5ae4c10ca2d9cf9d2e58c5eff36ebb1cece57be79e0c184e115cdd5536a
-SHA512: 26721d88bcbfb3eeda8abab6ee36dff0a6ec805a6e0f172533417adbc396bdc9807aa75144edd56b969be29c32513b25fb7bd9c31f495d52ef43d5704c1c0f5c
+Size: 1336
+MD5Sum: a5b0fe3a50410f16b34c49a9bb75e09d
+SHA1: 082a167307515c61858b01fb741e4ad40203d879
+SHA256: 2955f8b963b2520b0c27d4b7b05d7ee7538173fad0631d084a597755afb06fec
+SHA512: d0383ea74f4091e66f1c9cf2b20cda1d8c96688df5f7b86a99d4865ebd79fa953f0c1428f343dadc7f20a0f8006ff7f0b6ffe03621d3e064eb3d0f5d681759fa
 
 Package: termux-penv
 Version: 2.0.1
@@ -3118,11 +3118,11 @@ Installed-Size: 103
 Depends: wget, proot, figlet
 Description: Termux Penv - Simplify Chroot Environments in Termux
 Filename: dists/termuxvoid/main/binary-all/termux-penv_2.0.1_all.deb
-Size: 5728
-MD5Sum: 3270cf57b0794374fd6237aa1423f122
-SHA1: 1f7bbf50c33e4659314cac33ced4df16755bb23f
-SHA256: 34c9a646d6298b8990cad05d46e5be38bc3a9390ddc33946837e62bd2671a1b4
-SHA512: 883b8e288ee202eaa1826948fa19b345d31fc8489b12a0f2d71d3851b9a6f8d2d91a7d63814a40f0d4a05b876c40329d4de63a060964aa6d8bda034da8d4dce3
+Size: 5724
+MD5Sum: 808096c76b695738435219ce5eca32c9
+SHA1: 8dfe277566b56a04fbd6e3393c667f4df59e376d
+SHA256: 84f684da392cde2126b427b45f0c8c090b2cbf589ba1448c42896d5cab277627
+SHA512: 418c0ed47797b68b16d850705b3285a8adf7fc629aef928e1ff3fa0097309db69e9d10769f2b8d50e81a4e7a9ccf8c4992954e419e4b3ef3422945c18d466ef1
 
 Package: termuxfetch
 Version: 2.0
@@ -3137,11 +3137,11 @@ Description: Neofetch‑like system information tool for Termux
  kernel, device model, uptime, package count, CPU, memory, shell,
  and architecture – all in a compact terminal output.
 Filename: dists/termuxvoid/main/binary-all/termuxfetch_2.0_all.deb
-Size: 2068
-MD5Sum: 07e6e8b266b5142eefc13908f4e716b1
-SHA1: fb6c21baf78ff148e0077fc488c356166b3a0552
-SHA256: ec9b4b3bcb95fb97be728289d12b1de60dcadb8e405faaf64241432398b41d42
-SHA512: 91074e4c44e36e64af08192cdfa16cb5aeb10353eebb441fe42df00a7aa438989f5f4bc497022763a343c7bab63cc37a49f312b3573416626e15aac90718a82e
+Size: 2072
+MD5Sum: ce3b9a9465067d386dfe0d672c8e5f7b
+SHA1: cdf691905a65f445067f7a91b16ad1a4464b89e4
+SHA256: 6db59f99d87528e4fab32e460a49ef1f58fe43b79c76d84e726f93bef8ba7217
+SHA512: 7449d3cf0cee10c4f81917eba5e3c08eddcc1ce047379ffca4c687dfcecdddeb07d301a10559a210b5d7a26bd9fc9da68c5215f6e8983a5c7d5e76108738dcfa
 
 Package: termuxvoid-theme
 Version: 3.3
@@ -3156,11 +3156,11 @@ Description: Professional terminal customization for Termux
   - Color schemes and fonts
 Homepage: https://github.com/aliheba125/TermuxVoid-Theme
 Filename: dists/termuxvoid/main/binary-all/termuxvoid-theme_3.3_all.deb
-Size: 2568
-MD5Sum: 3b1e7dd096dc58e6fa780fb064d973cc
-SHA1: edfab4cdea793873e88f3fe1cd1a940fc549e3c7
-SHA256: 5e81453535e6d6604d37fc71e0aaa6bb5fb2b9349d683ffbd189dd5cfb51f452
-SHA512: 249155538d9e1cb400aa2beac70a9c8b553b3104af89593b0a5709eb25292b3deae53d20fcb7d60991f3f9e514cb1741703df71ce0f78216e94cd4b67d03323e
+Size: 2600
+MD5Sum: aa7eaee1fcf5a4489f8d2ed644c88797
+SHA1: fa04d6bcdbf5e8607a10c425799478f2deae23d6
+SHA256: 9dcde5e5ca3eb16f9be14123335752c32ce9631c1c7f26ae250a753672522a34
+SHA512: 3ca93b567ba32b2fd140244e399a20fa8b2050e61b264d941f14ee5860e6e6e7f8eae6fa07a4f267a5edec438787a5a8b00f150171463a6f8f1fc1077d70b8f3
 
 Package: thc-hydra
 Version: 9.8
@@ -3176,10 +3176,10 @@ Description: Parallelized Login Cracker Supporting Numerous Protocols
  Designed for security researchers and penetration testers.
 Filename: dists/termuxvoid/main/binary-all/thc-hydra_9.8_all.deb
 Size: 1596
-MD5Sum: c58271421502a0cdff5fd5bdb9689d0a
-SHA1: 1fd139864e0ad65a835aaabc1883fdc750449fe3
-SHA256: 66150d198c702f1558ccb30ac7da0782bdbfd87e8f64ba2119b64c29ede1bf69
-SHA512: e09f4bb3cabc035ca3b65edea6ba36bcba77aa727eec6e04e625570742236c8a88940b20d1e2078fa68e3cb0ae7434e8778cbc4771ab6c5c0c9929f08eb2be15
+MD5Sum: de9af2db376253d5c864ba07edb0b735
+SHA1: 31d32b197a1e05e3145e35aa2ea68e0c92109288
+SHA256: 45781e8a4a9928c6cc11f13e0af06ec07909027236adf785df267789d462bfb0
+SHA512: 8b76af648247174df8727c36d3d101bb78134629e2df04295a0f3a2b72da5c647c00d230ee926f87a81819a4c50ac66b1be9afeba6ba544cf8030773770132a1
 
 Package: the-theif
 Version: 2.1
@@ -3189,11 +3189,11 @@ Depends: apksigner,apkeditor,python
 Installed-Size: 4842
 Description: A tool that can hijack cookies and transmit them to Telegram using the API.
 Filename: dists/termuxvoid/main/binary-all/the-theif_2.1_all.deb
-Size: 2421096
-MD5Sum: 43f48f008bc34d3a25103590ee5ad7ea
-SHA1: 13839869d48d93296de09aa69c259e8aa1e54f88
-SHA256: 0b0876e236d0bb40ffc217970ccebd2bc9f6872da163dc6383a80cda20f0f400
-SHA512: 6faccb1bf1c3526985a14f11ac01cb0c2e46824d36c45c84382f03c20c9cb920aa1fea6adec52d779d772c1e3f90bbe8a28076246af488a9d00631cb737cbc8d
+Size: 2421044
+MD5Sum: aa9f211257bea1fc5527223e29372c13
+SHA1: b3823dea395bfd1807247bfcab1903b5658ff127
+SHA256: 17ec84a2388e37866c4340261c5d48e702796efca0f9bb38fd0c9aeda38cd7b3
+SHA512: 8143f54f12a0f727f1d02a5d388ded40ef65b9ceddfdc73afa0f4f6d098a850aff56c48b141d2e792c03d108c292dfa40ae9fc694839fed18ab6bd032d66da3b
 
 Package: theharvester
 Version: 4.10.1
@@ -3208,11 +3208,11 @@ Description: E-mail, Subdomain, and Name Harvester
  employee names, open ports and banners from different public sources
  like search engines, PGP key servers, and SHODAN database.
 Filename: dists/termuxvoid/main/binary-all/theharvester_4.10.1_all.deb
-Size: 1652
-MD5Sum: 663756fd5fd9d0b37560544df714c0f7
-SHA1: 1e51207c7cbf4017cf466043c92259fb9caf914a
-SHA256: fde53c12c0c6bb6ca5ace1bf468f2c4e14741be1a30b2fe8905fd964290a96ad
-SHA512: 1c0d049aa5088de9d186eaebef4dad7d5422edf80e99fec55a6d75daeb8574e37d4fc4676f10c78426cc0ae9292584f2837dbe74c869b1bf3eb91d3015c423f7
+Size: 1648
+MD5Sum: 1755846b7faad6da50ca1c79cdb897a4
+SHA1: 0b83f31e5cff60b54865e5c8d4310d1a183bfc42
+SHA256: 2dbeeb578617d8c8de52a385185ce133e3eeef2e97850b2426c7e5e03be7ab3b
+SHA512: 1ac8deee7e6ba2908ee53956f0dbec06a4173a4811e7290b40bc63fcdcb9d4ce4376d3f6aabc00b4ecb8224fc699f8957622bcad74eec82b704b62995076974d
 
 Package: thezoo
 Version: 0.60
@@ -3230,10 +3230,10 @@ Description: A repository of live malware samples
  - Educational resources
 Filename: dists/termuxvoid/main/binary-all/thezoo_0.60_all.deb
 Size: 1408
-MD5Sum: 407f0fb7c7a4809f68c6ea66c4cb5edc
-SHA1: 6727debdc66a10d60c8dece4aa2336e57c54437a
-SHA256: 2c7d59ea40366a3a3a886e5e656c106abc3846904315480914a57259ffd56d10
-SHA512: 08c4e74723e2c9d1c40cd0b819c701e5b03fe50ce68417305707ef4353784143c8fb4957fe24c2000f5a8c84ccbd569a17bf2e1351714cb60412074cd8b4e313
+MD5Sum: 27f461fa7e097cd9ba841cb7b6ff82c5
+SHA1: 8641d6088eedefd63a3e3acdaf41eef57f88f7c5
+SHA256: 943789218525d77e0bd061768cb02989bcaacdefea12f8c205f84dd175488bf2
+SHA512: 04e8defc52d6da578810c8a724b9ea9f305572d74e47732d74a27d76f0cc9f8bc0b45f22900082ad113a60bd4a8642f89484dcbcf7071cf9094bd99a2279c3c8
 
 Package: tookie-osint
 Version: 4.1fix
@@ -3249,10 +3249,10 @@ Description: OSINT tool for username search across platforms
  multi-threading, proxy, and various output formats.
 Filename: dists/termuxvoid/main/binary-all/tookie-osint_4.1fix_all.deb
 Size: 1268
-MD5Sum: 305c36ca7ac4c976de175426a295291d
-SHA1: d3f04e040528a17edd6259fc9df3f4d6c6cb8550
-SHA256: ceddfc4cb669b0d8ad73ce52e04689257c396fb06f8008532c8df301cb5bd16b
-SHA512: 94b36ddd1177cd1f29fea2e93e44ad499582edcd8f24018e9a4ff8378ff726e61221fbb1d4357d6eb06cd09e1edd05f5f98b4f9859493ed6e941497d7c521a89
+MD5Sum: 8be75e5dfd377b093e5b990311095a1c
+SHA1: f093fb96eb4953702fa6cc4b0f8d39c2e566ce02
+SHA256: e7bbb3e08a8a4183c7af893e61e25a26da904e7dbc6969ad04c45d431d4052f6
+SHA512: ede43dda326e41c8f41802141efb90f22205ac9b67c95e4e329587cedd24ffa93ce79a1eb34d5bcd15377f77c0b65b888975a51c4673f4892c7c899b40c50fe6
 
 Package: tte
 Version: 0.14.2
@@ -3268,10 +3268,10 @@ Description: Terminal Text Effects and Animation Library
  types and customization options for command-line interface styling.
 Filename: dists/termuxvoid/main/binary-all/tte_0.14.2_all.deb
 Size: 1180
-MD5Sum: 6d611bca630f8bd644bd41441a7938e5
-SHA1: e9623ce6e088c57d31ee0d4532a0566fdfb292a7
-SHA256: ca02ea221c1cebda5f818e3116f20adf192e79b2cd0699edd8c5696d01613b5e
-SHA512: 371b0c7432dc9b0e5ac371a3a48d6a285665be5f2ed7e42aaa4899cc5b11d658e8dad25ba37d7e5e4bbfca438066ed05e60ff77f140222fbff52214eaae306a7
+MD5Sum: 8f092c9b027e5ea54ad34140fbdc9b76
+SHA1: 8ca617542e3c3c2c9999c91bc172de7a8d2ffc39
+SHA256: 23b6b07df4997d160faa01111712ec2f3aee256b4c496b8a0ec0a264bbd948b2
+SHA512: d71ceb8fa79dfffb8d22d5db2e963d8419710921bfb2fe1101822e66ed34117129865bac2187294ec46002da5caee91a97bfae706444dc0e6a22bae2701b0b9a
 
 Package: unfurl
 Version: 0.4.3
@@ -3287,11 +3287,11 @@ Description: Pull out bits of URLs provided on stdin
  via standard input. It is useful for URL parsing and manipulation
  in security testing and data processing pipelines.
 Filename: dists/termuxvoid/main/binary-all/unfurl_0.4.3_all.deb
-Size: 1172
-MD5Sum: 5e67013e5a4a8b089472fd6c6e55d5c1
-SHA1: e24dd715312bb07a8f0df7485bc85c55986ff5d6
-SHA256: 7caa82cf3e5804aaaee68dc5bb333e46a0e2f904cbecf14bfc32d88041b72362
-SHA512: e76e1297ff293132bfc2b545b0a7b93af19a446a4fc6951d38fd9cae701fc3ab83452c423da1eba7d3453b5f0a3f4a41dbaa692a610dd287d28b27c868252699
+Size: 1168
+MD5Sum: a6a18256b21ada44f06b45ea04d9be27
+SHA1: 4a5cdc8f41f3b3f7e383430366497ceb7039f2b1
+SHA256: 593742f5ef5611a76a5df5dcaa08b4f53b567f3cab14782a6cc0da7d9c4c57de
+SHA512: 5d3d325e2d341d188d0f85835f4288d8225785f4ed68d70136196cd50534c9bceb6a04df11a42dd069f42f22e38fde60045f35ddda2ce92dd1c2480c0f4cbb19
 
 Package: user-scanner
 Version: 1.3.6.6
@@ -3306,10 +3306,10 @@ Description: 2-in-1 Email & Username OSINT suite
  security research, investigations, and digital footprinting.
 Filename: dists/termuxvoid/main/binary-all/user-scanner_1.3.6.6_all.deb
 Size: 1024
-MD5Sum: 7148fb11a9d2c06f8e85916cd3723eab
-SHA1: 0379caef0bd5a4cc47fa8237adcbc58359a70293
-SHA256: 51a445a67b0c8b84afb77ccc1b0a8ef43838056f7fca919900cd07935d4ff788
-SHA512: 3f6b858735f9fc9fef763b5c2d48140010a4e7924d0484205acc313dbb3aff6708d695bbdb9b397eea114c863333053c302639708ea6d5b73427dab1266b5669
+MD5Sum: 769882de1b03ea2af523242ed39f511a
+SHA1: 4ff117f271e2c2def5c5e9f0d394fa313753472d
+SHA256: c92907c8d450361473ad92971c0adc89993edce4c5764ae1487bd6493d3d2606
+SHA512: ba78cd1d08d86944e9a697a06ffbacd7485eb162adea53e35efc7edafee494df4a35b18a2df060034acc857ff1b05ca2ea9070f4fee683ac406fd2fc742bb7e4
 
 Package: vedic
 Version: 2.0.6
@@ -3322,10 +3322,10 @@ Homepage: https://github.com/vedic-lang/vedic
 Description: World's first Sanskrit programming language
 Filename: dists/termuxvoid/main/binary-all/vedic_2.0.6_all.deb
 Size: 1292
-MD5Sum: f444bb19c91825fca5aaecb2cd14e8b2
-SHA1: 53bfda5970f4e788c89c0c6a0ac53e4551d20bc9
-SHA256: d49deccbab835a1dec3d96ea1d8ba955bd16c5f14aaed8961aa3c69f253c54c3
-SHA512: 46110d3665728e3ef0433d20830bf0d0c101b805b9d66cfec312e975c16ce8c4fb5e3071e8956ed5d3dfcbc016cd9453b55e8d0a5680f5ea2421f4b6def83df4
+MD5Sum: 676a813592dfb821bce2b6d1850f7f36
+SHA1: 9c237c2e34190cdd731bfae71025f09019656e8b
+SHA256: 47924a5bdf068c4c0783f06eea46ab7ebd5608bd700c353e1a3ec3602826a629
+SHA512: 0bdf4e637d025108da2b334f295fac9739ce19879016c0e66b23a67844d0a9b54107a5ffc4837c4c64c266f303da176b1a973642f9830c725975d476825bbb4c
 
 Package: venom
 Version: 1.0.3
@@ -3336,10 +3336,10 @@ Homepage: https://github.com/Anon4You/venom/
 Description: An automated phishing tool for absolute beginners
 Filename: dists/termuxvoid/main/binary-all/venom_1.0.3_all.deb
 Size: 1420
-MD5Sum: 40434ac6f3a40ca55dc1dde5c96ab84c
-SHA1: 04c43e3e81dac0df5646013d00c2852d9badf3d7
-SHA256: 761a860c7ead94cdfeb1a7774ac9923db7b51bb171808d76584c1cda6b884319
-SHA512: e86f7831c3682a5ff1e5baf9aa339f860c0ffaac71c6865f93e3a9b8801d8bd2b31769c9e833ec9c0b832b051aaa183c0857867dcb2cf3f9b9d9bacff108fb77
+MD5Sum: 597f184109e5e7f7f28aed00b5962a4d
+SHA1: 2439186d3da1f9e471716c41d5f87e024ad7aa00
+SHA256: 4d3d517cbb89dabc829fd5f1dbe2e837911d2542ff2134e7685e4108d6dc45aa
+SHA512: 38b74852d6015644ac911abb0704b18f00cbc9392ab4a4d6d9f9df8a4d7e537d784ae056851d34124362384066a20c48b98e13b514d063f7a44183d650cb1f52
 
 Package: void-fonts
 Version: 1.0
@@ -3353,11 +3353,11 @@ Description: Custom font collection for Termux
  Void-Fonts provides a collection of custom fonts specially
  curated for Termux users. Includes installation and management script.
 Filename: dists/termuxvoid/main/binary-all/void-fonts_1.0_all.deb
-Size: 1212
-MD5Sum: 56d12b4407dcc0f23c8e5e13764dbfa3
-SHA1: 54c63fb4feaa236ad9eba7fb3a19ce817159ad75
-SHA256: 11936ba3be57527e71dc56eccd9526b0faf73d57f5809c4b90697bf9cd153d68
-SHA512: 4489159d73b5c9520a99503a94e62ba40239cbd676033f2df8f5cfe8ec22f929898b642f225b4907bdde1346b8bc8c5ee3a9967f48a19919188e5dd959ff71ef
+Size: 1244
+MD5Sum: 077c2836d7c871057a42355a3f99d649
+SHA1: 078432eeb998dc0d5f0db49b19677b60af526799
+SHA256: 24e06a550d19ae3aa6b3134d1859bd8479373072a4cfd4911c1dd088863da131
+SHA512: 13dc62f5134fb309f43e69055a034de9f086a92b7fb9786749104aa350e703e6c4b7bbe4d032b0083fa3cfbf34c5f86f0ef46e8be8d168c332ee15db97c514ea
 
 Package: vulnx
 Version: 2.0.1
@@ -3373,10 +3373,10 @@ Description: Modern CLI for exploring vulnerability data with powerful search, f
  KEV status, and PoC availability.
 Filename: dists/termuxvoid/main/binary-all/vulnx_2.0.1_all.deb
 Size: 1092
-MD5Sum: 6d6abac20ef27f542928d7da908f5745
-SHA1: d435ad552652c08c97ea0183744247d3ce704b9c
-SHA256: 8ee212a3552998463d6f766e9a2c1791e0363ab492b637edf2fa7fc5e2004091
-SHA512: dca432e9a8229f7afa840e518133c0710c41fafbc843e8a21d63c5f598f3c7cb039cb3ac78586fc2eee473a5c4de92a645c58f9f0bb874346c707146770abecf
+MD5Sum: cca5075314c3e29435a78b0c0d5aa8a4
+SHA1: 94a2bb3c6b3ace40ffaa6c1f2786bc63419ef3c8
+SHA256: f21351ae66bf8f596a0c8d1e157677e6fff4c54ab830855fcc624fc91a762a79
+SHA512: 385193f81970b43f694e6e0924d31c7e6f3c5383bee5d817924f5f76e9301aca17967c781fc95febbd5691ca4ad4d3f1fa520c4809fabbacf0d829cdb3f20678
 
 Package: wacli
 Version: 0.9.0
@@ -3390,11 +3390,11 @@ Description: Command-line tool for WhatsApp chat management
  wacli is a CLI utility for interacting with WhatsApp chats,
  including exporting, searching, and analyzing chat histories.
 Filename: dists/termuxvoid/main/binary-all/wacli_0.9.0_all.deb
-Size: 1308
-MD5Sum: f9a3d6f4450fe0a8817127f2d8b8bdd0
-SHA1: 0a9ba51bd639abd4205b2809da46ab89a63994e7
-SHA256: c275f4585ae3fad8a01bb995f28c8738993cbdbf9658c12ecef14cccec574269
-SHA512: adbb8166be32c96c111b8e94050817cc6b7b66631c85a4e25407ad65471b5a3f2904fd0e2d1285d60c62f701c2b151416cd4591b2e2416115efdb006a4d8400c
+Size: 1304
+MD5Sum: 176373f5e29a1eab81d922406626679b
+SHA1: deceb7bb9804fbaa9c64d1375576f3aa228587ca
+SHA256: 9c92160992fcbda7b04e3152a5376bf270f544970fa3964c7c2e74239784928b
+SHA512: 2b332d31abf16ead280ebbac3332d562dd036a823ee4c49daf6501020f155ceb64efa217f802d2fc980183e907d06576c890e63b4288ed4426c3292ebe2d64f9
 
 Package: wafw00f
 Version: 2.3.1
@@ -3412,10 +3412,10 @@ Description: Web Application Firewall detection tool
  - Evasion technique testing
 Filename: dists/termuxvoid/main/binary-all/wafw00f_2.3.1_all.deb
 Size: 1212
-MD5Sum: fb9a96f31905ab2dd3968063a2ed4c79
-SHA1: bca6cc4926c2af44d69b7651331f9a05d7a96a47
-SHA256: a1579e99d6cc69e249885019701db3643726ae364507db0bce44377feddf40c5
-SHA512: cb657b066163431bcb61ef94bd1f4ad3f36b2417fc548673b7c6c96f39b0b5f25b3494ad3c23bf70859a72c25d3fa71786717d7ac820c55d42dd73c9fa8c56c5
+MD5Sum: 6b64874d90269728709b5730095cab34
+SHA1: bd82e34b376547f6c23b9a58917a496d33484ff7
+SHA256: 2f0528e339459fbddccd0bdf276cd199807ecd3c78c7656283a081771efb4820
+SHA512: b2bc61e7d4712b4f0243cfd6409b6eff4128cb4f0088c4e45ea4a534e7da250282215bc1be505197b495a25a7c63eba92a7b315489c15c171d189772c7bd6742
 
 Package: waybackurls
 Version: 0.1.0
@@ -3433,10 +3433,10 @@ Description: Fetch known URLs from Wayback Machine archives
  - JSON output support
 Filename: dists/termuxvoid/main/binary-all/waybackurls_0.1.0_all.deb
 Size: 1428
-MD5Sum: 379f5aaf7ba29a3b02306d911bc263aa
-SHA1: aec97a53680f16c96eec232f02127dc0629f5dda
-SHA256: 148b430ae8ca221516888da26f65a9fe3e000e5c26995c86b505cb4e49767e10
-SHA512: 2979ec38dfea80a546052aa47b406953c0fe3877f1193e6a53dc1ffd949abc284da91221e321f5bcd711f85ff51fe44ff150f27fac618e3ff0308314f9044546
+MD5Sum: 907c83db076db57fcf10fd6b8cc00416
+SHA1: fadeed50223e490ffc6a6ac3692ccb0e8a7d1e9c
+SHA256: 9069aa39091e67540c9ec09453993408997f0cd539c7b04b96bcd5efa4250d13
+SHA512: 4a83b2a57b8dd00d4b95e35aec662c0fd0a627c5f821cd601812ed9e23c05f84c7dcbf27649dadb3bcad1976ceaa0e8bcd21ec6a9b4c96ca8f84d35c754d7977
 
 Package: waymap
 Version: 7.2.0
@@ -3452,11 +3452,11 @@ Description: Fast Web Vulnerability Scanner and Security Testing Toolkit
  API security testing (REST/GraphQL), and WordPress vulnerability scanning.
  Provides automation-friendly scanning with session management.
 Filename: dists/termuxvoid/main/binary-all/waymap_7.2.0_all.deb
-Size: 1444
-MD5Sum: ec905571424c00fe52469fb2a4a1eb2c
-SHA1: 7243c0eb17ce9c943ac28d2d8b4a17cbdd7799fb
-SHA256: 4f020be7291bde2d76113773907b901515155bc5d9e29ca393ec731d1fa24f60
-SHA512: 37b922b45ce52c7c4299cf74bc262d848bcc967ad731616a3c36d225dd24e33ab53a9f0317fe519259c9ed6ab7aec4bd37c04d5fa8d2fe1c15f960529d6b9e4e
+Size: 1440
+MD5Sum: 22e8fc0302d13ae4d45abb190306148e
+SHA1: d4997b8970e02865d9815913d466b884d93d16fb
+SHA256: f7d085e2e6f2658c4b455925978262c1a07eb713f2f821089ca545a061892efb
+SHA512: 0f5e2dd13d75fb57dba5718f65007396563d6c8a99f92d42e713b435caa9aa88d26c1a4f3f2fde6d8b84f12bbb6db5596a861793dca99789b750653dcface322
 
 Package: webhost
 Version: 1.0.0
@@ -3474,10 +3474,10 @@ Description: Serve local directories and expose via tunnels
  servers, or exposing local services.
 Filename: dists/termuxvoid/main/binary-all/webhost_1.0.0_all.deb
 Size: 4976
-MD5Sum: 901caca2861704bb3aa305f00beef235
-SHA1: 56d9435901986bf3685600b96312375d3f44ae0f
-SHA256: a1acb53db2f41dbfa48a02acd752ec1a5e351e696f5bff170cb3451c6ed30d9d
-SHA512: 3fc4b043e82e9303e76094fe6092a55299ab2a9c499d7a3dff40f354a3025070a2e335536f017d133a240ff581933575865600d217e1f3f6557620e80a6ed1e1
+MD5Sum: bd2a3c1237d9d5dcb61f9d63c34fb602
+SHA1: 5176867ae2125fc3bf4e9b918cbc731933b0ca36
+SHA256: f58c7cc8e23926847e35e68fa0639ffc6bebb50e8efa24887c233951ab56aade
+SHA512: a166e2d3e9cf74c688e9cc1f7dab696fb826013afa16a0705db94bcd45404d9e78eae112818b930aa1c001b07fb366aa267f4bf9f81e44dfc68221e4f2bce925
 
 Package: webinfo
 Version: 3.0
@@ -3489,10 +3489,10 @@ Installed-Size: 8
 Description:Website information gathering
 Filename: dists/termuxvoid/main/binary-all/webinfo_3.0_all.deb
 Size: 2528
-MD5Sum: 48fa173eb9a9bcdeae72c3b6c07fd88b
-SHA1: f5025e1d10ba5141c1ceb7441131bfe4a5464dc3
-SHA256: fdea61cd400814014f2a7cbf44b57a1195520c5f80423d21862d76cf43e8419e
-SHA512: 3a10f515a25c0d34bedb831103448bc6ab3e78e57e52d166692fee199a715c63bafc4a65ead9fadf84f9de3b4dc92ae634280ca44beb48c162d9daa37bd86c40
+MD5Sum: 2e857c5470cc2811f1107ea6c28318a0
+SHA1: d9d759a8ac37ff68babe2652216096d05961a7e4
+SHA256: 9c0eeb4bcd68c90d815e0c7694cbd0da82e6d0159202ca68addf104caac20347
+SHA512: 30edebb75d888db7f61efee1bd9787008c3d1b2eed61c06ad9662ea3fb60fe9ab4079ae998779d9b6d2e0a1c7a46ddca720efd2a808e65104a6b5bb917bd3fec
 
 Package: webserver
 Architecture: all
@@ -3503,10 +3503,10 @@ Description: a simple webserver for termux
 Depends: php, figlet, openssh
 Filename: dists/termuxvoid/main/binary-all/webserver_1.2_all.deb
 Size: 1200
-MD5Sum: 331d319b41ab2ec57bce6a5323da61ff
-SHA1: 39c517fed6246ddd9277a686629fcd961dd59804
-SHA256: 48708def9d94e77dad9090224d72e2f2394f04a760d59c8b6a6fef8c47488cc6
-SHA512: 49b4a1996477966ea9d8caa2b24a5d6dbf151a78915780cdd81adcd19877db47815abc576de9ab34c50113e527ac917d9a58ac2a3efc622a0638109eb815ed8a
+MD5Sum: facaf2c4324fde062273b308c2d75cbd
+SHA1: 7f61461a9aeba7d7e25f8908847d73f35e25ee8a
+SHA256: 2fc20b3f031b9f6244a8f836f5f7752b0c7dbac2a295f4e5bfc68bac22b940c1
+SHA512: e26b76ee567cde7ac8bcfec0678270ee5530744059fd51217ffafbdd7157969dfc8074477334702e7125e5d55ace7645d4575a63ba23892f9f9cdcf9b005631c
 
 Package: websploit
 Version: 4.0.5
@@ -3517,11 +3517,11 @@ Depends: python, python-pip, git, python-numpy
 Homepage: https://github.com/The404Hacking/websploit
 Description: Advanced MITM framework.
 Filename: dists/termuxvoid/main/binary-all/websploit_4.0.5_all.deb
-Size: 1528
-MD5Sum: f61412bc64387b69b8042df321430947
-SHA1: 1e12eea8ce617621baa0a50ce08c97c0757af986
-SHA256: f2c532f7acea43841d1d993dfff4db2b53647075e29496b6bf5639d6f5ed3f33
-SHA512: 1175c20987f754b3ff18a2854ddd39b7da71a60b8b21f9e6cb5d654501a6e240eac13468fd2dc721acda99d7ba1046e9272d9ae4a3be7dfb78e3e7392e1b5a8e
+Size: 1532
+MD5Sum: 5f892916dc08a72089146d29dcd3f806
+SHA1: 266a2293baf12bc1829791c70d7587546c2a10e5
+SHA256: 5db9b4a7a848bcf48ceb2c6d873c4f8f05b7ba2da7cf99dcf1720b83acde7119
+SHA512: 1e3278ca76b5774d379a5aa78c948744ccd849a0a3559684b858d2843fad716bdf0020d0d470ad32e570a96b16b01119065fc0c868fc974a0441fc66d3cc3c77
 
 Package: weeman
 Architecture: all
@@ -3534,10 +3534,10 @@ Homepage: https://github.com/evait-security/weeman
 Description: HTTP server for phishing in python2
 Filename: dists/termuxvoid/main/binary-all/weeman_1.7.1_all.deb
 Size: 1600
-MD5Sum: 1ff0a3282ee3d0c354c95541293baed2
-SHA1: abda7bc241a8ecdb1d58cb86fcb18deffd1c6a70
-SHA256: 478673c696295bf43a2b4eadb9176706c53d91540fc944b6439ac0bec5956126
-SHA512: c08fcf90d279d71f9896082cd4c5f30a5c167bbe4184aa92b0efe6019517bdd518663399cc0cc4d362e7a183836d745db49d174aea3920ddd90146e843dbc0c7
+MD5Sum: 558a555dbdeab6e13da4674bc2bdb9a3
+SHA1: 54a0ab97e8b5a51c67ab566af01cb1eee1c0021b
+SHA256: 2a50dbd48c32d2b2e37af232d4a1e2eefd02e8c16a337d4e64fd4678002a7272
+SHA512: 9ad4369ab94065c389d5adc49bb96dce477929e950e80a111382cdb899431dfda34cece0afc3a3597b24d986c5f7d466eaa61ff263ccdb056bfb9e1b24e1f45d
 
 Package: whatsapp-cli
 Version: 1.3.3
@@ -3553,10 +3553,10 @@ Description: Standalone CLI for WhatsApp using multidevice protocol
  data analysis, and custom applications.
 Filename: dists/termuxvoid/main/binary-all/whatsapp-cli_1.3.3_all.deb
 Size: 1352
-MD5Sum: 47d4c6c593523b6a4ab2fcef8b1ed2ed
-SHA1: 4e3ed3c2d5fba6957d1477e40fb701e7d1b88784
-SHA256: a8fa0c45ba564d86693340dbfa4558bfef6feb8ba31594bb4e7cf8d18fd8c062
-SHA512: 9a3fd0cfabad5bfca87aa19b7cdc96b247cb58f1889308d1e66b85565dde39154379a65af7f146954097e0e4aded23b8b9f57b5d87f3d54ce3da9cbeadf8cfce
+MD5Sum: 7c5270a31538bd0807dcb8ced3fcef8f
+SHA1: 3dafbbc85bd0cfbd98a6a3d8abe975ed9755c8c9
+SHA256: 6b767f39548a911a504782419f95fc3d89d9c85f942329ab041397bdb3531b24
+SHA512: e2df688d0634725378d64cc0503dc23d4c433d9f807bc3beea8b3e0eea8165c38b53b38e1cadef42304ce68383c8f533f86fd5fd88b826105a8021d8f5c99def
 
 Package: wipwn
 Version: 1.0
@@ -3573,10 +3573,10 @@ Description: Fast automated WiFi WPS PIN cracking tool
  and includes session management, vulnerability detection, and report generation.
 Filename: dists/termuxvoid/main/binary-all/wipwn_1.0_all.deb
 Size: 1408
-MD5Sum: aaba169cd2a2d8c752d4b759e35a90fd
-SHA1: 3bd3dbdfd7e75dc4cd880d418a9cb6d04c52ffe6
-SHA256: fff052bfa00bf14f24746a08fc35d12c2d8e7cdb441208ab45cf97f3c8428efe
-SHA512: 4028bfd8c19d5d9c8956bf755aad1ac5770c8dc38ca74d00173e62e9e1be777ac4a8623ce79b8e8a28723e8483fd6cfc12471fbd0510b6ce59821cd541cc4309
+MD5Sum: 8817545a590ee4ff02fee23d6414b366
+SHA1: 4b528f46899900e869cc63182934d02a6a728753
+SHA256: c113014173a89b58fdceff78aac91cb6feec3fbc33ea954303f520988255ef38
+SHA512: 62787b007a8b466b6d34c365916e499477963815974ad23777f3d9601458e0d131a3bf1bd43523415e11fa3d8061d9af03b12ef21b6c60fd43b7bd7841b5e418
 
 Package: wordlists
 Version: 1.1-0
@@ -3587,10 +3587,10 @@ Description: Security wordlists collection (rockyou.txt + SecLists subset).
  Uses faster GitHub mirror for rockyou.txt. For authorized security research only.
 Filename: dists/termuxvoid/main/binary-all/wordlists_1.1-0_all.deb
 Size: 1552
-MD5Sum: 179b1618b48030b71af0f9e3728a08d2
-SHA1: 46f77e915c5201d89cf90e9458d31f3d0973b590
-SHA256: cd79e24191c8846b6d6d2ee0e12b071915b6d3a892879e5d1997816d7ab72b69
-SHA512: b346144243f5e2bafc11436d7cd5a46f3a5c21f64d3411aaef7223e14ac8971cbc9faf9fc9b9d8ad5e73b19f515c886c0c6328a5797935f15eb96bf9b4ed1ae2
+MD5Sum: 0a720cee961e10608429e858d92ce1e8
+SHA1: 9d4dfd6c2cac609cc9f8c880755302da9eb8d483
+SHA256: 7ad481b3173004d76fd38acfd7fd01a15aa00b93783278cec320a4bbcc22d358
+SHA512: 5b5463ed44970fe668f97163ca3d6a32b25caef5cf09c775a0a7b53f6395a13ee89fa5cfc9fd6ddb6286f7df6ae0c2100b00b0b705f1846c6afd04bbe5e0769a
 
 Package: wpscan
 Version: 3.8.28
@@ -3606,10 +3606,10 @@ Description: WordPress Security Scanner
  weak passwords, and misconfigurations.
 Filename: dists/termuxvoid/main/binary-all/wpscan_3.8.28_all.deb
 Size: 1436
-MD5Sum: 7aac8a84ea3172e4c8175c684811967f
-SHA1: d9fecd08011d7d284d4061f6781de92dea45776b
-SHA256: c4279c66208ff368b748faa187a107816430ba49b034288d5dadb08abd9ae8c0
-SHA512: 835786387718014f0442bd2da33d952252494f00acd9a30ba77e7e3670439a25ec3d2a863d19e1eaebd002a3d3a5c904c1a897e18c8b5759d3fa5bcd83b0c038
+MD5Sum: 681ea0552a1b49029fc83bebbde63d42
+SHA1: 70df3b0179c5f8ee34e2147d964ec95dccf7d2d0
+SHA256: 79d20c04aa0c96d077aa6b6d41cf9692a07cf5287a4a236515053ff81e2fde2d
+SHA512: fcb3bcd9312c1f22c0dfe40ee33e85108d2df05b74697ffd1920b8ac662023e74a1351d697fe8ac770094c71910d2a60122f5b555fe9e14b3c7fbcbff8fd084a
 
 Package: xbomber
 Version: 2.0.0
@@ -3624,10 +3624,10 @@ Description: A High-Performance SMS Bombing Tool for Educational Testing
    It is optimized for the Termux environment on Android, providing a portable solution for security researchers and penetration testers.
 Filename: dists/termuxvoid/main/binary-all/xbomber_2.0.0_all.deb
 Size: 1504
-MD5Sum: e442848e486ee5027fa5d3ccaf382089
-SHA1: a399fa84a8922314a7fd6cb4c2e8e97bc1eba377
-SHA256: a8c82b0ca1565b79ca66b4274a39a19a96395541031a50a0ac456d86f4f4f104
-SHA512: b3e4a55c9af6660e279ccee3631442664e0bc9f131e9c935d7a4c9b089bcf32803d6ae1459e51b7d309aa55ce6612c8e20918c3944e433942640baef1caf6ae3
+MD5Sum: e9ece8192ddd6b7f84a1348dca4f3186
+SHA1: 9949c7d7a51abd6225389f380886b72a8db5fb67
+SHA256: 2255849e7f9414ae45c2e463ba714638e6f4179d94db3f5ae5a67579f6c09ebf
+SHA512: b50ee34b38997bde1d2563c07b5ba421edc19b302b53c8747539d73182b002576ea7788e39b61eba76ae034dc2a3a312eed3d546ede0deb561e4912bc5186a15
 
 Package: xsstrike
 Version: 3.1.6
@@ -3652,10 +3652,10 @@ Description: Advanced XSS Detection and Exploitation Suite
  - WAF detection and evasion
 Filename: dists/termuxvoid/main/binary-all/xsstrike_3.1.6_all.deb
 Size: 1732
-MD5Sum: fc9494ad1aa06665554f172067d68005
-SHA1: 30f3eabfded2a963c5d8ad38c561ccdf7729dca1
-SHA256: e06e6afbdb05bc1c7f25a31bd3f5ed099cf6e0a648fe6821d36cc6a222874668
-SHA512: 4adfdd1eb8bcc13fe4399317fe48a16547356389b5cd52f088138335945ba42c70c9501effffbb7b7499131efa21b6e4fd360b1fa3aff0e66d5d626ba71ceadd
+MD5Sum: 5962f9d50892412ea5d58f3ebcf23eae
+SHA1: ea787b9d8ebdb2f3157e26e0b942df45179b9033
+SHA256: 609135ed98463d60db3d503e85a0bb8ebde0c617632ffa8eaf9d4e37ccb301a2
+SHA512: 44a52bc54003e66b8f4f9fa8efd15ed952999ab8be726ab8af6c3c4c4f948ba26343986210148465c3c2dad2ff0f3103f7a3629433860c9e9a0aa513f75ddc76
 
 Package: zaproxy
 Version: 2026.03.02
@@ -3672,11 +3672,11 @@ Description: OWASP Zed Attack Proxy
  - Browser integration
  - Plugins support
 Filename: dists/termuxvoid/main/binary-all/zaproxy_2026.03.02_all.deb
-Size: 55764
-MD5Sum: e3f4a9a07aab2d9b44be4482ba270275
-SHA1: 68136972b54438e8c3f6f0f449af25615c2249fb
-SHA256: 0963f6d83a4766ad26fd18f94f3ac723aa3b50db617fb5134fb2944be31b2aa5
-SHA512: 9765ae1f2f1bedce136f9d235733057a2de3ba0f38540e075eb7cbbf89a98d46b138dbeb329b037d28ef9992a262daa3a1659cd985bf640aedaa88111f9c81d7
+Size: 55760
+MD5Sum: d55c8693cb8a054b817db29a3a470981
+SHA1: 9edf2931040bcb8a03fc8fdeefcc94e15c9bc708
+SHA256: e8b3b5cb1613133a50fb4284b07c6cbaa438f9212415e42bbf814757b42fe657
+SHA512: 3b73851a21017329d08941652ab0f91ddf0c5d9a3c8b5e65802a78c3141491da56bff25afcc3343760df100d5aa334d30e4cdab584b62ebed423163a98113344
 
 Package: zen-c
 Version: 1.0
@@ -3693,10 +3693,10 @@ Description: High-level Systems Programming Language compiling to C
  RAII while maintaining 100% C ABI compatibility.
 Filename: dists/termuxvoid/main/binary-all/zen-c_1.0_all.deb
 Size: 1436
-MD5Sum: 3328487c465c609174ee700480d2405c
-SHA1: edb5e7404c2e96a46930a4766ee736601d8494ee
-SHA256: e99924330d0221fce4e74b7a2010c90dca75fd7052297140713d7e58ae6be9eb
-SHA512: 4e7dd097347351034f10d2036c15db61dc0d4a5835fc17163f4068e50d1b1f908f79c72bcbb811d17176c4fad67c42e7221a9b3d598c6f88bd047e914e6a5a30
+MD5Sum: 1c5ec2dd8cfc8ef61f7ba909a0611ab6
+SHA1: 78c7f70914407e7daee1336779f0b0359fb75eea
+SHA256: f4a0aa378a1a99b6d2af39c90936162007c1f6d8c7fd60559b35ed8f6d05b736
+SHA512: 65239017c18f3fa94ed5c2482ce2082f01232459608d9bf16519229e3d35759bab85197a428ee22909400a669242c07ab1671bb10cff20e9c6d326e87cfd1a86
 
 Package: zipcracker
 Version: 1.0
@@ -3708,9 +3708,9 @@ Priority: optional
 Homepage: https://github.com/Anon4You/ZipCracker
 Description: A powerful yet simple ZIP archive password recovery tool designed for Termux
 Filename: dists/termuxvoid/main/binary-all/zipcracker_1.0_all.deb
-Size: 2100
-MD5Sum: 5297d9aff3f0ed705ecba49410b8aa4c
-SHA1: 33410342a194802d7679f553b390a964d5f00cb6
-SHA256: 594c577e1ce3faeb6507e2c85ec5d1fc6cf94f986bb1fd1138a6c8e6992b1d08
-SHA512: 181c9934b3547fd0eaa3cc83bc006d46e129cca9497dc3b57cfb3e7c70d6e95d5b82db7e7405066f205a60ed90473c7eeb5b692136975e736baa1f354f45ee73
+Size: 2096
+MD5Sum: ce162b686b2e10c0989e1f89b280a9bd
+SHA1: fca9d532ee52ca015759920ee57d8a9f371dd400
+SHA256: f57c0f0f6171d83c40c77c1e1e45e437225f213d1d9f3f85dc4d6d3bba2af1ba
+SHA512: 89433e9d231835f159c670aa23cf1c31fd158eb1b4df1cfe7056044419eb34e63c4bfe309baf5f57a009e129a6957d137e3209568bc50979f13fd31600bdf8a9
 
