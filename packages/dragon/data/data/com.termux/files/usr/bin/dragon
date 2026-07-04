@@ -1,9 +1,9 @@
 #!/data/data/com.termux/files/usr/bin/bash
 # ============================================================================
-#  dragon — Dragon repository tool manager    github.com/aliheba125/repo
-#  Usage: dragon [list|search <q>|install <t..>|remove <t..>|update|info <t>|help]
+#  dragon — Dragon repository tool manager   github.com/aliheba125/repo
+#  dragon [list | search <q> | install <n|name|range|all..> | remove .. | update | info <t>]
 # ============================================================================
-SUITE=termuxvoid   # apt suite name (internal)
+SUITE=termuxvoid
 
 COLS=$( { stty size </dev/tty; } 2>/dev/null | awk '{print $2}' )
 [ -z "$COLS" ] && COLS=$( { tput cols </dev/tty; } 2>/dev/null )
@@ -13,6 +13,7 @@ case "$COLS" in ''|*[!0-9]*) COLS=60 ;; esac
 
 LOG="$(mktemp 2>/dev/null)"; [ -z "$LOG" ] && LOG="${TMPDIR:-$HOME}/.dragon.$$.log"
 : > "$LOG" 2>/dev/null || LOG=/dev/null
+IDX="${TMPDIR:-$HOME}/.dragon.idx"
 cleanup(){ [ "$LOG" != /dev/null ] && rm -f "$LOG" 2>/dev/null; }; trap cleanup EXIT
 
 case "$COLORTERM" in truecolor|24bit) TC=1 ;; *) TC=0 ;; esac
@@ -37,6 +38,7 @@ ok(){   printf '   %s[+]%s %s\n' "$C_OK"   "$RST" "$1"; }
 bad(){  printf '   %s[x]%s %s\n' "$C_ERR"  "$RST" "$1"; }
 warn(){ printf '   %s[!]%s %s\n' "$C_WARN" "$RST" "$1"; }
 info(){ printf '   %s[>]%s %s\n' "$C_INFO" "$RST" "$1"; }
+pause(){ echo; printf '   %s[>]%s press %sEnter%s to go back… ' "$C_INFO" "$RST" "$C_ACC" "$RST"; read -r _; }
 _row(){ local body="$5 $6"; local fill=$(( $3-1-${#body} )); ((fill<0)) && fill=0
   printf '%s%s│%s %s%s%s %s%s%*s%s%s│%s\n' "$1" "$2" "$RST" "$4" "$5" "$RST" "$BOLD" "$6" "$fill" '' "$RST" "$2" "$RST"; }
 card(){ local col="$1" mk="$2" title="$3" msg="$4"
@@ -56,47 +58,62 @@ run_step(){ local desc="$1"; shift
   wait "$pid"; local rc=$?
   if [ $rc -eq 0 ]; then printf '\r   %s[+]%s %s\033[K\n' "$C_OK" "$RST" "$desc"; else printf '\r   %s[x]%s %s\033[K\n' "$C_ERR" "$RST" "$desc"; fi; return $rc; }
 
-banner(){
-  echo
-  if [ "$COLS" -ge "$DSML_W" ]; then
-    local pad; pad=$(_pad "$DSML_W")
-    local i
+banner(){ echo
+  if [ "$COLS" -ge "$DSML_W" ]; then local pad i; pad=$(_pad "$DSML_W")
     for i in "${!DSML_A[@]}"; do
       if [ "$TC" = 1 ]; then printf '%s\033[38;2;%sm%s%s\n' "$pad" "${DSML_C[$i]}" "${DSML_A[$i]}" "$RST"
-      else printf '%s%s%s%s\n' "$pad" "$C_ACC" "${DSML_A[$i]}" "$RST"; fi
-    done
-    echo
-  fi
-  if [ "$COLS" -ge "$FIG_W" ]; then local p; p=$(_pad "$FIG_W"); local l; for l in "${FIG_A[@]}"; do printf '%s%s%s%s\n' "$p" "$BOLD$C_ACC" "$l" "$RST"; done
+      else printf '%s%s%s%s\n' "$pad" "$C_ACC" "${DSML_A[$i]}" "$RST"; fi; done; echo; fi
+  if [ "$COLS" -ge "$FIG_W" ]; then local p l; p=$(_pad "$FIG_W"); for l in "${FIG_A[@]}"; do printf '%s%s%s%s\n' "$p" "$BOLD$C_ACC" "$l" "$RST"; done
   else center "${BOLD}${C_ACC}D R A G O N${RST}" 11; fi
-  echo; center "${C_DIM}tool manager${RST}" 12; echo
-}
-slim(){ echo; center "${BOLD}${C_ACC}🐉 Dragon${RST}  ${C_DIM}${1}${RST}" $(( 9 + 3 + ${#1} )); rule $(( COLS<58?COLS-2:56 )); echo; }
+  echo; center "${C_DIM}tool manager${RST}" 12; echo; }
+slim(){ echo; center "${BOLD}${C_ACC}🐉 Dragon${RST}  ${C_DIM}${1}${RST}" $(( 12 + ${#1} )); rule $(( COLS<58?COLS-2:56 )); echo; }
 
-_names(){ apt list 2>/dev/null | grep "/$SUITE" | cut -d/ -f1 | sort -u; }
-
-cmd_list(){ slim "· all tools"
-  local names; names=$(_names); local n; n=$(printf '%s\n' "$names" | grep -c .)
-  if [ "$n" = 0 ]; then warn "No Dragon tools found. Run: dragon update"; return; fi
-  info "${BOLD}$n${RST} tools available:"; echo
-  # print in responsive columns
-  local colw=18 per=$(( (COLS-4)/18 )); ((per<1)) && per=1
-  printf '%s\n' "$names" | awk -v acc="$C_ACC" -v rst="$RST" -v per="$per" -v cw="$colw" '
-    { printf "  %s%-*s%s", acc, cw, $0, rst; if (NR%per==0) print "" } END{ if (NR%per!=0) print "" }'
-  echo; info "Install:  ${C_ACC}dragon install <tool>${RST}"
+# --- read tool names straight from OUR repo index -> all 205 (not apt-filtered) ---
+_names(){
+  local f
+  f=$(ls "$PREFIX"/var/lib/apt/lists/*aliheba125*_Packages 2>/dev/null | head -1)
+  [ -z "$f" ] && f=$(ls "$PREFIX"/var/lib/apt/lists/*"$SUITE"*Packages 2>/dev/null | head -1)
+  if [ -n "$f" ]; then grep '^Package:' "$f" | awk '{print $2}' | sort -u
+  else apt list 2>/dev/null | grep "/$SUITE" | cut -d/ -f1 | sort -u; fi
 }
-cmd_search(){ slim "· search: $*"
+load_idx(){ _names > "$IDX" 2>/dev/null; }
+
+print_list(){                 # numbered, responsive columns, from $IDX
+  local n; n=$(grep -c . "$IDX" 2>/dev/null)
+  local per=$(( (COLS-2)/24 )); ((per<1)) && per=1
+  awk -v per="$per" -v fr="$C_FR" -v acc="$C_ACC" -v rst="$RST" '
+    { printf "  %s[%3d]%s %s%-16.16s%s", fr, NR, rst, acc, $0, rst; if (NR%per==0) printf "\n" }
+    END{ if (NR%per!=0) printf "\n" }' "$IDX"
+  echo; info "${BOLD}$n${RST} tools. Install by ${C_ACC}number${RST}, ${C_ACC}name${RST}, ${C_ACC}range 3-10${RST}, or ${C_ACC}all${RST}."
+}
+# resolve tokens (numbers/ranges/names/all) -> package names
+resolve(){ [ -s "$IDX" ] || load_idx; local t a b
+  for t in "$@"; do
+    case "$t" in
+      all|ALL|*) : ;;
+    esac
+    if [ "$t" = all ] || [ "$t" = ALL ]; then cat "$IDX"
+    elif printf '%s' "$t" | grep -qE '^[0-9]+-[0-9]+$'; then a=${t%-*}; b=${t#*-}; sed -n "${a},${b}p" "$IDX"
+    elif printf '%s' "$t" | grep -qE '^[0-9]+$'; then sed -n "${t}p" "$IDX"
+    else printf '%s\n' "$t"; fi
+  done | awk 'NF' | sort -u
+}
+
+cmd_list(){ slim "· all tools"; load_idx; print_list; }
+cmd_search(){ slim "· search: $*"; load_idx
   local q="$*"; [ -z "$q" ] && { warn "Usage: dragon search <term>"; return; }
-  local hits; hits=$(_names | grep -i -- "$q")
+  local hits; hits=$(grep -in -- "$q" "$IDX")
   local n; n=$(printf '%s\n' "$hits" | grep -c .)
-  if [ "$n" = 0 ]; then warn "No tool matches '$q'"; return; fi
+  [ "$n" = 0 ] && { warn "No tool matches '$q'"; return; }
   info "${BOLD}$n${RST} match(es) for '${BOLD}$q${RST}':"; echo
-  printf '%s\n' "$hits" | while read -r t; do [ -n "$t" ] && printf '   %s•%s %s%s%s\n' "$C_FR" "$RST" "$C_ACC" "$t" "$RST"; done
-  echo; info "Install:  ${C_ACC}dragon install <tool>${RST}"
+  printf '%s\n' "$hits" | while IFS=: read -r num name; do
+    [ -n "$name" ] && printf '   %s[%s]%s %s%s%s\n' "$C_FR" "$num" "$RST" "$C_ACC" "$name" "$RST"; done
+  echo; info "Install:  ${C_ACC}dragon install <number|name>${RST}"
 }
-cmd_info(){ slim "· info: $1"
+cmd_info(){ slim "· info: $1"; load_idx
   local t="$1"; [ -z "$t" ] && { warn "Usage: dragon info <tool>"; return; }
-  if ! _names | grep -qx "$t"; then warn "'$t' is not a Dragon tool"; return; fi
+  printf '%s' "$t" | grep -qE '^[0-9]+$' && t=$(sed -n "${t}p" "$IDX")
+  grep -qx "$t" "$IDX" || { warn "'$t' is not a Dragon tool"; return; }
   apt-cache show "$t" 2>/dev/null | awk -v a="$C_ACC" -v d="$C_DIM" -v r="$RST" '
     /^Package:/{print "   "a$0 r; next}
     /^Version:|^Depends:|^Homepage:/{print "   "d$0 r; next}
@@ -105,15 +122,23 @@ cmd_info(){ slim "· info: $1"
   echo; info "Install:  ${C_ACC}dragon install $t${RST}"
 }
 cmd_install(){ slim "· install"
-  [ $# -eq 0 ] && { warn "Usage: dragon install <tool...>"; return 1; }
-  info "Installing: ${BOLD}$*${RST}"; echo
-  if apt install -y "$@"; then echo; card "$C_OK" "[+]" "Installed" "$*"
+  [ $# -eq 0 ] && { warn "Usage: dragon install <number|name|range|all>"; return 1; }
+  local pkgs; pkgs=$(resolve "$@"); local cnt; cnt=$(printf '%s\n' "$pkgs" | grep -c .)
+  [ "$cnt" = 0 ] && { warn "Nothing matched: $*"; return 1; }
+  if [ "$cnt" -gt 12 ]; then
+    warn "About to install ${BOLD}$cnt${RST} tools (may be large)."
+    printf '   %s[>]%s continue? [y/N] ' "$C_INFO" "$RST"; read -r yn
+    case "$yn" in y|Y|yes) : ;; *) info "cancelled"; return 1 ;; esac
+  fi
+  info "Installing (${BOLD}$cnt${RST}): $(printf '%s ' $pkgs)"; echo
+  if apt install -y $pkgs; then echo; card "$C_OK" "[+]" "Installed $cnt tool(s)" "done"
   else echo; card "$C_ERR" "[x]" "Install failed" "check name / connection"; return 1; fi
 }
 cmd_remove(){ slim "· remove"
-  [ $# -eq 0 ] && { warn "Usage: dragon remove <tool...>"; return 1; }
-  info "Removing: ${BOLD}$*${RST}"; echo
-  if apt remove -y "$@"; then echo; card "$C_WARN" "[!]" "Removed" "$*"
+  [ $# -eq 0 ] && { warn "Usage: dragon remove <number|name>"; return 1; }
+  local pkgs; pkgs=$(resolve "$@")
+  info "Removing: $(printf '%s ' $pkgs)"; echo
+  if apt remove -y $pkgs; then echo; card "$C_WARN" "[!]" "Removed" "$(printf '%s ' $pkgs)"
   else echo; card "$C_ERR" "[x]" "Remove failed" "$*"; return 1; fi
 }
 cmd_update(){ slim "· update"
@@ -121,35 +146,39 @@ cmd_update(){ slim "· update"
   info "Upgrading installed tools…"; echo; apt upgrade -y
   echo; card "$C_OK" "[+]" "Up to date" "all Dragon tools current"
 }
-cmd_help(){ banner
-  rule $(( COLS<58?COLS-2:56 )); echo
-  info "${BOLD}dragon${RST}            interactive menu"
-  info "${BOLD}dragon list${RST}       list all 204 tools"
-  info "${BOLD}dragon search${RST} <q> find a tool"
-  info "${BOLD}dragon info${RST} <t>   show tool details"
-  info "${BOLD}dragon install${RST} <t> install tool(s)"
-  info "${BOLD}dragon remove${RST} <t>  remove tool(s)"
-  info "${BOLD}dragon update${RST}     update everything"
+cmd_help(){ banner; rule $(( COLS<58?COLS-2:56 )); echo
+  info "${BOLD}dragon${RST}                 interactive menu"
+  info "${BOLD}dragon list${RST}            numbered list (all tools)"
+  info "${BOLD}dragon search${RST} <q>      find a tool"
+  info "${BOLD}dragon info${RST} <n|name>   tool details"
+  info "${BOLD}dragon install${RST} <..>    number / name / 3-10 / all"
+  info "${BOLD}dragon remove${RST} <..>     number / name"
+  info "${BOLD}dragon update${RST}          update everything"
   echo; info "TG ${C_ACC}t.me/a1002a${RST}   WA ${C_ACC}wa.me/9647823210125${RST}"; echo
 }
-menu(){ clear 2>/dev/null; banner
-  rule $(( COLS<58?COLS-2:56 )); echo
-  info "${C_ACC}1${RST}) Browse all tools"
-  info "${C_ACC}2${RST}) Search a tool"
-  info "${C_ACC}3${RST}) Install a tool"
-  info "${C_ACC}4${RST}) Update everything"
-  info "${C_ACC}5${RST}) Remove a tool"
-  info "${C_ACC}0${RST}) Exit"
-  echo; printf '   %s[>]%s choose: ' "$C_INFO" "$RST"; read -r ch
-  case "$ch" in
-    1) cmd_list ;;
-    2) printf '   %s[>]%s search: ' "$C_INFO" "$RST"; read -r q; cmd_search $q ;;
-    3) printf '   %s[>]%s tool to install: ' "$C_INFO" "$RST"; read -r t; [ -n "$t" ] && cmd_install $t ;;
-    4) cmd_update ;;
-    5) printf '   %s[>]%s tool to remove: ' "$C_INFO" "$RST"; read -r t; [ -n "$t" ] && cmd_remove $t ;;
-    0|q|Q) echo; center "${C_DIM}>> see you, hacker${RST}" 18; echo; exit 0 ;;
-    *) warn "invalid choice" ;;
-  esac
+
+menu(){ load_idx
+  while true; do
+    clear 2>/dev/null; banner; rule $(( COLS<58?COLS-2:56 )); echo
+    info "${C_ACC}1${RST}) Browse all tools (numbered)"
+    info "${C_ACC}2${RST}) Search a tool"
+    info "${C_ACC}3${RST}) Install  (number / name / 3-10 / all)"
+    info "${C_ACC}4${RST}) Update everything"
+    info "${C_ACC}5${RST}) Remove a tool"
+    info "${C_ACC}0${RST}) Exit"
+    echo; printf '   %s[>]%s choose: ' "$C_INFO" "$RST"; read -r ch
+    case "$ch" in
+      1) slim "· all tools"; print_list; pause ;;
+      2) printf '   %s[>]%s search: ' "$C_INFO" "$RST"; read -r q; [ -n "$q" ] && cmd_search $q; pause ;;
+      3) slim "· all tools"; print_list; echo
+         printf '   %s[>]%s numbers/names/range/all: ' "$C_INFO" "$RST"; read -r sel
+         [ -n "$sel" ] && cmd_install $sel; pause ;;
+      4) cmd_update; pause ;;
+      5) printf '   %s[>]%s tool number/name to remove: ' "$C_INFO" "$RST"; read -r t; [ -n "$t" ] && cmd_remove $t; pause ;;
+      0|q|Q|exit) clear 2>/dev/null; center "${C_DIM}>> see you, hacker${RST}" 18; echo; exit 0 ;;
+      *) warn "invalid choice"; sleep 1 ;;
+    esac
+  done
 }
 
 case "$1" in

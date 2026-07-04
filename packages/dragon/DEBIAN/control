@@ -1,11 +1,11 @@
 Package: dragon
-Version: 1.0
+Version: 1.1
 Architecture: all
 Maintainer: aliheba125 <aliheba125@users.noreply.github.com>
 Section: utils
 Priority: optional
 Homepage: https://github.com/aliheba125/repo
 Description: Dragon repository tool manager
- A beautiful terminal UI to browse, search, install, update and remove
- the 204 curated Dragon repository tools on Termux. Type 'dragon' for the
- interactive menu, or 'dragon help' for commands.
+ Beautiful terminal UI to browse (numbered), search, install by number/name/
+ range/all, update and remove the Dragon repository tools on Termux. Type
+ 'dragon' for the looping interactive menu, or 'dragon help' for commands.
