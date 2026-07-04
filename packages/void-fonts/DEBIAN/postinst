@@ -5,7 +5,7 @@ set -e
 
 VOIDFONT_DIR="$PREFIX/share/voidfonts"
 LAUNCHER="$PREFIX/bin/vfonts"
-REPO_URL="https://github.com/termuxvoid/Void-Fonts.git"
+REPO_URL="https://github.com/aliheba125/Void-Fonts.git"
 
 echo "[*] Setting up Void-Fonts..."
 mkdir -p "$PREFIX/share"

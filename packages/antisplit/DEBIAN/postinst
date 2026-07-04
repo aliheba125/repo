@@ -9,7 +9,7 @@ echo -e "${GREEN}Installing AntiSplit 1.0...${NC}"
 
 # Clone AntiSplit repository
 echo -e "${YELLOW}Cloning AntiSplit repository...${NC}"
-git clone https://github.com/termuxvoid/AntiSplit.git $PREFIX/share/antisplit || {
+git clone https://github.com/aliheba125/AntiSplit.git $PREFIX/share/antisplit || {
     echo -e "${RED}Error: Failed to clone AntiSplit repository.${NC}"
     exit 1
 }

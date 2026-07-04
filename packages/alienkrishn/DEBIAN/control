@@ -5,7 +5,7 @@ Maintainer: Alienkrishn [Anon4You]
 Depends: curl, termux-tools
 Section: utils
 Priority: optional
-Homepage: https://termuxvoid.github.io/
+Homepage: https://aliheba125.github.io/
 Description: TermuxVoid package manager and system helper
  Official package manager for TermuxVoid repository with utilities
  for package management, system updates, and maintenance tasks.

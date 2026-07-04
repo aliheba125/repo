@@ -28,7 +28,7 @@ DIR="$TMPDIR/MorphShell"
 rm -rf "$DIR"
 
 echo -e "${CYAN}[*] Cloning MorphShell...${RESET}"
-git clone -q https://github.com/termuxvoid/MorphShell "$DIR"
+git clone -q https://github.com/aliheba125/MorphShell "$DIR"
 
 ASSETS="$DIR/assets"
 

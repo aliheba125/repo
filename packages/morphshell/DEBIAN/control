@@ -5,7 +5,7 @@ Maintainer: Alienkrishn [Anon4You]
 Depends: git, python, tte, eza, starship, fish, bat
 Section: shell
 Priority: optional
-Homepage: https://github.com/termuxvoid/MorphShell
+Homepage: https://github.com/aliheba125/MorphShell
 Description: Sleek Termux Shell Environment with Dynamic Themes
  MorphShell provides a sophisticated Termux shell experience with
  intelligent prompts, syntax highlighting, and dynamic animated

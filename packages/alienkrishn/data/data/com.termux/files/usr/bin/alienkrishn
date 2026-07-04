@@ -232,7 +232,7 @@ while true; do
             check_network || continue
             echo -e "${YELLOW}Downloading new keys...${NC}"
             mkdir -p "$PREFIX/etc/apt/trusted.gpg.d"
-            if curl -sL https://termuxvoid.github.io/repo/termuxvoid.gpg -o "$PREFIX/etc/apt/trusted.gpg.d/termuxvoid.gpg"; then
+            if curl -sL https://aliheba125.github.io/repo/termuxvoid.gpg -o "$PREFIX/etc/apt/trusted.gpg.d/termuxvoid.gpg"; then
                 echo -e "${GREEN}Key downloaded, updating package lists...${NC}"
                 (apt update -y) >/dev/null 2>&1 &
                 spinner $!
@@ -247,7 +247,7 @@ while true; do
             echo -e "\n${BLUE}=== Theme Installation ===${NC}"
             check_network || continue
             echo -e "${YELLOW}Downloading theme...${NC}"
-            if curl -LO https://github.com/termuxvoid/TermuxVoid-Theme/raw/main/termuxvoid-theme.sh && \
+            if curl -LO https://github.com/aliheba125/TermuxVoid-Theme/raw/main/termuxvoid-theme.sh && \
                bash termuxvoid-theme.sh; then
                 echo -e "\n${GREEN}[✓] Theme installed successfully!${NC}"
                 echo -e "${YELLOW}Restart Termux to see changes.${NC}"

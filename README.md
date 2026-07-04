@@ -1,19 +1,19 @@
 <div align="center">
-  <a href="https://termuxvoid.github.io/">
+  <a href="https://aliheba125.github.io/">
     <img alt="TermuxVoid" height="180" src="img/termuxvoid_logo.png">
     <h1>TermuxVoid APT Repository</h1>
   </a>
   <p><b>🔓 Unofficial APT Repository: 192+ Ethical Hacking & Pentesting Packages</b></p>
 
   <div>
-    <a href="https://github.com/TermuxVoid/repo/stargazers">
-      <img src="https://img.shields.io/github/stars/TermuxVoid/repo?style=for-the-badge&logo=github&color=ffd700&labelColor=0d1117" alt="GitHub Stars">
+    <a href="https://github.com/aliheba125/repo/stargazers">
+      <img src="https://img.shields.io/github/stars/aliheba125/repo?style=for-the-badge&logo=github&color=ffd700&labelColor=0d1117" alt="GitHub Stars">
     </a>
-    <a href="https://github.com/TermuxVoid/repo/blob/main/LICENSE">
+    <a href="https://github.com/aliheba125/repo/blob/main/LICENSE">
       <img src="https://img.shields.io/badge/License-BSD_3--Clause-blue?style=for-the-badge&logo=opensourceinitiative" alt="License">
     </a>
-    <a href="https://github.com/TermuxVoid/repo/issues">
-      <img src="https://img.shields.io/github/issues/TermuxVoid/repo?style=for-the-badge&logo=github&color=orange&labelColor=0d1117" alt="GitHub Issues">
+    <a href="https://github.com/aliheba125/repo/issues">
+      <img src="https://img.shields.io/github/issues/aliheba125/repo?style=for-the-badge&logo=github&color=orange&labelColor=0d1117" alt="GitHub Issues">
     </a>
   </div>
 </div>
@@ -61,7 +61,7 @@ Getting started is seamless. Run the following one-liner in your Termux terminal
 
 ```bash
 # Add repository
-curl -sL https://github.com/termuxvoid/repo/raw/main/install.sh | bash
+curl -sL https://github.com/aliheba125/repo/raw/main/install.sh | bash
 ```
 
 Once the repository is added, you can install any tool using `pkg install`:
@@ -171,7 +171,7 @@ Many of these tools (like Metasploit or Ghidra) have heavy dependencies, large s
 <br>
 We are constantly expanding. You can request new tools via:
 
-1. Opening a **[GitHub Issue](https://github.com/TermuxVoid/repo/issues)**
+1. Opening a **[GitHub Issue](https://github.com/aliheba125/repo/issues)**
 2. Contacting us on Telegram: **[Telegram @nullxvoid](https://t.me/nullxvoid)**
 3. Sending an email to: **[termuxvoid@gmail.com](mailto:termuxvoid@gmail.com)**
 </details>
@@ -179,7 +179,7 @@ We are constantly expanding. You can request new tools via:
 <details>
 <summary><b>How do I report a broken package?</b></summary>
 <br>
-Open an issue on **[GitHub](https://github.com/TermuxVoid/repo/issues)** with the tool name and error output. We aim to fix reported issues within 24 hours.
+Open an issue on **[GitHub](https://github.com/aliheba125/repo/issues)** with the tool name and error output. We aim to fix reported issues within 24 hours.
 </details>
 
 <details>
@@ -220,7 +220,7 @@ Join our growing community of security researchers and mobile hackers.
   <a href="https://youtube.com/@alienkrishnorg">
     <img src="https://img.shields.io/badge/YouTube-Tutorials-FF0000?style=for-the-badge&logo=youtube" alt="YouTube">
   </a>
-  <a href="https://github.com/TermuxVoid/repo">
+  <a href="https://github.com/aliheba125/repo">
     <img src="https://img.shields.io/badge/GitHub-Source_Code-181717?style=for-the-badge&logo=github" alt="GitHub">
   </a>
 </div>

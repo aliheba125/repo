@@ -7,7 +7,7 @@ NC='\033[0m'
 
 echo -e "${GREEN}Installing OpenBullet2 0.3.2...${NC}"
 
-DOWNLOAD_URL="https://github.com/termuxvoid/OpenBullet2-termux/releases/download/0.3.2/openbullet2.7z"
+DOWNLOAD_URL="https://github.com/aliheba125/OpenBullet2-termux/releases/download/0.3.2/openbullet2.7z"
 
 echo -e "${YELLOW}Downloading OpenBullet2...${NC}"
 axel -o $TMPDIR/openbullet2.7z $DOWNLOAD_URL || {

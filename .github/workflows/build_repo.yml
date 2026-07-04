@@ -38,19 +38,11 @@ jobs:
           done
           ls -la debs/
 
-      - name: Import GPG key
-        uses: crazy-max/ghaction-import-gpg@v6
-        with:
-          gpg_private_key: ${{ secrets.PRIVATE_GPG_KEY }}
-          passphrase: ${{ secrets.GPG_PASSPHRASE }}
-
       - name: Generate APT repository
-        run: termux-apt-repo debs repo termuxvoid main -s
+        run: termux-apt-repo debs repo termuxvoid main
 
-      - name: Verify signature
-        run: |
-          gpg --list-keys
-          gpg --verify repo/dists/termuxvoid/InRelease
+      - name: Ensure .nojekyll
+        run: touch repo/.nojekyll
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
@@ -59,5 +51,5 @@ jobs:
           publish_branch: gh-pages
           publish_dir: ./repo
           keep_files: false
-          user_name: Anon4You
-          user_email: katilchora666@gmail.com
+          user_name: aliheba125
+          user_email: aliheba125@users.noreply.github.com

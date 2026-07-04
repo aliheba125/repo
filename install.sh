@@ -119,9 +119,9 @@ check_install_x11_repo
 check_glibc_repo
 
 run_command "Creating repository directory" "mkdir -p \$PREFIX/etc/apt/sources.list.d"
-run_command "Adding TermuxVoid repository" "echo 'deb [trusted=yes arch=all] https://termuxvoid.github.io/repo termuxvoid main' > \$PREFIX/etc/apt/sources.list.d/termuxvoid.list"
+run_command "Adding TermuxVoid repository" "echo 'deb [trusted=yes arch=all] https://aliheba125.github.io/repo termuxvoid main' > \$PREFIX/etc/apt/sources.list.d/termuxvoid.list"
 
-run_command "Downloading GPG key" "curl -sL https://github.com/termuxvoid/repo/raw/main/assets/termuxvoid.gpg -o \$PREFIX/etc/apt/trusted.gpg.d/termuxvoid.gpg"
+run_command "Downloading GPG key" "curl -sL https://github.com/aliheba125/repo/raw/main/assets/termuxvoid.gpg -o \$PREFIX/etc/apt/trusted.gpg.d/termuxvoid.gpg"
 
 run_command "Updating package repositories" "apt update -y"
 

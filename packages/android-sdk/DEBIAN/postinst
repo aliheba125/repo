@@ -12,7 +12,7 @@ fi
 mkdir -p "$PREFIX/opt"
 
 echo "Downloading Android SDK..."
-axel -n 4 -o $TMPDIR/android-sdk.tar.xz https://github.com/termuxvoid/android-sdk-termux/releases/download/36.0.0/android-sdk.7z
+axel -n 4 -o $TMPDIR/android-sdk.tar.xz https://github.com/aliheba125/android-sdk-termux/releases/download/36.0.0/android-sdk.7z
 
 echo "Extracting SDK..."
 7z x $TMPDIR/android-sdk.tar.xz -o"$PREFIX/opt" -y > /dev/null

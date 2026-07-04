@@ -2,7 +2,7 @@
 set -e
 
 FLUTTER_DIR="$PREFIX/opt/flutter"
-DOWNLOAD_URL="https://github.com/termuxvoid/flutter-termux/releases/download/3.41.9/flutter.7z"
+DOWNLOAD_URL="https://github.com/aliheba125/flutter-termux/releases/download/3.41.9/flutter.7z"
 TMP_ARCHIVE="$TMPDIR/flutter.7z"
 
 echo "[*] Setting up Flutter..."
