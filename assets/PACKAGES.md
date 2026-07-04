@@ -281,8 +281,9 @@ This repository provides specialized security and penetration testing tools for 
 > Stay updated with new tools and announcements via our official channels.
 
 ## 🔄 Updates & Support
-- Telegram: [@nullxvoid](https://t.me/nullxvoid)
-- YouTube: [@alienkrishnorg](https://youtube.com/@alienkrishnorg)
+- Telegram: [@a1002a](https://t.me/a1002a)
+- WhatsApp: [+964 782 321 0125](https://wa.me/9647823210125)
+- WhatsApp: [+964 782 321 0125](https://wa.me/9647823210125)
 
 > [!WARNING]
 > These tools are provided for educational and security research purposes only. Unauthorized use against systems you do not own or have explicit permission to test is illegal. The repository maintainers are not responsible for any misuse.

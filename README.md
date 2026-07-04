@@ -172,7 +172,7 @@ Many of these tools (like Metasploit or Ghidra) have heavy dependencies, large s
 We are constantly expanding. You can request new tools via:
 
 1. Opening a **[GitHub Issue](https://github.com/aliheba125/repo/issues)**
-2. Contacting us on Telegram: **[Telegram @nullxvoid](https://t.me/nullxvoid)**
+2. Contacting us on Telegram: **[Telegram @a1002a](https://t.me/a1002a)** or WhatsApp: **[+964 782 321 0125](https://wa.me/9647823210125)**
 3. Sending an email to: **[termuxvoid@gmail.com](mailto:termuxvoid@gmail.com)**
 </details>
 
@@ -214,11 +214,11 @@ If the tool still doesn't appear, it may have a different package name — check
 Join our growing community of security researchers and mobile hackers.
 
 <div align="center">
-  <a href="https://t.me/nullxvoid">
+  <a href="https://t.me/a1002a">
     <img src="https://img.shields.io/badge/Telegram-Join_Group-2CA5E0?style=for-the-badge&logo=telegram" alt="Telegram">
   </a>
-  <a href="https://youtube.com/@alienkrishnorg">
-    <img src="https://img.shields.io/badge/YouTube-Tutorials-FF0000?style=for-the-badge&logo=youtube" alt="YouTube">
+  <a href="https://wa.me/9647823210125">
+    <img src="https://img.shields.io/badge/WhatsApp-Chat-25D366?style=for-the-badge&logo=whatsapp" alt="WhatsApp">
   </a>
   <a href="https://github.com/aliheba125/repo">
     <img src="https://img.shields.io/badge/GitHub-Source_Code-181717?style=for-the-badge&logo=github" alt="GitHub">

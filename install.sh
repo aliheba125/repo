@@ -1,132 +1,124 @@
 #!/data/data/com.termux/files/usr/bin/bash
+# ============================================================================
+#   Dragon  —  Termux Repository Installer
+#   Beautiful · Responsive · Self-contained     github.com/aliheba125/repo
+#   Telegram: t.me/a1002a      WhatsApp: wa.me/9647823210125
+# ============================================================================
+SILENT=false; [ "$1" = "-s" ] && SILENT=true
 
-GREEN="\e[32m"
-RED="\e[31m"
-YELLOW="\e[33m"
-BLUE="\e[34m"
-CYAN="\e[36m"
-MAGENTA="\e[35m"
-RESET="\e[0m"
-CHECK="✅"
-CROSS="❌"
-INFO=">> "
-WARN="❗"
+COLS=$( { command -v tput >/dev/null 2>&1 && tput cols; } 2>/dev/null || echo "${COLUMNS:-80}" )
+[ -z "$COLS" ] && COLS=80
+case "$COLORTERM" in truecolor|24bit) TC=1 ;; *) TC=0 ;; esac
+[ -t 1 ] || TC=-1
 
-SILENT_MODE=false
+RST=$'\033[0m'; BOLD=$'\033[1m'
+if [ "$TC" = 1 ]; then
+  C_OK=$'\033[38;2;0;235;90m'; C_ERR=$'\033[38;2;255;76;76m'; C_WARN=$'\033[38;2;255;190;40m'
+  C_INFO=$'\033[38;2;90;220;255m'; C_ACC=$'\033[38;2;0;255;90m'; C_DIM=$'\033[38;2;95;140;105m'; C_FR=$'\033[38;2;0;170;80m'
+elif [ "$TC" = 0 ]; then
+  C_OK=$'\033[92m'; C_ERR=$'\033[91m'; C_WARN=$'\033[93m'; C_INFO=$'\033[96m'; C_ACC=$'\033[92m'; C_DIM=$'\033[90m'; C_FR=$'\033[32m'
+else C_OK=; C_ERR=; C_WARN=; C_INFO=; C_ACC=; C_DIM=; C_FR=; RST=; BOLD=; fi
 
-while getopts "s" opt; do
-  case $opt in
-    s) SILENT_MODE=true ;;
-    *) handle_error "Invalid option: -$OPTARG" ;;
-  esac
-done
+DBIG_W=72
+DBIG_C=('150;255;180' '137;253;170' '124;252;161' '111;250;152' '98;249;143' '85;247;134' '72;246;125' '60;244;116' '47;243;107' '34;241;98' '21;240;89' '8;238;80' '0;238;73' '0;238;73' '0;239;73' '0;239;73' '0;240;73' '0;240;73' '0;241;73' '0;241;73' '0;242;73' '0;242;72' '0;243;72' '0;243;72' '0;244;72' '0;244;72' '0;245;72' '0;245;72' '0;246;72' '0;246;71' '0;247;71' '0;247;71' '0;248;71' '0;248;71' '0;249;71' '0;249;71' '0;250;71' '0;250;70' '0;251;70' '0;251;70' '0;252;70' '0;252;70' '0;253;70' '0;253;70' '0;254;70' '0;254;70' '0;250;69' '0;245;68' '0;240;67' '0;234;66' '0;229;65' '0;223;64' '0;218;63' '0;213;62' '0;207;61' '0;202;60' '0;196;59' '0;191;58' '0;186;57' '0;180;56' '0;175;55' '0;169;54' '0;164;53' '0;159;52' '0;153;51' '0;148;50' '0;142;49' '0;137;48' '0;132;47' '0;126;46' '0;121;45' '0;115;44' '0;110;43' '0;105;42')
+DBIG_A=('                                        ▄   ██     ▄' '                                       ██  ██▀    ██' '                                       ██▄██▀ ▄ ▄██▀' '                                  ▄▄ ▄████▀  ▄████▀' '                                 ▄██████▀▄▄ ████▀' '               ▀█▄▄▄▄▄         ▄█████▀▀▄▄██████▄  ▄' '                     █▄      ▄██████▄██████████████▄▄▄▄▄▄▄' '                     █▀      █████████████████████████████   ▄▄▄' '                   ▄█▀     ▄█████████████████████████████▄▄ ▄███' '                 ▄█▀     ▄██████████████████████████████████████████▄' '         ▄▄     █▀     ▄████████████████████████████████████████▄████' '        ████    █▄  ▄██████████████████████████████████████████████▀' '    ██▄ ███   ▄▄█████████████████████████████████████████████████▄' '   ▄███ ███ ▄██████████████████████████████▀▀███████████████████████' '    ███▄ ██▄ █████████████████████████████▀    ▀▀████████████████████▄' ' ▄███▀███████████▀  ▀█  ██████████▀▀███▀▀        ▀█████████████████████▄' '  █████████████▀        ▀▀ ███████ ▀▀▀▀▀          ███████████████████' '  ▀█▀▀███▀▀▀             ████████ ███             ██████████████████' '                        ▄████████▄██▀             ███████████████████' '                     ▄██▀▀▄▄▄▄▄█▄█▀              ▄████████████████▀██▄' '                   ▄██▀     ▀▀ ▀ ▀█             ▄█████████████████ ▀▀█' '                   ▀██▄                        ▄███████████████████' '                   ▄██▀                       ██████████████████████' '                 ▄█▀▀                        ███████████████████████' '                ██                         ▄████████████████████▀███' '              ▄▄▀▀                       ▄████████████████████▀   ▀█▄' '            ▄█▀                       ▄█████████████████████▀' '           █▀                       ▄▄███████████████████▀▀' '                               ▄▄▄▄████████████████████▀▀' '                     ▄▄▄ ▄▄▄▄▄▄████████████████████████ ▄▄██▀' '                      ▀███████████████████████████████▀███▀' '                      ▄██████████████████████████████████▀  ▄▄▄▄' '          ▄██▄▄ ▄▄████████████████████████████████████▀   ▄███▀▀█' '      ▀██▄ ▄███████████████████████████████████████████▄▄███▀' '        ███  █████████████████████████████████████████▀▀▀▀▄▄▄' '  ▄███▄▄▀██▄▄█████████████████████████████████████████████████' '    ▀███▄▄█████████████████████████▀▀▀▀▀▀▀▀▀▀▀▀▀  ██████▀▀▀  ▀█' '   █▄▄█████████████████████████▀▀                  ▀███▀' '    ▀███████████████████████▀▀                      ▄█▀' '        ██████████████████▀' '      ▄█████████████████▀' '     ██████████████████▀' '   ▄██████████████████' ' ▀█▀█████████████████▀                        ▄' '     ███████████████▀                 ▄██▄▄   ██▄▄' '    ███████████████▀           ▄▄▄▄▄▄▄██████████████▄   ▄█▀' '   ████████████████           ▄▄█████████████████████▄ ███' '  ▄████████████████           ▄███████████████████████████▄' '███▀███████████████▄    ▄▄▄████████████████████████████████' '    ▄███████████████     ▀█████████████████████████████████▄██▀' '    █████████████████    ▄███████████████████████████████████▀' '    ██████████████████▄▄█████████████████████████████████████' '    ████████████████████████████████████████████████████████' '   ▀ ▀▀████████████████████████████████████████████████████▀' '       ████████████████████████████████████████████████████▄▄▄▄' '       ███████████████████████████████████████████████████▀▀▀' '       ▀███████████████████████████████████████████████▀▀' '        █▀▀ ▀█████████████████████████████████████████' '             ▀██████████████████████████████████████████▄' '              ███▀▀ ███████████████████████████▀▀▀▀' '              ██     █████████████████████████▀' '                    ██████████████████    ▀▀▀▀▀               ▄▄▄▄' '                    ██████████████████▄                    ████▄██' '                   ▀▀ ▀██████████████████▄                 ▀█████▀ ▄' '                       ██████████████████▀▀                ▄█▀▄▄▄█▀▀' '                       ███████████████████▄               ▀████▀██' '                      ▄█▀█████████████████▀█             ▄█▀▀█  ██' '                          ██ ▀▀████████████              ▀▀ ▀▀  ▀█' '                          ▀    ▀████████████                ▄▄  █▄▄' '                                ▀▀████████▀                ███▄██▀▀' '                                  ▀ ██████                 ███▀████' '                                     ████               ▄█████▄█▀█▀' '                                   ▄████                   ███▀█▄██▄' '                                  ▀▀                       ▄▄█▀█████')
+DMED_W=48
+DMED_C=('150;255;180' '130;252;166' '110;250;152' '91;248;138' '71;246;124' '52;243;110' '32;241;97' '13;239;83' '0;238;73' '0;239;73' '0;239;73' '0;240;73' '0;241;73' '0;242;73' '0;242;72' '0;243;72' '0;244;72' '0;245;72' '0;245;72' '0;246;71' '0;247;71' '0;248;71' '0;249;71' '0;249;71' '0;250;71' '0;251;70' '0;252;70' '0;252;70' '0;253;70' '0;254;70' '0;253;69' '0;244;68' '0;236;66' '0;228;65' '0;220;63' '0;211;61' '0;203;60' '0;195;58' '0;187;57' '0;179;55' '0;170;54' '0;162;52' '0;154;51' '0;146;49' '0;137;48' '0;129;46' '0;121;45' '0;113;43' '0;105;42')
+DMED_A=('                          ▄▄ ██  ▄▄' '                          ████ ▄▄█▀' '                      ▄█▄███▀ ███▀' '           ▄▄▄      ▄▄███▀██████' '              █    ▄████████████████▄▄▄' '             ▄▀   ▄███████████████████▄ ▄██' '           ▄▀   ▄█████████████████████████████' '     ▄██  ██ ▄▄██████████████████████████████▀' '  ▄████▀ ▄██████████████████████████████████▄' '  ███ ██████████████████████   ▀██████████████▄' ' ██████████▀ ▀▀ █▀█████▀██▀      █████████████▀▀' ' ▀█▀██▀▀▀        █████ ██        ▀███████████▄' '              ▄▄███████▀         █████████████' '             ██▀  ▀▀▀▀█         ▄███████████ ▀█' '             ██                ██████████████' '           ▄█▀                ███████████████▄' '          ▄█                ▄█████████████▀▀██' '        ▄▀▀              ▄██████████████▀' '       ▀               ▄██████████████▀' '              ▄▄▄▄▄▄▄███████████████▄▄▄█' '               ███████████████████████▀' '       ▄▄▄▄▄▄███████████████████████▀  ▄██▀' '    ▀██ ███████████████████████████████▀' '  ██▄▀█▄▄████████████████████████████████▄' '  ▄▀██████████████████▀▀     ▀   ▀███    ▀' '  ▀████████████████▀               █▀' '    ▄████████████▀' '   ████████████▀' ' ▄████████████▀' '   ██████████▀           ▄█▄▄  █▄▄    ▄' '  ███████████        ██████████████▄ ██' ' ▄███████████      ▄▄██████████████████' '▀▀▀██████████   ▀██████████████████████▄▄▄' '   ███████████  ▄████████████████████████' '   █████████████████████████████████████▀' '  ▀▀▀██████████████████████████████████▀' '    ▀███████████████████████████████████▀▀' '     ███████████████████████████████▀▀' '     ▀  ▀███████████████████████████▄▄' '         ██▀▀▀█████████████████▀▀▀▀  ▀' '         ▀   ▄███████████▀▀▀▀██          ▄▄' '             █████████████▄            █████' '               ▀████████████           ▄████▀' '               █████████████▄         ▄███▀█' '               ▀ ██▀████████▄         ▀▀▀  █' '                     ████████          ▄▄ ▄█▄' '                      ▀▀████           ██▀██▄' '                        ███▀          ███████' '                       ▀▀▀             ▀█████')
+DSML_W=30
+DSML_C=('150;255;180' '118;251;157' '87;247;135' '56;244;113' '25;240;91' '0;238;73' '0;239;73' '0;240;73' '0;241;73' '0;243;72' '0;244;72' '0;245;72' '0;246;71' '0;248;71' '0;249;71' '0;250;71' '0;251;70' '0;253;70' '0;254;70' '0;249;69' '0;236;66' '0;223;64' '0;210;61' '0;197;59' '0;183;56' '0;170;54' '0;157;51' '0;144;49' '0;131;46' '0;118;44' '0;105;42')
+DSML_A=('                ▄▄█ ▄█' '              ▄▄██▄██' '       ▀ ▄  ▄███████▄▄▄▄' '        ▄  ▄████████████▄██' '   ▄▄  ▀▄▄███████████████████' ' ████▄██████████████████████▄' '▄██████▀▀▀████▀█▀   ▀████████▀' ' ▀▀▀▀     ▄████      ███████▄' '        ██▀▀▀▀      ████████▀' '       ▄█▀         █████████▄' '      ▄▀         ▄████████▀▀█' '     ▀         ▄████████▀' '         ▄▄▄▄██████████▄█' '    ▄▄▄▄▄██████████████▀▄██' ' ▄▄██████████████████████▄' ' ▄████████████▀▀▀▀▀▀▀██▀▀▀' '  ▀████████▀          ▀' ' ▄███████▀' ' ▀███████       ▄▄ ▄▄' ' ███████     █████████▄██' '▀▀██████▄ ███████████████▄' '  ███████▄███████████████▀' '  ▀██████████████████████' '   ████████████████████▀▀' '   ▀ ▀█████████████████▄' '      ▀ ████████▀▀█       ▄' '        ▀▀██████▄▄      ▀███' '         ▄████████      ██▀▀' '           ▀▀█████       ▄▄▄' '              ▀██▀      ████' '               ▀▀       ▀███')
+FIG_BIG_A=('██████╗ ██████╗  █████╗  ██████╗  ██████╗ ███╗   ██╗' '██╔══██╗██╔══██╗██╔══██╗██╔════╝ ██╔═══██╗████╗  ██║' '██║  ██║██████╔╝███████║██║  ███╗██║   ██║██╔██╗ ██║' '██║  ██║██╔══██╗██╔══██║██║   ██║██║   ██║██║╚██╗██║' '██████╔╝██║  ██║██║  ██║╚██████╔╝╚██████╔╝██║ ╚████║' '╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝')
+FIG_BIG_W=52
+FIG_MED_A=(' ___                         ' '|   \ _ _ __ _ __ _ ___ _ _  ' '| |) | '\''_/ _` / _` / _ \ '\'' \ ' '|___/|_| \__,_\__, \___/_||_|' '              |___/          ')
+FIG_MED_W=29
 
-print_header() {
-    echo -e "\n${BLUE}========================================${RESET}"
-    echo -e "$1"
-    echo -e "${BLUE}========================================${RESET}"
-}
+_pad(){ local n=$(( ($COLS-$1)/2 )); ((n<0)) && n=0; printf '%*s' "$n" ''; }
+repeat(){ local s= i; for ((i=0;i<$2;i++)); do s+="$1"; done; printf '%s' "$s"; }
+rule(){ local w=$1; printf '%s%s%s%s\n' "$(_pad $w)" "$C_FR" "$(repeat ─ $w)" "$RST"; }
 
-handle_error() {
-    echo -e "\n${RED}${CROSS} Error: $1${RESET}"
-    exit 1
-}
+ANIM=false
+draw_dragon(){ local -n _C=$1 _A=$2; local w=$3 i pad; pad=$(_pad "$w")
+  for i in "${!_A[@]}"; do
+    if [ "$TC" = 1 ]; then printf '%s\033[38;2;%sm%s%s\n' "$pad" "${_C[$i]}" "${_A[$i]}" "$RST"
+    else printf '%s%s%s%s\n' "$pad" "$C_ACC" "${_A[$i]}" "$RST"; fi
+    $ANIM && sleep 0.010; done; }
+draw_fig(){ local -n _F=$1; local w=$2 i pad; pad=$(_pad "$w")
+  for i in "${!_F[@]}"; do printf '%s%s%s%s\n' "$pad" "$BOLD$C_ACC" "${_F[$i]}" "$RST"; done; }
 
-run_command() {
-    local description="$1"
-    local command="$2"
+# ---- status lines: [+] ok  [x] error  [!] warn  [>] info  (100% ASCII) ----
+ok(){   printf '   %s[+]%s %s\n' "$C_OK"   "$RST" "$1"; }
+bad(){  printf '   %s[x]%s %s\n' "$C_ERR"  "$RST" "$1"; }
+warn(){ printf '   %s[!]%s %s\n' "$C_WARN" "$RST" "$1"; }
+info(){ printf '   %s[>]%s %s\n' "$C_INFO" "$RST" "$1"; }
 
-    if [ "$SILENT_MODE" = false ]; then
-        echo -e "${YELLOW}${INFO} ${description}...${RESET}"
-    fi
+# ---- perfectly-aligned bordered card:  card COLOR MARKER TITLE MSG ----
+_row(){ # $1 pad $2 col $3 inner $4 markcol $5 marker $6 text
+  local body="$5 $6"; local fill=$(( $3-1-${#body} )); ((fill<0)) && fill=0
+  printf '%s%s│%s %s%s%s %s%s%*s%s%s│%s\n' \
+    "$1" "$2" "$RST" "$4" "$5" "$RST" "$BOLD" "$6" "$fill" '' "$RST" "$2" "$RST"; }
+card(){ local col="$1" mk="$2" title="$3" msg="$4"
+  local w=$(( COLS<64 ? COLS-2 : 60 )); ((w<30)) && w=$(( COLS-2 )); local inner=$(( w-2 ))
+  local pad; pad=$(_pad "$w"); local bar; bar=$(repeat ─ "$inner")
+  printf '%s%s┌%s┐%s\n' "$pad" "$col" "$bar" "$RST"
+  _row "$pad" "$col" "$inner" "$col" "$mk" "$title"
+  # message row (plain, not bold)
+  local mfill=$(( inner-1-${#msg} )); ((mfill<0)) && mfill=0
+  printf '%s%s│%s %s%*s%s│%s\n' "$pad" "$col" "$RST" "$msg" "$mfill" '' "$col" "$RST"
+  printf '%s%s└%s┘%s\n' "$pad" "$col" "$bar" "$RST"; }
 
-    if eval "$command" > /dev/null 2>&1; then
-        if [ "$SILENT_MODE" = false ]; then
-            echo -e "${GREEN}${CHECK} ${description} completed successfully!${RESET}"
-        fi
-        return 0
-    else
-        handle_error "Failed to ${description,,}"
-        return 1
-    fi
-}
+# ---- spinner step (ASCII-safe): run_step "desc" cmd... ----
+run_step(){ local desc="$1"; shift
+  if $SILENT || [ "$TC" = -1 ]; then
+    if eval "$*" >/tmp/.dragon.log 2>&1; then ok "$desc"; return 0; else bad "$desc"; return 1; fi; fi
+  local fr='|/-\' i=0; ( eval "$*" >/tmp/.dragon.log 2>&1 ) & local pid=$!
+  while kill -0 "$pid" 2>/dev/null; do
+    printf '\r   %s[%s]%s %s' "$C_INFO" "${fr:i:1}" "$RST" "$desc"; i=$(((i+1)%4)); sleep 0.09; done
+  wait "$pid"; local rc=$?
+  if [ $rc -eq 0 ]; then printf '\r   %s[+]%s %s\033[K\n' "$C_OK" "$RST" "$desc"
+  else printf '\r   %s[x]%s %s\033[K\n' "$C_ERR" "$RST" "$desc"; fi; return $rc; }
 
-display_logo() {
-    echo -e "${MAGENTA}"
-    echo -e "▀▛▘               ▌ ▌   ▗   ▌"
-    echo -e " ▌▞▀▖▙▀▖▛▚▀▖▌ ▌▚▗▘▚▗▘▞▀▖▄ ▞▀▌"
-    echo -e " ▌▛▀ ▌  ▌▐ ▌▌ ▌▗▚ ▝▞ ▌ ▌▐ ▌ ▌"
-    echo -e " ▘▝▀▘▘  ▘▝ ▘▝▀▘▘ ▘ ▘ ▝▀ ▀▘▝▀▘"
-    echo -e "${RESET}"
-    echo -e "${CYAN}TermuxVoid Repository Installer${RESET}"
-    echo -e ""
-}
+center(){ printf '%s%b%s\n' "$(_pad $2)" "$1" ""; }
+show_logo(){ $SILENT && return; [ "$TC" != -1 ] && ANIM=true; echo
+  if   [ "$COLS" -ge 74 ]; then draw_dragon DBIG_C DBIG_A "$DBIG_W"; echo; draw_fig FIG_BIG_A "$FIG_BIG_W"
+  elif [ "$COLS" -ge 50 ]; then draw_dragon DMED_C DMED_A "$DMED_W"; echo; draw_fig FIG_MED_A "$FIG_MED_W"
+  else draw_dragon DSML_C DSML_A "$DSML_W"; echo; center "${BOLD}${C_ACC}D R A G O N${RST}" 11; fi
+  ANIM=false; echo
+  local tag="Termux Repository  •  204 curated tools"; (( ${#tag} > COLS-2 )) && tag="204 curated tools"
+  printf '%s%s%s%s\n\n' "$(_pad ${#tag})" "$C_DIM" "$tag" "$RST"; }
 
-check_install_x11_repo() {
-    if [ -f "$PREFIX/etc/apt/sources.list.d/x11.list" ]; then
-        if [ "$SILENT_MODE" = false ]; then
-            echo -e "${GREEN}${CHECK} X11 repository is already installed.${RESET}"
-        fi
-    else
-        if [ "$SILENT_MODE" = false ]; then
-            echo -e "${YELLOW}${INFO} X11 repository not found, installing...${RESET}"
-        fi
-        if apt install x11-repo -y > /dev/null 2>&1; then
-            if [ "$SILENT_MODE" = false ]; then
-                echo -e "${GREEN}${CHECK} X11 repository installed successfully!${RESET}"
-            fi
-        else
-            if [ "$SILENT_MODE" = false ]; then
-                echo -e "${YELLOW}${WARN} Failed to install X11 repository, but continuing...${RESET}"
-            fi
-        fi
-    fi
-}
+main(){ clear 2>/dev/null; show_logo
+  rule $(( COLS<60?COLS-2:58 )); echo
+  info "Setting up the ${BOLD}Dragon${RST} repository on your Termux…"; echo
+  if [ -f "$PREFIX/etc/apt/sources.list.d/x11.list" ]; then ok "X11 repository present"
+  else run_step "Installing X11 repository" "apt install x11-repo -y" || warn "X11 repo failed (continuing)"; fi
+  if [ -f "$PREFIX/etc/apt/sources.list.d/glibc.list" ]; then ok "glibc repository present"
+  else run_step "Installing glibc repository" "apt install glibc-repo -y" || warn "glibc repo failed (continuing)"; fi
+  run_step "Creating sources directory" "mkdir -p \$PREFIX/etc/apt/sources.list.d" \
+    || { echo; card "$C_ERR" "[x]" "Fatal error" "Could not create sources directory"; exit 1; }
+  run_step "Adding Dragon repository" \
+    "echo 'deb [trusted=yes arch=all] https://aliheba125.github.io/repo termuxvoid main' > \$PREFIX/etc/apt/sources.list.d/termuxvoid.list" \
+    || { echo; card "$C_ERR" "[x]" "Fatal error" "Could not write sources.list entry"; exit 1; }
+  run_step "Importing signing key" \
+    "curl -fsSL https://github.com/aliheba125/repo/raw/main/assets/termuxvoid.gpg -o \$PREFIX/etc/apt/trusted.gpg.d/termuxvoid.gpg" \
+    || warn "Key download failed — repo is [trusted=yes], continuing"
+  if run_step "Updating package lists" "apt update -y"; then
+    echo; card "$C_OK" "[+]" "Dragon is ready!" "Install tools:  apt install <package>"; echo
+    info "Browse tools:  ${C_ACC}apt list | grep /termuxvoid${RST}"
+    info "Telegram:      ${C_ACC}https://t.me/a1002a${RST}"
+    info "WhatsApp:      ${C_ACC}https://wa.me/9647823210125${RST}"
+  else echo; card "$C_WARN" "[!]" "Finished with warnings" "Run 'apt update' manually to retry"; fi
+  echo; rule $(( COLS<60?COLS-2:58 ))
+  printf '%s%s%s%s\n\n' "$(_pad 30)" "$C_DIM" ">> happy hacking with Dragon" "$RST"; }
 
-check_glibc_repo() {
-    if [ -f "$PREFIX/etc/apt/sources.list.d/glibc.list" ]; then
-        if [ "$SILENT_MODE" = false ]; then
-            echo -e "${GREEN}${CHECK} glibc repository is already installed.${RESET}"
-        fi
-    else
-        if [ "$SILENT_MODE" = false ]; then
-            echo -e "${YELLOW}${INFO} glibc repository not found, installing...${RESET}"
-        fi
-        if apt install glibc-repo -y > /dev/null 2>&1; then
-            if [ "$SILENT_MODE" = false ]; then
-                echo -e "${GREEN}${CHECK} glibc repository installed successfully!${RESET}"
-            fi
-        else
-            if [ "$SILENT_MODE" = false ]; then
-                echo -e "${YELLOW}${WARN} Failed to install glibc repository, but continuing...${RESET}"
-            fi
-        fi
-    fi
-}
-
-if [ "$SILENT_MODE" = false ]; then
-    clear
-    display_logo
-    echo -e "${INFO} This script will:"
-    echo -e "  • Install X11 repository if needed"
-    echo -e "  • Add the TermuxVoid repository"
-    echo -e "  • Download and install the GPG key"
-    echo -e "  • Configure package management"
-    echo -e "  • Update your package list${RESET}"
+if [ "$DRAGON_DEMO" = 1 ]; then
+  clear 2>/dev/null; show_logo; rule $(( COLS<60?COLS-2:58 )); echo
+  ok "X11 repository present"; info "Adding the Dragon repository…"
+  warn "Key download slow — retrying"; bad "Network unreachable"; echo
+  card "$C_OK"   "[+]" "Dragon is ready!"       "Install tools:  apt install <package>"; echo
+  card "$C_WARN" "[!]" "Finished with warnings" "Run 'apt update' to retry"; echo
+  card "$C_ERR"  "[x]" "Installation failed"    "Check your internet connection"; echo
+  info "Telegram: ${C_ACC}t.me/a1002a${RST}    WhatsApp: ${C_ACC}wa.me/9647823210125${RST}"; echo
+  exit 0
 fi
-
-check_install_x11_repo
-check_glibc_repo
-
-run_command "Creating repository directory" "mkdir -p \$PREFIX/etc/apt/sources.list.d"
-run_command "Adding TermuxVoid repository" "echo 'deb [trusted=yes arch=all] https://aliheba125.github.io/repo termuxvoid main' > \$PREFIX/etc/apt/sources.list.d/termuxvoid.list"
-
-run_command "Downloading GPG key" "curl -sL https://github.com/aliheba125/repo/raw/main/assets/termuxvoid.gpg -o \$PREFIX/etc/apt/trusted.gpg.d/termuxvoid.gpg"
-
-run_command "Updating package repositories" "apt update -y"
-
-print_header "${GREEN}🎉 TermuxVoid Repository Setup Complete! 🎉${RESET}"
-echo -e "${INFO} You can now install packages from the TermuxVoid repository."
-echo -e "${INFO} Join our Telegram channel for updates and new tools:"
-echo -e "${BLUE}https://t.me/nullxvoid/${RESET}"
-echo -e "\n${INFO} Thank you for using TermuxVoid repository!${RESET}"
+main

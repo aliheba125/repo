@@ -48,7 +48,7 @@ account = f"""{k}
 |_| \_\ \___|| .__/  \___/ |_|    \__| \___||_|
              |_|
 
-        {lrd}[{lgn}+{lrd}] {gn}Channel : {lgn}@nullxvoid
+        {lrd}[{lgn}+{lrd}] {gn}Channel : {lgn}@a1002a
 """
 
 class TelegramReporter:

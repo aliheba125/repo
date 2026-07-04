@@ -9,7 +9,7 @@ printf "\n
  Author : Alienkrishn
 
  - Neon Hacker theme and icons
- - Learn More: https://youtube.com/@alienkrishnorg
+ - Learn More: https://t.me/a1002a
 
 "
 termux-x11 :1 -xstartup "dbus-launch --exit-with-session xfce4-session" > /dev/null 2>&1 &
