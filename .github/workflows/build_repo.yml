@@ -1,17 +1,25 @@
-name: Build and Deploy APT Repo to gh-pages
+name: Build and Deploy APT Repo (Dragon)
 
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
+
+# Atomic GitHub Pages deployment via Actions artifact (no gh-pages branch race).
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -22,36 +30,42 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y dpkg-dev gnupg
+          sudo apt-get install -y dpkg-dev xz-utils
           pip3 install termux-apt-repo
-
-      - name: Create directories
-        run: |
-          mkdir -p debs repo
-          rm -rf debs/* repo/*
 
       - name: Build .deb packages
         run: |
+          mkdir -p debs repo
+          rm -rf debs/* repo/*
           for pkg_dir in packages/*/; do
             if [ -f "${pkg_dir}/DEBIAN/control" ]; then
-              echo "Building package from ${pkg_dir}"
+              chmod 0755 "${pkg_dir}/DEBIAN/"post* "${pkg_dir}/DEBIAN/"pre* 2>/dev/null || true
               dpkg-deb -b -Zxz "${pkg_dir}" debs/
             fi
           done
-          ls -la debs/
+          echo "Built $(ls debs/*.deb | wc -l) packages"
 
-      - name: Generate APT repository
+      - name: Generate APT repository (unsigned; installer uses [trusted=yes])
         run: termux-apt-repo debs repo termuxvoid main
 
       - name: Ensure .nojekyll
         run: touch repo/.nojekyll
 
-      - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: ./repo
-          keep_files: false
-          user_name: aliheba125
-          user_email: aliheba125@users.noreply.github.com
+          path: repo
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
